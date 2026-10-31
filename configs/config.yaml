@@ -1,0 +1,56 @@
+# Analysis configuration: finance assumptions, management constraints, paths and seeds.
+# Nothing here is ground truth. Values marked (assumption) are management or finance inputs that the
+# sensitivity analysis (phase 5) varies; values marked (policy) are constraints management has chosen and can
+# change. The simulated world lives in configs/ground_truth_SYNTHETIC.yaml, which models must not read.
+
+seed: 20261031
+
+paths:
+  raw_dir: data/raw
+  duckdb: data/processed/marketing_SYNTHETIC.duckdb
+  reports_dir: reports
+  tables_dir: reports/tables
+  figures_dir: reports/figures
+  artifacts_dir: artifacts
+
+businesses: [B1, B2, B3]
+
+# Decision metric (D-004): incremental contribution over 24 months, discounted, net of ad spend.
+valuation:
+  horizon_months: 24               # (policy) how far ahead customer value is counted
+  annual_discount_rate: 0.10       # (assumption) finance cost of capital
+  payback_target_months:           # (policy) CFO payback ceiling per business
+    B1: 12
+    B2: 18
+    B3: 9                          # B3 is at about 13 months at last year's mix (D-011)
+
+# Finance-provided unit economics (assumption). Retention and repeat rates are NOT given here: phase 1
+# estimates them from the customer cohort tables.
+unit_economics:
+  B1: {monthly_contribution: 23.0, acquisition_cost: 30.0}
+  B2: {monthly_contribution: 320.0, acquisition_cost: 900.0}
+  B3: {order_contribution: 42.0, acquisition_cost: 10.0}
+
+budget:
+  annual_total: 2000000            # (policy) fixed paid-acquisition budget
+  business_limits:                 # (policy) floors agreed when each business was acquired; ceilings for risk
+    B1: {min: 600000, max: 1100000}
+    B2: {min: 350000, max: 800000}
+    B3: {min: 400000, max: 900000}
+  channel_limits:                  # (policy) multiples of last year's spend on that line
+    default: {min_multiple: 0.25, max_multiple: 2.0}
+    overrides:
+      B1.search_brand: {min_multiple: 0.50}      # (assumption) defensive brand bidding; phase 4 tests it
+      B2.review_sites: {max_multiple: 1.5}       # (assumption) limited inventory on review platforms
+  concentration:
+    max_line_share: 0.25           # (policy) no single business-channel line above 25% of the budget
+    max_business_share: 0.50       # (policy) no business above 50% of the budget
+  min_acquisition:                 # (policy) new customers per year as a share of last year's volume
+    B1: 0.90
+    B2: 0.90
+    B3: 0.90
+  sales_capacity:                  # (assumption) B2 sales team can work at most this many qualified leads a week
+    B2: {max_qualified_leads_per_week: 40}
+  risk:
+    uncertainty_draws: 500         # draws of the response curves used by the optimiser (D-006)
+    downside_quantile: 0.10        # the "pessimistic" outcome reported next to the expected one

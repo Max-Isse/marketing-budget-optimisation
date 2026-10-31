@@ -1,0 +1,103 @@
+# SYNTHETIC GROUND TRUTH - read only by src/marketing_budget/synthetic/ and src/marketing_budget/validation/.
+# Models must never read this file (tests/test_isolation.py). It defines the simulated world: true response
+# curves, funnel rates, customer behaviour, seasonality, the historical spend policy, injected data problems
+# and the true effects of the five experiments. See docs/data_design.md for the reasoning behind each value.
+
+calendar:
+  first_week: 2023-10-30          # Monday; 156 weekly periods
+  n_weeks: 156
+
+# Response curve per business-channel line (weekly):
+#   adstock a_t = x_t + decay * a_{t-1}, rescaled by (1 - decay) so steady state equals weekly spend
+#   incremental leads = demand_t * vmax_leads * a^shape / (a^shape + half_sat^shape)
+# Leads -> qualified (lead_to_qualified, per line) -> customers (qualified_to_customer, per business).
+# attribution_capture: share of the business's organic (non-paid) customers that the platform also claims,
+# which is why attributed conversions overstate incremental ones.
+# value_multiplier: customer value relative to the business average (e.g. coupon-driven affiliate customers
+# churn faster).
+businesses:
+  B1:
+    name: Hearth Box
+    model: subscription            # direct-to-consumer meal-kit subscription
+    trend_per_year: -0.03
+    organic_customers_per_week: 140
+    qualified_to_customer: 0.60
+    seasonality: [1.30, 1.15, 1.05, 1.00, 0.95, 0.85, 0.80, 0.85, 1.00, 1.05, 1.00, 0.90]   # Jan..Dec
+    economics:
+      monthly_contribution: 23.0   # per active subscriber after food, packaging, delivery
+      acquisition_cost: 30.0       # first-box discount, one-off
+      survival_first_month: 0.55   # share that keeps the subscription after the first box
+      survival_monthly: 0.88
+    channels:
+      search_brand:       {hist_spend: 3000, decay: 0.10, half_sat: 1200,  shape: 1.0, vmax_leads: 182,  lead_to_qualified: 0.55, attribution_capture: 0.210, value_multiplier: 1.00, cpc: 0.85}
+      search_generic:     {hist_spend: 6000, decay: 0.20, half_sat: 14000, shape: 1.0, vmax_leads: 1481, lead_to_qualified: 0.45, attribution_capture: 0.030, value_multiplier: 1.00, cpc: 2.10}
+      social_prospecting: {hist_spend: 6500, decay: 0.45, half_sat: 14000, shape: 1.2, vmax_leads: 2476, lead_to_qualified: 0.35, attribution_capture: 0.015, value_multiplier: 1.00, cpc: 1.20}
+      affiliates:         {hist_spend: 1400, decay: 0.05, half_sat: 1500,  shape: 1.0, vmax_leads: 100,  lead_to_qualified: 0.50, attribution_capture: 0.070, value_multiplier: 0.80, cpc: 0.60}
+  B2:
+    name: Ledgerline
+    model: subscription            # B2B accounting software for small firms, sold by an inside-sales team
+    trend_per_year: 0.12
+    organic_customers_per_week: 3.0
+    qualified_to_customer: 0.20
+    seasonality: [1.20, 1.10, 1.10, 1.00, 1.00, 0.90, 0.80, 0.80, 1.15, 1.05, 1.00, 0.70]
+    economics:
+      monthly_contribution: 320.0  # $400 subscription at 80% gross margin
+      acquisition_cost: 900.0      # sales commission and onboarding, one-off
+      survival_first_month: 0.9865
+      survival_monthly: 0.9865     # about 85% annual logo retention
+    channels:
+      search_generic:       {hist_spend: 3500, decay: 0.25, half_sat: 6000, shape: 1.0, vmax_leads: 48, lead_to_qualified: 0.30, attribution_capture: 0.07, value_multiplier: 1.00, cpc: 6.50}
+      linkedin:             {hist_spend: 3000, decay: 0.40, half_sat: 7000, shape: 1.1, vmax_leads: 48, lead_to_qualified: 0.42, attribution_capture: 0.05, value_multiplier: 1.00, cpc: 9.00}
+      review_sites:         {hist_spend: 1500, decay: 0.15, half_sat: 2500, shape: 1.0, vmax_leads: 22, lead_to_qualified: 0.35, attribution_capture: 0.25, value_multiplier: 1.00, cpc: 4.00}
+      programmatic_display: {hist_spend: 2000, decay: 0.30, half_sat: 2500, shape: 1.0, vmax_leads: 42, lead_to_qualified: 0.09, attribution_capture: 0.03, value_multiplier: 0.90, cpc: 1.40}
+  B3:
+    name: Atlas Outdoor
+    model: ecommerce               # outdoor equipment online store
+    trend_per_year: 0.04
+    organic_customers_per_week: 220
+    qualified_to_customer: 0.70
+    seasonality: [0.75, 0.75, 0.90, 1.05, 1.10, 1.10, 1.05, 0.95, 0.90, 0.95, 1.35, 1.40]
+    economics:
+      order_contribution: 42.0     # $140 average order at 30% contribution margin
+      acquisition_cost: 10.0       # first-order promotion
+      repeat_rate_first_month: 0.05
+      repeat_decay_monthly: 0.95
+    channels:
+      shopping:            {hist_spend: 4500, decay: 0.10, half_sat: 8000,  shape: 1.0, vmax_leads: 943,  lead_to_qualified: 0.50, attribution_capture: 0.045, value_multiplier: 1.00, cpc: 0.90}
+      social_prospecting:  {hist_spend: 3000, decay: 0.40, half_sat: 10000, shape: 1.3, vmax_leads: 1905, lead_to_qualified: 0.30, attribution_capture: 0.015, value_multiplier: 1.00, cpc: 0.95}
+      display_retargeting: {hist_spend: 3300, decay: 0.15, half_sat: 1500,  shape: 1.0, vmax_leads: 95,   lead_to_qualified: 0.60, attribution_capture: 0.200, value_multiplier: 1.00, cpc: 0.70}
+      affiliates:          {hist_spend: 750,  decay: 0.05, half_sat: 900,   shape: 1.0, vmax_leads: 57,   lead_to_qualified: 0.55, attribution_capture: 0.055, value_multiplier: 0.85, cpc: 0.50}
+
+# How spend was actually set in the past. Managers raised budgets in high-demand months, so spend and demand
+# move together and a naive spend-vs-sales regression over-credits paid media (confounding by seasonality).
+historical_spend_policy:
+  seasonality_follow: 0.6          # 0 = flat budgets, 1 = budgets move one-for-one with demand
+  weekly_noise_sd: 0.18            # log-scale noise on planned spend
+  budget_shifts:                   # step changes that give the models some independent variation
+    - {business: B1, channel: social_prospecting, from_week: 60, to_week: 85, multiplier: 1.5}
+    - {business: B2, channel: linkedin, from_week: 100, to_week: 120, multiplier: 0.6}
+    - {business: B3, channel: shopping, from_week: 30, to_week: 50, multiplier: 1.4}
+
+noise:
+  demand_week_sd: 0.06             # log-scale shock shared by all lines of a business in a week
+  count_dispersion: 30             # negative-binomial size for leads and customers (lower = noisier)
+
+# Problems a real tracking stack produces; phase 1 data-quality checks must detect them.
+data_issues:
+  tracking_outages:                # attributed conversions not recorded; true activity unaffected
+    - {business: B3, channel: display_retargeting, from_week: 70, to_week: 71}
+    - {business: B1, channel: search_generic, from_week: 112, to_week: 112}
+  attribution_signal_loss:         # platform loses a share of conversions from this week onward
+    - {business: B1, channel: social_prospecting, from_week: 90, retained_share: 0.70}
+  duplicate_lead_rate:             # CRM duplicates inflating recorded leads
+    B2: 0.03
+  late_cost_corrections:           # spend restated upwards after the week closed
+    - {business: B2, channel: programmatic_display, week: 130, multiplier: 1.25}
+
+# True effects of the five experiments that phase 3 designs and analyses.
+experiments:
+  landing_page:        {business: B1, unit: visitor, baseline_conversion: 0.024, true_relative_uplift: 0.06}
+  ad_creative:         {business: B3, channel: social_prospecting, unit: user, baseline_ctr: 0.011, true_relative_uplift: 0.0}
+  audience_targeting:  {business: B2, channel: linkedin, unit: campaign_week, lead_volume_change: 0.25, qualification_change: -0.30}
+  bidding_strategy:    {business: B1, channel: search_generic, unit: campaign_week, platform_cpa_change: -0.15, incremental_conversion_change: -0.05}
+  budget_holdout:      {business: B3, channel: display_retargeting, unit: region, n_regions: 40, holdout_share: 0.25}

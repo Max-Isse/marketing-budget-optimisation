@@ -1,0 +1,13 @@
+line,business,last_year,min,max
+B1.search_brand,B1,156000,78000,312000
+B1.search_generic,B1,312000,78000,500000
+B1.social_prospecting,B1,338000,84500,500000
+B1.affiliates,B1,72800,18200,145600
+B2.search_generic,B2,182000,45500,364000
+B2.linkedin,B2,156000,39000,312000
+B2.review_sites,B2,78000,19500,117000
+B2.programmatic_display,B2,104000,26000,208000
+B3.shopping,B3,234000,58500,468000
+B3.social_prospecting,B3,156000,39000,312000
+B3.display_retargeting,B3,171600,42900,343200
+B3.affiliates,B3,39000,9750,78000
