@@ -1,0 +1,5 @@
+experiment,line,annual_line_spend,spend_change,platform_reported_change,last_click_change,causal_change,causal_ci_low,causal_ci_high,correlation_per_1000,platform_per_1000,last_click_per_1000,causal_per_1000
+bidding_tcpa,B1 search_generic,307473,-0.301419,32.8722,-31.5288,78.028,-174.598,330.654,46.313,,,
+retargeting_off,B3 display_retargeting,171290,-9426.65,-326.174,-212.205,-15.8448,-130.409,98.7192,85.9113,34.6012,22.5111,1.68085
+brand_search_off,B1 search_brand,161518,-25026.9,-485.078,-536.517,-281.232,-557.904,-4.56106,57.0564,19.3822,21.4376,11.2372
+social_plus_50,B3 social_prospecting,151361,10398.5,365.299,282.453,366.088,-25.747,757.924,111.554,35.1299,27.1628,35.2058

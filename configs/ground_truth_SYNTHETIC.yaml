@@ -109,10 +109,30 @@ data_issues:
   late_cost_corrections:           # spend restated upwards after the week closed
     - {business: B2, channel: programmatic_display, week: 130, multiplier: 1.25}
 
-# True effects of the five experiments that phase 3 designs and analyses.
+# How the world responds to the experiments that phase 3 designs. Which tests to run, how big and for how
+# long is the analyst's choice (configs/config.yaml, `experiments`); only the world's behaviour lives here.
+# Budget and bidding tests run in regions: each region is a scaled copy of the national business, so a line's
+# response in region r is share_r x the national response curve at the region's national-equivalent spend.
 experiments:
-  landing_page:        {business: B1, unit: visitor, baseline_conversion: 0.024, true_relative_uplift: 0.06}
-  ad_creative:         {business: B3, channel: social_prospecting, unit: user, baseline_ctr: 0.011, true_relative_uplift: 0.0}
-  audience_targeting:  {business: B2, channel: linkedin, unit: campaign_week, lead_volume_change: 0.25, qualification_change: -0.30}
-  bidding_strategy:    {business: B1, channel: search_generic, unit: campaign_week, platform_cpa_change: -0.15, incremental_conversion_change: -0.05}
-  budget_holdout:      {business: B3, channel: display_retargeting, unit: region, n_regions: 40, holdout_share: 0.25}
+  landing_page:                    # B1: the new landing page, randomised by visitor
+    weekly_visitors: 30000
+    baseline_conversion: 0.024
+    device_mix: {mobile: 0.6, desktop: 0.4}
+    device_conversion_ratio: {mobile: 0.8, desktop: 1.3}
+    true_relative_uplift: 0.06
+  ad_creative:                     # B3 social: creative B vs A, randomised by user
+    weekly_users: 95000
+    extra_impressions_per_user: 2.0    # impressions = 1 + Poisson(2)
+    baseline_ctr: 0.011
+    ctr_concentration: 20          # users differ in click propensity: Beta with this concentration
+    true_relative_uplift: 0.0
+  audience_targeting:              # B2 LinkedIn: lookalike audience vs job-title audience, budget split 50/50
+    lead_volume_change: 0.25
+    qualification_change: -0.30
+  bidding:                         # B1 generic search: target-CPA bidding vs manual
+    platform_cpa_change: -0.15     # what the platform will report
+    incremental_customer_change: -0.05   # what actually happens: tCPA chases people who would convert anyway
+  geo:
+    n_regions: 40
+    region_concentration: 8        # Dirichlet: region sizes vary roughly 3x between smallest and largest
+    region_week_sd: 0.05           # log-scale region-week shock

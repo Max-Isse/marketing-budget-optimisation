@@ -77,3 +77,40 @@ forecasting:
   selection_tolerance: 0.05        # pick the simplest model whose WAPE is within 5% (relative) of the best
   models: [naive, seasonal_naive, ets, regression, gbm]   # ordered from simplest to most complex
   gbm: {max_iter: 300, learning_rate: 0.05, max_leaf_nodes: 15, min_samples_leaf: 10}
+
+# Experiment designs (phase 3). Thresholds are business choices; baselines marked (assumption) come from
+# outside the warehouse (e.g. web analytics); everything else is estimated from the SQL layer.
+experiments:
+  alpha: 0.05                      # two-sided
+  power: 0.80
+  landing_page:
+    business: B1
+    baseline_conversion: 0.024     # (assumption) web-analytics conversion of paid landing traffic
+    weekly_visitors: 30000         # (assumption) web analytics
+    min_detectable_uplift: 0.05    # relative; what the test is sized to detect (smaller is too costly to test)
+    build_cost: 25000              # (assumption) design and build; the break-even uplift is derived from it
+    max_weeks: 16
+  ad_creative:
+    business: B3
+    channel: social_prospecting
+    min_worthwhile_uplift: 0.05    # relative CTR change
+    impressions_per_user: 3.0      # (assumption) frequency cap
+    icc: 0.01                      # (assumption) correlation of clicks within a user, for the design effect
+    max_weeks: 6
+  audience_targeting:
+    business: B2
+    channel: linkedin
+    min_worthwhile_change: 0.15    # relative change in qualified leads per dollar
+    max_weeks: 12
+  geo:
+    n_regions: 40
+    pre_weeks: 8
+    candidate_test_weeks: [8, 12, 16]      # tests run in the last 24 weeks: 8 pre-period weeks, then the test
+    candidate_treated_shares: [0.25, 0.5]
+    detect_share_of_platform_claim: 0.5    # size each budget test to detect half of what the platform claims
+    permutations: 2000                     # randomisation-inference draws
+  geo_tests:                       # region-level budget and bidding tests; design picks duration and share
+    bidding_tcpa:      {business: B1, channel: search_generic, treatment: tcpa, target_effect: 0.02}
+    retargeting_off:   {business: B3, channel: display_retargeting, treatment: spend, spend_multiplier: 0.0}
+    brand_search_off:  {business: B1, channel: search_brand, treatment: spend, spend_multiplier: 0.0}
+    social_plus_50:    {business: B3, channel: social_prospecting, treatment: spend, spend_multiplier: 1.5}

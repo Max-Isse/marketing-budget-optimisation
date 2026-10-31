@@ -7,8 +7,8 @@ This project forecasts marketing performance, designs and analyses experiments, 
 budget optimiser that uses diminishing returns and uncertainty. It then turns the results into a decision
 memo for a CEO, CFO and Marketing Director.
 
-**Status:** phases 0–2 of 9 are complete: scope and design, the data generator, the SQL metric layer,
-data-quality checks, customer value and forecasting. See [docs/phase_plan.md](docs/phase_plan.md).
+**Status:** phases 0–3 of 9 are complete: scope and design, the data generator, the SQL metric layer,
+data-quality checks, customer value, forecasting and experimentation. See [docs/phase_plan.md](docs/phase_plan.md).
 
 > **The data are simulated.** A simulation is the only way to know each channel's true effect, and therefore
 > to check that the analysis separates real impact from what ad platforms report (D-001). Results show that
@@ -38,6 +38,8 @@ Return = 24-month contribution per advertising dollar; above 1.0 the spend pays 
 | 1 | 24-month value per new customer: B1 $87, B2 $5,117, B3 $59. Fully observed cohorts confirm these within 1%. Estimates by CRM source overstate affiliate customers, because that source includes organic buyers | [customer_value.md](reports/customer_value.md) |
 | 2 | A seasonal regression that knows the spend plan is the most accurate forecaster for every funnel metric; gradient boosting does not beat it. Quarterly new-customer totals are accurate to 3–19%, contribution profit to 1–3% | [forecasting.md](reports/forecasting.md) |
 | 2 | The forecasting regression's spend coefficient overstates the true effect of spend 2.6–3.6× without controls and 1.2–2.0× with them. It predicts well but is not causal, so it is not used to set budgets | [forecasting.md](reports/forecasting.md) |
+| 3 | Eight randomised tests, each sized before launch. New landing page +6.6% conversion (+$192k a year). Switching off B3 retargeting is worth +$150k a year: the platform implies 25% of customers depend on it, and the test rules that out. LinkedIn lookalikes bring 12% more leads but 35% fewer qualified ones | [experiments.md](reports/experiments.md) |
+| 3 | For retargeting: 86 customers per $1,000 by correlation, 35 by the platform, 23 by last click, about 2 by randomised test (95% range up to 14). All 8 intervals contain the true effect; the region-test method is unbiased over 40 re-runs | [experiments.md](reports/experiments.md) |
 
 ## Documents
 
@@ -56,7 +58,7 @@ Requires [uv](https://docs.astral.sh/uv/) (Python 3.11 is installed automaticall
 
 ```bash
 uv sync
-uv run mbo all       # design, generate, build, quality, retention, forecast (about 2 minutes)
+uv run mbo all       # design, generate, build, quality, retention, forecast, experiments (about 3 minutes)
 uv run mbo quality   # or any single step
 uv run pytest        # tests
 uv run ruff check . && uv run mypy src

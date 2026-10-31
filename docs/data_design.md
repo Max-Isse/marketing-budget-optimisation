@@ -65,15 +65,19 @@ For each line and week:
 | 3% duplicate leads | B2 CRM | Lead volume is overstated and qualification rates understated |
 | Late cost restatement (+25%) | B2 programmatic, week 130 | That week's CAC is understated in early reports |
 
-## Experiments (true effects, for scoring phase 3)
+## Experiments (how the world responds; the designs are the analyst's, in `configs/config.yaml`)
 
-| Experiment | Business / channel | Randomised at | True effect |
+| Experiment | Business / channel | Randomised at | True behaviour |
 |---|---|---|---|
-| Landing page | B1 | Visitor | +6% relative conversion |
-| Ad creative | B3 social | User | No effect. Tests whether the analysis avoids a false positive |
-| Audience targeting | B2 LinkedIn | Campaign-week | +25% leads but −30% qualification, so fewer qualified leads overall |
-| Bidding strategy | B1 generic search | Campaign-week | Platform-reported CPA falls 15%, but incremental conversions fall 5% |
-| Budget holdout | B3 retargeting | Region (40 regions, 25% held out) | Measures how little retargeting truly adds |
+| Landing page | B1 | Visitor (30,000 a week; mobile converts less) | +6% relative conversion |
+| Ad creative | B3 social | User (users differ in click propensity) | No effect. Tests whether the analysis avoids a false positive |
+| Audience targeting | B2 LinkedIn | Lead, budget split 50/50 | +25% leads but −30% qualification, so 12.5% fewer qualified leads |
+| Bidding strategy | B1 generic search | Region | Platform-reported CPA falls 15%, but incremental customers fall 5% |
+| Budget tests | B3 retargeting off, B1 brand search off, B3 social +50% | Region | Follow the response curves: each region is a scaled copy of the national business |
+
+Region tests use 40 regions whose sizes vary about 3x. They run in the last 24 weeks of the data: 8 pre-period
+weeks, then up to 16 test weeks. Experiment outcomes are not fed back into the national weekly tables (a
+simplification).
 
 ## What the simulation does not capture
 

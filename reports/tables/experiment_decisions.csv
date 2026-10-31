@@ -1,0 +1,7 @@
+experiment,decision,estimate,low,high,verdict
+audience_targeting,switch B2 LinkedIn to the lookalike audience,-161876,-269189,3467.67,uncertain: the range includes a loss and a gain
+bidding_tcpa,switch B1 generic search to target-CPA bidding,47337.9,-105925,200601,uncertain: the range includes a loss and a gain
+brand_search_off,switch off B1 brand search,3380.31,-160736,167497,uncertain: the range includes a loss and a gain
+landing_page,launch the new B1 landing page,192013,70656.1,317751,do it: gains even in the cautious case
+retargeting_off,switch off B3 retargeting,150253,30616,269890,do it: gains even in the cautious case
+social_plus_50,raise B3 social prospecting spend by 50%,76769.2,-81639.5,235178,uncertain: the range includes a loss and a gain

@@ -21,6 +21,8 @@ data/processed/marketing_SYNTHETIC.duckdb
   05_cohorts.sql         customer_lifetimes (observable months, censoring)   repeat_orders_by_month
   06_pnl.sql             business_week_pnl: revenue and contribution of all active customers, acquisition
                          costs, spend, contribution profit
+  07_experiments.sql     synthetic_exp_* (loaded by `mbo experiments` after the designs are fixed),
+                         exp_geo_region_period
         │  mbo quality, mbo retention, later phases
         ▼
 reports/*.md, reports/tables/*.csv

@@ -118,7 +118,170 @@ def cmd_forecast(cfg: Config) -> None:
     log.info("wrote %s", path)
 
 
-STEPS = ["design", "generate", "build", "quality", "retention", "forecast"]
+def run_experiments(cfg: Config) -> dict[str, object]:
+    """Design (from historical data), run in the simulation, load, analyse. Returns everything the report
+    and validation need. Truth is used only by the synthetic.* calls."""
+    import json
+    from typing import Any
+
+    import pandas as pd
+
+    from marketing_budget.analysis.retention import ALL, estimate_retention
+    from marketing_budget.data.db import connect, run_sql_file, set_variables
+    from marketing_budget.experiments.design import (
+        _z,
+        assign_regions,
+        choose_geo_design,
+        design_user_tests,
+        geo_mde,
+        peeking_false_positive_rate,
+    )
+    from marketing_budget.experiments.results import analyse
+    from marketing_budget.synthetic import experiments as sx
+    from marketing_budget.synthetic.truth import load_ground_truth
+
+    e = cfg.section("experiments")
+    za, zb = _z(cfg)
+    truth = load_ground_truth()
+    tw = pd.read_parquet(cfg.path("raw_dir") / "truth" / "synthetic_truth_weekly.parquet")
+    con = connect(cfg)
+    try:
+        plan = design_user_tests(con, cfg)
+        values = {
+            str(r["business"]): float(r["customer_value"])
+            for r in estimate_retention(con, cfg).estimates.to_dict("records")
+            if r["source"] == ALL
+        }
+        shares = sx.regions(truth, cfg.seed + 300)
+        geo_frames, blocks, true_geo, geo_design = [], {}, {}, []
+        geo_weeks: dict[str, int] = {}
+        for i, (name, spec) in enumerate(e["geo_tests"].items()):
+            seed = cfg.seed + 400 + i
+            pre, _ = sx.simulate_geo(truth, tw, name, spec, shares, None, seed)
+            claimed = float("nan")
+            if spec["treatment"] == "spend":
+                row = con.execute(
+                    "SELECT sum(l.platform_conversions) / (SELECT sum(customers) FROM business_week b "
+                    "WHERE b.business = ? "
+                    "AND b.week_start > (SELECT max(week_start) FROM line_week) - INTERVAL 52 WEEK) "
+                    "FROM line_week l WHERE l.business = ? AND l.channel = ? "
+                    "AND l.week_start > (SELECT max(week_start) FROM line_week) - INTERVAL 52 WEEK",
+                    [spec["business"], spec["business"], spec["channel"]],
+                ).fetchone()
+                claimed = float(row[0]) * abs(float(spec["spend_multiplier"]) - 1) if row else float("nan")
+                target = claimed * float(e["geo"]["detect_share_of_platform_claim"])
+            else:
+                target = float(spec["target_effect"])
+            candidates: list[dict[str, Any]] = []
+            for share in e["geo"]["candidate_treated_shares"]:
+                assignment = assign_regions(pre, float(share), seed + 50)
+                for weeks in e["geo"]["candidate_test_weeks"]:
+                    candidates.append(
+                        {
+                            "treated_share": float(share),
+                            "test_weeks": int(weeks),
+                            "mde": geo_mde(pre, assignment, int(weeks), za, zb),
+                            "assignment": assignment,
+                        }
+                    )
+            pick = choose_geo_design(candidates, target)
+            assignment, weeks = pick["assignment"], int(pick["test_weeks"])
+            geo_weeks[name] = weeks
+            order = pre.groupby("region")["customers"].sum().sort_values().index
+            k = round(1 / pick["treated_share"])
+            blocks[name] = pd.Series({r: j // k for j, r in enumerate(order)})
+            panel, true = sx.simulate_geo(truth, tw, name, spec, shares, assignment, seed, weeks)
+            geo_frames.append(panel)
+            true_geo[name] = true
+            geo_design.append(
+                {
+                    "experiment": name,
+                    "line": f"{spec['business']} {spec['channel']}",
+                    "treatment": spec["treatment"]
+                    if spec["treatment"] == "tcpa"
+                    else f"spend x {float(spec['spend_multiplier']):g}",
+                    "effect_if_platform_right": claimed,
+                    "target_mde": target,
+                    "treated_share": pick["treated_share"],
+                    "regions_treated": int(assignment["treated"].sum()),
+                    "weeks_pre": sx.PRE,
+                    "weeks_test": weeks,
+                    "mde_share_of_customers": pick["mde"],
+                    "powered": pick["powered"],
+                    "best_possible_mde": min(c["mde"] for c in candidates),
+                }
+            )
+        lp = sx.simulate_landing_page(truth, int(plan["landing_page"]["weeks"]), cfg.seed + 501)
+        cr = sx.simulate_creative(
+            truth, int(plan["ad_creative"]["weeks"]), float(plan["ad_creative"]["weekly_users"]), cfg.seed + 502
+        )
+        au = sx.simulate_audience(truth, plan["audience_targeting"], cfg.seed + 503)
+        raw = cfg.path("raw_dir")
+        lp.to_parquet(raw / "synthetic_exp_landing_page.parquet", index=False)
+        cr.to_parquet(raw / "synthetic_exp_creative.parquet", index=False)
+        au.to_parquet(raw / "synthetic_exp_audience.parquet", index=False)
+        pd.concat(geo_frames, ignore_index=True).to_parquet(raw / "synthetic_exp_geo.parquet", index=False)
+        true_tab = pd.DataFrame(
+            [
+                {"experiment": k, "metric": "relative_effect", "true_value": v}
+                for k, v in sx.true_user_effects(truth).items()
+            ]
+            + [{"experiment": k, "metric": m, "true_value": val} for k, d in true_geo.items() for m, val in d.items()]
+        )
+        true_tab.to_parquet(raw / "truth" / "synthetic_truth_experiments.parquet", index=False)
+        set_variables(con, {"raw_dir": raw.as_posix()})
+        run_sql_file(con, "07_experiments.sql")
+        results = analyse(con, plan, blocks, geo_weeks, values, cfg)
+    finally:
+        con.close()
+    art = cfg.path("artifacts_dir")
+    art.mkdir(parents=True, exist_ok=True)
+    (art / "experiment_plan.json").write_text(json.dumps(plan, indent=2, default=float), encoding="utf-8")
+    lp_plan = plan["landing_page"]
+    peek = peeking_false_positive_rate(
+        int(float(e["landing_page"]["weekly_visitors"]) / 7 / 2),
+        float(lp_plan["baseline"]),
+        int(lp_plan["weeks"]) * 7,
+        float(e["alpha"]),
+        2000,
+        cfg.seed + 600,
+    )
+    return {
+        "plan": plan,
+        "geo_design": pd.DataFrame(geo_design),
+        "results": results,
+        "values": values,
+        "peeking_simulation": peek,
+        "truth_table": true_tab,
+    }
+
+
+def cmd_experiments(cfg: Config) -> None:
+    import pandas as pd
+
+    from marketing_budget.reporting.experiments import write_experiments_report
+    from marketing_budget.synthetic import experiments as sx
+    from marketing_budget.synthetic.truth import load_ground_truth
+    from marketing_budget.validation.phase3 import geo_monte_carlo, score_experiments
+
+    out = run_experiments(cfg)
+    score = score_experiments(out["results"], out["truth_table"])  # type: ignore[arg-type]
+    truth = load_ground_truth()
+    tw = pd.read_parquet(cfg.path("raw_dir") / "truth" / "synthetic_truth_weekly.parquet")
+    log.info("method check: re-running each region test 40 times")
+    mc = geo_monte_carlo(
+        truth,
+        tw,
+        cfg.section("experiments")["geo_tests"],
+        out["geo_design"],  # type: ignore[arg-type]
+        sx.regions(truth, cfg.seed + 300),
+        40,
+        cfg.seed + 9000,
+    )
+    log.info("wrote %s", write_experiments_report(out, score, cfg, mc))
+
+
+STEPS = ["design", "generate", "build", "quality", "retention", "forecast", "experiments"]
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -135,6 +298,7 @@ def main(argv: list[str] | None = None) -> None:
         "quality": lambda: cmd_quality(cfg),
         "retention": lambda: cmd_retention(cfg),
         "forecast": lambda: cmd_forecast(cfg),
+        "experiments": lambda: cmd_experiments(cfg),
     }
     for name in STEPS if args.step == "all" else [args.step]:
         steps[name]()

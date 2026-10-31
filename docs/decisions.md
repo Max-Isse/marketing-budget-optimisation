@@ -77,8 +77,12 @@ screens, calculated fields, filters. The workbook itself is built in Tableau Pub
 ## D-010 Brand-search floor kept, then tested
 **Choice:** keep a 50% floor on B1 brand search in the base case (defending against competitor bidding on
 the brand name). Phase 4 reports what the floor costs; phase 3 designs a brand-search holdout to measure it.
-**Why:** the floor is a common management belief that, in this simulated world, costs money. The analysis
-should show that cost, not quietly remove a policy management chose.
+**Why:** the floor is a common management belief that may cost money. The analysis should show that cost,
+not quietly remove a policy management chose.
+**Phase 3 result:** the brand-search holdout found a real effect (−9% of B1 customers in the held-out
+regions, 95% range −18% to −0.2%). Switching brand search off is roughly break-even (−$161k to +$167k a
+year). The evidence does not justify removing it, so the floor stays in the base case; phase 5 shows its
+cost.
 
 ## D-011 B3 payback target: 9 months instead of 6
 **Choice:** set B3's payback ceiling to 9 months.
@@ -173,3 +177,42 @@ which makes rebuilds byte-identical.
 quarter-total errors include the week-to-week correlation that weekly intervals ignore.
 **Limits:** 10 origins make the 10%/90% scenarios rough. The 80% intervals covered 75% in the leave-one-out
 test (slightly narrow).
+
+## D-019 Experiments are designed from data before they run; the world is simulated after
+**Choice:** each experiment's size and duration come from historical data and stated business thresholds
+(`experiments/design.py`). The simulation then runs the experiment as designed (`synthetic/experiments.py`).
+Truth holds only how the world responds; which tests to run, how many regions to hold out and for how long
+are analyst choices in `config.yaml`.
+**Why:** this is how experiments work in practice, and it keeps design honest. A test sized after seeing its
+result is not a test.
+**Region tests:** each is sized to detect half of what the ad platform claims the channel does. The design
+picks the cheapest holdout share and duration (25% or 50% of regions; 8, 12 or 16 weeks) that achieves this.
+When none does, it uses the most sensitive design and flags it. Sensitivity comes from an A/A rehearsal on
+the 8 pre-period weeks.
+**Consequence:** three of the four region tests could not reach their target sensitivity. With about 470
+customers a week per business, 40 regions and 16 weeks, effects below about 8% of customers cannot be
+reliably detected. That is a finding about the business, not a flaw to hide.
+
+## D-020 Region-test analysis: ANCOVA, t intervals, randomisation inference
+**Choice:** region-level test-period customers ~ treated + pre-period customers, with HC2 robust standard
+errors, t critical values (df = regions − 3) and randomisation-inference p-values (2,000 re-assignments
+within the same blocks).
+**Why:** the pre-period absorbs persistent region differences (as CUPED does at user level). With 40 regions
+normal critical values gave 87–90% coverage in a 40-run check, and t values bring it to about 95%.
+Randomisation inference needs no distributional assumption.
+**Checked by:** each region test re-run 40 times with fresh random draws. Bias is within 1.4 standard errors
+and coverage 90–97.5% (`reports/experiments.md`).
+**Alternatives:** difference-in-differences (equivalent here, less efficient); synthetic control (for few
+regions; unnecessary with 40); a Bayesian structural time series (not in the stack).
+
+## D-021 Statistical vs practical significance: compare the interval with a business threshold
+**Choice:** each result's 95% interval is compared with the smallest effect worth having:
+- the break-even uplift for the landing page (build cost ÷ a year of conversion value: 0.8%);
+- any gain for the free creative switch;
+- 15% for the audience switch.
+
+The decisions are adopt / reject / real but maybe too small / no worthwhile effect / inconclusive. Rollout
+decisions are then taken on annual contribution, with a cautious–optimistic range.
+**Why:** "p < 0.05" alone says nothing about whether a change is worth making. A 5% *design* threshold (what
+the test can detect) is not the same as the *decision* threshold (what pays): the first draft used 5% for
+both, which would have wrongly called a +6.6% (CI +2.9% to +10.5%) page change "possibly too small".

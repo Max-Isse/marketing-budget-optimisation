@@ -1,0 +1,4 @@
+experiment,unit,metric,baseline,baseline_source,min_worthwhile_effect,n_per_arm_required,weeks,n_per_arm_planned,mde_at_planned_n,design_effect,weekly_users,qualified_leads_per_arm_week,weeks_required,weekly_spend,weekly_leads
+landing_page,visitor,conversion rate (first paid box),0.024,assumption: web analytics,0.05,261570,16,240000,0.05222603677298865,,,,,,
+ad_creative,user,click-through rate,0.010995234882722303,"line_week, last 52 weeks",0.05,590327,5,693259,0.04609559009788755,1.02,92434.56410256411,,,,
+audience_targeting,lead (budget split 50/50 between audiences),qualified leads per dollar,0.003211370656987781,"line_week, last 52 weeks",0.15,647,12,50,0.4931223288623065,,,4.211538461538462,154,2622.891538461539,18.346153846153847

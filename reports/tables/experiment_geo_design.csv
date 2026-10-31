@@ -1,0 +1,5 @@
+experiment,line,treatment,effect_if_platform_right,target_mde,treated_share,regions_treated,weeks_pre,weeks_test,mde_share_of_customers,powered,best_possible_mde
+bidding_tcpa,B1 search_generic,tcpa,,0.02,0.5,20,8,16,0.100156,False,0.100156
+retargeting_off,B3 display_retargeting,spend x 0,0.25279,0.126395,0.25,10,8,12,0.124629,True,0.0956794
+brand_search_off,B1 search_brand,spend x 0,0.153705,0.0768523,0.5,20,8,16,0.139663,False,0.139663
+social_plus_50,B3 social_prospecting,spend x 1.5,0.109695,0.0548477,0.5,20,8,16,0.0831595,False,0.0831595
