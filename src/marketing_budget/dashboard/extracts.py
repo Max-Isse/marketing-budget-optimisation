@@ -97,10 +97,11 @@ def build_extracts(con: duckdb.DuckDBPyConnection, cfg: Config, tested: set[str]
     # 4. Channel lenses: customers per $1,000 four ways
     ly = query_df(
         con,
-        "SELECT business, channel, sum(spend) AS spend, "
+        # money sums rounded to cents: DuckDB adds floats in parallel, in varying order (D-017)
+        "SELECT business, channel, round(sum(spend), 2) AS spend, "
         "sum(platform_conversions) FILTER (WHERE NOT tracking_outage) AS platform, "
-        "sum(spend) FILTER (WHERE NOT tracking_outage) AS spend_tracked, sum(crm_customers) AS last_click "
-        f"FROM line_week WHERE {LAST_52} GROUP BY ALL",
+        "round(sum(spend) FILTER (WHERE NOT tracking_outage), 2) AS spend_tracked, sum(crm_customers) AS last_click "
+        f"FROM line_week WHERE {LAST_52} GROUP BY ALL ORDER BY business, channel",
     )
     cv = _t(cfg, "customer_value_estimates")
     values = {

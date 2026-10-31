@@ -1,40 +1,40 @@
 business,channel,lens,evidence,customers_per_1000,low,high,business_name,channel_label,line,line_label,annual_spend_last_year
+B1,affiliates,1 Platform-reported,attribution rule,17.9679,,,Hearth Box,affiliates,B1.affiliates,B1 affiliates,76358.4
+B1,affiliates,2 CRM last click,attribution rule,16.3571,,,Hearth Box,affiliates,B1.affiliates,B1 affiliates,76358.4
+B1,affiliates,4 Model: next dollar,"model, history only",1.78685,8.4618e-05,7.46612,Hearth Box,affiliates,B1.affiliates,B1 affiliates,76358.4
 B1,search_brand,1 Platform-reported,attribution rule,21.719,,,Hearth Box,brand search,B1.search_brand,B1 brand search,161518
 B1,search_brand,2 CRM last click,attribution rule,21.719,,,Hearth Box,brand search,B1.search_brand,B1 brand search,161518
 B1,search_brand,3 Randomised test (average),causal,11.2372,0.182246,22.2922,Hearth Box,brand search,B1.search_brand,B1 brand search,161518
 B1,search_brand,4 Model: next dollar,"model, calibrated",9.05073,3.53569,14.76,Hearth Box,brand search,B1.search_brand,B1 brand search,161518
-B2,linkedin,1 Platform-reported,attribution rule,0.931151,,,Ledgerline,LinkedIn,B2.linkedin,B2 LinkedIn,136390
-B2,linkedin,2 CRM last click,attribution rule,0.725858,,,Ledgerline,LinkedIn,B2.linkedin,B2 LinkedIn,136390
-B2,linkedin,4 Model: next dollar,"model, history only",0.0134896,0,0,Ledgerline,LinkedIn,B2.linkedin,B2 LinkedIn,136390
-B2,review_sites,1 Platform-reported,attribution rule,1.50497,,,Ledgerline,review sites,B2.review_sites,B2 review sites,78406.7
-B2,review_sites,2 CRM last click,attribution rule,1.32642,,,Ledgerline,review sites,B2.review_sites,B2 review sites,78406.7
-B2,review_sites,4 Model: next dollar,"model, history only",0.0142673,0,0,Ledgerline,review sites,B2.review_sites,B2 review sites,78406.7
-B3,social_prospecting,1 Platform-reported,attribution rule,37.5393,,,Atlas Outdoor,social prospecting,B3.social_prospecting,B3 social prospecting,151361
-B3,social_prospecting,2 CRM last click,attribution rule,27.5632,,,Atlas Outdoor,social prospecting,B3.social_prospecting,B3 social prospecting,151361
-B3,social_prospecting,3 Randomised test (average),causal,35.2058,-2.47603,72.8878,Atlas Outdoor,social prospecting,B3.social_prospecting,B3 social prospecting,151361
-B3,social_prospecting,4 Model: next dollar,"model, calibrated",35.1544,23.4605,46.7606,Atlas Outdoor,social prospecting,B3.social_prospecting,B3 social prospecting,151361
 B1,search_generic,1 Platform-reported,attribution rule,21.3987,,,Hearth Box,generic search,B1.search_generic,B1 generic search,307473
 B1,search_generic,2 CRM last click,attribution rule,20.4148,,,Hearth Box,generic search,B1.search_generic,B1 generic search,307473
 B1,search_generic,4 Model: next dollar,"model, history only",27.7828,21.7873,33.484,Hearth Box,generic search,B1.search_generic,B1 generic search,307473
+B1,social_prospecting,1 Platform-reported,attribution rule,20.5428,,,Hearth Box,social prospecting,B1.social_prospecting,B1 social prospecting,337393
+B1,social_prospecting,2 CRM last click,attribution rule,21.5209,,,Hearth Box,social prospecting,B1.social_prospecting,B1 social prospecting,337393
+B1,social_prospecting,4 Model: next dollar,"model, history only",7.94103,4.58873,11.1817,Hearth Box,social prospecting,B1.social_prospecting,B1 social prospecting,337393
+B2,linkedin,1 Platform-reported,attribution rule,0.931151,,,Ledgerline,LinkedIn,B2.linkedin,B2 LinkedIn,136390
+B2,linkedin,2 CRM last click,attribution rule,0.725858,,,Ledgerline,LinkedIn,B2.linkedin,B2 LinkedIn,136390
+B2,linkedin,4 Model: next dollar,"model, history only",0.0134896,0,0,Ledgerline,LinkedIn,B2.linkedin,B2 LinkedIn,136390
+B2,programmatic_display,1 Platform-reported,attribution rule,0.368626,,,Ledgerline,programmatic display,B2.programmatic_display,B2 programmatic display,105798
+B2,programmatic_display,2 CRM last click,attribution rule,0.226847,,,Ledgerline,programmatic display,B2.programmatic_display,B2 programmatic display,105798
+B2,programmatic_display,4 Model: next dollar,"model, history only",0.00115347,0,0,Ledgerline,programmatic display,B2.programmatic_display,B2 programmatic display,105798
+B2,review_sites,1 Platform-reported,attribution rule,1.50497,,,Ledgerline,review sites,B2.review_sites,B2 review sites,78406.7
+B2,review_sites,2 CRM last click,attribution rule,1.32642,,,Ledgerline,review sites,B2.review_sites,B2 review sites,78406.7
+B2,review_sites,4 Model: next dollar,"model, history only",0.0142673,0,0,Ledgerline,review sites,B2.review_sites,B2 review sites,78406.7
+B2,search_generic,1 Platform-reported,attribution rule,0.505136,,,Ledgerline,generic search,B2.search_generic,B2 generic search,176190
+B2,search_generic,2 CRM last click,attribution rule,0.482433,,,Ledgerline,generic search,B2.search_generic,B2 generic search,176190
+B2,search_generic,4 Model: next dollar,"model, history only",0.0293024,0,0,Ledgerline,generic search,B2.search_generic,B2 generic search,176190
+B3,affiliates,1 Platform-reported,attribution rule,35.4476,,,Atlas Outdoor,affiliates,B3.affiliates,B3 affiliates,38197.3
+B3,affiliates,2 CRM last click,attribution rule,32.0965,,,Atlas Outdoor,affiliates,B3.affiliates,B3 affiliates,38197.3
+B3,affiliates,4 Model: next dollar,"model, history only",2.16706,0.000367842,0.000615491,Atlas Outdoor,affiliates,B3.affiliates,B3 affiliates,38197.3
 B3,display_retargeting,1 Platform-reported,attribution rule,38.2218,,,Atlas Outdoor,retargeting,B3.display_retargeting,B3 retargeting,171290
 B3,display_retargeting,2 CRM last click,attribution rule,24.1813,,,Atlas Outdoor,retargeting,B3.display_retargeting,B3 retargeting,171290
 B3,display_retargeting,3 Randomised test (average),causal,1.68085,-10.4724,13.8341,Atlas Outdoor,retargeting,B3.display_retargeting,B3 retargeting,171290
 B3,display_retargeting,4 Model: next dollar,"model, calibrated",2.60013,8.33286e-05,6.37964,Atlas Outdoor,retargeting,B3.display_retargeting,B3 retargeting,171290
-B2,search_generic,1 Platform-reported,attribution rule,0.505136,,,Ledgerline,generic search,B2.search_generic,B2 generic search,176190
-B2,search_generic,2 CRM last click,attribution rule,0.482433,,,Ledgerline,generic search,B2.search_generic,B2 generic search,176190
-B2,search_generic,4 Model: next dollar,"model, history only",0.0293024,0,0,Ledgerline,generic search,B2.search_generic,B2 generic search,176190
-B2,programmatic_display,1 Platform-reported,attribution rule,0.368626,,,Ledgerline,programmatic display,B2.programmatic_display,B2 programmatic display,105798
-B2,programmatic_display,2 CRM last click,attribution rule,0.226847,,,Ledgerline,programmatic display,B2.programmatic_display,B2 programmatic display,105798
-B2,programmatic_display,4 Model: next dollar,"model, history only",0.00115347,0,0,Ledgerline,programmatic display,B2.programmatic_display,B2 programmatic display,105798
 B3,shopping,1 Platform-reported,attribution rule,32.7765,,,Atlas Outdoor,shopping ads,B3.shopping,B3 shopping ads,239074
 B3,shopping,2 CRM last click,attribution rule,31.1326,,,Atlas Outdoor,shopping ads,B3.shopping,B3 shopping ads,239074
 B3,shopping,4 Model: next dollar,"model, history only",29.4932,22.7779,35.7256,Atlas Outdoor,shopping ads,B3.shopping,B3 shopping ads,239074
-B1,social_prospecting,1 Platform-reported,attribution rule,20.5428,,,Hearth Box,social prospecting,B1.social_prospecting,B1 social prospecting,337393
-B1,social_prospecting,2 CRM last click,attribution rule,21.5209,,,Hearth Box,social prospecting,B1.social_prospecting,B1 social prospecting,337393
-B1,social_prospecting,4 Model: next dollar,"model, history only",7.94103,4.58873,11.1817,Hearth Box,social prospecting,B1.social_prospecting,B1 social prospecting,337393
-B3,affiliates,1 Platform-reported,attribution rule,35.4476,,,Atlas Outdoor,affiliates,B3.affiliates,B3 affiliates,38197.3
-B3,affiliates,2 CRM last click,attribution rule,32.0965,,,Atlas Outdoor,affiliates,B3.affiliates,B3 affiliates,38197.3
-B3,affiliates,4 Model: next dollar,"model, history only",2.16706,0.000367842,0.000615491,Atlas Outdoor,affiliates,B3.affiliates,B3 affiliates,38197.3
-B1,affiliates,1 Platform-reported,attribution rule,17.9679,,,Hearth Box,affiliates,B1.affiliates,B1 affiliates,76358.4
-B1,affiliates,2 CRM last click,attribution rule,16.3571,,,Hearth Box,affiliates,B1.affiliates,B1 affiliates,76358.4
-B1,affiliates,4 Model: next dollar,"model, history only",1.78685,8.4618e-05,7.46612,Hearth Box,affiliates,B1.affiliates,B1 affiliates,76358.4
+B3,social_prospecting,1 Platform-reported,attribution rule,37.5393,,,Atlas Outdoor,social prospecting,B3.social_prospecting,B3 social prospecting,151361
+B3,social_prospecting,2 CRM last click,attribution rule,27.5632,,,Atlas Outdoor,social prospecting,B3.social_prospecting,B3 social prospecting,151361
+B3,social_prospecting,3 Randomised test (average),causal,35.2058,-2.47603,72.8878,Atlas Outdoor,social prospecting,B3.social_prospecting,B3 social prospecting,151361
+B3,social_prospecting,4 Model: next dollar,"model, calibrated",35.1544,23.4605,46.7606,Atlas Outdoor,social prospecting,B3.social_prospecting,B3 social prospecting,151361
