@@ -6,6 +6,7 @@
 calendar:
   first_week: 2023-10-30          # Monday; 156 weekly periods
   n_weeks: 156
+  legacy_weeks: 260               # customers acquired in the five years before the data: the inherited base
 
 # Response curve per business-channel line (weekly):
 #   adstock a_t = x_t + decay * a_{t-1}, rescaled by (1 - decay) so steady state equals weekly spend

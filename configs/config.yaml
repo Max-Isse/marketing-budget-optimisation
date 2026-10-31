@@ -65,3 +65,15 @@ data_quality:
 
 retention:
   value_draws: 2000                # Monte Carlo draws for the customer-value confidence interval
+
+forecasting:
+  targets: [spend, clicks, leads, qualified_leads, customers, revenue, contribution_profit]
+  horizon_weeks: 13                # one quarter: the budget review cycle
+  min_train_weeks: 104             # two full seasons before the first forecast origin
+  origin_step_weeks: 4             # a new forecast every 4 weeks in the backtest
+  season_weeks: 52.1775            # 365.25 / 7
+  fourier_terms: 3                 # annual sine/cosine pairs in the regression and boosting models
+  interval_level: 0.80             # prediction intervals (10th to 90th percentile)
+  selection_tolerance: 0.05        # pick the simplest model whose WAPE is within 5% (relative) of the best
+  models: [naive, seasonal_naive, ets, regression, gbm]   # ordered from simplest to most complex
+  gbm: {max_iter: 300, learning_rate: 0.05, max_leaf_nodes: 15, min_samples_leaf: 10}

@@ -1,0 +1,7 @@
+business,specification,elasticity,ci_low,ci_high,r_squared
+B1,spend only,1.29524,1.05469,1.53578,0.436383
+B1,spend + trend + seasonality,0.592906,0.350193,0.83562,0.686931
+B2,spend only,1.31764,0.702742,1.93254,0.105834
+B2,spend + trend + seasonality,0.826108,-0.0331458,1.68536,0.244772
+B3,spend only,1.33103,1.11364,1.54841,0.496643
+B3,spend + trend + seasonality,0.610598,0.339136,0.882061,0.722518

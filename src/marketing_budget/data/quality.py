@@ -147,7 +147,8 @@ def build_quality_report(con: duckdb.DuckDBPyConnection, cfg: Config) -> Quality
         ),
         check(
             "customer table reconciles to CRM counts",
-            "SELECT count(*) FROM (SELECT business, count(*) AS n FROM synthetic_customers GROUP BY 1) a "
+            "SELECT count(*) FROM (SELECT business, count(*) AS n FROM synthetic_customers "
+            "WHERE acquisition_date >= (SELECT first_week FROM synthetic_data_meta) GROUP BY 1) a "
             "JOIN (SELECT business, sum(customers) AS n FROM crm_clean GROUP BY 1) b USING (business) "
             "WHERE a.n <> b.n",
             "new customers per business",
@@ -155,8 +156,9 @@ def build_quality_report(con: duckdb.DuckDBPyConnection, cfg: Config) -> Quality
         check(
             "every customer is active in their acquisition month",
             "SELECT count(*) FROM synthetic_customers c LEFT JOIN synthetic_customer_activity a "
-            "ON a.customer_id = c.customer_id AND a.month_index = 0 WHERE a.customer_id IS NULL",
-            "activity month 0",
+            "ON a.customer_id = c.customer_id AND a.month_index = 0 WHERE a.customer_id IS NULL "
+            "AND c.acquisition_date >= (SELECT first_week FROM synthetic_data_meta)",
+            "activity month 0 (customers acquired in the window)",
         ),
         check(
             "no activity after the end of the data",
@@ -230,6 +232,7 @@ def build_quality_report(con: duckdb.DuckDBPyConnection, cfg: Config) -> Quality
                 ("business_week", "metric"),
                 ("customer_lifetimes", "metric"),
                 ("repeat_orders_by_month", "metric"),
+                ("business_week_pnl", "metric"),
             ]
         ]
     )

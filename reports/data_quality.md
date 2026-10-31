@@ -10,7 +10,7 @@
 3. **What this establishes.** 8 of 8 structural checks pass (completeness, funnel order,
    reconciliation between tables). The issue scan found 5 problems: attribution change, cost restated, duplicate leads, tracking outage.
 4. **In business terms.** From the week of 21 Jul 2025, the ad platform for B1 social prospecting reports 29% fewer conversions per customer the CRM credits to it. On platform numbers its cost per customer rose from $34 to $49 (+46%). On the CRM's own last-click numbers it moved from $45 to $47 (+4%). Most of the apparent decline is the tracking, not the channel. Separately, ad platforms routinely claim more conversions than the
-   company's own CRM credits to them: between 1.00x and 1.65x across channels, highest
+   company's own CRM credits to them: between 1.00x and 1.60x across channels, highest
    for display and social, where platforms count people who only saw an ad.
 5. **Action to consider.** Judge channels on the CRM's numbers, not the platforms'. Repair the
    B1 social prospecting conversion tag.
@@ -29,16 +29,17 @@ what forecasts, the optimiser, the dashboard and the AI commentary read (D-007).
 |:----------------------------|:--------|-------:|
 | synthetic_weekly_media      | raw     |   1872 |
 | synthetic_weekly_crm        | raw     |   2340 |
-| synthetic_b2_leads          | raw     |  16940 |
-| synthetic_customers         | raw     | 145791 |
-| synthetic_customer_activity | raw     | 457154 |
+| synthetic_b2_leads          | raw     |  16903 |
+| synthetic_customers         | raw     | 181748 |
+| synthetic_customer_activity | raw     | 596240 |
 | media_clean                 | clean   |   1872 |
-| b2_leads_clean              | clean   |  16940 |
+| b2_leads_clean              | clean   |  16903 |
 | crm_clean                   | clean   |   2340 |
 | line_week                   | metric  |   1872 |
 | business_week               | metric  |    468 |
-| customer_lifetimes          | metric  | 145791 |
-| repeat_orders_by_month      | metric  |    540 |
+| customer_lifetimes          | metric  | 146409 |
+| repeat_orders_by_month      | metric  |    539 |
+| business_week_pnl           | metric  |    468 |
 
 ## Structural checks
 
@@ -49,7 +50,7 @@ what forecasts, the optimiser, the dashboard and the AI commentary read (D-007).
 | funnel order: customers <= qualified <= leads       | True     |              0 | CRM, by source and week (B2 on de-duplicated leads) |
 | clicks <= impressions                               | True     |              0 | platform reports                                    |
 | customer table reconciles to CRM counts             | True     |              0 | new customers per business                          |
-| every customer is active in their acquisition month | True     |              0 | activity month 0                                    |
+| every customer is active in their acquisition month | True     |              0 | activity month 0 (customers acquired in the window) |
 | no activity after the end of the data               | True     |              0 | right-censoring respected                           |
 | B2 won leads reconcile to CRM customers             | True     |              0 | lead-level vs weekly                                |
 
@@ -60,7 +61,7 @@ what forecasts, the optimiser, the dashboard and the AI commentary read (D-007).
 | tracking_outage    | B1         | search_generic       | 2025-12-22   | 2025-12-22  |         1 | platform reports 0 conversions, CRM does not  |
 | tracking_outage    | B3         | display_retargeting  | 2025-03-03   | 2025-03-10  |         2 | platform reports 0 conversions, CRM does not  |
 | cost_restated      | B2         | programmatic_display | 2026-04-27   | 2026-04-27  |         1 | spend changed after first report              |
-| duplicate_leads    | B2         | all                  | 2023-11-06   | 2026-10-19  |       147 | 491 duplicates, 2.9% of recorded leads        |
+| duplicate_leads    | B2         | all                  | 2023-11-06   | 2026-10-19  |       149 | 491 duplicates, 2.9% of recorded leads        |
 | attribution_change | B1         | social_prospecting   | 2025-07-21   | 2026-10-19  |        66 | platform/CRM ratio 1.35 -> 0.96 (p = 4.4e-30) |
 
 Flagged weeks stay in the data. `line_week.any_dq_flag` lets each later step decide whether to exclude them.
@@ -76,14 +77,14 @@ credits to another source, or to none.
 | B1         | search_brand         |                    1.00 |            42.52 |          42.52 |
 | B1         | search_generic       |                    1.05 |            49.10 |          47.02 |
 | B1         | social_prospecting   |                    1.35 |            45.93 |          38.41 |
-| B2         | linkedin             |                    1.31 |         1,931.87 |       1,477.31 |
-| B2         | programmatic_display |                    1.65 |         3,830.64 |       2,315.53 |
-| B2         | review_sites         |                    1.15 |           887.43 |         772.44 |
-| B2         | search_generic       |                    1.04 |         2,154.01 |       2,064.26 |
-| B3         | affiliates           |                    1.11 |            31.69 |          28.65 |
-| B3         | display_retargeting  |                    1.60 |            45.05 |          28.55 |
-| B3         | shopping             |                    1.05 |            34.11 |          32.54 |
-| B3         | social_prospecting   |                    1.35 |            38.32 |          28.42 |
+| B2         | linkedin             |                    1.29 |         1,851.42 |       1,436.04 |
+| B2         | programmatic_display |                    1.47 |         4,277.06 |       2,917.99 |
+| B2         | review_sites         |                    1.14 |           867.96 |         759.46 |
+| B2         | search_generic       |                    1.03 |         2,346.91 |       2,269.33 |
+| B3         | affiliates           |                    1.10 |            32.50 |          29.55 |
+| B3         | display_retargeting  |                    1.60 |            43.07 |          27.31 |
+| B3         | shopping             |                    1.05 |            34.41 |          32.72 |
+| B3         | social_prospecting   |                    1.35 |            38.36 |          28.35 |
 
 ## Attribution change test (all lines)
 
@@ -96,14 +97,14 @@ across 12 lines, plus a minimum size of change. Only lines meeting both are flag
 | B1         | search_brand         | 2023-11-27 00:00:00 |          1.000 |         1.000 |    0.000 |     1.000 | False      |
 | B1         | search_generic       | 2026-06-15 00:00:00 |          1.050 |         1.061 |    0.010 |     0.095 | False      |
 | B1         | social_prospecting   | 2025-07-21 00:00:00 |          1.348 |         0.959 |   -0.289 |     0.000 | True       |
-| B2         | linkedin             | 2026-03-23 00:00:00 |          1.251 |         1.500 |    0.199 |     0.015 | False      |
-| B2         | programmatic_display | 2026-08-03 00:00:00 |          1.613 |         2.167 |    0.343 |     0.168 | False      |
-| B2         | review_sites         | 2026-08-03 00:00:00 |          1.129 |         1.381 |    0.224 |     0.220 | False      |
-| B2         | search_generic       | 2025-12-01 00:00:00 |          1.062 |         1.000 |   -0.059 |     0.009 | False      |
-| B3         | affiliates           | 2025-08-25 00:00:00 |          1.115 |         1.091 |   -0.022 |     0.028 | False      |
-| B3         | display_retargeting  | 2025-09-15 00:00:00 |          1.587 |         1.611 |    0.015 |     0.067 | False      |
-| B3         | shopping             | 2026-09-14 00:00:00 |          1.047 |         1.075 |    0.026 |     0.385 | False      |
-| B3         | social_prospecting   | 2024-07-15 00:00:00 |          1.330 |         1.354 |    0.018 |     0.093 | False      |
+| B2         | linkedin             | 2026-09-28 00:00:00 |          1.265 |         2.000 |    0.581 |     0.478 | False      |
+| B2         | programmatic_display | 2026-01-05 00:00:00 |          1.373 |         1.682 |    0.225 |     0.114 | False      |
+| B2         | review_sites         | 2023-12-25 00:00:00 |          1.333 |         1.136 |   -0.148 |     0.140 | False      |
+| B2         | search_generic       | 2026-08-24 00:00:00 |          1.028 |         1.125 |    0.095 |     0.244 | False      |
+| B3         | affiliates           | 2026-03-09 00:00:00 |          1.095 |         1.118 |    0.022 |     0.134 | False      |
+| B3         | display_retargeting  | 2025-10-13 00:00:00 |          1.607 |         1.581 |   -0.016 |     0.070 | False      |
+| B3         | shopping             | 2024-01-22 00:00:00 |          1.068 |         1.050 |   -0.016 |     0.008 | False      |
+| B3         | social_prospecting   | 2026-09-28 00:00:00 |          1.355 |         1.264 |   -0.067 |     0.460 | False      |
 
 ## Validation against the SYNTHETIC ground truth
 

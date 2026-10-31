@@ -1,7 +1,9 @@
 -- Customer lifetimes and cohort tables. A month is observable only if it started before the end of the data,
--- so recent customers are right-censored: still active, with their future unknown.
+-- so recent customers are right-censored: still active, with their future unknown. Customers inherited from
+-- before the data window are seen only from its first day (left-truncated) and are excluded here; they do
+-- count in the weekly P&L (06_pnl.sql).
 CREATE OR REPLACE TABLE customer_lifetimes AS
-WITH meta AS (SELECT data_end_date::DATE AS end_date FROM synthetic_data_meta),
+WITH meta AS (SELECT first_week::DATE AS first_week, data_end_date::DATE AS end_date FROM synthetic_data_meta),
 act AS (
     SELECT customer_id,
            count(*) AS active_months,
@@ -27,7 +29,8 @@ SELECT
     a.contribution
 FROM synthetic_customers c
 CROSS JOIN meta
-JOIN act a USING (customer_id);
+JOIN act a USING (customer_id)
+WHERE c.acquisition_date::DATE >= meta.first_week;  -- inherited customers are left-truncated: excluded
 
 -- Orders per month since acquisition, with the number of customers observable in that month (e-commerce).
 CREATE OR REPLACE TABLE repeat_orders_by_month AS

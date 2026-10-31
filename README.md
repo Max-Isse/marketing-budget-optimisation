@@ -7,8 +7,8 @@ This project forecasts marketing performance, designs and analyses experiments, 
 budget optimiser that uses diminishing returns and uncertainty. It then turns the results into a decision
 memo for a CEO, CFO and Marketing Director.
 
-**Status:** phases 0–1 of 9 are complete: scope and design, the data generator, the SQL metric layer,
-data-quality checks and customer value. See [docs/phase_plan.md](docs/phase_plan.md).
+**Status:** phases 0–2 of 9 are complete: scope and design, the data generator, the SQL metric layer,
+data-quality checks, customer value and forecasting. See [docs/phase_plan.md](docs/phase_plan.md).
 
 > **The data are simulated.** A simulation is the only way to know each channel's true effect, and therefore
 > to check that the analysis separates real impact from what ad platforms report (D-001). Results show that
@@ -34,8 +34,10 @@ Return = 24-month contribution per advertising dollar; above 1.0 the spend pays 
 | Phase | Finding | Report |
 |---|---|---|
 | 1 | All 8 structural checks pass. All 5 injected data problems are found, with no false alarms. One is a tracking change that made B1 social look 46% more expensive per customer on platform numbers when its CRM cost rose 4% | [data_quality.md](reports/data_quality.md) |
-| 1 | Ad platforms claim 1.0–1.65× the conversions the CRM credits to them | [data_quality.md](reports/data_quality.md) |
-| 1 | 24-month value per new customer: B1 $87, B2 $5,124, B3 $59. Fully observed cohorts confirm these within 1%. Estimates by CRM source overstate affiliate customers, because that source includes organic buyers | [customer_value.md](reports/customer_value.md) |
+| 1 | Ad platforms claim 1.0–1.6× the conversions the CRM credits to them | [data_quality.md](reports/data_quality.md) |
+| 1 | 24-month value per new customer: B1 $87, B2 $5,117, B3 $59. Fully observed cohorts confirm these within 1%. Estimates by CRM source overstate affiliate customers, because that source includes organic buyers | [customer_value.md](reports/customer_value.md) |
+| 2 | A seasonal regression that knows the spend plan is the most accurate forecaster for every funnel metric; gradient boosting does not beat it. Quarterly new-customer totals are accurate to 3–19%, contribution profit to 1–3% | [forecasting.md](reports/forecasting.md) |
+| 2 | The forecasting regression's spend coefficient overstates the true effect of spend 2.6–3.6× without controls and 1.2–2.0× with them. It predicts well but is not causal, so it is not used to set budgets | [forecasting.md](reports/forecasting.md) |
 
 ## Documents
 
@@ -54,7 +56,7 @@ Requires [uv](https://docs.astral.sh/uv/) (Python 3.11 is installed automaticall
 
 ```bash
 uv sync
-uv run mbo all       # design check, generate, build, quality, retention (about 10 seconds)
+uv run mbo all       # design, generate, build, quality, retention, forecast (about 2 minutes)
 uv run mbo quality   # or any single step
 uv run pytest        # tests
 uv run ruff check . && uv run mypy src
@@ -62,5 +64,5 @@ uv run ruff check . && uv run mypy src
 
 ## Stack
 
-Python 3.11, pandas, NumPy, SciPy, statsmodels and scikit-learn (from phase 2), DuckDB SQL, Tableau Public.
+Python 3.11, pandas, NumPy, SciPy, statsmodels, scikit-learn, matplotlib, DuckDB SQL, Tableau Public.
 LLM-assisted reporting arrives in phase 7, with a template fallback.

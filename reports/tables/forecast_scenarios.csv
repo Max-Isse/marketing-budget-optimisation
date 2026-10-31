@@ -1,0 +1,145 @@
+business,target,period,scenario,value
+B1,spend,next quarter,pessimistic,227810
+B1,spend,next quarter,baseline,227810
+B1,spend,next quarter,optimistic,227810
+B1,clicks,next quarter,pessimistic,190476
+B1,clicks,next quarter,baseline,192648
+B1,clicks,next quarter,optimistic,194158
+B1,leads,next quarter,pessimistic,21613.3
+B1,leads,next quarter,baseline,22141.9
+B1,leads,next quarter,optimistic,24939.6
+B1,qualified_leads,next quarter,pessimistic,9420.01
+B1,qualified_leads,next quarter,baseline,9735.72
+B1,qualified_leads,next quarter,optimistic,11008.9
+B1,customers,next quarter,pessimistic,5503.14
+B1,customers,next quarter,baseline,5736.41
+B1,customers,next quarter,optimistic,6659.76
+B1,revenue,next quarter,pessimistic,2.19734e+06
+B1,revenue,next quarter,baseline,2.25784e+06
+B1,revenue,next quarter,optimistic,2.31871e+06
+B1,contribution_profit,next quarter,pessimistic,303391
+B1,contribution_profit,next quarter,baseline,307488
+B1,contribution_profit,next quarter,optimistic,314804
+B1,cac,next quarter,pessimistic,41.3963
+B1,cac,next quarter,baseline,39.7129
+B1,cac,next quarter,optimistic,34.2069
+B1,spend,next 52 weeks,pessimistic,882742
+B1,spend,next 52 weeks,baseline,882742
+B1,spend,next 52 weeks,optimistic,882742
+B1,clicks,next 52 weeks,pessimistic,743101
+B1,clicks,next 52 weeks,baseline,751574
+B1,clicks,next 52 weeks,optimistic,757462
+B1,leads,next 52 weeks,pessimistic,79643.4
+B1,leads,next 52 weeks,baseline,81591.3
+B1,leads,next 52 weeks,optimistic,91900.5
+B1,qualified_leads,next 52 weeks,pessimistic,34764.9
+B1,qualified_leads,next 52 weeks,baseline,35930
+B1,qualified_leads,next 52 weeks,optimistic,40628.9
+B1,customers,next 52 weeks,pessimistic,20325.6
+B1,customers,next 52 weeks,baseline,21187.1
+B1,customers,next 52 weeks,optimistic,24597.5
+B1,revenue,next 52 weeks,pessimistic,8.81842e+06
+B1,revenue,next 52 weeks,baseline,9.06121e+06
+B1,revenue,next 52 weeks,optimistic,9.30549e+06
+B1,contribution_profit,next 52 weeks,pessimistic,1.31213e+06
+B1,contribution_profit,next 52 weeks,baseline,1.32985e+06
+B1,contribution_profit,next 52 weeks,optimistic,1.36149e+06
+B1,cac,next 52 weeks,pessimistic,43.4301
+B1,cac,next 52 weeks,baseline,41.664
+B1,cac,next 52 weeks,optimistic,35.8875
+B2,spend,next quarter,pessimistic,112156
+B2,spend,next quarter,baseline,112156
+B2,spend,next quarter,optimistic,112156
+B2,clicks,next quarter,pessimistic,31431.5
+B2,clicks,next quarter,baseline,32956
+B2,clicks,next quarter,optimistic,33742.6
+B2,leads,next quarter,pessimistic,1526.78
+B2,leads,next quarter,baseline,1563.66
+B2,leads,next quarter,optimistic,1646.65
+B2,qualified_leads,next quarter,pessimistic,461.069
+B2,qualified_leads,next quarter,baseline,530.468
+B2,qualified_leads,next quarter,optimistic,666.936
+B2,customers,next quarter,pessimistic,100.977
+B2,customers,next quarter,baseline,125.751
+B2,customers,next quarter,optimistic,144.995
+B2,revenue,next quarter,pessimistic,1.99291e+06
+B2,revenue,next quarter,baseline,2.00206e+06
+B2,revenue,next quarter,optimistic,2.01638e+06
+B2,contribution_profit,next quarter,pessimistic,1.35228e+06
+B2,contribution_profit,next quarter,baseline,1.37466e+06
+B2,contribution_profit,next quarter,optimistic,1.40568e+06
+B2,cac,next quarter,pessimistic,1110.72
+B2,cac,next quarter,baseline,891.892
+B2,cac,next quarter,optimistic,773.52
+B2,spend,next 52 weeks,pessimistic,496786
+B2,spend,next 52 weeks,baseline,496786
+B2,spend,next 52 weeks,optimistic,496786
+B2,clicks,next 52 weeks,pessimistic,135218
+B2,clicks,next 52 weeks,baseline,141776
+B2,clicks,next 52 weeks,optimistic,145160
+B2,leads,next 52 weeks,pessimistic,6484.41
+B2,leads,next 52 weeks,baseline,6641.08
+B2,leads,next 52 weeks,optimistic,6993.53
+B2,qualified_leads,next 52 weeks,pessimistic,2149.43
+B2,qualified_leads,next 52 weeks,baseline,2472.96
+B2,qualified_leads,next 52 weeks,optimistic,3109.15
+B2,customers,next 52 weeks,pessimistic,477.808
+B2,customers,next 52 weeks,baseline,595.037
+B2,customers,next 52 weeks,optimistic,686.096
+B2,revenue,next 52 weeks,pessimistic,8.34043e+06
+B2,revenue,next 52 weeks,baseline,8.37873e+06
+B2,revenue,next 52 weeks,optimistic,8.43866e+06
+B2,contribution_profit,next 52 weeks,pessimistic,5.5859e+06
+B2,contribution_profit,next 52 weeks,baseline,5.67831e+06
+B2,contribution_profit,next 52 weeks,optimistic,5.80644e+06
+B2,cac,next 52 weeks,pessimistic,1039.72
+B2,cac,next 52 weeks,baseline,834.881
+B2,cac,next 52 weeks,optimistic,724.076
+B3,spend,next quarter,pessimistic,166091
+B3,spend,next quarter,baseline,166091
+B3,spend,next quarter,optimistic,166091
+B3,clicks,next quarter,pessimistic,196806
+B3,clicks,next quarter,baseline,200949
+B3,clicks,next quarter,optimistic,205157
+B3,leads,next quarter,pessimistic,24178.9
+B3,leads,next quarter,baseline,25784.7
+B3,leads,next quarter,optimistic,26780.1
+B3,qualified_leads,next quarter,pessimistic,11053
+B3,qualified_leads,next quarter,baseline,11663.7
+B3,qualified_leads,next quarter,optimistic,12071.3
+B3,customers,next quarter,pessimistic,7729.85
+B3,customers,next quarter,baseline,8280.7
+B3,customers,next quarter,optimistic,8483.09
+B3,revenue,next quarter,pessimistic,1.93414e+06
+B3,revenue,next quarter,baseline,2.00522e+06
+B3,revenue,next quarter,optimistic,2.04327e+06
+B3,contribution_profit,next quarter,pessimistic,338110
+B3,contribution_profit,next quarter,baseline,354371
+B3,contribution_profit,next quarter,optimistic,363047
+B3,cac,next quarter,pessimistic,21.487
+B3,cac,next quarter,baseline,20.0577
+B3,cac,next quarter,optimistic,19.5791
+B3,spend,next 52 weeks,pessimistic,599922
+B3,spend,next 52 weeks,baseline,599922
+B3,spend,next 52 weeks,optimistic,599922
+B3,clicks,next 52 weeks,pessimistic,724088
+B3,clicks,next 52 weeks,baseline,739330
+B3,clicks,next 52 weeks,optimistic,754811
+B3,leads,next 52 weeks,pessimistic,80842.7
+B3,leads,next 52 weeks,baseline,86211.8
+B3,leads,next 52 weeks,optimistic,89540
+B3,qualified_leads,next 52 weeks,pessimistic,37438.3
+B3,qualified_leads,next 52 weeks,baseline,39506.8
+B3,qualified_leads,next 52 weeks,optimistic,40887.5
+B3,customers,next 52 weeks,pessimistic,25985.2
+B3,customers,next 52 weeks,baseline,27837
+B3,customers,next 52 weeks,optimistic,28517.4
+B3,revenue,next 52 weeks,pessimistic,7.05315e+06
+B3,revenue,next 52 weeks,baseline,7.31234e+06
+B3,revenue,next 52 weeks,optimistic,7.45108e+06
+B3,contribution_profit,next 52 weeks,pessimistic,1.26108e+06
+B3,contribution_profit,next 52 weeks,baseline,1.32174e+06
+B3,contribution_profit,next 52 weeks,optimistic,1.35409e+06
+B3,cac,next 52 weeks,pessimistic,23.0871
+B3,cac,next 52 weeks,baseline,21.5513
+B3,cac,next 52 weeks,optimistic,21.0371

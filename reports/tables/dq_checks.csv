@@ -4,6 +4,6 @@ no negative spend or counts,True,0,media and CRM
 funnel order: customers <= qualified <= leads,True,0,"CRM, by source and week (B2 on de-duplicated leads)"
 clicks <= impressions,True,0,platform reports
 customer table reconciles to CRM counts,True,0,new customers per business
-every customer is active in their acquisition month,True,0,activity month 0
+every customer is active in their acquisition month,True,0,activity month 0 (customers acquired in the window)
 no activity after the end of the data,True,0,right-censoring respected
 B2 won leads reconcile to CRM customers,True,0,lead-level vs weekly

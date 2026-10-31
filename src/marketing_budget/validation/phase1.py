@@ -102,6 +102,8 @@ def score_retention(
 ) -> pd.DataFrame:
     """True value of the customers in each CRM source (and in total) vs the estimate and its 95% interval."""
     true_value = line_params.set_index(["business", "true_source"])["customer_value"]
+    if "in_data_window" in customer_source:
+        customer_source = customer_source[customer_source["in_data_window"]]
     cs = customer_source.assign(
         true_value=[
             true_value[(b, s)] for b, s in zip(customer_source["business"], customer_source["true_source"], strict=True)

@@ -129,3 +129,47 @@ one).
 `attribution_changed`, `any_dq_flag`). Each later step decides what to exclude and says so.
 **Why:** the right treatment depends on the use. A forecast of spend needs outage weeks (spend was real); a
 model of platform conversions does not.
+
+## D-016 An inherited customer base before the data window
+**Choice:** the generator also creates customers acquired in the five years before the data (at the first
+year's acquisition rate). Only those still active inside the window appear, and only through that activity.
+Retention estimates exclude them, because their early months are unobserved (left-truncated). The weekly P&L
+includes them.
+**Why:** an acquired business comes with customers. Without them, revenue climbed from zero for two years,
+and a revenue forecast would have learned a simulation artefact. Five years, not two, because B2 customers
+stay about six years on average; with a two-year base, B2 revenue still grew 34% in a year for no business
+reason.
+**Alternatives:** model revenue from new cohorts only (not what finance reports); use left-truncated customers
+in retention with delayed entry (possible, but nothing gained when in-window cohorts are plentiful).
+
+## D-017 Forecasting design
+**Choice:** weekly forecasts per business for spend, clicks, leads, qualified leads, customers, revenue and
+contribution profit, 13 weeks ahead. Five models: naive, seasonal naive, Holt-Winters ETS, a seasonal
+regression with the spend plan, and gradient boosting on the de-trended series. Testing is rolling-origin:
+every 4 weeks from week 104, 10 origins. The selected model is the simplest within 5% (relative) of the best
+WAPE. CAC is planned spend ÷ forecast customers, not a forecast of its own.
+**Why:**
+- *13 weeks* is the budget review cycle.
+- *Conditioning on the spend plan* is honest because the plan is known when a forecast is made. A
+  regression variant with forecast spend shows what that knowledge is worth.
+- *The parsimony rule* avoids picking a complex model for a difference within noise.
+- *Ratios forecast directly* behave badly when the denominator is small (B2: about 7 customers a week).
+
+**Result:** the regression wins most series; gradient boosting rarely helps with 104–150 weekly points.
+**Reproducibility:** DuckDB sums floating-point columns in parallel, in a varying order, so money totals
+differed in the last bits between rebuilds and nudged the forecasts. Money sums are rounded to cents in SQL,
+which makes rebuilds byte-identical.
+**Alternatives:** SARIMA (similar to ETS here, slower); Prophet (not in the stack); forecasting at line level
+(12× the series, much noisier, and not needed for the quarter plan).
+
+## D-018 Prediction intervals and scenarios from backtest errors
+**Choice:**
+- *Weekly intervals:* the 10th–90th percentiles of log(actual ÷ forecast) from the backtest, by horizon
+  bucket (1–4, 5–8, 9–13 weeks). Coverage is checked leaving one origin out.
+- *Scenarios:* percentiles of 13-week-*total* errors. Spend is held at plan in every scenario, and CAC
+  follows from customers. The 12-month band reuses the quarterly error (an assumption).
+
+**Why:** model-based intervals assume the model is right. Backtest errors include model error, and
+quarter-total errors include the week-to-week correlation that weekly intervals ignore.
+**Limits:** 10 origins make the 10%/90% scenarios rough. The 80% intervals covered 75% in the leave-one-out
+test (slightly narrow).

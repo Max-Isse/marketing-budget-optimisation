@@ -43,7 +43,8 @@ businesses and is not used for decisions.
 | Metric | Definition |
 |---|---|
 | Customer value (24-month) | Expected discounted contribution from one new customer over 24 months, minus one-off acquisition costs (discounts, commission, onboarding). Excludes advertising |
-| Incremental contribution profit | incremental customers × customer value − advertising spend |
+| Incremental contribution profit | incremental customers × customer value − advertising spend. **The decision metric** |
+| Contribution profit (weekly P&L) | contribution from all active customers that week − one-off acquisition costs of new customers − ad spend (`business_week_pnl`). What finance reports; forecast in phase 2. Mostly driven by the existing customer base, so it moves slowly with marketing decisions |
 | Payback months | Months until a customer's cumulative discounted contribution covers their CAC and one-off costs |
 | Lead-to-qualified rate | qualified leads ÷ leads |
 | Qualified-to-customer rate | customers ÷ qualified leads (B2: the sales team's win rate) |

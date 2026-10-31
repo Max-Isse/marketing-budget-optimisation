@@ -19,6 +19,8 @@ data/processed/marketing_SYNTHETIC.duckdb
   [python]               dq_attribution_shift: change point in platform/CRM ratio per line
   04_line_week.sql       line_week: validated metrics + all flags     business_week: totals incl. organic
   05_cohorts.sql         customer_lifetimes (observable months, censoring)   repeat_orders_by_month
+  06_pnl.sql             business_week_pnl: revenue and contribution of all active customers, acquisition
+                         costs, spend, contribution profit
         │  mbo quality, mbo retention, later phases
         ▼
 reports/*.md, reports/tables/*.csv
@@ -34,6 +36,7 @@ reports/*.md, reports/tables/*.csv
 | `b2_leads_clean` | one B2 demo request | lead_id |
 | `customer_lifetimes` | one new customer | customer_id |
 | `repeat_orders_by_month` | business × source × month since acquisition | (business, source, month_index) |
+| `business_week_pnl` | business × week (P&L, inherited customers included) | (week_start, business) |
 
 Weeks start on Monday. Month *k* of a customer starts *k* × 30.44 days after acquisition. A month is
 observable only if it starts before the end of the data (`synthetic_data_meta.data_end_date`).

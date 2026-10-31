@@ -228,16 +228,26 @@ def generate(truth: dict[str, Any], cfg: Config) -> Generated:
                     "customer_value": customer_value(b["model"], pr, horizon, rate).value,
                 }
             )
+        legacy_weeks = int(cal.get("legacy_weeks", 0))
         for src, true_src, _, _, cv in groups:
             if cv.sum() == 0:
                 continue
             wk = np.repeat(np.arange(n), cv)
             days = rng.integers(0, 7, len(wk))
+            # Inherited base: customers acquired before the data window at the first year's average rate.
+            lw = np.repeat(np.arange(-legacy_weeks, 0), rng.poisson(cv[:52].mean(), legacy_weeks))
+            ldays = rng.integers(0, 7, len(lw))
+            dates = np.concatenate(
+                [
+                    np.asarray(weeks[0] + pd.to_timedelta(lw * 7 + ldays, unit="D")),
+                    np.asarray(weeks[wk] + pd.to_timedelta(days, unit="D")),
+                ]
+            )
             cust_parts.append(
                 pd.DataFrame(
                     {
                         "business": biz,
-                        "acquisition_date": weeks[wk] + pd.to_timedelta(days, unit="D"),
+                        "acquisition_date": pd.to_datetime(dates),
                         "source": src,
                         "true_source": true_src,
                     }
@@ -250,13 +260,17 @@ def generate(truth: dict[str, Any], cfg: Config) -> Generated:
     acq_cost = {biz: float(b["economics"]["acquisition_cost"]) for biz, b in truth["businesses"].items()}
     customers["acquisition_cost"] = customers["business"].map(acq_cost)
     params_df = pd.DataFrame(line_params)
-    activity = _activity(rng, customers, truth, params_df, end_date)
+    activity = _activity(rng, customers, truth, params_df, weeks[0], end_date)
+    # Inherited customers who left before the window are invisible to the company's data.
+    visible = (customers["acquisition_date"] >= weeks[0]) | customers["customer_id"].isin(activity["customer_id"])
+    customers = customers[visible].reset_index(drop=True)
+    customers["in_data_window"] = customers["acquisition_date"] >= weeks[0]
 
     observable = {
         "synthetic_weekly_media": pd.concat(media, ignore_index=True),
         "synthetic_weekly_crm": pd.concat(crm, ignore_index=True),
         "synthetic_b2_leads": pd.concat(b2_leads_parts, ignore_index=True),
-        "synthetic_customers": customers.drop(columns="true_source"),
+        "synthetic_customers": customers.drop(columns=["true_source", "in_data_window"]),
         "synthetic_customer_activity": activity,
         "synthetic_data_meta": pd.DataFrame(
             {"first_week": [weeks[0]], "n_weeks": [n], "data_end_date": [end_date], "seed": [cfg.seed]}
@@ -264,7 +278,9 @@ def generate(truth: dict[str, Any], cfg: Config) -> Generated:
     }
     truth_tables = {
         "synthetic_truth_weekly": pd.concat(truth_weekly, ignore_index=True),
-        "synthetic_truth_customer_source": customers[["customer_id", "business", "source", "true_source"]],
+        "synthetic_truth_customer_source": customers[
+            ["customer_id", "business", "source", "true_source", "in_data_window"]
+        ],
         "synthetic_truth_line_params": params_df,
     }
     return Generated(observable, truth_tables)
@@ -312,11 +328,15 @@ def _activity(
     customers: pd.DataFrame,
     truth: dict[str, Any],
     params: pd.DataFrame,
+    start_date: pd.Timestamp,
     end_date: pd.Timestamp,
 ) -> pd.DataFrame:
-    """Monthly activity per customer up to the end of the data (later months are not yet observed)."""
+    """Monthly activity per customer inside the data window. Later months are not yet observed; customers
+    acquired before the window (the inherited base) are seen only from the window's first day."""
     days_left = (end_date - customers["acquisition_date"]).dt.days.to_numpy()
     observable = np.floor((days_left - 1) / DAYS_PER_MONTH).astype(int) + 1  # months 0..observable-1 seen
+    days_before = (start_date - customers["acquisition_date"]).dt.days.to_numpy()
+    first_seen = np.maximum(np.ceil(days_before / DAYS_PER_MONTH), 0).astype(int)
     out = []
     pmap: dict[tuple[str, str], dict[str, Any]] = {}
     for r in params.to_dict("records"):
@@ -329,20 +349,23 @@ def _activity(
         pr = pmap[(biz, src)]
         ids = customers["customer_id"].to_numpy()[idx]
         m_obs = observable[idx]
+        f_obs = first_seen[idx]
         econ = b["economics"]
         if b["model"] == "subscription":
             stay1 = rng.random(len(ids)) < pr["survival_first_month"]
             later = rng.geometric(1 - pr["survival_monthly"], len(ids)) - 1  # months survived after month 1
             life = np.where(stay1, 2 + later, 1)
             seen = np.minimum(life, m_obs)
-            cid = np.repeat(ids, seen)
-            mi = np.concatenate([np.arange(k) for k in seen])
+            n_rows = np.maximum(seen - f_obs, 0)
+            cid = np.repeat(ids, n_rows)
+            mi = np.concatenate([np.arange(f, f + k) for f, k in zip(f_obs, n_rows, strict=True)])
             orders = np.ones(len(cid), int)
             revenue = np.full(len(cid), econ["monthly_revenue"])
             contribution = np.full(len(cid), econ["monthly_contribution"])
         else:
-            cid_all = np.repeat(ids, m_obs)
-            mi_all = np.concatenate([np.arange(k) for k in m_obs])
+            n_rows = np.maximum(m_obs - f_obs, 0)
+            cid_all = np.repeat(ids, n_rows)
+            mi_all = np.concatenate([np.arange(f, f + k) for f, k in zip(f_obs, n_rows, strict=True)])
             lam = np.where(
                 mi_all == 0,
                 1.0,

@@ -28,7 +28,7 @@ WITH crm AS (
 ),
 media AS (
     SELECT week_start, business,
-           sum(spend) AS spend, sum(impressions) AS impressions, sum(clicks) AS clicks,
+           round(sum(spend), 2) AS spend, sum(impressions) AS impressions, sum(clicks) AS clicks,
            sum(platform_conversions) AS platform_conversions,
            bool_or(any_dq_flag) AS any_dq_flag
     FROM line_week GROUP BY ALL

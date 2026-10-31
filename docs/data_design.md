@@ -7,6 +7,9 @@ and `uv run mbo design` writes the resulting world to `reports/ground_truth_summ
 ## Structure
 
 - **156 weeks** (3 years) of weekly history, starting Monday 30 October 2023.
+- **An inherited customer base:** customers acquired in the five years before the data, at the first year's
+  rate. They appear only through their activity inside the window, as they would in an acquired company's
+  data (D-016).
 - **3 businesses × 4 channels = 12 lines.** Planned spend sums to about $2.0M a year.
 - **Observable tables** (`data/raw/`), all with `synthetic` in the name:
   - `synthetic_weekly_media`: spend (final and first-reported), impressions, clicks, platform-reported

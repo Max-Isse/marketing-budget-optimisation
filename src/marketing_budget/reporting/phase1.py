@@ -190,7 +190,7 @@ def write_customer_value_report(res: RetentionResults, cfg: Config, score: pd.Da
             "Intervals that miss: "
             + "; ".join(f"{r.business} {r.source} (error {r.error_pct:+.1%})" for r in miss.itertuples())
             + ". The intervals cover sampling error only, not the simplification of fitting one retention curve"
-            " to a group whose customers behave differently (for B3, affiliate customers repeat less)."
+            " to a group whose customers behave differently (a CRM source mixes customers the channel caused with organic ones), and roughly 1 interval in 20 misses by chance."
             if len(miss)
             else ""
         )
