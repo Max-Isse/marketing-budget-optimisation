@@ -77,6 +77,10 @@ that time.
 **Choice:** the repo produces the dashboard data extracts (CSV/Hyper-ready) and a written dashboard spec:
 screens, calculated fields, filters. The workbook itself is built in Tableau Public and linked from the README.
 **Why:** a Tableau workbook is built in a GUI. A spec plus extracts keeps the data reproducible.
+**Implemented (phase 6):** 13 tidy extracts from the SQL layer and the validated phase outputs. Validation
+(truth) tables are excluded. No ratios are stored: Tableau computes them as SUM()/SUM(). A tie-out file holds
+the expected value of every headline tile, and a test pins the column contract. The colours come from the
+validated reference palette; aqua and yellow carry value labels because they fall below 3:1 contrast.
 
 ## D-010 Brand-search floor kept, then tested
 **Choice:** keep a 50% floor on B1 brand search in the base case (defending against competitor bidding on

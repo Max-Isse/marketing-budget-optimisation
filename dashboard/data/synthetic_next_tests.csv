@@ -1,0 +1,10 @@
+business,channel,annual_spend,marginal_return,marginal_p10,marginal_p90,stake,business_name,channel_label,line,line_label
+B1,search_generic,310665,2.4233,1.90035,2.92057,316947,Hearth Box,generic search,B1.search_generic,B1 generic search
+B1,social_prospecting,340895,0.69264,0.400242,0.975302,196036,Hearth Box,social prospecting,B1.social_prospecting,B1 social prospecting
+B3,shopping,241556,1.74061,1.34429,2.10843,184581,Atlas Outdoor,shopping ads,B3.shopping,B3 shopping ads
+B1,affiliates,77151.2,0.155854,7.38063e-06,0.651217,50241.6,Hearth Box,affiliates,B1.affiliates,B1 affiliates
+B3,affiliates,38593.8,0.127894,2.17091e-05,3.63247e-05,0.564072,Atlas Outdoor,affiliates,B3.affiliates,B3 affiliates
+B2,programmatic_display,106897,0.00590264,0,0,0,Ledgerline,programmatic display,B2.programmatic_display,B2 programmatic display
+B2,linkedin,137806,0.0690301,0,0,0,Ledgerline,LinkedIn,B2.linkedin,B2 LinkedIn
+B2,search_generic,178019,0.149949,0,0,0,Ledgerline,generic search,B2.search_generic,B2 generic search
+B2,review_sites,79220.7,0.0730098,0,0,0,Ledgerline,review sites,B2.review_sites,B2 review sites

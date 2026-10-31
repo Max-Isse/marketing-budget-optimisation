@@ -1,0 +1,37 @@
+page,tile,filter,expected_value,tableau_formula
+1 Executive summary,"Ad spend, last 52 weeks",all businesses,1.97945e+06,SUM([spend])
+1 Executive summary,"New customers, last 52 weeks",all businesses,49169,SUM([customers])
+1 Executive summary,"Blended CAC, last 52 weeks",all businesses,40.2581,SUM([spend]) / SUM([customers])
+1 Executive summary,"Contribution profit, last 52 weeks",all businesses,7.748e+06,SUM([contribution_profit])
+1 Executive summary,"Ad spend, last 52 weeks",business = B1,882742,SUM([spend])
+1 Executive summary,"New customers, last 52 weeks",business = B1,22823,SUM([customers])
+1 Executive summary,"Blended CAC, last 52 weeks",business = B1,38.6777,SUM([spend]) / SUM([customers])
+1 Executive summary,"Contribution profit, last 52 weeks",business = B1,1.42434e+06,SUM([contribution_profit])
+1 Executive summary,"Ad spend, last 52 weeks",business = B2,496786,SUM([spend])
+1 Executive summary,"New customers, last 52 weeks",business = B2,447,SUM([customers])
+1 Executive summary,"Blended CAC, last 52 weeks",business = B2,1111.38,SUM([spend]) / SUM([customers])
+1 Executive summary,"Contribution profit, last 52 weeks",business = B2,5.08971e+06,SUM([contribution_profit])
+1 Executive summary,"Ad spend, last 52 weeks",business = B3,599922,SUM([spend])
+1 Executive summary,"New customers, last 52 weeks",business = B3,25899,SUM([customers])
+1 Executive summary,"Blended CAC, last 52 weeks",business = B3,23.1639,SUM([spend]) / SUM([customers])
+1 Executive summary,"Contribution profit, last 52 weeks",business = B3,1.23395e+06,SUM([contribution_profit])
+1 Executive summary,Plan: expected gain a year (model),,437360,[Plan gain] (see spec)
+1 Executive summary,Plan: pessimistic-case gain a year (model),,409340,[Plan downside gain]
+2 Budget plan,Recommended spend,business = B1,939702,SUM([recommended])
+2 Budget plan,Change vs last year's split,business = B1,47795.6,SUM([change])
+2 Budget plan,Recommended spend,business = B2,387264,SUM([recommended])
+2 Budget plan,Change vs last year's split,business = B2,-114679,SUM([change])
+2 Budget plan,Recommended spend,business = B3,673034,SUM([recommended])
+2 Budget plan,Change vs last year's split,business = B3,66883.6,SUM([change])
+2 Budget plan,Budget moved between lines,,300794,SUM(IF [change] > 0 THEN [change] END)
+4 Forecast,New customers next quarter (pessimistic),business = B1,5503.14,SUM([value]) with [scenario] filter
+4 Forecast,New customers next quarter (baseline),business = B1,5736.41,SUM([value]) with [scenario] filter
+4 Forecast,New customers next quarter (optimistic),business = B1,6659.76,SUM([value]) with [scenario] filter
+4 Forecast,New customers next quarter (pessimistic),business = B2,100.977,SUM([value]) with [scenario] filter
+4 Forecast,New customers next quarter (baseline),business = B2,125.751,SUM([value]) with [scenario] filter
+4 Forecast,New customers next quarter (optimistic),business = B2,144.995,SUM([value]) with [scenario] filter
+4 Forecast,New customers next quarter (pessimistic),business = B3,7729.85,SUM([value]) with [scenario] filter
+4 Forecast,New customers next quarter (baseline),business = B3,8280.7,SUM([value]) with [scenario] filter
+4 Forecast,New customers next quarter (optimistic),business = B3,8483.09,SUM([value]) with [scenario] filter
+5 Experiments,Landing page uplift,,0.0664537,[relative_effect]
+6 Data trust,Data issues found,,5,COUNT([issue])

@@ -1,0 +1,1873 @@
+week_start,business,channel,line,line_label,platform_conversions,crm_customers,tracking_outage,attribution_changed
+2023-10-30,B1,affiliates,B1.affiliates,B1 affiliates,30,26,False,False
+2023-11-06,B1,affiliates,B1.affiliates,B1 affiliates,27,24,False,False
+2023-11-13,B1,affiliates,B1.affiliates,B1 affiliates,21,20,False,False
+2023-11-20,B1,affiliates,B1.affiliates,B1 affiliates,16,14,False,False
+2023-11-27,B1,affiliates,B1.affiliates,B1 affiliates,24,22,False,False
+2023-12-04,B1,affiliates,B1.affiliates,B1 affiliates,21,21,False,False
+2023-12-11,B1,affiliates,B1.affiliates,B1 affiliates,21,20,False,False
+2023-12-18,B1,affiliates,B1.affiliates,B1 affiliates,29,28,False,False
+2023-12-25,B1,affiliates,B1.affiliates,B1 affiliates,28,25,False,False
+2024-01-01,B1,affiliates,B1.affiliates,B1 affiliates,24,23,False,False
+2024-01-08,B1,affiliates,B1.affiliates,B1 affiliates,32,29,False,False
+2024-01-15,B1,affiliates,B1.affiliates,B1 affiliates,38,30,False,False
+2024-01-22,B1,affiliates,B1.affiliates,B1 affiliates,32,30,False,False
+2024-01-29,B1,affiliates,B1.affiliates,B1 affiliates,42,38,False,False
+2024-02-05,B1,affiliates,B1.affiliates,B1 affiliates,36,35,False,False
+2024-02-12,B1,affiliates,B1.affiliates,B1 affiliates,25,23,False,False
+2024-02-19,B1,affiliates,B1.affiliates,B1 affiliates,29,27,False,False
+2024-02-26,B1,affiliates,B1.affiliates,B1 affiliates,34,33,False,False
+2024-03-04,B1,affiliates,B1.affiliates,B1 affiliates,21,19,False,False
+2024-03-11,B1,affiliates,B1.affiliates,B1 affiliates,30,28,False,False
+2024-03-18,B1,affiliates,B1.affiliates,B1 affiliates,35,33,False,False
+2024-03-25,B1,affiliates,B1.affiliates,B1 affiliates,24,24,False,False
+2024-04-01,B1,affiliates,B1.affiliates,B1 affiliates,33,28,False,False
+2024-04-08,B1,affiliates,B1.affiliates,B1 affiliates,20,19,False,False
+2024-04-15,B1,affiliates,B1.affiliates,B1 affiliates,23,22,False,False
+2024-04-22,B1,affiliates,B1.affiliates,B1 affiliates,32,31,False,False
+2024-04-29,B1,affiliates,B1.affiliates,B1 affiliates,19,18,False,False
+2024-05-06,B1,affiliates,B1.affiliates,B1 affiliates,23,21,False,False
+2024-05-13,B1,affiliates,B1.affiliates,B1 affiliates,31,30,False,False
+2024-05-20,B1,affiliates,B1.affiliates,B1 affiliates,26,23,False,False
+2024-05-27,B1,affiliates,B1.affiliates,B1 affiliates,29,26,False,False
+2024-06-03,B1,affiliates,B1.affiliates,B1 affiliates,29,27,False,False
+2024-06-10,B1,affiliates,B1.affiliates,B1 affiliates,14,13,False,False
+2024-06-17,B1,affiliates,B1.affiliates,B1 affiliates,29,23,False,False
+2024-06-24,B1,affiliates,B1.affiliates,B1 affiliates,30,28,False,False
+2024-07-01,B1,affiliates,B1.affiliates,B1 affiliates,25,23,False,False
+2024-07-08,B1,affiliates,B1.affiliates,B1 affiliates,28,22,False,False
+2024-07-15,B1,affiliates,B1.affiliates,B1 affiliates,21,21,False,False
+2024-07-22,B1,affiliates,B1.affiliates,B1 affiliates,21,18,False,False
+2024-07-29,B1,affiliates,B1.affiliates,B1 affiliates,27,24,False,False
+2024-08-05,B1,affiliates,B1.affiliates,B1 affiliates,13,13,False,False
+2024-08-12,B1,affiliates,B1.affiliates,B1 affiliates,26,24,False,False
+2024-08-19,B1,affiliates,B1.affiliates,B1 affiliates,22,18,False,False
+2024-08-26,B1,affiliates,B1.affiliates,B1 affiliates,13,12,False,False
+2024-09-02,B1,affiliates,B1.affiliates,B1 affiliates,25,22,False,False
+2024-09-09,B1,affiliates,B1.affiliates,B1 affiliates,23,22,False,False
+2024-09-16,B1,affiliates,B1.affiliates,B1 affiliates,20,19,False,False
+2024-09-23,B1,affiliates,B1.affiliates,B1 affiliates,33,31,False,False
+2024-09-30,B1,affiliates,B1.affiliates,B1 affiliates,22,20,False,False
+2024-10-07,B1,affiliates,B1.affiliates,B1 affiliates,26,26,False,False
+2024-10-14,B1,affiliates,B1.affiliates,B1 affiliates,38,34,False,False
+2024-10-21,B1,affiliates,B1.affiliates,B1 affiliates,23,22,False,False
+2024-10-28,B1,affiliates,B1.affiliates,B1 affiliates,23,19,False,False
+2024-11-04,B1,affiliates,B1.affiliates,B1 affiliates,27,20,False,False
+2024-11-11,B1,affiliates,B1.affiliates,B1 affiliates,19,16,False,False
+2024-11-18,B1,affiliates,B1.affiliates,B1 affiliates,24,23,False,False
+2024-11-25,B1,affiliates,B1.affiliates,B1 affiliates,30,29,False,False
+2024-12-02,B1,affiliates,B1.affiliates,B1 affiliates,18,15,False,False
+2024-12-09,B1,affiliates,B1.affiliates,B1 affiliates,10,10,False,False
+2024-12-16,B1,affiliates,B1.affiliates,B1 affiliates,18,17,False,False
+2024-12-23,B1,affiliates,B1.affiliates,B1 affiliates,39,36,False,False
+2024-12-30,B1,affiliates,B1.affiliates,B1 affiliates,38,34,False,False
+2025-01-06,B1,affiliates,B1.affiliates,B1 affiliates,39,35,False,False
+2025-01-13,B1,affiliates,B1.affiliates,B1 affiliates,43,38,False,False
+2025-01-20,B1,affiliates,B1.affiliates,B1 affiliates,45,40,False,False
+2025-01-27,B1,affiliates,B1.affiliates,B1 affiliates,32,32,False,False
+2025-02-03,B1,affiliates,B1.affiliates,B1 affiliates,20,19,False,False
+2025-02-10,B1,affiliates,B1.affiliates,B1 affiliates,24,22,False,False
+2025-02-17,B1,affiliates,B1.affiliates,B1 affiliates,28,25,False,False
+2025-02-24,B1,affiliates,B1.affiliates,B1 affiliates,39,34,False,False
+2025-03-03,B1,affiliates,B1.affiliates,B1 affiliates,22,22,False,False
+2025-03-10,B1,affiliates,B1.affiliates,B1 affiliates,32,30,False,False
+2025-03-17,B1,affiliates,B1.affiliates,B1 affiliates,29,28,False,False
+2025-03-24,B1,affiliates,B1.affiliates,B1 affiliates,46,44,False,False
+2025-03-31,B1,affiliates,B1.affiliates,B1 affiliates,26,24,False,False
+2025-04-07,B1,affiliates,B1.affiliates,B1 affiliates,12,11,False,False
+2025-04-14,B1,affiliates,B1.affiliates,B1 affiliates,20,20,False,False
+2025-04-21,B1,affiliates,B1.affiliates,B1 affiliates,20,19,False,False
+2025-04-28,B1,affiliates,B1.affiliates,B1 affiliates,33,27,False,False
+2025-05-05,B1,affiliates,B1.affiliates,B1 affiliates,25,24,False,False
+2025-05-12,B1,affiliates,B1.affiliates,B1 affiliates,18,18,False,False
+2025-05-19,B1,affiliates,B1.affiliates,B1 affiliates,18,17,False,False
+2025-05-26,B1,affiliates,B1.affiliates,B1 affiliates,24,22,False,False
+2025-06-02,B1,affiliates,B1.affiliates,B1 affiliates,19,16,False,False
+2025-06-09,B1,affiliates,B1.affiliates,B1 affiliates,18,17,False,False
+2025-06-16,B1,affiliates,B1.affiliates,B1 affiliates,23,20,False,False
+2025-06-23,B1,affiliates,B1.affiliates,B1 affiliates,13,12,False,False
+2025-06-30,B1,affiliates,B1.affiliates,B1 affiliates,14,13,False,False
+2025-07-07,B1,affiliates,B1.affiliates,B1 affiliates,14,12,False,False
+2025-07-14,B1,affiliates,B1.affiliates,B1 affiliates,9,9,False,False
+2025-07-21,B1,affiliates,B1.affiliates,B1 affiliates,29,27,False,False
+2025-07-28,B1,affiliates,B1.affiliates,B1 affiliates,19,16,False,False
+2025-08-04,B1,affiliates,B1.affiliates,B1 affiliates,25,24,False,False
+2025-08-11,B1,affiliates,B1.affiliates,B1 affiliates,27,23,False,False
+2025-08-18,B1,affiliates,B1.affiliates,B1 affiliates,15,14,False,False
+2025-08-25,B1,affiliates,B1.affiliates,B1 affiliates,20,19,False,False
+2025-09-01,B1,affiliates,B1.affiliates,B1 affiliates,30,26,False,False
+2025-09-08,B1,affiliates,B1.affiliates,B1 affiliates,24,22,False,False
+2025-09-15,B1,affiliates,B1.affiliates,B1 affiliates,38,33,False,False
+2025-09-22,B1,affiliates,B1.affiliates,B1 affiliates,18,18,False,False
+2025-09-29,B1,affiliates,B1.affiliates,B1 affiliates,14,12,False,False
+2025-10-06,B1,affiliates,B1.affiliates,B1 affiliates,23,21,False,False
+2025-10-13,B1,affiliates,B1.affiliates,B1 affiliates,15,15,False,False
+2025-10-20,B1,affiliates,B1.affiliates,B1 affiliates,18,17,False,False
+2025-10-27,B1,affiliates,B1.affiliates,B1 affiliates,23,20,False,False
+2025-11-03,B1,affiliates,B1.affiliates,B1 affiliates,33,29,False,False
+2025-11-10,B1,affiliates,B1.affiliates,B1 affiliates,21,21,False,False
+2025-11-17,B1,affiliates,B1.affiliates,B1 affiliates,9,6,False,False
+2025-11-24,B1,affiliates,B1.affiliates,B1 affiliates,45,41,False,False
+2025-12-01,B1,affiliates,B1.affiliates,B1 affiliates,10,9,False,False
+2025-12-08,B1,affiliates,B1.affiliates,B1 affiliates,18,17,False,False
+2025-12-15,B1,affiliates,B1.affiliates,B1 affiliates,22,22,False,False
+2025-12-22,B1,affiliates,B1.affiliates,B1 affiliates,24,22,False,False
+2025-12-29,B1,affiliates,B1.affiliates,B1 affiliates,31,29,False,False
+2026-01-05,B1,affiliates,B1.affiliates,B1 affiliates,54,48,False,False
+2026-01-12,B1,affiliates,B1.affiliates,B1 affiliates,27,26,False,False
+2026-01-19,B1,affiliates,B1.affiliates,B1 affiliates,39,36,False,False
+2026-01-26,B1,affiliates,B1.affiliates,B1 affiliates,52,48,False,False
+2026-02-02,B1,affiliates,B1.affiliates,B1 affiliates,41,38,False,False
+2026-02-09,B1,affiliates,B1.affiliates,B1 affiliates,29,24,False,False
+2026-02-16,B1,affiliates,B1.affiliates,B1 affiliates,17,15,False,False
+2026-02-23,B1,affiliates,B1.affiliates,B1 affiliates,45,37,False,False
+2026-03-02,B1,affiliates,B1.affiliates,B1 affiliates,33,31,False,False
+2026-03-09,B1,affiliates,B1.affiliates,B1 affiliates,29,27,False,False
+2026-03-16,B1,affiliates,B1.affiliates,B1 affiliates,30,29,False,False
+2026-03-23,B1,affiliates,B1.affiliates,B1 affiliates,18,17,False,False
+2026-03-30,B1,affiliates,B1.affiliates,B1 affiliates,21,18,False,False
+2026-04-06,B1,affiliates,B1.affiliates,B1 affiliates,39,35,False,False
+2026-04-13,B1,affiliates,B1.affiliates,B1 affiliates,24,24,False,False
+2026-04-20,B1,affiliates,B1.affiliates,B1 affiliates,33,31,False,False
+2026-04-27,B1,affiliates,B1.affiliates,B1 affiliates,27,25,False,False
+2026-05-04,B1,affiliates,B1.affiliates,B1 affiliates,25,22,False,False
+2026-05-11,B1,affiliates,B1.affiliates,B1 affiliates,24,22,False,False
+2026-05-18,B1,affiliates,B1.affiliates,B1 affiliates,16,14,False,False
+2026-05-25,B1,affiliates,B1.affiliates,B1 affiliates,30,26,False,False
+2026-06-01,B1,affiliates,B1.affiliates,B1 affiliates,26,21,False,False
+2026-06-08,B1,affiliates,B1.affiliates,B1 affiliates,23,19,False,False
+2026-06-15,B1,affiliates,B1.affiliates,B1 affiliates,37,33,False,False
+2026-06-22,B1,affiliates,B1.affiliates,B1 affiliates,19,18,False,False
+2026-06-29,B1,affiliates,B1.affiliates,B1 affiliates,15,14,False,False
+2026-07-06,B1,affiliates,B1.affiliates,B1 affiliates,25,22,False,False
+2026-07-13,B1,affiliates,B1.affiliates,B1 affiliates,18,17,False,False
+2026-07-20,B1,affiliates,B1.affiliates,B1 affiliates,21,20,False,False
+2026-07-27,B1,affiliates,B1.affiliates,B1 affiliates,14,13,False,False
+2026-08-03,B1,affiliates,B1.affiliates,B1 affiliates,19,17,False,False
+2026-08-10,B1,affiliates,B1.affiliates,B1 affiliates,16,14,False,False
+2026-08-17,B1,affiliates,B1.affiliates,B1 affiliates,27,25,False,False
+2026-08-24,B1,affiliates,B1.affiliates,B1 affiliates,11,10,False,False
+2026-08-31,B1,affiliates,B1.affiliates,B1 affiliates,30,27,False,False
+2026-09-07,B1,affiliates,B1.affiliates,B1 affiliates,24,20,False,False
+2026-09-14,B1,affiliates,B1.affiliates,B1 affiliates,12,11,False,False
+2026-09-21,B1,affiliates,B1.affiliates,B1 affiliates,29,27,False,False
+2026-09-28,B1,affiliates,B1.affiliates,B1 affiliates,40,39,False,False
+2026-10-05,B1,affiliates,B1.affiliates,B1 affiliates,28,27,False,False
+2026-10-12,B1,affiliates,B1.affiliates,B1 affiliates,23,20,False,False
+2026-10-19,B1,affiliates,B1.affiliates,B1 affiliates,26,26,False,False
+2023-10-30,B1,search_brand,B1.search_brand,B1 brand search,56,56,False,False
+2023-11-06,B1,search_brand,B1.search_brand,B1 brand search,102,102,False,False
+2023-11-13,B1,search_brand,B1.search_brand,B1 brand search,82,82,False,False
+2023-11-20,B1,search_brand,B1.search_brand,B1 brand search,78,78,False,False
+2023-11-27,B1,search_brand,B1.search_brand,B1 brand search,59,59,False,False
+2023-12-04,B1,search_brand,B1.search_brand,B1 brand search,85,85,False,False
+2023-12-11,B1,search_brand,B1.search_brand,B1 brand search,60,60,False,False
+2023-12-18,B1,search_brand,B1.search_brand,B1 brand search,87,87,False,False
+2023-12-25,B1,search_brand,B1.search_brand,B1 brand search,72,72,False,False
+2024-01-01,B1,search_brand,B1.search_brand,B1 brand search,81,81,False,False
+2024-01-08,B1,search_brand,B1.search_brand,B1 brand search,85,85,False,False
+2024-01-15,B1,search_brand,B1.search_brand,B1 brand search,86,86,False,False
+2024-01-22,B1,search_brand,B1.search_brand,B1 brand search,89,89,False,False
+2024-01-29,B1,search_brand,B1.search_brand,B1 brand search,89,89,False,False
+2024-02-05,B1,search_brand,B1.search_brand,B1 brand search,92,92,False,False
+2024-02-12,B1,search_brand,B1.search_brand,B1 brand search,84,84,False,False
+2024-02-19,B1,search_brand,B1.search_brand,B1 brand search,86,86,False,False
+2024-02-26,B1,search_brand,B1.search_brand,B1 brand search,103,103,False,False
+2024-03-04,B1,search_brand,B1.search_brand,B1 brand search,67,67,False,False
+2024-03-11,B1,search_brand,B1.search_brand,B1 brand search,65,65,False,False
+2024-03-18,B1,search_brand,B1.search_brand,B1 brand search,98,98,False,False
+2024-03-25,B1,search_brand,B1.search_brand,B1 brand search,104,104,False,False
+2024-04-01,B1,search_brand,B1.search_brand,B1 brand search,67,67,False,False
+2024-04-08,B1,search_brand,B1.search_brand,B1 brand search,82,82,False,False
+2024-04-15,B1,search_brand,B1.search_brand,B1 brand search,88,88,False,False
+2024-04-22,B1,search_brand,B1.search_brand,B1 brand search,95,95,False,False
+2024-04-29,B1,search_brand,B1.search_brand,B1 brand search,72,72,False,False
+2024-05-06,B1,search_brand,B1.search_brand,B1 brand search,61,61,False,False
+2024-05-13,B1,search_brand,B1.search_brand,B1 brand search,103,103,False,False
+2024-05-20,B1,search_brand,B1.search_brand,B1 brand search,88,88,False,False
+2024-05-27,B1,search_brand,B1.search_brand,B1 brand search,90,90,False,False
+2024-06-03,B1,search_brand,B1.search_brand,B1 brand search,79,79,False,False
+2024-06-10,B1,search_brand,B1.search_brand,B1 brand search,68,68,False,False
+2024-06-17,B1,search_brand,B1.search_brand,B1 brand search,70,70,False,False
+2024-06-24,B1,search_brand,B1.search_brand,B1 brand search,69,69,False,False
+2024-07-01,B1,search_brand,B1.search_brand,B1 brand search,57,57,False,False
+2024-07-08,B1,search_brand,B1.search_brand,B1 brand search,61,61,False,False
+2024-07-15,B1,search_brand,B1.search_brand,B1 brand search,56,56,False,False
+2024-07-22,B1,search_brand,B1.search_brand,B1 brand search,68,68,False,False
+2024-07-29,B1,search_brand,B1.search_brand,B1 brand search,55,55,False,False
+2024-08-05,B1,search_brand,B1.search_brand,B1 brand search,49,49,False,False
+2024-08-12,B1,search_brand,B1.search_brand,B1 brand search,60,60,False,False
+2024-08-19,B1,search_brand,B1.search_brand,B1 brand search,40,40,False,False
+2024-08-26,B1,search_brand,B1.search_brand,B1 brand search,63,63,False,False
+2024-09-02,B1,search_brand,B1.search_brand,B1 brand search,59,59,False,False
+2024-09-09,B1,search_brand,B1.search_brand,B1 brand search,78,78,False,False
+2024-09-16,B1,search_brand,B1.search_brand,B1 brand search,53,53,False,False
+2024-09-23,B1,search_brand,B1.search_brand,B1 brand search,80,80,False,False
+2024-09-30,B1,search_brand,B1.search_brand,B1 brand search,69,69,False,False
+2024-10-07,B1,search_brand,B1.search_brand,B1 brand search,63,63,False,False
+2024-10-14,B1,search_brand,B1.search_brand,B1 brand search,84,84,False,False
+2024-10-21,B1,search_brand,B1.search_brand,B1 brand search,80,80,False,False
+2024-10-28,B1,search_brand,B1.search_brand,B1 brand search,65,65,False,False
+2024-11-04,B1,search_brand,B1.search_brand,B1 brand search,52,52,False,False
+2024-11-11,B1,search_brand,B1.search_brand,B1 brand search,67,67,False,False
+2024-11-18,B1,search_brand,B1.search_brand,B1 brand search,64,64,False,False
+2024-11-25,B1,search_brand,B1.search_brand,B1 brand search,68,68,False,False
+2024-12-02,B1,search_brand,B1.search_brand,B1 brand search,62,62,False,False
+2024-12-09,B1,search_brand,B1.search_brand,B1 brand search,51,51,False,False
+2024-12-16,B1,search_brand,B1.search_brand,B1 brand search,77,77,False,False
+2024-12-23,B1,search_brand,B1.search_brand,B1 brand search,80,80,False,False
+2024-12-30,B1,search_brand,B1.search_brand,B1 brand search,79,79,False,False
+2025-01-06,B1,search_brand,B1.search_brand,B1 brand search,119,119,False,False
+2025-01-13,B1,search_brand,B1.search_brand,B1 brand search,127,127,False,False
+2025-01-20,B1,search_brand,B1.search_brand,B1 brand search,94,94,False,False
+2025-01-27,B1,search_brand,B1.search_brand,B1 brand search,60,60,False,False
+2025-02-03,B1,search_brand,B1.search_brand,B1 brand search,69,69,False,False
+2025-02-10,B1,search_brand,B1.search_brand,B1 brand search,77,77,False,False
+2025-02-17,B1,search_brand,B1.search_brand,B1 brand search,63,63,False,False
+2025-02-24,B1,search_brand,B1.search_brand,B1 brand search,76,76,False,False
+2025-03-03,B1,search_brand,B1.search_brand,B1 brand search,56,56,False,False
+2025-03-10,B1,search_brand,B1.search_brand,B1 brand search,86,86,False,False
+2025-03-17,B1,search_brand,B1.search_brand,B1 brand search,77,77,False,False
+2025-03-24,B1,search_brand,B1.search_brand,B1 brand search,83,83,False,False
+2025-03-31,B1,search_brand,B1.search_brand,B1 brand search,55,55,False,False
+2025-04-07,B1,search_brand,B1.search_brand,B1 brand search,58,58,False,False
+2025-04-14,B1,search_brand,B1.search_brand,B1 brand search,78,78,False,False
+2025-04-21,B1,search_brand,B1.search_brand,B1 brand search,51,51,False,False
+2025-04-28,B1,search_brand,B1.search_brand,B1 brand search,69,69,False,False
+2025-05-05,B1,search_brand,B1.search_brand,B1 brand search,57,57,False,False
+2025-05-12,B1,search_brand,B1.search_brand,B1 brand search,56,56,False,False
+2025-05-19,B1,search_brand,B1.search_brand,B1 brand search,72,72,False,False
+2025-05-26,B1,search_brand,B1.search_brand,B1 brand search,67,67,False,False
+2025-06-02,B1,search_brand,B1.search_brand,B1 brand search,54,54,False,False
+2025-06-09,B1,search_brand,B1.search_brand,B1 brand search,47,47,False,False
+2025-06-16,B1,search_brand,B1.search_brand,B1 brand search,58,58,False,False
+2025-06-23,B1,search_brand,B1.search_brand,B1 brand search,52,52,False,False
+2025-06-30,B1,search_brand,B1.search_brand,B1 brand search,49,49,False,False
+2025-07-07,B1,search_brand,B1.search_brand,B1 brand search,53,53,False,False
+2025-07-14,B1,search_brand,B1.search_brand,B1 brand search,33,33,False,False
+2025-07-21,B1,search_brand,B1.search_brand,B1 brand search,50,50,False,False
+2025-07-28,B1,search_brand,B1.search_brand,B1 brand search,51,51,False,False
+2025-08-04,B1,search_brand,B1.search_brand,B1 brand search,75,75,False,False
+2025-08-11,B1,search_brand,B1.search_brand,B1 brand search,73,73,False,False
+2025-08-18,B1,search_brand,B1.search_brand,B1 brand search,83,83,False,False
+2025-08-25,B1,search_brand,B1.search_brand,B1 brand search,69,69,False,False
+2025-09-01,B1,search_brand,B1.search_brand,B1 brand search,54,54,False,False
+2025-09-08,B1,search_brand,B1.search_brand,B1 brand search,61,61,False,False
+2025-09-15,B1,search_brand,B1.search_brand,B1 brand search,76,76,False,False
+2025-09-22,B1,search_brand,B1.search_brand,B1 brand search,65,65,False,False
+2025-09-29,B1,search_brand,B1.search_brand,B1 brand search,89,89,False,False
+2025-10-06,B1,search_brand,B1.search_brand,B1 brand search,68,68,False,False
+2025-10-13,B1,search_brand,B1.search_brand,B1 brand search,82,82,False,False
+2025-10-20,B1,search_brand,B1.search_brand,B1 brand search,71,71,False,False
+2025-10-27,B1,search_brand,B1.search_brand,B1 brand search,54,54,False,False
+2025-11-03,B1,search_brand,B1.search_brand,B1 brand search,65,65,False,False
+2025-11-10,B1,search_brand,B1.search_brand,B1 brand search,78,78,False,False
+2025-11-17,B1,search_brand,B1.search_brand,B1 brand search,62,62,False,False
+2025-11-24,B1,search_brand,B1.search_brand,B1 brand search,116,116,False,False
+2025-12-01,B1,search_brand,B1.search_brand,B1 brand search,44,44,False,False
+2025-12-08,B1,search_brand,B1.search_brand,B1 brand search,56,56,False,False
+2025-12-15,B1,search_brand,B1.search_brand,B1 brand search,60,60,False,False
+2025-12-22,B1,search_brand,B1.search_brand,B1 brand search,77,77,False,False
+2025-12-29,B1,search_brand,B1.search_brand,B1 brand search,91,91,False,False
+2026-01-05,B1,search_brand,B1.search_brand,B1 brand search,76,76,False,False
+2026-01-12,B1,search_brand,B1.search_brand,B1 brand search,85,85,False,False
+2026-01-19,B1,search_brand,B1.search_brand,B1 brand search,99,99,False,False
+2026-01-26,B1,search_brand,B1.search_brand,B1 brand search,88,88,False,False
+2026-02-02,B1,search_brand,B1.search_brand,B1 brand search,110,110,False,False
+2026-02-09,B1,search_brand,B1.search_brand,B1 brand search,72,72,False,False
+2026-02-16,B1,search_brand,B1.search_brand,B1 brand search,68,68,False,False
+2026-02-23,B1,search_brand,B1.search_brand,B1 brand search,92,92,False,False
+2026-03-02,B1,search_brand,B1.search_brand,B1 brand search,80,80,False,False
+2026-03-09,B1,search_brand,B1.search_brand,B1 brand search,72,72,False,False
+2026-03-16,B1,search_brand,B1.search_brand,B1 brand search,62,62,False,False
+2026-03-23,B1,search_brand,B1.search_brand,B1 brand search,64,64,False,False
+2026-03-30,B1,search_brand,B1.search_brand,B1 brand search,76,76,False,False
+2026-04-06,B1,search_brand,B1.search_brand,B1 brand search,91,91,False,False
+2026-04-13,B1,search_brand,B1.search_brand,B1 brand search,69,69,False,False
+2026-04-20,B1,search_brand,B1.search_brand,B1 brand search,75,75,False,False
+2026-04-27,B1,search_brand,B1.search_brand,B1 brand search,66,66,False,False
+2026-05-04,B1,search_brand,B1.search_brand,B1 brand search,57,57,False,False
+2026-05-11,B1,search_brand,B1.search_brand,B1 brand search,60,60,False,False
+2026-05-18,B1,search_brand,B1.search_brand,B1 brand search,53,53,False,False
+2026-05-25,B1,search_brand,B1.search_brand,B1 brand search,50,50,False,False
+2026-06-01,B1,search_brand,B1.search_brand,B1 brand search,54,54,False,False
+2026-06-08,B1,search_brand,B1.search_brand,B1 brand search,46,46,False,False
+2026-06-15,B1,search_brand,B1.search_brand,B1 brand search,61,61,False,False
+2026-06-22,B1,search_brand,B1.search_brand,B1 brand search,55,55,False,False
+2026-06-29,B1,search_brand,B1.search_brand,B1 brand search,52,52,False,False
+2026-07-06,B1,search_brand,B1.search_brand,B1 brand search,69,69,False,False
+2026-07-13,B1,search_brand,B1.search_brand,B1 brand search,29,29,False,False
+2026-07-20,B1,search_brand,B1.search_brand,B1 brand search,59,59,False,False
+2026-07-27,B1,search_brand,B1.search_brand,B1 brand search,53,53,False,False
+2026-08-03,B1,search_brand,B1.search_brand,B1 brand search,56,56,False,False
+2026-08-10,B1,search_brand,B1.search_brand,B1 brand search,71,71,False,False
+2026-08-17,B1,search_brand,B1.search_brand,B1 brand search,59,59,False,False
+2026-08-24,B1,search_brand,B1.search_brand,B1 brand search,61,61,False,False
+2026-08-31,B1,search_brand,B1.search_brand,B1 brand search,72,72,False,False
+2026-09-07,B1,search_brand,B1.search_brand,B1 brand search,65,65,False,False
+2026-09-14,B1,search_brand,B1.search_brand,B1 brand search,58,58,False,False
+2026-09-21,B1,search_brand,B1.search_brand,B1 brand search,49,49,False,False
+2026-09-28,B1,search_brand,B1.search_brand,B1 brand search,59,59,False,False
+2026-10-05,B1,search_brand,B1.search_brand,B1 brand search,87,87,False,False
+2026-10-12,B1,search_brand,B1.search_brand,B1 brand search,74,74,False,False
+2026-10-19,B1,search_brand,B1.search_brand,B1 brand search,51,51,False,False
+2023-10-30,B1,search_generic,B1.search_generic,B1 generic search,145,141,False,False
+2023-11-06,B1,search_generic,B1.search_generic,B1 generic search,122,117,False,False
+2023-11-13,B1,search_generic,B1.search_generic,B1 generic search,148,143,False,False
+2023-11-20,B1,search_generic,B1.search_generic,B1 generic search,114,109,False,False
+2023-11-27,B1,search_generic,B1.search_generic,B1 generic search,120,114,False,False
+2023-12-04,B1,search_generic,B1.search_generic,B1 generic search,130,122,False,False
+2023-12-11,B1,search_generic,B1.search_generic,B1 generic search,84,80,False,False
+2023-12-18,B1,search_generic,B1.search_generic,B1 generic search,161,150,False,False
+2023-12-25,B1,search_generic,B1.search_generic,B1 generic search,164,153,False,False
+2024-01-01,B1,search_generic,B1.search_generic,B1 generic search,128,118,False,False
+2024-01-08,B1,search_generic,B1.search_generic,B1 generic search,202,197,False,False
+2024-01-15,B1,search_generic,B1.search_generic,B1 generic search,144,137,False,False
+2024-01-22,B1,search_generic,B1.search_generic,B1 generic search,187,173,False,False
+2024-01-29,B1,search_generic,B1.search_generic,B1 generic search,118,114,False,False
+2024-02-05,B1,search_generic,B1.search_generic,B1 generic search,172,167,False,False
+2024-02-12,B1,search_generic,B1.search_generic,B1 generic search,131,124,False,False
+2024-02-19,B1,search_generic,B1.search_generic,B1 generic search,212,196,False,False
+2024-02-26,B1,search_generic,B1.search_generic,B1 generic search,203,194,False,False
+2024-03-04,B1,search_generic,B1.search_generic,B1 generic search,177,165,False,False
+2024-03-11,B1,search_generic,B1.search_generic,B1 generic search,153,147,False,False
+2024-03-18,B1,search_generic,B1.search_generic,B1 generic search,157,148,False,False
+2024-03-25,B1,search_generic,B1.search_generic,B1 generic search,150,139,False,False
+2024-04-01,B1,search_generic,B1.search_generic,B1 generic search,154,149,False,False
+2024-04-08,B1,search_generic,B1.search_generic,B1 generic search,145,134,False,False
+2024-04-15,B1,search_generic,B1.search_generic,B1 generic search,154,148,False,False
+2024-04-22,B1,search_generic,B1.search_generic,B1 generic search,149,139,False,False
+2024-04-29,B1,search_generic,B1.search_generic,B1 generic search,106,103,False,False
+2024-05-06,B1,search_generic,B1.search_generic,B1 generic search,142,138,False,False
+2024-05-13,B1,search_generic,B1.search_generic,B1 generic search,100,98,False,False
+2024-05-20,B1,search_generic,B1.search_generic,B1 generic search,144,134,False,False
+2024-05-27,B1,search_generic,B1.search_generic,B1 generic search,158,151,False,False
+2024-06-03,B1,search_generic,B1.search_generic,B1 generic search,137,129,False,False
+2024-06-10,B1,search_generic,B1.search_generic,B1 generic search,94,90,False,False
+2024-06-17,B1,search_generic,B1.search_generic,B1 generic search,123,116,False,False
+2024-06-24,B1,search_generic,B1.search_generic,B1 generic search,118,112,False,False
+2024-07-01,B1,search_generic,B1.search_generic,B1 generic search,72,66,False,False
+2024-07-08,B1,search_generic,B1.search_generic,B1 generic search,88,82,False,False
+2024-07-15,B1,search_generic,B1.search_generic,B1 generic search,108,102,False,False
+2024-07-22,B1,search_generic,B1.search_generic,B1 generic search,83,80,False,False
+2024-07-29,B1,search_generic,B1.search_generic,B1 generic search,99,94,False,False
+2024-08-05,B1,search_generic,B1.search_generic,B1 generic search,98,92,False,False
+2024-08-12,B1,search_generic,B1.search_generic,B1 generic search,86,83,False,False
+2024-08-19,B1,search_generic,B1.search_generic,B1 generic search,118,115,False,False
+2024-08-26,B1,search_generic,B1.search_generic,B1 generic search,113,111,False,False
+2024-09-02,B1,search_generic,B1.search_generic,B1 generic search,114,110,False,False
+2024-09-09,B1,search_generic,B1.search_generic,B1 generic search,90,86,False,False
+2024-09-16,B1,search_generic,B1.search_generic,B1 generic search,112,106,False,False
+2024-09-23,B1,search_generic,B1.search_generic,B1 generic search,165,156,False,False
+2024-09-30,B1,search_generic,B1.search_generic,B1 generic search,123,121,False,False
+2024-10-07,B1,search_generic,B1.search_generic,B1 generic search,118,113,False,False
+2024-10-14,B1,search_generic,B1.search_generic,B1 generic search,156,148,False,False
+2024-10-21,B1,search_generic,B1.search_generic,B1 generic search,113,111,False,False
+2024-10-28,B1,search_generic,B1.search_generic,B1 generic search,183,170,False,False
+2024-11-04,B1,search_generic,B1.search_generic,B1 generic search,86,82,False,False
+2024-11-11,B1,search_generic,B1.search_generic,B1 generic search,144,135,False,False
+2024-11-18,B1,search_generic,B1.search_generic,B1 generic search,103,98,False,False
+2024-11-25,B1,search_generic,B1.search_generic,B1 generic search,132,125,False,False
+2024-12-02,B1,search_generic,B1.search_generic,B1 generic search,102,98,False,False
+2024-12-09,B1,search_generic,B1.search_generic,B1 generic search,113,109,False,False
+2024-12-16,B1,search_generic,B1.search_generic,B1 generic search,98,98,False,False
+2024-12-23,B1,search_generic,B1.search_generic,B1 generic search,121,116,False,False
+2024-12-30,B1,search_generic,B1.search_generic,B1 generic search,137,133,False,False
+2025-01-06,B1,search_generic,B1.search_generic,B1 generic search,231,219,False,False
+2025-01-13,B1,search_generic,B1.search_generic,B1 generic search,165,156,False,False
+2025-01-20,B1,search_generic,B1.search_generic,B1 generic search,129,123,False,False
+2025-01-27,B1,search_generic,B1.search_generic,B1 generic search,121,119,False,False
+2025-02-03,B1,search_generic,B1.search_generic,B1 generic search,139,135,False,False
+2025-02-10,B1,search_generic,B1.search_generic,B1 generic search,145,134,False,False
+2025-02-17,B1,search_generic,B1.search_generic,B1 generic search,201,189,False,False
+2025-02-24,B1,search_generic,B1.search_generic,B1 generic search,239,227,False,False
+2025-03-03,B1,search_generic,B1.search_generic,B1 generic search,117,113,False,False
+2025-03-10,B1,search_generic,B1.search_generic,B1 generic search,142,133,False,False
+2025-03-17,B1,search_generic,B1.search_generic,B1 generic search,130,127,False,False
+2025-03-24,B1,search_generic,B1.search_generic,B1 generic search,140,135,False,False
+2025-03-31,B1,search_generic,B1.search_generic,B1 generic search,180,170,False,False
+2025-04-07,B1,search_generic,B1.search_generic,B1 generic search,127,122,False,False
+2025-04-14,B1,search_generic,B1.search_generic,B1 generic search,127,120,False,False
+2025-04-21,B1,search_generic,B1.search_generic,B1 generic search,100,94,False,False
+2025-04-28,B1,search_generic,B1.search_generic,B1 generic search,86,83,False,False
+2025-05-05,B1,search_generic,B1.search_generic,B1 generic search,88,84,False,False
+2025-05-12,B1,search_generic,B1.search_generic,B1 generic search,93,87,False,False
+2025-05-19,B1,search_generic,B1.search_generic,B1 generic search,111,105,False,False
+2025-05-26,B1,search_generic,B1.search_generic,B1 generic search,117,112,False,False
+2025-06-02,B1,search_generic,B1.search_generic,B1 generic search,80,75,False,False
+2025-06-09,B1,search_generic,B1.search_generic,B1 generic search,72,68,False,False
+2025-06-16,B1,search_generic,B1.search_generic,B1 generic search,63,62,False,False
+2025-06-23,B1,search_generic,B1.search_generic,B1 generic search,112,106,False,False
+2025-06-30,B1,search_generic,B1.search_generic,B1 generic search,80,75,False,False
+2025-07-07,B1,search_generic,B1.search_generic,B1 generic search,110,106,False,False
+2025-07-14,B1,search_generic,B1.search_generic,B1 generic search,88,87,False,False
+2025-07-21,B1,search_generic,B1.search_generic,B1 generic search,102,97,False,False
+2025-07-28,B1,search_generic,B1.search_generic,B1 generic search,94,91,False,False
+2025-08-04,B1,search_generic,B1.search_generic,B1 generic search,97,92,False,False
+2025-08-11,B1,search_generic,B1.search_generic,B1 generic search,83,79,False,False
+2025-08-18,B1,search_generic,B1.search_generic,B1 generic search,119,110,False,False
+2025-08-25,B1,search_generic,B1.search_generic,B1 generic search,74,70,False,False
+2025-09-01,B1,search_generic,B1.search_generic,B1 generic search,81,77,False,False
+2025-09-08,B1,search_generic,B1.search_generic,B1 generic search,98,90,False,False
+2025-09-15,B1,search_generic,B1.search_generic,B1 generic search,137,128,False,False
+2025-09-22,B1,search_generic,B1.search_generic,B1 generic search,98,94,False,False
+2025-09-29,B1,search_generic,B1.search_generic,B1 generic search,157,150,False,False
+2025-10-06,B1,search_generic,B1.search_generic,B1 generic search,104,100,False,False
+2025-10-13,B1,search_generic,B1.search_generic,B1 generic search,107,100,False,False
+2025-10-20,B1,search_generic,B1.search_generic,B1 generic search,155,146,False,False
+2025-10-27,B1,search_generic,B1.search_generic,B1 generic search,169,163,False,False
+2025-11-03,B1,search_generic,B1.search_generic,B1 generic search,145,139,False,False
+2025-11-10,B1,search_generic,B1.search_generic,B1 generic search,97,93,False,False
+2025-11-17,B1,search_generic,B1.search_generic,B1 generic search,122,115,False,False
+2025-11-24,B1,search_generic,B1.search_generic,B1 generic search,124,119,False,False
+2025-12-01,B1,search_generic,B1.search_generic,B1 generic search,83,80,False,False
+2025-12-08,B1,search_generic,B1.search_generic,B1 generic search,110,103,False,False
+2025-12-15,B1,search_generic,B1.search_generic,B1 generic search,85,82,False,False
+2025-12-22,B1,search_generic,B1.search_generic,B1 generic search,0,128,True,False
+2025-12-29,B1,search_generic,B1.search_generic,B1 generic search,179,167,False,False
+2026-01-05,B1,search_generic,B1.search_generic,B1 generic search,129,119,False,False
+2026-01-12,B1,search_generic,B1.search_generic,B1 generic search,177,172,False,False
+2026-01-19,B1,search_generic,B1.search_generic,B1 generic search,188,181,False,False
+2026-01-26,B1,search_generic,B1.search_generic,B1 generic search,173,166,False,False
+2026-02-02,B1,search_generic,B1.search_generic,B1 generic search,215,212,False,False
+2026-02-09,B1,search_generic,B1.search_generic,B1 generic search,284,277,False,False
+2026-02-16,B1,search_generic,B1.search_generic,B1 generic search,180,175,False,False
+2026-02-23,B1,search_generic,B1.search_generic,B1 generic search,151,144,False,False
+2026-03-02,B1,search_generic,B1.search_generic,B1 generic search,91,87,False,False
+2026-03-09,B1,search_generic,B1.search_generic,B1 generic search,135,128,False,False
+2026-03-16,B1,search_generic,B1.search_generic,B1 generic search,156,147,False,False
+2026-03-23,B1,search_generic,B1.search_generic,B1 generic search,113,108,False,False
+2026-03-30,B1,search_generic,B1.search_generic,B1 generic search,194,185,False,False
+2026-04-06,B1,search_generic,B1.search_generic,B1 generic search,80,76,False,False
+2026-04-13,B1,search_generic,B1.search_generic,B1 generic search,95,88,False,False
+2026-04-20,B1,search_generic,B1.search_generic,B1 generic search,119,110,False,False
+2026-04-27,B1,search_generic,B1.search_generic,B1 generic search,145,139,False,False
+2026-05-04,B1,search_generic,B1.search_generic,B1 generic search,98,91,False,False
+2026-05-11,B1,search_generic,B1.search_generic,B1 generic search,141,132,False,False
+2026-05-18,B1,search_generic,B1.search_generic,B1 generic search,58,56,False,False
+2026-05-25,B1,search_generic,B1.search_generic,B1 generic search,79,77,False,False
+2026-06-01,B1,search_generic,B1.search_generic,B1 generic search,69,64,False,False
+2026-06-08,B1,search_generic,B1.search_generic,B1 generic search,58,57,False,False
+2026-06-15,B1,search_generic,B1.search_generic,B1 generic search,108,99,False,False
+2026-06-22,B1,search_generic,B1.search_generic,B1 generic search,68,64,False,False
+2026-06-29,B1,search_generic,B1.search_generic,B1 generic search,74,69,False,False
+2026-07-06,B1,search_generic,B1.search_generic,B1 generic search,66,61,False,False
+2026-07-13,B1,search_generic,B1.search_generic,B1 generic search,74,69,False,False
+2026-07-20,B1,search_generic,B1.search_generic,B1 generic search,160,154,False,False
+2026-07-27,B1,search_generic,B1.search_generic,B1 generic search,77,71,False,False
+2026-08-03,B1,search_generic,B1.search_generic,B1 generic search,135,127,False,False
+2026-08-10,B1,search_generic,B1.search_generic,B1 generic search,106,102,False,False
+2026-08-17,B1,search_generic,B1.search_generic,B1 generic search,99,94,False,False
+2026-08-24,B1,search_generic,B1.search_generic,B1 generic search,96,94,False,False
+2026-08-31,B1,search_generic,B1.search_generic,B1 generic search,173,163,False,False
+2026-09-07,B1,search_generic,B1.search_generic,B1 generic search,126,116,False,False
+2026-09-14,B1,search_generic,B1.search_generic,B1 generic search,61,58,False,False
+2026-09-21,B1,search_generic,B1.search_generic,B1 generic search,156,145,False,False
+2026-09-28,B1,search_generic,B1.search_generic,B1 generic search,156,149,False,False
+2026-10-05,B1,search_generic,B1.search_generic,B1 generic search,224,212,False,False
+2026-10-12,B1,search_generic,B1.search_generic,B1 generic search,103,100,False,False
+2026-10-19,B1,search_generic,B1.search_generic,B1 generic search,162,150,False,False
+2023-10-30,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,132,98,False,False
+2023-11-06,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,184,132,False,False
+2023-11-13,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,167,125,False,False
+2023-11-20,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,200,154,False,False
+2023-11-27,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,161,117,False,False
+2023-12-04,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,255,181,False,False
+2023-12-11,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,240,187,False,False
+2023-12-18,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,168,122,False,False
+2023-12-25,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,181,133,False,False
+2024-01-01,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,273,201,False,False
+2024-01-08,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,362,272,False,False
+2024-01-15,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,212,155,False,False
+2024-01-22,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,304,227,False,False
+2024-01-29,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,220,155,False,False
+2024-02-05,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,226,173,False,False
+2024-02-12,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,162,127,False,False
+2024-02-19,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,259,195,False,False
+2024-02-26,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,172,131,False,False
+2024-03-04,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,246,183,False,False
+2024-03-11,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,219,156,False,False
+2024-03-18,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,216,159,False,False
+2024-03-25,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,248,177,False,False
+2024-04-01,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,249,194,False,False
+2024-04-08,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,170,122,False,False
+2024-04-15,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,249,182,False,False
+2024-04-22,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,187,141,False,False
+2024-04-29,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,160,118,False,False
+2024-05-06,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,160,119,False,False
+2024-05-13,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,177,126,False,False
+2024-05-20,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,216,156,False,False
+2024-05-27,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,206,154,False,False
+2024-06-03,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,169,128,False,False
+2024-06-10,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,134,100,False,False
+2024-06-17,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,191,147,False,False
+2024-06-24,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,180,129,False,False
+2024-07-01,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,110,82,False,False
+2024-07-08,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,142,112,False,False
+2024-07-15,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,158,114,False,False
+2024-07-22,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,109,77,False,False
+2024-07-29,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,162,125,False,False
+2024-08-05,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,139,102,False,False
+2024-08-12,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,181,138,False,False
+2024-08-19,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,168,122,False,False
+2024-08-26,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,112,80,False,False
+2024-09-02,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,254,195,False,False
+2024-09-09,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,166,124,False,False
+2024-09-16,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,180,133,False,False
+2024-09-23,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,194,146,False,False
+2024-09-30,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,150,114,False,False
+2024-10-07,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,176,137,False,False
+2024-10-14,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,261,199,False,False
+2024-10-21,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,250,192,False,False
+2024-10-28,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,189,139,False,False
+2024-11-04,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,214,156,False,False
+2024-11-11,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,164,122,False,False
+2024-11-18,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,208,155,False,False
+2024-11-25,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,203,152,False,False
+2024-12-02,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,201,150,False,False
+2024-12-09,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,141,108,False,False
+2024-12-16,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,196,139,False,False
+2024-12-23,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,261,192,False,False
+2024-12-30,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,297,221,False,False
+2025-01-06,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,411,296,False,False
+2025-01-13,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,471,356,False,False
+2025-01-20,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,425,304,False,False
+2025-01-27,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,306,226,False,False
+2025-02-03,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,312,224,False,False
+2025-02-10,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,227,167,False,False
+2025-02-17,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,181,140,False,False
+2025-02-24,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,280,201,False,False
+2025-03-03,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,273,213,False,False
+2025-03-10,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,305,225,False,False
+2025-03-17,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,202,153,False,False
+2025-03-24,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,252,187,False,False
+2025-03-31,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,402,292,False,False
+2025-04-07,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,358,263,False,False
+2025-04-14,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,211,152,False,False
+2025-04-21,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,293,221,False,False
+2025-04-28,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,253,182,False,False
+2025-05-05,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,218,170,False,False
+2025-05-12,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,248,185,False,False
+2025-05-19,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,216,158,False,False
+2025-05-26,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,199,144,False,False
+2025-06-02,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,162,120,False,False
+2025-06-09,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,176,138,False,False
+2025-06-16,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,218,155,False,False
+2025-06-23,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,183,145,False,False
+2025-06-30,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,125,87,False,False
+2025-07-07,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,188,132,False,False
+2025-07-14,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,97,74,False,False
+2025-07-21,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,165,166,False,True
+2025-07-28,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,62,63,False,True
+2025-08-04,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,72,74,False,True
+2025-08-11,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,95,95,False,True
+2025-08-18,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,121,127,False,True
+2025-08-25,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,118,118,False,True
+2025-09-01,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,163,165,False,True
+2025-09-08,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,193,205,False,True
+2025-09-15,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,158,160,False,True
+2025-09-22,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,100,109,False,True
+2025-09-29,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,191,199,False,True
+2025-10-06,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,192,189,False,True
+2025-10-13,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,183,189,False,True
+2025-10-20,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,157,163,False,True
+2025-10-27,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,146,153,False,True
+2025-11-03,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,198,207,False,True
+2025-11-10,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,171,168,False,True
+2025-11-17,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,89,98,False,True
+2025-11-24,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,91,99,False,True
+2025-12-01,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,96,107,False,True
+2025-12-08,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,152,138,False,True
+2025-12-15,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,143,146,False,True
+2025-12-22,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,129,127,False,True
+2025-12-29,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,229,256,False,True
+2026-01-05,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,207,223,False,True
+2026-01-12,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,222,220,False,True
+2026-01-19,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,174,179,False,True
+2026-01-26,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,225,235,False,True
+2026-02-02,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,261,268,False,True
+2026-02-09,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,144,142,False,True
+2026-02-16,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,190,195,False,True
+2026-02-23,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,165,192,False,True
+2026-03-02,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,229,240,False,True
+2026-03-09,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,134,132,False,True
+2026-03-16,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,186,199,False,True
+2026-03-23,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,113,115,False,True
+2026-03-30,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,104,109,False,True
+2026-04-06,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,212,207,False,True
+2026-04-13,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,139,137,False,True
+2026-04-20,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,180,185,False,True
+2026-04-27,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,84,81,False,True
+2026-05-04,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,85,87,False,True
+2026-05-11,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,166,174,False,True
+2026-05-18,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,112,126,False,True
+2026-05-25,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,105,123,False,True
+2026-06-01,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,152,163,False,True
+2026-06-08,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,92,91,False,True
+2026-06-15,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,83,95,False,True
+2026-06-22,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,85,95,False,True
+2026-06-29,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,58,57,False,True
+2026-07-06,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,74,91,False,True
+2026-07-13,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,104,110,False,True
+2026-07-20,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,111,111,False,True
+2026-07-27,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,130,135,False,True
+2026-08-03,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,88,88,False,True
+2026-08-10,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,70,75,False,True
+2026-08-17,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,89,91,False,True
+2026-08-24,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,70,77,False,True
+2026-08-31,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,101,110,False,True
+2026-09-07,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,90,85,False,True
+2026-09-14,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,98,115,False,True
+2026-09-21,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,93,101,False,True
+2026-09-28,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,139,148,False,True
+2026-10-05,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,84,94,False,True
+2026-10-12,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,112,115,False,True
+2026-10-19,B1,social_prospecting,B1.social_prospecting,B1 social prospecting,127,146,False,True
+2023-10-30,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2023-11-06,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2023-11-13,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2023-11-20,B2,linkedin,B2.linkedin,B2 LinkedIn,3,3,False,False
+2023-11-27,B2,linkedin,B2.linkedin,B2 LinkedIn,6,4,False,False
+2023-12-04,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2023-12-11,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2023-12-18,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2023-12-25,B2,linkedin,B2.linkedin,B2 LinkedIn,4,3,False,False
+2024-01-01,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2024-01-08,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-01-15,B2,linkedin,B2.linkedin,B2 LinkedIn,5,4,False,False
+2024-01-22,B2,linkedin,B2.linkedin,B2 LinkedIn,5,4,False,False
+2024-01-29,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-02-05,B2,linkedin,B2.linkedin,B2 LinkedIn,3,3,False,False
+2024-02-12,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2024-02-19,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-02-26,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-03-04,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-03-11,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-03-18,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-03-25,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2024-04-01,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-04-08,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2024-04-15,B2,linkedin,B2.linkedin,B2 LinkedIn,3,2,False,False
+2024-04-22,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-04-29,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-05-06,B2,linkedin,B2.linkedin,B2 LinkedIn,5,2,False,False
+2024-05-13,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-05-20,B2,linkedin,B2.linkedin,B2 LinkedIn,5,4,False,False
+2024-05-27,B2,linkedin,B2.linkedin,B2 LinkedIn,4,4,False,False
+2024-06-03,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-06-10,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-06-17,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2024-06-24,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-07-01,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-07-08,B2,linkedin,B2.linkedin,B2 LinkedIn,3,2,False,False
+2024-07-15,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-07-22,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-07-29,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-08-05,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-08-12,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-08-19,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-08-26,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-09-02,B2,linkedin,B2.linkedin,B2 LinkedIn,3,3,False,False
+2024-09-09,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-09-16,B2,linkedin,B2.linkedin,B2 LinkedIn,4,3,False,False
+2024-09-23,B2,linkedin,B2.linkedin,B2 LinkedIn,4,4,False,False
+2024-09-30,B2,linkedin,B2.linkedin,B2 LinkedIn,3,3,False,False
+2024-10-07,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2024-10-14,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2024-10-21,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-10-28,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2024-11-04,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-11-11,B2,linkedin,B2.linkedin,B2 LinkedIn,4,3,False,False
+2024-11-18,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-11-25,B2,linkedin,B2.linkedin,B2 LinkedIn,5,3,False,False
+2024-12-02,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2024-12-09,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-12-16,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2024-12-23,B2,linkedin,B2.linkedin,B2 LinkedIn,4,2,False,False
+2024-12-30,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2025-01-06,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2025-01-13,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2025-01-20,B2,linkedin,B2.linkedin,B2 LinkedIn,5,4,False,False
+2025-01-27,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2025-02-03,B2,linkedin,B2.linkedin,B2 LinkedIn,6,4,False,False
+2025-02-10,B2,linkedin,B2.linkedin,B2 LinkedIn,3,1,False,False
+2025-02-17,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2025-02-24,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2025-03-03,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2025-03-10,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2025-03-17,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2025-03-24,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2025-03-31,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2025-04-07,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2025-04-14,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2025-04-21,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2025-04-28,B2,linkedin,B2.linkedin,B2 LinkedIn,3,2,False,False
+2025-05-05,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2025-05-12,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2025-05-19,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2025-05-26,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2025-06-02,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2025-06-09,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2025-06-16,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2025-06-23,B2,linkedin,B2.linkedin,B2 LinkedIn,6,5,False,False
+2025-06-30,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2025-07-07,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2025-07-14,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2025-07-21,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2025-07-28,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2025-08-04,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2025-08-11,B2,linkedin,B2.linkedin,B2 LinkedIn,4,2,False,False
+2025-08-18,B2,linkedin,B2.linkedin,B2 LinkedIn,3,2,False,False
+2025-08-25,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2025-09-01,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2025-09-08,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2025-09-15,B2,linkedin,B2.linkedin,B2 LinkedIn,3,2,False,False
+2025-09-22,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2025-09-29,B2,linkedin,B2.linkedin,B2 LinkedIn,3,2,False,False
+2025-10-06,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2025-10-13,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2025-10-20,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2025-10-27,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2025-11-03,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2025-11-10,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2025-11-17,B2,linkedin,B2.linkedin,B2 LinkedIn,3,1,False,False
+2025-11-24,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2025-12-01,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2025-12-08,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2025-12-15,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2025-12-22,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2025-12-29,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2026-01-05,B2,linkedin,B2.linkedin,B2 LinkedIn,4,4,False,False
+2026-01-12,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2026-01-19,B2,linkedin,B2.linkedin,B2 LinkedIn,4,4,False,False
+2026-01-26,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2026-02-02,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2026-02-09,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2026-02-16,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2026-02-23,B2,linkedin,B2.linkedin,B2 LinkedIn,4,4,False,False
+2026-03-02,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2026-03-09,B2,linkedin,B2.linkedin,B2 LinkedIn,4,4,False,False
+2026-03-16,B2,linkedin,B2.linkedin,B2 LinkedIn,5,2,False,False
+2026-03-23,B2,linkedin,B2.linkedin,B2 LinkedIn,6,5,False,False
+2026-03-30,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2026-04-06,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2026-04-13,B2,linkedin,B2.linkedin,B2 LinkedIn,5,5,False,False
+2026-04-20,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2026-04-27,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2026-05-04,B2,linkedin,B2.linkedin,B2 LinkedIn,3,3,False,False
+2026-05-11,B2,linkedin,B2.linkedin,B2 LinkedIn,3,2,False,False
+2026-05-18,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2026-05-25,B2,linkedin,B2.linkedin,B2 LinkedIn,5,4,False,False
+2026-06-01,B2,linkedin,B2.linkedin,B2 LinkedIn,9,6,False,False
+2026-06-08,B2,linkedin,B2.linkedin,B2 LinkedIn,3,2,False,False
+2026-06-15,B2,linkedin,B2.linkedin,B2 LinkedIn,3,3,False,False
+2026-06-22,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2026-06-29,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2026-07-06,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2026-07-13,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2026-07-20,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2026-07-27,B2,linkedin,B2.linkedin,B2 LinkedIn,4,3,False,False
+2026-08-03,B2,linkedin,B2.linkedin,B2 LinkedIn,3,2,False,False
+2026-08-10,B2,linkedin,B2.linkedin,B2 LinkedIn,0,0,False,False
+2026-08-17,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2026-08-24,B2,linkedin,B2.linkedin,B2 LinkedIn,2,2,False,False
+2026-08-31,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2026-09-07,B2,linkedin,B2.linkedin,B2 LinkedIn,7,5,False,False
+2026-09-14,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2026-09-21,B2,linkedin,B2.linkedin,B2 LinkedIn,5,4,False,False
+2026-09-28,B2,linkedin,B2.linkedin,B2 LinkedIn,1,1,False,False
+2026-10-05,B2,linkedin,B2.linkedin,B2 LinkedIn,9,4,False,False
+2026-10-12,B2,linkedin,B2.linkedin,B2 LinkedIn,4,2,False,False
+2026-10-19,B2,linkedin,B2.linkedin,B2 LinkedIn,2,1,False,False
+2023-10-30,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2023-11-06,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2023-11-13,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2023-11-20,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2023-11-27,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2023-12-04,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2023-12-11,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2023-12-18,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2023-12-25,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-01-01,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-01-08,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,3,1,False,False
+2024-01-15,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-01-22,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-01-29,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,1,False,False
+2024-02-05,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-02-12,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2024-02-19,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2024-02-26,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,2,False,False
+2024-03-04,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,2,False,False
+2024-03-11,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-03-18,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2024-03-25,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,1,False,False
+2024-04-01,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2024-04-08,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,1,False,False
+2024-04-15,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-04-22,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-04-29,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-05-06,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2024-05-13,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,4,2,False,False
+2024-05-20,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,2,False,False
+2024-05-27,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-06-03,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-06-10,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-06-17,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-06-24,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-07-01,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-07-08,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-07-15,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2024-07-22,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-07-29,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-08-05,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-08-12,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-08-19,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2024-08-26,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2024-09-02,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-09-09,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-09-16,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2024-09-23,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,3,1,False,False
+2024-09-30,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-10-07,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,1,False,False
+2024-10-14,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-10-21,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2024-10-28,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-11-04,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-11-11,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2024-11-18,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2024-11-25,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-12-02,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-12-09,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-12-16,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-12-23,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2024-12-30,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,3,2,False,False
+2025-01-06,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-01-13,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,4,2,False,False
+2025-01-20,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-01-27,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,2,False,False
+2025-02-03,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-02-10,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-02-17,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-02-24,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-03-03,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-03-10,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-03-17,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-03-24,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-03-31,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-04-07,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,3,3,False,False
+2025-04-14,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-04-21,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-04-28,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-05-05,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-05-12,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,1,False,False
+2025-05-19,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,3,2,False,False
+2025-05-26,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-06-02,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,1,False,False
+2025-06-09,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,2,False,False
+2025-06-16,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-06-23,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-06-30,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-07-07,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-07-14,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-07-21,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-07-28,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-08-04,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-08-11,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2025-08-18,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-08-25,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2025-09-01,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2025-09-08,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2025-09-15,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-09-22,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,4,2,False,False
+2025-09-29,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,1,False,False
+2025-10-06,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-10-13,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-10-20,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-10-27,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-11-03,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-11-10,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-11-17,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2025-11-24,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-12-01,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-12-08,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-12-15,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-12-22,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2025-12-29,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2026-01-05,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,1,False,False
+2026-01-12,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-01-19,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,1,False,False
+2026-01-26,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,1,False,False
+2026-02-02,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-02-09,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,3,2,False,False
+2026-02-16,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-02-23,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,4,1,False,False
+2026-03-02,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-03-09,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,1,False,False
+2026-03-16,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-03-23,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-03-30,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-04-06,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,2,False,False
+2026-04-13,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-04-20,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,1,False,False
+2026-04-27,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-05-04,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2026-05-11,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-05-18,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-05-25,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2026-06-01,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2026-06-08,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-06-15,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-06-22,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,2,False,False
+2026-06-29,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-07-06,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,5,2,False,False
+2026-07-13,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2026-07-20,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-07-27,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-08-03,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-08-10,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,2,1,False,False
+2026-08-17,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-08-24,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-08-31,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-09-07,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,1,1,False,False
+2026-09-14,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-09-21,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-09-28,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-10-05,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2026-10-12,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,4,2,False,False
+2026-10-19,B2,programmatic_display,B2.programmatic_display,B2 programmatic display,0,0,False,False
+2023-10-30,B2,review_sites,B2.review_sites,B2 review sites,2,1,False,False
+2023-11-06,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2023-11-13,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2023-11-20,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2023-11-27,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2023-12-04,B2,review_sites,B2.review_sites,B2 review sites,4,3,False,False
+2023-12-11,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2023-12-18,B2,review_sites,B2.review_sites,B2 review sites,3,2,False,False
+2023-12-25,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-01-01,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-01-08,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-01-15,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-01-22,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2024-01-29,B2,review_sites,B2.review_sites,B2 review sites,3,2,False,False
+2024-02-05,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-02-12,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-02-19,B2,review_sites,B2.review_sites,B2 review sites,3,2,False,False
+2024-02-26,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-03-04,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-03-11,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-03-18,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2024-03-25,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-04-01,B2,review_sites,B2.review_sites,B2 review sites,7,5,False,False
+2024-04-08,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2024-04-15,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2024-04-22,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-04-29,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-05-06,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2024-05-13,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2024-05-20,B2,review_sites,B2.review_sites,B2 review sites,5,4,False,False
+2024-05-27,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-06-03,B2,review_sites,B2.review_sites,B2 review sites,4,3,False,False
+2024-06-10,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-06-17,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2024-06-24,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-07-01,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-07-08,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-07-15,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-07-22,B2,review_sites,B2.review_sites,B2 review sites,4,4,False,False
+2024-07-29,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-08-05,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2024-08-12,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-08-19,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-08-26,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-09-02,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-09-09,B2,review_sites,B2.review_sites,B2 review sites,3,2,False,False
+2024-09-16,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2024-09-23,B2,review_sites,B2.review_sites,B2 review sites,5,4,False,False
+2024-09-30,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2024-10-07,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-10-14,B2,review_sites,B2.review_sites,B2 review sites,6,3,False,False
+2024-10-21,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-10-28,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-11-04,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2024-11-11,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2024-11-18,B2,review_sites,B2.review_sites,B2 review sites,5,4,False,False
+2024-11-25,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2024-12-02,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2024-12-09,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2024-12-16,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2024-12-23,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2024-12-30,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-01-06,B2,review_sites,B2.review_sites,B2 review sites,5,5,False,False
+2025-01-13,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-01-20,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-01-27,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2025-02-03,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2025-02-10,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2025-02-17,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-02-24,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2025-03-03,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-03-10,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-03-17,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-03-24,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-03-31,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-04-07,B2,review_sites,B2.review_sites,B2 review sites,8,5,False,False
+2025-04-14,B2,review_sites,B2.review_sites,B2 review sites,7,5,False,False
+2025-04-21,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2025-04-28,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2025-05-05,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2025-05-12,B2,review_sites,B2.review_sites,B2 review sites,2,1,False,False
+2025-05-19,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2025-05-26,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-06-02,B2,review_sites,B2.review_sites,B2 review sites,3,2,False,False
+2025-06-09,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-06-16,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2025-06-23,B2,review_sites,B2.review_sites,B2 review sites,2,1,False,False
+2025-06-30,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-07-07,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-07-14,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-07-21,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2025-07-28,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-08-04,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2025-08-11,B2,review_sites,B2.review_sites,B2 review sites,4,3,False,False
+2025-08-18,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2025-08-25,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2025-09-01,B2,review_sites,B2.review_sites,B2 review sites,2,1,False,False
+2025-09-08,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2025-09-15,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-09-22,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2025-09-29,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2025-10-06,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2025-10-13,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2025-10-20,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2025-10-27,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2025-11-03,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2025-11-10,B2,review_sites,B2.review_sites,B2 review sites,6,5,False,False
+2025-11-17,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2025-11-24,B2,review_sites,B2.review_sites,B2 review sites,4,3,False,False
+2025-12-01,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2025-12-08,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2025-12-15,B2,review_sites,B2.review_sites,B2 review sites,4,2,False,False
+2025-12-22,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2025-12-29,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2026-01-05,B2,review_sites,B2.review_sites,B2 review sites,4,4,False,False
+2026-01-12,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2026-01-19,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2026-01-26,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2026-02-02,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2026-02-09,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2026-02-16,B2,review_sites,B2.review_sites,B2 review sites,4,3,False,False
+2026-02-23,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2026-03-02,B2,review_sites,B2.review_sites,B2 review sites,5,5,False,False
+2026-03-09,B2,review_sites,B2.review_sites,B2 review sites,8,7,False,False
+2026-03-16,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2026-03-23,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2026-03-30,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2026-04-06,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2026-04-13,B2,review_sites,B2.review_sites,B2 review sites,7,7,False,False
+2026-04-20,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2026-04-27,B2,review_sites,B2.review_sites,B2 review sites,4,3,False,False
+2026-05-04,B2,review_sites,B2.review_sites,B2 review sites,4,3,False,False
+2026-05-11,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2026-05-18,B2,review_sites,B2.review_sites,B2 review sites,4,3,False,False
+2026-05-25,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2026-06-01,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2026-06-08,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2026-06-15,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2026-06-22,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2026-06-29,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2026-07-06,B2,review_sites,B2.review_sites,B2 review sites,3,2,False,False
+2026-07-13,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2026-07-20,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2026-07-27,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2026-08-03,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2026-08-10,B2,review_sites,B2.review_sites,B2 review sites,2,1,False,False
+2026-08-17,B2,review_sites,B2.review_sites,B2 review sites,0,0,False,False
+2026-08-24,B2,review_sites,B2.review_sites,B2 review sites,3,2,False,False
+2026-08-31,B2,review_sites,B2.review_sites,B2 review sites,2,2,False,False
+2026-09-07,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2026-09-14,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2026-09-21,B2,review_sites,B2.review_sites,B2 review sites,1,1,False,False
+2026-09-28,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2026-10-05,B2,review_sites,B2.review_sites,B2 review sites,5,4,False,False
+2026-10-12,B2,review_sites,B2.review_sites,B2 review sites,4,3,False,False
+2026-10-19,B2,review_sites,B2.review_sites,B2 review sites,3,3,False,False
+2023-10-30,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2023-11-06,B2,search_generic,B2.search_generic,B2 generic search,4,4,False,False
+2023-11-13,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2023-11-20,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2023-11-27,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2023-12-04,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2023-12-11,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2023-12-18,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2023-12-25,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-01-01,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-01-08,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-01-15,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2024-01-22,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-01-29,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-02-05,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-02-12,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-02-19,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-02-26,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2024-03-04,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2024-03-11,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2024-03-18,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2024-03-25,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-04-01,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-04-08,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2024-04-15,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-04-22,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-04-29,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2024-05-06,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-05-13,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2024-05-20,B2,search_generic,B2.search_generic,B2 generic search,4,4,False,False
+2024-05-27,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-06-03,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-06-10,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2024-06-17,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-06-24,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2024-07-01,B2,search_generic,B2.search_generic,B2 generic search,2,1,False,False
+2024-07-08,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-07-15,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-07-22,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-07-29,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-08-05,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2024-08-12,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-08-19,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-08-26,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-09-02,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-09-09,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-09-16,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-09-23,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2024-09-30,B2,search_generic,B2.search_generic,B2 generic search,6,5,False,False
+2024-10-07,B2,search_generic,B2.search_generic,B2 generic search,5,5,False,False
+2024-10-14,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2024-10-21,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2024-10-28,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-11-04,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-11-11,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-11-18,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2024-11-25,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-12-02,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-12-09,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2024-12-16,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-12-23,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2024-12-30,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-01-06,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2025-01-13,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-01-20,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2025-01-27,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2025-02-03,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-02-10,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2025-02-17,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2025-02-24,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-03-03,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-03-10,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2025-03-17,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-03-24,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2025-03-31,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-04-07,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2025-04-14,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-04-21,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2025-04-28,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2025-05-05,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2025-05-12,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2025-05-19,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2025-05-26,B2,search_generic,B2.search_generic,B2 generic search,5,4,False,False
+2025-06-02,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2025-06-09,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-06-16,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-06-23,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2025-06-30,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2025-07-07,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2025-07-14,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-07-21,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-07-28,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2025-08-04,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-08-11,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2025-08-18,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2025-08-25,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-09-01,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-09-08,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-09-15,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-09-22,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-09-29,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2025-10-06,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2025-10-13,B2,search_generic,B2.search_generic,B2 generic search,4,3,False,False
+2025-10-20,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2025-10-27,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-11-03,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-11-10,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2025-11-17,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2025-11-24,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2025-12-01,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2025-12-08,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2025-12-15,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2025-12-22,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2025-12-29,B2,search_generic,B2.search_generic,B2 generic search,5,5,False,False
+2026-01-05,B2,search_generic,B2.search_generic,B2 generic search,7,6,False,False
+2026-01-12,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2026-01-19,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2026-01-26,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2026-02-02,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2026-02-09,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2026-02-16,B2,search_generic,B2.search_generic,B2 generic search,4,4,False,False
+2026-02-23,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2026-03-02,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2026-03-09,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2026-03-16,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2026-03-23,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2026-03-30,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2026-04-06,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2026-04-13,B2,search_generic,B2.search_generic,B2 generic search,4,4,False,False
+2026-04-20,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2026-04-27,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2026-05-04,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2026-05-11,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2026-05-18,B2,search_generic,B2.search_generic,B2 generic search,2,1,False,False
+2026-05-25,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2026-06-01,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2026-06-08,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2026-06-15,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2026-06-22,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2026-06-29,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2026-07-06,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2026-07-13,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2026-07-20,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2026-07-27,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2026-08-03,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2026-08-10,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2026-08-17,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2026-08-24,B2,search_generic,B2.search_generic,B2 generic search,2,1,False,False
+2026-08-31,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2026-09-07,B2,search_generic,B2.search_generic,B2 generic search,0,0,False,False
+2026-09-14,B2,search_generic,B2.search_generic,B2 generic search,5,4,False,False
+2026-09-21,B2,search_generic,B2.search_generic,B2 generic search,3,3,False,False
+2026-09-28,B2,search_generic,B2.search_generic,B2 generic search,2,2,False,False
+2026-10-05,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2026-10-12,B2,search_generic,B2.search_generic,B2 generic search,4,4,False,False
+2026-10-19,B2,search_generic,B2.search_generic,B2 generic search,1,1,False,False
+2023-10-30,B3,affiliates,B3.affiliates,B3 affiliates,23,21,False,False
+2023-11-06,B3,affiliates,B3.affiliates,B3 affiliates,28,24,False,False
+2023-11-13,B3,affiliates,B3.affiliates,B3 affiliates,20,19,False,False
+2023-11-20,B3,affiliates,B3.affiliates,B3 affiliates,30,29,False,False
+2023-11-27,B3,affiliates,B3.affiliates,B3 affiliates,34,30,False,False
+2023-12-04,B3,affiliates,B3.affiliates,B3 affiliates,37,35,False,False
+2023-12-11,B3,affiliates,B3.affiliates,B3 affiliates,29,28,False,False
+2023-12-18,B3,affiliates,B3.affiliates,B3 affiliates,27,25,False,False
+2023-12-25,B3,affiliates,B3.affiliates,B3 affiliates,34,33,False,False
+2024-01-01,B3,affiliates,B3.affiliates,B3 affiliates,20,15,False,False
+2024-01-08,B3,affiliates,B3.affiliates,B3 affiliates,19,17,False,False
+2024-01-15,B3,affiliates,B3.affiliates,B3 affiliates,15,14,False,False
+2024-01-22,B3,affiliates,B3.affiliates,B3 affiliates,27,25,False,False
+2024-01-29,B3,affiliates,B3.affiliates,B3 affiliates,15,13,False,False
+2024-02-05,B3,affiliates,B3.affiliates,B3 affiliates,15,14,False,False
+2024-02-12,B3,affiliates,B3.affiliates,B3 affiliates,14,14,False,False
+2024-02-19,B3,affiliates,B3.affiliates,B3 affiliates,18,17,False,False
+2024-02-26,B3,affiliates,B3.affiliates,B3 affiliates,17,14,False,False
+2024-03-04,B3,affiliates,B3.affiliates,B3 affiliates,22,21,False,False
+2024-03-11,B3,affiliates,B3.affiliates,B3 affiliates,15,15,False,False
+2024-03-18,B3,affiliates,B3.affiliates,B3 affiliates,25,24,False,False
+2024-03-25,B3,affiliates,B3.affiliates,B3 affiliates,30,29,False,False
+2024-04-01,B3,affiliates,B3.affiliates,B3 affiliates,17,17,False,False
+2024-04-08,B3,affiliates,B3.affiliates,B3 affiliates,15,13,False,False
+2024-04-15,B3,affiliates,B3.affiliates,B3 affiliates,22,20,False,False
+2024-04-22,B3,affiliates,B3.affiliates,B3 affiliates,13,13,False,False
+2024-04-29,B3,affiliates,B3.affiliates,B3 affiliates,27,23,False,False
+2024-05-06,B3,affiliates,B3.affiliates,B3 affiliates,23,21,False,False
+2024-05-13,B3,affiliates,B3.affiliates,B3 affiliates,23,21,False,False
+2024-05-20,B3,affiliates,B3.affiliates,B3 affiliates,29,29,False,False
+2024-05-27,B3,affiliates,B3.affiliates,B3 affiliates,28,23,False,False
+2024-06-03,B3,affiliates,B3.affiliates,B3 affiliates,26,22,False,False
+2024-06-10,B3,affiliates,B3.affiliates,B3 affiliates,32,28,False,False
+2024-06-17,B3,affiliates,B3.affiliates,B3 affiliates,22,22,False,False
+2024-06-24,B3,affiliates,B3.affiliates,B3 affiliates,16,16,False,False
+2024-07-01,B3,affiliates,B3.affiliates,B3 affiliates,28,26,False,False
+2024-07-08,B3,affiliates,B3.affiliates,B3 affiliates,31,29,False,False
+2024-07-15,B3,affiliates,B3.affiliates,B3 affiliates,25,23,False,False
+2024-07-22,B3,affiliates,B3.affiliates,B3 affiliates,22,18,False,False
+2024-07-29,B3,affiliates,B3.affiliates,B3 affiliates,28,25,False,False
+2024-08-05,B3,affiliates,B3.affiliates,B3 affiliates,25,21,False,False
+2024-08-12,B3,affiliates,B3.affiliates,B3 affiliates,32,30,False,False
+2024-08-19,B3,affiliates,B3.affiliates,B3 affiliates,24,22,False,False
+2024-08-26,B3,affiliates,B3.affiliates,B3 affiliates,33,28,False,False
+2024-09-02,B3,affiliates,B3.affiliates,B3 affiliates,24,22,False,False
+2024-09-09,B3,affiliates,B3.affiliates,B3 affiliates,25,23,False,False
+2024-09-16,B3,affiliates,B3.affiliates,B3 affiliates,23,20,False,False
+2024-09-23,B3,affiliates,B3.affiliates,B3 affiliates,20,18,False,False
+2024-09-30,B3,affiliates,B3.affiliates,B3 affiliates,27,26,False,False
+2024-10-07,B3,affiliates,B3.affiliates,B3 affiliates,22,19,False,False
+2024-10-14,B3,affiliates,B3.affiliates,B3 affiliates,22,22,False,False
+2024-10-21,B3,affiliates,B3.affiliates,B3 affiliates,20,18,False,False
+2024-10-28,B3,affiliates,B3.affiliates,B3 affiliates,24,20,False,False
+2024-11-04,B3,affiliates,B3.affiliates,B3 affiliates,55,50,False,False
+2024-11-11,B3,affiliates,B3.affiliates,B3 affiliates,25,23,False,False
+2024-11-18,B3,affiliates,B3.affiliates,B3 affiliates,35,32,False,False
+2024-11-25,B3,affiliates,B3.affiliates,B3 affiliates,37,32,False,False
+2024-12-02,B3,affiliates,B3.affiliates,B3 affiliates,38,31,False,False
+2024-12-09,B3,affiliates,B3.affiliates,B3 affiliates,29,27,False,False
+2024-12-16,B3,affiliates,B3.affiliates,B3 affiliates,26,25,False,False
+2024-12-23,B3,affiliates,B3.affiliates,B3 affiliates,34,32,False,False
+2024-12-30,B3,affiliates,B3.affiliates,B3 affiliates,20,19,False,False
+2025-01-06,B3,affiliates,B3.affiliates,B3 affiliates,15,12,False,False
+2025-01-13,B3,affiliates,B3.affiliates,B3 affiliates,12,11,False,False
+2025-01-20,B3,affiliates,B3.affiliates,B3 affiliates,19,16,False,False
+2025-01-27,B3,affiliates,B3.affiliates,B3 affiliates,18,17,False,False
+2025-02-03,B3,affiliates,B3.affiliates,B3 affiliates,14,12,False,False
+2025-02-10,B3,affiliates,B3.affiliates,B3 affiliates,19,17,False,False
+2025-02-17,B3,affiliates,B3.affiliates,B3 affiliates,17,17,False,False
+2025-02-24,B3,affiliates,B3.affiliates,B3 affiliates,8,8,False,False
+2025-03-03,B3,affiliates,B3.affiliates,B3 affiliates,12,11,False,False
+2025-03-10,B3,affiliates,B3.affiliates,B3 affiliates,32,29,False,False
+2025-03-17,B3,affiliates,B3.affiliates,B3 affiliates,23,20,False,False
+2025-03-24,B3,affiliates,B3.affiliates,B3 affiliates,29,28,False,False
+2025-03-31,B3,affiliates,B3.affiliates,B3 affiliates,19,19,False,False
+2025-04-07,B3,affiliates,B3.affiliates,B3 affiliates,22,22,False,False
+2025-04-14,B3,affiliates,B3.affiliates,B3 affiliates,31,29,False,False
+2025-04-21,B3,affiliates,B3.affiliates,B3 affiliates,38,37,False,False
+2025-04-28,B3,affiliates,B3.affiliates,B3 affiliates,30,27,False,False
+2025-05-05,B3,affiliates,B3.affiliates,B3 affiliates,21,18,False,False
+2025-05-12,B3,affiliates,B3.affiliates,B3 affiliates,29,23,False,False
+2025-05-19,B3,affiliates,B3.affiliates,B3 affiliates,24,23,False,False
+2025-05-26,B3,affiliates,B3.affiliates,B3 affiliates,28,24,False,False
+2025-06-02,B3,affiliates,B3.affiliates,B3 affiliates,37,34,False,False
+2025-06-09,B3,affiliates,B3.affiliates,B3 affiliates,30,27,False,False
+2025-06-16,B3,affiliates,B3.affiliates,B3 affiliates,25,22,False,False
+2025-06-23,B3,affiliates,B3.affiliates,B3 affiliates,28,26,False,False
+2025-06-30,B3,affiliates,B3.affiliates,B3 affiliates,21,20,False,False
+2025-07-07,B3,affiliates,B3.affiliates,B3 affiliates,26,26,False,False
+2025-07-14,B3,affiliates,B3.affiliates,B3 affiliates,13,12,False,False
+2025-07-21,B3,affiliates,B3.affiliates,B3 affiliates,28,22,False,False
+2025-07-28,B3,affiliates,B3.affiliates,B3 affiliates,22,21,False,False
+2025-08-04,B3,affiliates,B3.affiliates,B3 affiliates,27,26,False,False
+2025-08-11,B3,affiliates,B3.affiliates,B3 affiliates,27,23,False,False
+2025-08-18,B3,affiliates,B3.affiliates,B3 affiliates,20,18,False,False
+2025-08-25,B3,affiliates,B3.affiliates,B3 affiliates,24,23,False,False
+2025-09-01,B3,affiliates,B3.affiliates,B3 affiliates,18,17,False,False
+2025-09-08,B3,affiliates,B3.affiliates,B3 affiliates,25,24,False,False
+2025-09-15,B3,affiliates,B3.affiliates,B3 affiliates,18,16,False,False
+2025-09-22,B3,affiliates,B3.affiliates,B3 affiliates,18,15,False,False
+2025-09-29,B3,affiliates,B3.affiliates,B3 affiliates,12,12,False,False
+2025-10-06,B3,affiliates,B3.affiliates,B3 affiliates,31,23,False,False
+2025-10-13,B3,affiliates,B3.affiliates,B3 affiliates,36,33,False,False
+2025-10-20,B3,affiliates,B3.affiliates,B3 affiliates,19,17,False,False
+2025-10-27,B3,affiliates,B3.affiliates,B3 affiliates,23,21,False,False
+2025-11-03,B3,affiliates,B3.affiliates,B3 affiliates,47,44,False,False
+2025-11-10,B3,affiliates,B3.affiliates,B3 affiliates,27,26,False,False
+2025-11-17,B3,affiliates,B3.affiliates,B3 affiliates,29,26,False,False
+2025-11-24,B3,affiliates,B3.affiliates,B3 affiliates,32,30,False,False
+2025-12-01,B3,affiliates,B3.affiliates,B3 affiliates,37,36,False,False
+2025-12-08,B3,affiliates,B3.affiliates,B3 affiliates,34,33,False,False
+2025-12-15,B3,affiliates,B3.affiliates,B3 affiliates,43,38,False,False
+2025-12-22,B3,affiliates,B3.affiliates,B3 affiliates,51,47,False,False
+2025-12-29,B3,affiliates,B3.affiliates,B3 affiliates,24,20,False,False
+2026-01-05,B3,affiliates,B3.affiliates,B3 affiliates,28,25,False,False
+2026-01-12,B3,affiliates,B3.affiliates,B3 affiliates,14,14,False,False
+2026-01-19,B3,affiliates,B3.affiliates,B3 affiliates,18,16,False,False
+2026-01-26,B3,affiliates,B3.affiliates,B3 affiliates,12,12,False,False
+2026-02-02,B3,affiliates,B3.affiliates,B3 affiliates,14,13,False,False
+2026-02-09,B3,affiliates,B3.affiliates,B3 affiliates,13,12,False,False
+2026-02-16,B3,affiliates,B3.affiliates,B3 affiliates,24,21,False,False
+2026-02-23,B3,affiliates,B3.affiliates,B3 affiliates,11,10,False,False
+2026-03-02,B3,affiliates,B3.affiliates,B3 affiliates,12,12,False,False
+2026-03-09,B3,affiliates,B3.affiliates,B3 affiliates,29,24,False,False
+2026-03-16,B3,affiliates,B3.affiliates,B3 affiliates,22,19,False,False
+2026-03-23,B3,affiliates,B3.affiliates,B3 affiliates,20,19,False,False
+2026-03-30,B3,affiliates,B3.affiliates,B3 affiliates,16,14,False,False
+2026-04-06,B3,affiliates,B3.affiliates,B3 affiliates,31,28,False,False
+2026-04-13,B3,affiliates,B3.affiliates,B3 affiliates,23,22,False,False
+2026-04-20,B3,affiliates,B3.affiliates,B3 affiliates,19,19,False,False
+2026-04-27,B3,affiliates,B3.affiliates,B3 affiliates,32,30,False,False
+2026-05-04,B3,affiliates,B3.affiliates,B3 affiliates,28,24,False,False
+2026-05-11,B3,affiliates,B3.affiliates,B3 affiliates,29,29,False,False
+2026-05-18,B3,affiliates,B3.affiliates,B3 affiliates,26,22,False,False
+2026-05-25,B3,affiliates,B3.affiliates,B3 affiliates,28,24,False,False
+2026-06-01,B3,affiliates,B3.affiliates,B3 affiliates,38,34,False,False
+2026-06-08,B3,affiliates,B3.affiliates,B3 affiliates,28,25,False,False
+2026-06-15,B3,affiliates,B3.affiliates,B3 affiliates,37,29,False,False
+2026-06-22,B3,affiliates,B3.affiliates,B3 affiliates,14,13,False,False
+2026-06-29,B3,affiliates,B3.affiliates,B3 affiliates,21,19,False,False
+2026-07-06,B3,affiliates,B3.affiliates,B3 affiliates,38,34,False,False
+2026-07-13,B3,affiliates,B3.affiliates,B3 affiliates,26,24,False,False
+2026-07-20,B3,affiliates,B3.affiliates,B3 affiliates,29,25,False,False
+2026-07-27,B3,affiliates,B3.affiliates,B3 affiliates,29,26,False,False
+2026-08-03,B3,affiliates,B3.affiliates,B3 affiliates,22,21,False,False
+2026-08-10,B3,affiliates,B3.affiliates,B3 affiliates,15,13,False,False
+2026-08-17,B3,affiliates,B3.affiliates,B3 affiliates,21,18,False,False
+2026-08-24,B3,affiliates,B3.affiliates,B3 affiliates,25,22,False,False
+2026-08-31,B3,affiliates,B3.affiliates,B3 affiliates,24,20,False,False
+2026-09-07,B3,affiliates,B3.affiliates,B3 affiliates,42,37,False,False
+2026-09-14,B3,affiliates,B3.affiliates,B3 affiliates,27,23,False,False
+2026-09-21,B3,affiliates,B3.affiliates,B3 affiliates,35,30,False,False
+2026-09-28,B3,affiliates,B3.affiliates,B3 affiliates,24,23,False,False
+2026-10-05,B3,affiliates,B3.affiliates,B3 affiliates,20,19,False,False
+2026-10-12,B3,affiliates,B3.affiliates,B3 affiliates,25,25,False,False
+2026-10-19,B3,affiliates,B3.affiliates,B3 affiliates,18,16,False,False
+2023-10-30,B3,display_retargeting,B3.display_retargeting,B3 retargeting,107,70,False,False
+2023-11-06,B3,display_retargeting,B3.display_retargeting,B3 retargeting,127,81,False,False
+2023-11-13,B3,display_retargeting,B3.display_retargeting,B3 retargeting,128,85,False,False
+2023-11-20,B3,display_retargeting,B3.display_retargeting,B3 retargeting,149,92,False,False
+2023-11-27,B3,display_retargeting,B3.display_retargeting,B3 retargeting,153,95,False,False
+2023-12-04,B3,display_retargeting,B3.display_retargeting,B3 retargeting,155,94,False,False
+2023-12-11,B3,display_retargeting,B3.display_retargeting,B3 retargeting,129,80,False,False
+2023-12-18,B3,display_retargeting,B3.display_retargeting,B3 retargeting,144,89,False,False
+2023-12-25,B3,display_retargeting,B3.display_retargeting,B3 retargeting,196,115,False,False
+2024-01-01,B3,display_retargeting,B3.display_retargeting,B3 retargeting,73,49,False,False
+2024-01-08,B3,display_retargeting,B3.display_retargeting,B3 retargeting,107,62,False,False
+2024-01-15,B3,display_retargeting,B3.display_retargeting,B3 retargeting,82,44,False,False
+2024-01-22,B3,display_retargeting,B3.display_retargeting,B3 retargeting,84,59,False,False
+2024-01-29,B3,display_retargeting,B3.display_retargeting,B3 retargeting,69,41,False,False
+2024-02-05,B3,display_retargeting,B3.display_retargeting,B3 retargeting,82,51,False,False
+2024-02-12,B3,display_retargeting,B3.display_retargeting,B3 retargeting,84,53,False,False
+2024-02-19,B3,display_retargeting,B3.display_retargeting,B3 retargeting,64,45,False,False
+2024-02-26,B3,display_retargeting,B3.display_retargeting,B3 retargeting,86,53,False,False
+2024-03-04,B3,display_retargeting,B3.display_retargeting,B3 retargeting,119,70,False,False
+2024-03-11,B3,display_retargeting,B3.display_retargeting,B3 retargeting,114,75,False,False
+2024-03-18,B3,display_retargeting,B3.display_retargeting,B3 retargeting,85,60,False,False
+2024-03-25,B3,display_retargeting,B3.display_retargeting,B3 retargeting,125,74,False,False
+2024-04-01,B3,display_retargeting,B3.display_retargeting,B3 retargeting,102,68,False,False
+2024-04-08,B3,display_retargeting,B3.display_retargeting,B3 retargeting,117,68,False,False
+2024-04-15,B3,display_retargeting,B3.display_retargeting,B3 retargeting,81,49,False,False
+2024-04-22,B3,display_retargeting,B3.display_retargeting,B3 retargeting,105,69,False,False
+2024-04-29,B3,display_retargeting,B3.display_retargeting,B3 retargeting,126,75,False,False
+2024-05-06,B3,display_retargeting,B3.display_retargeting,B3 retargeting,145,90,False,False
+2024-05-13,B3,display_retargeting,B3.display_retargeting,B3 retargeting,109,64,False,False
+2024-05-20,B3,display_retargeting,B3.display_retargeting,B3 retargeting,116,74,False,False
+2024-05-27,B3,display_retargeting,B3.display_retargeting,B3 retargeting,99,60,False,False
+2024-06-03,B3,display_retargeting,B3.display_retargeting,B3 retargeting,105,68,False,False
+2024-06-10,B3,display_retargeting,B3.display_retargeting,B3 retargeting,135,81,False,False
+2024-06-17,B3,display_retargeting,B3.display_retargeting,B3 retargeting,101,60,False,False
+2024-06-24,B3,display_retargeting,B3.display_retargeting,B3 retargeting,100,62,False,False
+2024-07-01,B3,display_retargeting,B3.display_retargeting,B3 retargeting,81,57,False,False
+2024-07-08,B3,display_retargeting,B3.display_retargeting,B3 retargeting,105,67,False,False
+2024-07-15,B3,display_retargeting,B3.display_retargeting,B3 retargeting,146,89,False,False
+2024-07-22,B3,display_retargeting,B3.display_retargeting,B3 retargeting,84,53,False,False
+2024-07-29,B3,display_retargeting,B3.display_retargeting,B3 retargeting,101,69,False,False
+2024-08-05,B3,display_retargeting,B3.display_retargeting,B3 retargeting,121,75,False,False
+2024-08-12,B3,display_retargeting,B3.display_retargeting,B3 retargeting,89,57,False,False
+2024-08-19,B3,display_retargeting,B3.display_retargeting,B3 retargeting,140,91,False,False
+2024-08-26,B3,display_retargeting,B3.display_retargeting,B3 retargeting,112,70,False,False
+2024-09-02,B3,display_retargeting,B3.display_retargeting,B3 retargeting,118,70,False,False
+2024-09-09,B3,display_retargeting,B3.display_retargeting,B3 retargeting,125,80,False,False
+2024-09-16,B3,display_retargeting,B3.display_retargeting,B3 retargeting,98,60,False,False
+2024-09-23,B3,display_retargeting,B3.display_retargeting,B3 retargeting,106,62,False,False
+2024-09-30,B3,display_retargeting,B3.display_retargeting,B3 retargeting,157,100,False,False
+2024-10-07,B3,display_retargeting,B3.display_retargeting,B3 retargeting,95,64,False,False
+2024-10-14,B3,display_retargeting,B3.display_retargeting,B3 retargeting,128,83,False,False
+2024-10-21,B3,display_retargeting,B3.display_retargeting,B3 retargeting,132,69,False,False
+2024-10-28,B3,display_retargeting,B3.display_retargeting,B3 retargeting,134,84,False,False
+2024-11-04,B3,display_retargeting,B3.display_retargeting,B3 retargeting,184,112,False,False
+2024-11-11,B3,display_retargeting,B3.display_retargeting,B3 retargeting,188,115,False,False
+2024-11-18,B3,display_retargeting,B3.display_retargeting,B3 retargeting,146,95,False,False
+2024-11-25,B3,display_retargeting,B3.display_retargeting,B3 retargeting,181,121,False,False
+2024-12-02,B3,display_retargeting,B3.display_retargeting,B3 retargeting,166,102,False,False
+2024-12-09,B3,display_retargeting,B3.display_retargeting,B3 retargeting,157,99,False,False
+2024-12-16,B3,display_retargeting,B3.display_retargeting,B3 retargeting,107,71,False,False
+2024-12-23,B3,display_retargeting,B3.display_retargeting,B3 retargeting,195,120,False,False
+2024-12-30,B3,display_retargeting,B3.display_retargeting,B3 retargeting,108,74,False,False
+2025-01-06,B3,display_retargeting,B3.display_retargeting,B3 retargeting,98,59,False,False
+2025-01-13,B3,display_retargeting,B3.display_retargeting,B3 retargeting,95,57,False,False
+2025-01-20,B3,display_retargeting,B3.display_retargeting,B3 retargeting,84,59,False,False
+2025-01-27,B3,display_retargeting,B3.display_retargeting,B3 retargeting,88,55,False,False
+2025-02-03,B3,display_retargeting,B3.display_retargeting,B3 retargeting,71,46,False,False
+2025-02-10,B3,display_retargeting,B3.display_retargeting,B3 retargeting,68,42,False,False
+2025-02-17,B3,display_retargeting,B3.display_retargeting,B3 retargeting,77,50,False,False
+2025-02-24,B3,display_retargeting,B3.display_retargeting,B3 retargeting,82,48,False,False
+2025-03-03,B3,display_retargeting,B3.display_retargeting,B3 retargeting,0,86,True,False
+2025-03-10,B3,display_retargeting,B3.display_retargeting,B3 retargeting,0,64,True,False
+2025-03-17,B3,display_retargeting,B3.display_retargeting,B3 retargeting,141,87,False,False
+2025-03-24,B3,display_retargeting,B3.display_retargeting,B3 retargeting,116,78,False,False
+2025-03-31,B3,display_retargeting,B3.display_retargeting,B3 retargeting,127,85,False,False
+2025-04-07,B3,display_retargeting,B3.display_retargeting,B3 retargeting,151,97,False,False
+2025-04-14,B3,display_retargeting,B3.display_retargeting,B3 retargeting,115,74,False,False
+2025-04-21,B3,display_retargeting,B3.display_retargeting,B3 retargeting,122,78,False,False
+2025-04-28,B3,display_retargeting,B3.display_retargeting,B3 retargeting,170,100,False,False
+2025-05-05,B3,display_retargeting,B3.display_retargeting,B3 retargeting,129,83,False,False
+2025-05-12,B3,display_retargeting,B3.display_retargeting,B3 retargeting,118,72,False,False
+2025-05-19,B3,display_retargeting,B3.display_retargeting,B3 retargeting,128,78,False,False
+2025-05-26,B3,display_retargeting,B3.display_retargeting,B3 retargeting,163,90,False,False
+2025-06-02,B3,display_retargeting,B3.display_retargeting,B3 retargeting,148,96,False,False
+2025-06-09,B3,display_retargeting,B3.display_retargeting,B3 retargeting,166,100,False,False
+2025-06-16,B3,display_retargeting,B3.display_retargeting,B3 retargeting,134,82,False,False
+2025-06-23,B3,display_retargeting,B3.display_retargeting,B3 retargeting,209,123,False,False
+2025-06-30,B3,display_retargeting,B3.display_retargeting,B3 retargeting,118,74,False,False
+2025-07-07,B3,display_retargeting,B3.display_retargeting,B3 retargeting,155,90,False,False
+2025-07-14,B3,display_retargeting,B3.display_retargeting,B3 retargeting,77,46,False,False
+2025-07-21,B3,display_retargeting,B3.display_retargeting,B3 retargeting,134,80,False,False
+2025-07-28,B3,display_retargeting,B3.display_retargeting,B3 retargeting,157,96,False,False
+2025-08-04,B3,display_retargeting,B3.display_retargeting,B3 retargeting,120,81,False,False
+2025-08-11,B3,display_retargeting,B3.display_retargeting,B3 retargeting,132,83,False,False
+2025-08-18,B3,display_retargeting,B3.display_retargeting,B3 retargeting,112,70,False,False
+2025-08-25,B3,display_retargeting,B3.display_retargeting,B3 retargeting,138,84,False,False
+2025-09-01,B3,display_retargeting,B3.display_retargeting,B3 retargeting,99,61,False,False
+2025-09-08,B3,display_retargeting,B3.display_retargeting,B3 retargeting,169,100,False,False
+2025-09-15,B3,display_retargeting,B3.display_retargeting,B3 retargeting,103,64,False,False
+2025-09-22,B3,display_retargeting,B3.display_retargeting,B3 retargeting,86,52,False,False
+2025-09-29,B3,display_retargeting,B3.display_retargeting,B3 retargeting,123,75,False,False
+2025-10-06,B3,display_retargeting,B3.display_retargeting,B3 retargeting,115,67,False,False
+2025-10-13,B3,display_retargeting,B3.display_retargeting,B3 retargeting,71,49,False,False
+2025-10-20,B3,display_retargeting,B3.display_retargeting,B3 retargeting,123,74,False,False
+2025-10-27,B3,display_retargeting,B3.display_retargeting,B3 retargeting,153,97,False,False
+2025-11-03,B3,display_retargeting,B3.display_retargeting,B3 retargeting,151,104,False,False
+2025-11-10,B3,display_retargeting,B3.display_retargeting,B3 retargeting,154,93,False,False
+2025-11-17,B3,display_retargeting,B3.display_retargeting,B3 retargeting,204,121,False,False
+2025-11-24,B3,display_retargeting,B3.display_retargeting,B3 retargeting,157,100,False,False
+2025-12-01,B3,display_retargeting,B3.display_retargeting,B3 retargeting,240,148,False,False
+2025-12-08,B3,display_retargeting,B3.display_retargeting,B3 retargeting,128,82,False,False
+2025-12-15,B3,display_retargeting,B3.display_retargeting,B3 retargeting,173,112,False,False
+2025-12-22,B3,display_retargeting,B3.display_retargeting,B3 retargeting,156,95,False,False
+2025-12-29,B3,display_retargeting,B3.display_retargeting,B3 retargeting,98,63,False,False
+2026-01-05,B3,display_retargeting,B3.display_retargeting,B3 retargeting,87,55,False,False
+2026-01-12,B3,display_retargeting,B3.display_retargeting,B3 retargeting,73,48,False,False
+2026-01-19,B3,display_retargeting,B3.display_retargeting,B3 retargeting,88,54,False,False
+2026-01-26,B3,display_retargeting,B3.display_retargeting,B3 retargeting,94,63,False,False
+2026-02-02,B3,display_retargeting,B3.display_retargeting,B3 retargeting,80,57,False,False
+2026-02-09,B3,display_retargeting,B3.display_retargeting,B3 retargeting,96,65,False,False
+2026-02-16,B3,display_retargeting,B3.display_retargeting,B3 retargeting,138,90,False,False
+2026-02-23,B3,display_retargeting,B3.display_retargeting,B3 retargeting,85,53,False,False
+2026-03-02,B3,display_retargeting,B3.display_retargeting,B3 retargeting,92,62,False,False
+2026-03-09,B3,display_retargeting,B3.display_retargeting,B3 retargeting,122,79,False,False
+2026-03-16,B3,display_retargeting,B3.display_retargeting,B3 retargeting,105,65,False,False
+2026-03-23,B3,display_retargeting,B3.display_retargeting,B3 retargeting,98,60,False,False
+2026-03-30,B3,display_retargeting,B3.display_retargeting,B3 retargeting,100,69,False,False
+2026-04-06,B3,display_retargeting,B3.display_retargeting,B3 retargeting,97,64,False,False
+2026-04-13,B3,display_retargeting,B3.display_retargeting,B3 retargeting,185,116,False,False
+2026-04-20,B3,display_retargeting,B3.display_retargeting,B3 retargeting,90,62,False,False
+2026-04-27,B3,display_retargeting,B3.display_retargeting,B3 retargeting,128,83,False,False
+2026-05-04,B3,display_retargeting,B3.display_retargeting,B3 retargeting,179,111,False,False
+2026-05-11,B3,display_retargeting,B3.display_retargeting,B3 retargeting,131,80,False,False
+2026-05-18,B3,display_retargeting,B3.display_retargeting,B3 retargeting,115,74,False,False
+2026-05-25,B3,display_retargeting,B3.display_retargeting,B3 retargeting,131,82,False,False
+2026-06-01,B3,display_retargeting,B3.display_retargeting,B3 retargeting,187,114,False,False
+2026-06-08,B3,display_retargeting,B3.display_retargeting,B3 retargeting,155,95,False,False
+2026-06-15,B3,display_retargeting,B3.display_retargeting,B3 retargeting,89,63,False,False
+2026-06-22,B3,display_retargeting,B3.display_retargeting,B3 retargeting,109,65,False,False
+2026-06-29,B3,display_retargeting,B3.display_retargeting,B3 retargeting,114,72,False,False
+2026-07-06,B3,display_retargeting,B3.display_retargeting,B3 retargeting,134,87,False,False
+2026-07-13,B3,display_retargeting,B3.display_retargeting,B3 retargeting,169,109,False,False
+2026-07-20,B3,display_retargeting,B3.display_retargeting,B3 retargeting,125,79,False,False
+2026-07-27,B3,display_retargeting,B3.display_retargeting,B3 retargeting,111,69,False,False
+2026-08-03,B3,display_retargeting,B3.display_retargeting,B3 retargeting,65,42,False,False
+2026-08-10,B3,display_retargeting,B3.display_retargeting,B3 retargeting,129,77,False,False
+2026-08-17,B3,display_retargeting,B3.display_retargeting,B3 retargeting,141,79,False,False
+2026-08-24,B3,display_retargeting,B3.display_retargeting,B3 retargeting,142,86,False,False
+2026-08-31,B3,display_retargeting,B3.display_retargeting,B3 retargeting,138,80,False,False
+2026-09-07,B3,display_retargeting,B3.display_retargeting,B3 retargeting,116,73,False,False
+2026-09-14,B3,display_retargeting,B3.display_retargeting,B3 retargeting,108,74,False,False
+2026-09-21,B3,display_retargeting,B3.display_retargeting,B3 retargeting,125,79,False,False
+2026-09-28,B3,display_retargeting,B3.display_retargeting,B3 retargeting,100,63,False,False
+2026-10-05,B3,display_retargeting,B3.display_retargeting,B3 retargeting,139,88,False,False
+2026-10-12,B3,display_retargeting,B3.display_retargeting,B3 retargeting,108,70,False,False
+2026-10-19,B3,display_retargeting,B3.display_retargeting,B3 retargeting,115,71,False,False
+2023-10-30,B3,shopping,B3.shopping,B3 shopping ads,176,164,False,False
+2023-11-06,B3,shopping,B3.shopping,B3 shopping ads,158,147,False,False
+2023-11-13,B3,shopping,B3.shopping,B3 shopping ads,223,207,False,False
+2023-11-20,B3,shopping,B3.shopping,B3 shopping ads,209,196,False,False
+2023-11-27,B3,shopping,B3.shopping,B3 shopping ads,252,231,False,False
+2023-12-04,B3,shopping,B3.shopping,B3 shopping ads,194,184,False,False
+2023-12-11,B3,shopping,B3.shopping,B3 shopping ads,177,170,False,False
+2023-12-18,B3,shopping,B3.shopping,B3 shopping ads,193,182,False,False
+2023-12-25,B3,shopping,B3.shopping,B3 shopping ads,244,229,False,False
+2024-01-01,B3,shopping,B3.shopping,B3 shopping ads,89,86,False,False
+2024-01-08,B3,shopping,B3.shopping,B3 shopping ads,119,110,False,False
+2024-01-15,B3,shopping,B3.shopping,B3 shopping ads,85,79,False,False
+2024-01-22,B3,shopping,B3.shopping,B3 shopping ads,139,133,False,False
+2024-01-29,B3,shopping,B3.shopping,B3 shopping ads,83,81,False,False
+2024-02-05,B3,shopping,B3.shopping,B3 shopping ads,86,80,False,False
+2024-02-12,B3,shopping,B3.shopping,B3 shopping ads,99,94,False,False
+2024-02-19,B3,shopping,B3.shopping,B3 shopping ads,69,65,False,False
+2024-02-26,B3,shopping,B3.shopping,B3 shopping ads,69,66,False,False
+2024-03-04,B3,shopping,B3.shopping,B3 shopping ads,131,121,False,False
+2024-03-11,B3,shopping,B3.shopping,B3 shopping ads,144,136,False,False
+2024-03-18,B3,shopping,B3.shopping,B3 shopping ads,66,62,False,False
+2024-03-25,B3,shopping,B3.shopping,B3 shopping ads,100,94,False,False
+2024-04-01,B3,shopping,B3.shopping,B3 shopping ads,136,129,False,False
+2024-04-08,B3,shopping,B3.shopping,B3 shopping ads,118,115,False,False
+2024-04-15,B3,shopping,B3.shopping,B3 shopping ads,136,133,False,False
+2024-04-22,B3,shopping,B3.shopping,B3 shopping ads,118,111,False,False
+2024-04-29,B3,shopping,B3.shopping,B3 shopping ads,129,122,False,False
+2024-05-06,B3,shopping,B3.shopping,B3 shopping ads,155,143,False,False
+2024-05-13,B3,shopping,B3.shopping,B3 shopping ads,127,124,False,False
+2024-05-20,B3,shopping,B3.shopping,B3 shopping ads,152,143,False,False
+2024-05-27,B3,shopping,B3.shopping,B3 shopping ads,134,130,False,False
+2024-06-03,B3,shopping,B3.shopping,B3 shopping ads,198,191,False,False
+2024-06-10,B3,shopping,B3.shopping,B3 shopping ads,214,210,False,False
+2024-06-17,B3,shopping,B3.shopping,B3 shopping ads,196,185,False,False
+2024-06-24,B3,shopping,B3.shopping,B3 shopping ads,129,125,False,False
+2024-07-01,B3,shopping,B3.shopping,B3 shopping ads,153,148,False,False
+2024-07-08,B3,shopping,B3.shopping,B3 shopping ads,167,153,False,False
+2024-07-15,B3,shopping,B3.shopping,B3 shopping ads,140,132,False,False
+2024-07-22,B3,shopping,B3.shopping,B3 shopping ads,155,147,False,False
+2024-07-29,B3,shopping,B3.shopping,B3 shopping ads,170,159,False,False
+2024-08-05,B3,shopping,B3.shopping,B3 shopping ads,108,101,False,False
+2024-08-12,B3,shopping,B3.shopping,B3 shopping ads,161,152,False,False
+2024-08-19,B3,shopping,B3.shopping,B3 shopping ads,187,175,False,False
+2024-08-26,B3,shopping,B3.shopping,B3 shopping ads,100,93,False,False
+2024-09-02,B3,shopping,B3.shopping,B3 shopping ads,138,133,False,False
+2024-09-09,B3,shopping,B3.shopping,B3 shopping ads,138,131,False,False
+2024-09-16,B3,shopping,B3.shopping,B3 shopping ads,142,138,False,False
+2024-09-23,B3,shopping,B3.shopping,B3 shopping ads,160,155,False,False
+2024-09-30,B3,shopping,B3.shopping,B3 shopping ads,182,168,False,False
+2024-10-07,B3,shopping,B3.shopping,B3 shopping ads,153,141,False,False
+2024-10-14,B3,shopping,B3.shopping,B3 shopping ads,88,86,False,False
+2024-10-21,B3,shopping,B3.shopping,B3 shopping ads,99,96,False,False
+2024-10-28,B3,shopping,B3.shopping,B3 shopping ads,137,132,False,False
+2024-11-04,B3,shopping,B3.shopping,B3 shopping ads,197,188,False,False
+2024-11-11,B3,shopping,B3.shopping,B3 shopping ads,194,183,False,False
+2024-11-18,B3,shopping,B3.shopping,B3 shopping ads,204,196,False,False
+2024-11-25,B3,shopping,B3.shopping,B3 shopping ads,206,197,False,False
+2024-12-02,B3,shopping,B3.shopping,B3 shopping ads,173,164,False,False
+2024-12-09,B3,shopping,B3.shopping,B3 shopping ads,156,143,False,False
+2024-12-16,B3,shopping,B3.shopping,B3 shopping ads,259,252,False,False
+2024-12-23,B3,shopping,B3.shopping,B3 shopping ads,172,163,False,False
+2024-12-30,B3,shopping,B3.shopping,B3 shopping ads,97,94,False,False
+2025-01-06,B3,shopping,B3.shopping,B3 shopping ads,111,107,False,False
+2025-01-13,B3,shopping,B3.shopping,B3 shopping ads,110,106,False,False
+2025-01-20,B3,shopping,B3.shopping,B3 shopping ads,106,100,False,False
+2025-01-27,B3,shopping,B3.shopping,B3 shopping ads,117,113,False,False
+2025-02-03,B3,shopping,B3.shopping,B3 shopping ads,30,28,False,False
+2025-02-10,B3,shopping,B3.shopping,B3 shopping ads,93,91,False,False
+2025-02-17,B3,shopping,B3.shopping,B3 shopping ads,74,72,False,False
+2025-02-24,B3,shopping,B3.shopping,B3 shopping ads,108,102,False,False
+2025-03-03,B3,shopping,B3.shopping,B3 shopping ads,101,95,False,False
+2025-03-10,B3,shopping,B3.shopping,B3 shopping ads,101,98,False,False
+2025-03-17,B3,shopping,B3.shopping,B3 shopping ads,166,161,False,False
+2025-03-24,B3,shopping,B3.shopping,B3 shopping ads,110,106,False,False
+2025-03-31,B3,shopping,B3.shopping,B3 shopping ads,139,132,False,False
+2025-04-07,B3,shopping,B3.shopping,B3 shopping ads,208,202,False,False
+2025-04-14,B3,shopping,B3.shopping,B3 shopping ads,136,128,False,False
+2025-04-21,B3,shopping,B3.shopping,B3 shopping ads,196,191,False,False
+2025-04-28,B3,shopping,B3.shopping,B3 shopping ads,179,174,False,False
+2025-05-05,B3,shopping,B3.shopping,B3 shopping ads,132,121,False,False
+2025-05-12,B3,shopping,B3.shopping,B3 shopping ads,130,128,False,False
+2025-05-19,B3,shopping,B3.shopping,B3 shopping ads,175,165,False,False
+2025-05-26,B3,shopping,B3.shopping,B3 shopping ads,169,162,False,False
+2025-06-02,B3,shopping,B3.shopping,B3 shopping ads,173,164,False,False
+2025-06-09,B3,shopping,B3.shopping,B3 shopping ads,143,135,False,False
+2025-06-16,B3,shopping,B3.shopping,B3 shopping ads,102,100,False,False
+2025-06-23,B3,shopping,B3.shopping,B3 shopping ads,218,208,False,False
+2025-06-30,B3,shopping,B3.shopping,B3 shopping ads,202,194,False,False
+2025-07-07,B3,shopping,B3.shopping,B3 shopping ads,212,206,False,False
+2025-07-14,B3,shopping,B3.shopping,B3 shopping ads,172,163,False,False
+2025-07-21,B3,shopping,B3.shopping,B3 shopping ads,103,97,False,False
+2025-07-28,B3,shopping,B3.shopping,B3 shopping ads,163,151,False,False
+2025-08-04,B3,shopping,B3.shopping,B3 shopping ads,174,169,False,False
+2025-08-11,B3,shopping,B3.shopping,B3 shopping ads,120,115,False,False
+2025-08-18,B3,shopping,B3.shopping,B3 shopping ads,121,114,False,False
+2025-08-25,B3,shopping,B3.shopping,B3 shopping ads,130,124,False,False
+2025-09-01,B3,shopping,B3.shopping,B3 shopping ads,135,126,False,False
+2025-09-08,B3,shopping,B3.shopping,B3 shopping ads,79,76,False,False
+2025-09-15,B3,shopping,B3.shopping,B3 shopping ads,128,125,False,False
+2025-09-22,B3,shopping,B3.shopping,B3 shopping ads,94,90,False,False
+2025-09-29,B3,shopping,B3.shopping,B3 shopping ads,133,130,False,False
+2025-10-06,B3,shopping,B3.shopping,B3 shopping ads,108,103,False,False
+2025-10-13,B3,shopping,B3.shopping,B3 shopping ads,100,94,False,False
+2025-10-20,B3,shopping,B3.shopping,B3 shopping ads,161,151,False,False
+2025-10-27,B3,shopping,B3.shopping,B3 shopping ads,149,137,False,False
+2025-11-03,B3,shopping,B3.shopping,B3 shopping ads,252,236,False,False
+2025-11-10,B3,shopping,B3.shopping,B3 shopping ads,201,188,False,False
+2025-11-17,B3,shopping,B3.shopping,B3 shopping ads,170,166,False,False
+2025-11-24,B3,shopping,B3.shopping,B3 shopping ads,268,261,False,False
+2025-12-01,B3,shopping,B3.shopping,B3 shopping ads,234,225,False,False
+2025-12-08,B3,shopping,B3.shopping,B3 shopping ads,251,240,False,False
+2025-12-15,B3,shopping,B3.shopping,B3 shopping ads,274,260,False,False
+2025-12-22,B3,shopping,B3.shopping,B3 shopping ads,205,196,False,False
+2025-12-29,B3,shopping,B3.shopping,B3 shopping ads,44,44,False,False
+2026-01-05,B3,shopping,B3.shopping,B3 shopping ads,126,120,False,False
+2026-01-12,B3,shopping,B3.shopping,B3 shopping ads,63,59,False,False
+2026-01-19,B3,shopping,B3.shopping,B3 shopping ads,85,83,False,False
+2026-01-26,B3,shopping,B3.shopping,B3 shopping ads,97,94,False,False
+2026-02-02,B3,shopping,B3.shopping,B3 shopping ads,79,76,False,False
+2026-02-09,B3,shopping,B3.shopping,B3 shopping ads,126,119,False,False
+2026-02-16,B3,shopping,B3.shopping,B3 shopping ads,48,48,False,False
+2026-02-23,B3,shopping,B3.shopping,B3 shopping ads,91,85,False,False
+2026-03-02,B3,shopping,B3.shopping,B3 shopping ads,124,114,False,False
+2026-03-09,B3,shopping,B3.shopping,B3 shopping ads,137,132,False,False
+2026-03-16,B3,shopping,B3.shopping,B3 shopping ads,82,78,False,False
+2026-03-23,B3,shopping,B3.shopping,B3 shopping ads,82,78,False,False
+2026-03-30,B3,shopping,B3.shopping,B3 shopping ads,172,161,False,False
+2026-04-06,B3,shopping,B3.shopping,B3 shopping ads,146,140,False,False
+2026-04-13,B3,shopping,B3.shopping,B3 shopping ads,138,134,False,False
+2026-04-20,B3,shopping,B3.shopping,B3 shopping ads,126,122,False,False
+2026-04-27,B3,shopping,B3.shopping,B3 shopping ads,98,95,False,False
+2026-05-04,B3,shopping,B3.shopping,B3 shopping ads,224,210,False,False
+2026-05-11,B3,shopping,B3.shopping,B3 shopping ads,131,127,False,False
+2026-05-18,B3,shopping,B3.shopping,B3 shopping ads,142,133,False,False
+2026-05-25,B3,shopping,B3.shopping,B3 shopping ads,183,173,False,False
+2026-06-01,B3,shopping,B3.shopping,B3 shopping ads,194,185,False,False
+2026-06-08,B3,shopping,B3.shopping,B3 shopping ads,192,178,False,False
+2026-06-15,B3,shopping,B3.shopping,B3 shopping ads,238,227,False,False
+2026-06-22,B3,shopping,B3.shopping,B3 shopping ads,201,186,False,False
+2026-06-29,B3,shopping,B3.shopping,B3 shopping ads,123,114,False,False
+2026-07-06,B3,shopping,B3.shopping,B3 shopping ads,145,137,False,False
+2026-07-13,B3,shopping,B3.shopping,B3 shopping ads,104,99,False,False
+2026-07-20,B3,shopping,B3.shopping,B3 shopping ads,185,176,False,False
+2026-07-27,B3,shopping,B3.shopping,B3 shopping ads,129,125,False,False
+2026-08-03,B3,shopping,B3.shopping,B3 shopping ads,187,176,False,False
+2026-08-10,B3,shopping,B3.shopping,B3 shopping ads,125,117,False,False
+2026-08-17,B3,shopping,B3.shopping,B3 shopping ads,132,123,False,False
+2026-08-24,B3,shopping,B3.shopping,B3 shopping ads,144,136,False,False
+2026-08-31,B3,shopping,B3.shopping,B3 shopping ads,111,108,False,False
+2026-09-07,B3,shopping,B3.shopping,B3 shopping ads,115,105,False,False
+2026-09-14,B3,shopping,B3.shopping,B3 shopping ads,145,140,False,False
+2026-09-21,B3,shopping,B3.shopping,B3 shopping ads,142,134,False,False
+2026-09-28,B3,shopping,B3.shopping,B3 shopping ads,160,151,False,False
+2026-10-05,B3,shopping,B3.shopping,B3 shopping ads,152,141,False,False
+2026-10-12,B3,shopping,B3.shopping,B3 shopping ads,209,202,False,False
+2026-10-19,B3,shopping,B3.shopping,B3 shopping ads,155,149,False,False
+2023-10-30,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,109,80,False,False
+2023-11-06,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,132,95,False,False
+2023-11-13,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,169,129,False,False
+2023-11-20,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,180,127,False,False
+2023-11-27,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,194,142,False,False
+2023-12-04,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,171,127,False,False
+2023-12-11,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,136,98,False,False
+2023-12-18,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,148,113,False,False
+2023-12-25,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,145,101,False,False
+2024-01-01,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,69,52,False,False
+2024-01-08,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,69,53,False,False
+2024-01-15,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,66,53,False,False
+2024-01-22,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,65,49,False,False
+2024-01-29,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,56,37,False,False
+2024-02-05,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,51,32,False,False
+2024-02-12,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,71,52,False,False
+2024-02-19,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,44,30,False,False
+2024-02-26,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,33,25,False,False
+2024-03-04,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,53,43,False,False
+2024-03-11,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,79,63,False,False
+2024-03-18,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,77,55,False,False
+2024-03-25,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,73,52,False,False
+2024-04-01,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,73,60,False,False
+2024-04-08,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,83,61,False,False
+2024-04-15,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,55,46,False,False
+2024-04-22,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,125,96,False,False
+2024-04-29,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,106,75,False,False
+2024-05-06,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,94,69,False,False
+2024-05-13,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,92,73,False,False
+2024-05-20,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,88,60,False,False
+2024-05-27,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,114,85,False,False
+2024-06-03,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,97,66,False,False
+2024-06-10,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,100,70,False,False
+2024-06-17,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,65,48,False,False
+2024-06-24,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,156,115,False,False
+2024-07-01,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,90,63,False,False
+2024-07-08,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,105,77,False,False
+2024-07-15,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,93,71,False,False
+2024-07-22,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,74,55,False,False
+2024-07-29,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,87,64,False,False
+2024-08-05,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,88,67,False,False
+2024-08-12,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,75,53,False,False
+2024-08-19,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,85,58,False,False
+2024-08-26,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,108,80,False,False
+2024-09-02,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,90,64,False,False
+2024-09-09,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,109,83,False,False
+2024-09-16,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,61,49,False,False
+2024-09-23,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,106,75,False,False
+2024-09-30,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,80,53,False,False
+2024-10-07,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,88,68,False,False
+2024-10-14,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,115,87,False,False
+2024-10-21,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,86,69,False,False
+2024-10-28,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,87,65,False,False
+2024-11-04,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,116,89,False,False
+2024-11-11,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,126,96,False,False
+2024-11-18,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,151,114,False,False
+2024-11-25,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,179,141,False,False
+2024-12-02,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,171,125,False,False
+2024-12-09,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,219,162,False,False
+2024-12-16,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,201,147,False,False
+2024-12-23,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,125,94,False,False
+2024-12-30,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,117,89,False,False
+2025-01-06,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,59,40,False,False
+2025-01-13,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,85,64,False,False
+2025-01-20,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,74,52,False,False
+2025-01-27,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,60,50,False,False
+2025-02-03,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,45,36,False,False
+2025-02-10,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,49,40,False,False
+2025-02-17,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,49,37,False,False
+2025-02-24,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,47,34,False,False
+2025-03-03,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,69,52,False,False
+2025-03-10,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,64,50,False,False
+2025-03-17,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,61,47,False,False
+2025-03-24,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,95,74,False,False
+2025-03-31,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,82,60,False,False
+2025-04-07,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,86,59,False,False
+2025-04-14,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,91,67,False,False
+2025-04-21,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,88,60,False,False
+2025-04-28,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,115,85,False,False
+2025-05-05,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,128,98,False,False
+2025-05-12,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,161,121,False,False
+2025-05-19,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,113,82,False,False
+2025-05-26,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,164,117,False,False
+2025-06-02,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,126,89,False,False
+2025-06-09,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,89,65,False,False
+2025-06-16,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,91,72,False,False
+2025-06-23,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,106,77,False,False
+2025-06-30,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,74,57,False,False
+2025-07-07,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,102,83,False,False
+2025-07-14,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,119,85,False,False
+2025-07-21,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,110,73,False,False
+2025-07-28,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,83,63,False,False
+2025-08-04,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,94,73,False,False
+2025-08-11,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,89,68,False,False
+2025-08-18,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,58,44,False,False
+2025-08-25,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,84,67,False,False
+2025-09-01,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,93,64,False,False
+2025-09-08,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,115,85,False,False
+2025-09-15,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,106,79,False,False
+2025-09-22,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,104,86,False,False
+2025-09-29,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,88,64,False,False
+2025-10-06,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,58,42,False,False
+2025-10-13,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,81,66,False,False
+2025-10-20,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,108,75,False,False
+2025-10-27,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,95,78,False,False
+2025-11-03,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,201,149,False,False
+2025-11-10,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,104,77,False,False
+2025-11-17,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,162,124,False,False
+2025-11-24,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,173,123,False,False
+2025-12-01,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,213,148,False,False
+2025-12-08,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,159,112,False,False
+2025-12-15,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,229,164,False,False
+2025-12-22,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,185,133,False,False
+2025-12-29,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,46,37,False,False
+2026-01-05,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,77,55,False,False
+2026-01-12,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,68,52,False,False
+2026-01-19,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,76,60,False,False
+2026-01-26,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,30,23,False,False
+2026-02-02,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,45,34,False,False
+2026-02-09,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,78,57,False,False
+2026-02-16,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,76,55,False,False
+2026-02-23,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,91,65,False,False
+2026-03-02,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,130,91,False,False
+2026-03-09,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,71,57,False,False
+2026-03-16,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,90,70,False,False
+2026-03-23,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,105,76,False,False
+2026-03-30,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,113,75,False,False
+2026-04-06,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,130,97,False,False
+2026-04-13,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,95,72,False,False
+2026-04-20,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,93,61,False,False
+2026-04-27,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,78,61,False,False
+2026-05-04,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,66,52,False,False
+2026-05-11,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,112,76,False,False
+2026-05-18,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,167,125,False,False
+2026-05-25,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,123,88,False,False
+2026-06-01,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,104,74,False,False
+2026-06-08,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,211,154,False,False
+2026-06-15,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,125,92,False,False
+2026-06-22,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,94,73,False,False
+2026-06-29,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,46,32,False,False
+2026-07-06,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,129,91,False,False
+2026-07-13,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,150,109,False,False
+2026-07-20,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,113,78,False,False
+2026-07-27,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,138,101,False,False
+2026-08-03,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,108,85,False,False
+2026-08-10,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,89,71,False,False
+2026-08-17,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,100,69,False,False
+2026-08-24,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,113,74,False,False
+2026-08-31,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,78,56,False,False
+2026-09-07,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,62,48,False,False
+2026-09-14,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,90,65,False,False
+2026-09-21,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,116,88,False,False
+2026-09-28,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,95,76,False,False
+2026-10-05,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,57,44,False,False
+2026-10-12,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,55,44,False,False
+2026-10-19,B3,social_prospecting,B3.social_prospecting,B3 social prospecting,128,101,False,False

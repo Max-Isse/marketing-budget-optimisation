@@ -9,7 +9,8 @@ memo for a CEO, CFO and Marketing Director.
 
 **Status:** phases 0–5 of 9 are complete: scope and design, the data generator, the SQL metric layer,
 data-quality checks, customer value, forecasting, experimentation, budget optimisation and sensitivity
-analysis. See [docs/phase_plan.md](docs/phase_plan.md).
+analysis. Phase 6: the Tableau extracts and build spec are done ([dashboard/](dashboard/README.md)); the
+workbook is still to be built. See [docs/phase_plan.md](docs/phase_plan.md).
 
 > **The data are simulated.** A simulation is the only way to know each channel's true effect, and therefore
 > to check that the analysis separates real impact from what ad platforms report (D-001). Results show that
@@ -54,6 +55,7 @@ Return = 24-month contribution per advertising dollar; above 1.0 the spend pays 
 | [docs/data_design.md](docs/data_design.md) | How the simulation works and what it deliberately makes hard |
 | [docs/data_lineage.md](docs/data_lineage.md) | Raw → clean → metric tables, keys, reconciliations |
 | [docs/decisions.md](docs/decisions.md) | Judgement calls and alternatives |
+| [docs/dashboard_spec.md](docs/dashboard_spec.md) | Tableau dashboard: six pages, fields, formulas, colours, QA |
 | [docs/phase_plan.md](docs/phase_plan.md) | Phases, deliverables, status |
 
 ## How to run
@@ -62,7 +64,7 @@ Requires [uv](https://docs.astral.sh/uv/) (Python 3.11 is installed automaticall
 
 ```bash
 uv sync
-uv run mbo all       # every step through sensitivity analysis (about 15 minutes)
+uv run mbo all       # every step, ending with the dashboard extracts (about 15 minutes)
 uv run mbo quality   # or any single step
 uv run pytest        # tests
 uv run ruff check . && uv run mypy src

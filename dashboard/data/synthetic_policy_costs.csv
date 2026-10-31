@@ -1,0 +1,10 @@
+policy_removed,solved,expected_profit_gain,downside_profit_change,policy
+untested_guardrail,True,268452,227218,+/-25% limit on lines without an experiment
+brand_search_floor,True,0,0,B1 brand-search floor (50% of last year)
+channel_limits,True,54485.3,8342.69,line floors and ceilings (0.25x-2x last year)
+business_limits,True,0,0,business floors and ceilings agreed at acquisition
+concentration,True,0,0,"concentration caps (25% per line, 50% per business)"
+min_acquisition,True,0,9.01055e-08,keep 90% of each business's customer volume
+payback,True,0,9.01055e-08,"payback targets (B1 12, B2 18, B3 9 months)"
+sales_capacity,True,408947,229456,B2 sales capacity (40 qualified leads a week)
+downside,True,0,3.40398e-07,pessimistic case no worse than last year's split

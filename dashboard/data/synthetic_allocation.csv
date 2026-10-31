@@ -1,0 +1,13 @@
+last_year_split,platform_roas,uncalibrated_model,calibrated_point,recommended,business,channel,business_name,channel_label,line,line_label,change,verdict,evidence,lowest_change_across_scenarios,highest_change_across_scenarios,marginal_return_last_year_split,marginal_return_recommended
+77151.2,19089.6,57268.8,57268.8,57268.8,B1,affiliates,Hearth Box,affiliates,B1.affiliates,B1 affiliates,-19882.4,no-regret cut,history only,-0.752569,-0.109248,0.155854,0.196914
+163195,323036,239383,192431,183238,B1,search_brand,Hearth Box,brand search,B1.search_brand,B1 brand search,20043,depends on assumptions,experiment,-0.505138,0.541971,0.789431,0.72648
+310665,173527,384341,384341,384341,B1,search_generic,Hearth Box,generic search,B1.search_generic,B1 generic search,73676,no-regret increase,history only,0.0886972,0.60945,2.4233,2.18792
+340895,84348.1,253044,320335,314854,B1,social_prospecting,Hearth Box,social prospecting,B1.social_prospecting,B1 social prospecting,-26041,mostly cut,history only,-0.479542,0.17329,0.69264,0.726485
+137806,272781,102293,102293,111176,B2,linkedin,Ledgerline,LinkedIn,B2.linkedin,B2 LinkedIn,-26630,mostly cut,history only,-0.257706,0.237156,0.0690301,0.753671
+106897,26449.6,79348.7,79348.7,79348.7,B2,programmatic_display,Ledgerline,programmatic display,B2.programmatic_display,B2 programmatic display,-27548.3,no-regret cut,history only,-0.607803,-0.109248,0.00590264,0.256381
+79220.7,117610,58805,58805,58805,B2,review_sites,Ledgerline,review sites,B2.review_sites,B2 review sites,-20415.7,mostly cut,history only,-0.292092,0.14336,0.0730098,0.630556
+178019,352381,132143,132143,137934,B2,search_generic,Ledgerline,generic search,B2.search_generic,B2 generic search,-40085,mostly cut,history only,-0.257706,0.0572566,0.149949,0.736338
+38593.8,9549.32,28648,28648,28648,B3,affiliates,Atlas Outdoor,affiliates,B3.affiliates,B3 affiliates,-9945.8,mostly cut,history only,-0.752569,0.237156,0.127894,0.160014
+173068,342579,124649,42822.4,42822.4,B3,display_retargeting,Atlas Outdoor,retargeting,B3.display_retargeting,B3 retargeting,-130246,no-regret cut,experiment,-0.752569,-0.723156,0.153453,0.328485
+241556,59768.5,298842,298842,298842,B3,shopping,Atlas Outdoor,shopping ads,B3.shopping,B3 shopping ads,57286,no-regret increase,history only,0.0886972,0.979449,1.74061,1.53454
+152933,218882,241234,302722,302722,B3,social_prospecting,Atlas Outdoor,social prospecting,B3.social_prospecting,B3 social prospecting,149789,no-regret increase,experiment,0.979449,0.979449,2.07472,1.25477

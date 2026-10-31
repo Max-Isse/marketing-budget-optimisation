@@ -12,6 +12,7 @@ paths:
   tables_dir: reports/tables
   figures_dir: reports/figures
   artifacts_dir: artifacts
+  dashboard_dir: dashboard
 
 businesses: [B1, B2, B3]
 

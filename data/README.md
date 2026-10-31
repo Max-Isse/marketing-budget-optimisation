@@ -12,6 +12,7 @@ several businesses.
 |---|---|---|
 | `data/raw/` | Generated Parquet tables, all named `synthetic_*` (from phase 1) | No (rebuilt by the pipeline) |
 | `data/processed/` | `marketing_SYNTHETIC.duckdb`, the SQL metric layer | No |
+| `dashboard/data/` | `synthetic_*.csv` Tableau extracts (phase 6) | Yes, so the workbook can be built from GitHub |
 
 The design of the simulation, the features it must contain and the data problems it injects are described in
 `docs/data_design.md`.

@@ -1,0 +1,6 @@
+issue,business,channel,first_week,last_week,n_weeks,detail
+tracking_outage,B1,search_generic,2025-12-22,2025-12-22,1,"platform reports 0 conversions, CRM does not"
+tracking_outage,B3,display_retargeting,2025-03-03,2025-03-10,2,"platform reports 0 conversions, CRM does not"
+cost_restated,B2,programmatic_display,2026-04-27,2026-04-27,1,spend changed after first report
+duplicate_leads,B2,all,2023-11-06,2026-10-19,149,"491 duplicates, 2.9% of recorded leads"
+attribution_change,B1,social_prospecting,2025-07-21,2026-10-19,66,platform/CRM ratio 1.35 -> 0.96 (p = 4.4e-30)

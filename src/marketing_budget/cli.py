@@ -363,7 +363,37 @@ def cmd_sensitivity(cfg: Config) -> None:
     log.info("wrote %s", write_sensitivity_report(summary, verdicts, curve, cfg, score))
 
 
-STEPS = ["design", "generate", "build", "quality", "retention", "forecast", "experiments", "optimise", "sensitivity"]
+def cmd_dashboard(cfg: Config) -> None:
+    import json
+
+    from marketing_budget.dashboard.extracts import build_extracts, write_extracts
+    from marketing_budget.dashboard.tieout import tieout
+    from marketing_budget.data.db import connect
+
+    cal = json.loads((cfg.path("artifacts_dir") / "experiment_calibration.json").read_text(encoding="utf-8"))
+    tested = {f"{c['business']}.{c['channel']}" for c in cal}
+    con = connect(cfg, read_only=True)
+    try:
+        extracts = build_extracts(con, cfg, tested)
+    finally:
+        con.close()
+    out = write_extracts(extracts, cfg)
+    tieout(extracts).to_csv(out.parent / "tieout.csv", index=False, float_format="%.6g")
+    log.info("wrote %d extracts to %s", len(extracts), out)
+
+
+STEPS = [
+    "design",
+    "generate",
+    "build",
+    "quality",
+    "retention",
+    "forecast",
+    "experiments",
+    "optimise",
+    "sensitivity",
+    "dashboard",
+]
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -383,6 +413,7 @@ def main(argv: list[str] | None = None) -> None:
         "experiments": lambda: cmd_experiments(cfg),
         "optimise": lambda: cmd_optimise(cfg),
         "sensitivity": lambda: cmd_sensitivity(cfg),
+        "dashboard": lambda: cmd_dashboard(cfg),
     }
     for name in STEPS if args.step == "all" else [args.step]:
         steps[name]()

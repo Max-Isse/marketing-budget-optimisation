@@ -1,0 +1,6 @@
+allocation,expected_profit,downside_profit,p90_profit,incremental_customers
+status_quo,1.9935e+06,1.47888e+06,2.1409e+06,36410.4
+platform_roas,1.19953e+06,595162,1.45638e+06,25945.9
+uncalibrated_model,2.34219e+06,1.82217e+06,2.51981e+06,42215.5
+calibrated_point,2.42776e+06,1.88434e+06,2.62493e+06,43547.6
+recommended,2.43086e+06,1.88822e+06,2.62698e+06,43429.7

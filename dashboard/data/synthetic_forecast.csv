@@ -1,0 +1,1249 @@
+week_start,business,business_name,target,series,model,horizon,value,low,high,beyond_validated_horizon
+2025-10-27,B1,Hearth Box,spend,actual,actual,0,18852.2,,,False
+2025-11-03,B1,Hearth Box,spend,actual,actual,0,19447.1,,,False
+2025-11-10,B1,Hearth Box,spend,actual,actual,0,16114.1,,,False
+2025-11-17,B1,Hearth Box,spend,actual,actual,0,15369.5,,,False
+2025-11-24,B1,Hearth Box,spend,actual,actual,0,14669.6,,,False
+2025-12-01,B1,Hearth Box,spend,actual,actual,0,15028,,,False
+2025-12-08,B1,Hearth Box,spend,actual,actual,0,15446.4,,,False
+2025-12-15,B1,Hearth Box,spend,actual,actual,0,16914,,,False
+2025-12-22,B1,Hearth Box,spend,actual,actual,0,15493.9,,,False
+2025-12-29,B1,Hearth Box,spend,actual,actual,0,21767.2,,,False
+2026-01-05,B1,Hearth Box,spend,actual,actual,0,16999.6,,,False
+2026-01-12,B1,Hearth Box,spend,actual,actual,0,21189.1,,,False
+2026-01-19,B1,Hearth Box,spend,actual,actual,0,20518.8,,,False
+2026-01-26,B1,Hearth Box,spend,actual,actual,0,19759.1,,,False
+2026-02-02,B1,Hearth Box,spend,actual,actual,0,24208.4,,,False
+2026-02-09,B1,Hearth Box,spend,actual,actual,0,17176.4,,,False
+2026-02-16,B1,Hearth Box,spend,actual,actual,0,19742.5,,,False
+2026-02-23,B1,Hearth Box,spend,actual,actual,0,21929.8,,,False
+2026-03-02,B1,Hearth Box,spend,actual,actual,0,18180.5,,,False
+2026-03-09,B1,Hearth Box,spend,actual,actual,0,16445.5,,,False
+2026-03-16,B1,Hearth Box,spend,actual,actual,0,17224.7,,,False
+2026-03-23,B1,Hearth Box,spend,actual,actual,0,14339.8,,,False
+2026-03-30,B1,Hearth Box,spend,actual,actual,0,18719.1,,,False
+2026-04-06,B1,Hearth Box,spend,actual,actual,0,13542.8,,,False
+2026-04-13,B1,Hearth Box,spend,actual,actual,0,15049.5,,,False
+2026-04-20,B1,Hearth Box,spend,actual,actual,0,17568.1,,,False
+2026-04-27,B1,Hearth Box,spend,actual,actual,0,16837.5,,,False
+2026-05-04,B1,Hearth Box,spend,actual,actual,0,17183.8,,,False
+2026-05-11,B1,Hearth Box,spend,actual,actual,0,17666.1,,,False
+2026-05-18,B1,Hearth Box,spend,actual,actual,0,13356.3,,,False
+2026-05-25,B1,Hearth Box,spend,actual,actual,0,16790.1,,,False
+2026-06-01,B1,Hearth Box,spend,actual,actual,0,16543.9,,,False
+2026-06-08,B1,Hearth Box,spend,actual,actual,0,15033.2,,,False
+2026-06-15,B1,Hearth Box,spend,actual,actual,0,14995,,,False
+2026-06-22,B1,Hearth Box,spend,actual,actual,0,13985.5,,,False
+2026-06-29,B1,Hearth Box,spend,actual,actual,0,16070,,,False
+2026-07-06,B1,Hearth Box,spend,actual,actual,0,16705.8,,,False
+2026-07-13,B1,Hearth Box,spend,actual,actual,0,14411.9,,,False
+2026-07-20,B1,Hearth Box,spend,actual,actual,0,18100.8,,,False
+2026-07-27,B1,Hearth Box,spend,actual,actual,0,15507.6,,,False
+2026-08-03,B1,Hearth Box,spend,actual,actual,0,14630.7,,,False
+2026-08-10,B1,Hearth Box,spend,actual,actual,0,16763.5,,,False
+2026-08-17,B1,Hearth Box,spend,actual,actual,0,16226.8,,,False
+2026-08-24,B1,Hearth Box,spend,actual,actual,0,15031.4,,,False
+2026-08-31,B1,Hearth Box,spend,actual,actual,0,15950.3,,,False
+2026-09-07,B1,Hearth Box,spend,actual,actual,0,17319.2,,,False
+2026-09-14,B1,Hearth Box,spend,actual,actual,0,17796.9,,,False
+2026-09-21,B1,Hearth Box,spend,actual,actual,0,15406,,,False
+2026-09-28,B1,Hearth Box,spend,actual,actual,0,18128.5,,,False
+2026-10-05,B1,Hearth Box,spend,actual,actual,0,16477.4,,,False
+2026-10-12,B1,Hearth Box,spend,actual,actual,0,15451.5,,,False
+2026-10-19,B1,Hearth Box,spend,actual,actual,0,18676.1,,,False
+2025-10-27,B2,Ledgerline,spend,actual,actual,0,9735.53,,,False
+2025-11-03,B2,Ledgerline,spend,actual,actual,0,8478.62,,,False
+2025-11-10,B2,Ledgerline,spend,actual,actual,0,9286.9,,,False
+2025-11-17,B2,Ledgerline,spend,actual,actual,0,9372.95,,,False
+2025-11-24,B2,Ledgerline,spend,actual,actual,0,8612.65,,,False
+2025-12-01,B2,Ledgerline,spend,actual,actual,0,7097.09,,,False
+2025-12-08,B2,Ledgerline,spend,actual,actual,0,6921.13,,,False
+2025-12-15,B2,Ledgerline,spend,actual,actual,0,6853.08,,,False
+2025-12-22,B2,Ledgerline,spend,actual,actual,0,6635.14,,,False
+2025-12-29,B2,Ledgerline,spend,actual,actual,0,10640.9,,,False
+2026-01-05,B2,Ledgerline,spend,actual,actual,0,8360.72,,,False
+2026-01-12,B2,Ledgerline,spend,actual,actual,0,10883.4,,,False
+2026-01-19,B2,Ledgerline,spend,actual,actual,0,9278.42,,,False
+2026-01-26,B2,Ledgerline,spend,actual,actual,0,10224.6,,,False
+2026-02-02,B2,Ledgerline,spend,actual,actual,0,9814.85,,,False
+2026-02-09,B2,Ledgerline,spend,actual,actual,0,8514.74,,,False
+2026-02-16,B2,Ledgerline,spend,actual,actual,0,10076,,,False
+2026-02-23,B2,Ledgerline,spend,actual,actual,0,10953.7,,,False
+2026-03-02,B2,Ledgerline,spend,actual,actual,0,10038.5,,,False
+2026-03-09,B2,Ledgerline,spend,actual,actual,0,10433.3,,,False
+2026-03-16,B2,Ledgerline,spend,actual,actual,0,10680.4,,,False
+2026-03-23,B2,Ledgerline,spend,actual,actual,0,11120.9,,,False
+2026-03-30,B2,Ledgerline,spend,actual,actual,0,9361.05,,,False
+2026-04-06,B2,Ledgerline,spend,actual,actual,0,13246.4,,,False
+2026-04-13,B2,Ledgerline,spend,actual,actual,0,9826.12,,,False
+2026-04-20,B2,Ledgerline,spend,actual,actual,0,8902.89,,,False
+2026-04-27,B2,Ledgerline,spend,actual,actual,0,10704.4,,,False
+2026-05-04,B2,Ledgerline,spend,actual,actual,0,9734.79,,,False
+2026-05-11,B2,Ledgerline,spend,actual,actual,0,10790.6,,,False
+2026-05-18,B2,Ledgerline,spend,actual,actual,0,9000.65,,,False
+2026-05-25,B2,Ledgerline,spend,actual,actual,0,10662.6,,,False
+2026-06-01,B2,Ledgerline,spend,actual,actual,0,9108.5,,,False
+2026-06-08,B2,Ledgerline,spend,actual,actual,0,9841.28,,,False
+2026-06-15,B2,Ledgerline,spend,actual,actual,0,9732.28,,,False
+2026-06-22,B2,Ledgerline,spend,actual,actual,0,7941.09,,,False
+2026-06-29,B2,Ledgerline,spend,actual,actual,0,8873.58,,,False
+2026-07-06,B2,Ledgerline,spend,actual,actual,0,8987.08,,,False
+2026-07-13,B2,Ledgerline,spend,actual,actual,0,8237.91,,,False
+2026-07-20,B2,Ledgerline,spend,actual,actual,0,7046.78,,,False
+2026-07-27,B2,Ledgerline,spend,actual,actual,0,8747.84,,,False
+2026-08-03,B2,Ledgerline,spend,actual,actual,0,9515.35,,,False
+2026-08-10,B2,Ledgerline,spend,actual,actual,0,8918.69,,,False
+2026-08-17,B2,Ledgerline,spend,actual,actual,0,8055.05,,,False
+2026-08-24,B2,Ledgerline,spend,actual,actual,0,8697.58,,,False
+2026-08-31,B2,Ledgerline,spend,actual,actual,0,10528.3,,,False
+2026-09-07,B2,Ledgerline,spend,actual,actual,0,11402.7,,,False
+2026-09-14,B2,Ledgerline,spend,actual,actual,0,11516.8,,,False
+2026-09-21,B2,Ledgerline,spend,actual,actual,0,13068.9,,,False
+2026-09-28,B2,Ledgerline,spend,actual,actual,0,9911.24,,,False
+2026-10-05,B2,Ledgerline,spend,actual,actual,0,9045.74,,,False
+2026-10-12,B2,Ledgerline,spend,actual,actual,0,10614.8,,,False
+2026-10-19,B2,Ledgerline,spend,actual,actual,0,10751,,,False
+2025-10-27,B3,Atlas Outdoor,spend,actual,actual,0,12842.8,,,False
+2025-11-03,B3,Atlas Outdoor,spend,actual,actual,0,14865.1,,,False
+2025-11-10,B3,Atlas Outdoor,spend,actual,actual,0,13544.5,,,False
+2025-11-17,B3,Atlas Outdoor,spend,actual,actual,0,14528.2,,,False
+2025-11-24,B3,Atlas Outdoor,spend,actual,actual,0,15097.2,,,False
+2025-12-01,B3,Atlas Outdoor,spend,actual,actual,0,14839.2,,,False
+2025-12-08,B3,Atlas Outdoor,spend,actual,actual,0,12587.4,,,False
+2025-12-15,B3,Atlas Outdoor,spend,actual,actual,0,16098.1,,,False
+2025-12-22,B3,Atlas Outdoor,spend,actual,actual,0,13158.4,,,False
+2025-12-29,B3,Atlas Outdoor,spend,actual,actual,0,9629.02,,,False
+2026-01-05,B3,Atlas Outdoor,spend,actual,actual,0,9427.56,,,False
+2026-01-12,B3,Atlas Outdoor,spend,actual,actual,0,9496.36,,,False
+2026-01-19,B3,Atlas Outdoor,spend,actual,actual,0,9977.46,,,False
+2026-01-26,B3,Atlas Outdoor,spend,actual,actual,0,10832.3,,,False
+2026-02-02,B3,Atlas Outdoor,spend,actual,actual,0,9404.57,,,False
+2026-02-09,B3,Atlas Outdoor,spend,actual,actual,0,10423.6,,,False
+2026-02-16,B3,Atlas Outdoor,spend,actual,actual,0,8358.14,,,False
+2026-02-23,B3,Atlas Outdoor,spend,actual,actual,0,8614.39,,,False
+2026-03-02,B3,Atlas Outdoor,spend,actual,actual,0,11605.6,,,False
+2026-03-09,B3,Atlas Outdoor,spend,actual,actual,0,11045.1,,,False
+2026-03-16,B3,Atlas Outdoor,spend,actual,actual,0,11147.3,,,False
+2026-03-23,B3,Atlas Outdoor,spend,actual,actual,0,10197.9,,,False
+2026-03-30,B3,Atlas Outdoor,spend,actual,actual,0,14646.4,,,False
+2026-04-06,B3,Atlas Outdoor,spend,actual,actual,0,11447.7,,,False
+2026-04-13,B3,Atlas Outdoor,spend,actual,actual,0,11419.8,,,False
+2026-04-20,B3,Atlas Outdoor,spend,actual,actual,0,12060.7,,,False
+2026-04-27,B3,Atlas Outdoor,spend,actual,actual,0,10084.3,,,False
+2026-05-04,B3,Atlas Outdoor,spend,actual,actual,0,12969.4,,,False
+2026-05-11,B3,Atlas Outdoor,spend,actual,actual,0,10953.1,,,False
+2026-05-18,B3,Atlas Outdoor,spend,actual,actual,0,11832.4,,,False
+2026-05-25,B3,Atlas Outdoor,spend,actual,actual,0,11954.3,,,False
+2026-06-01,B3,Atlas Outdoor,spend,actual,actual,0,12672.6,,,False
+2026-06-08,B3,Atlas Outdoor,spend,actual,actual,0,15161.5,,,False
+2026-06-15,B3,Atlas Outdoor,spend,actual,actual,0,12308,,,False
+2026-06-22,B3,Atlas Outdoor,spend,actual,actual,0,10908.1,,,False
+2026-06-29,B3,Atlas Outdoor,spend,actual,actual,0,11080.2,,,False
+2026-07-06,B3,Atlas Outdoor,spend,actual,actual,0,10936.8,,,False
+2026-07-13,B3,Atlas Outdoor,spend,actual,actual,0,13883.5,,,False
+2026-07-20,B3,Atlas Outdoor,spend,actual,actual,0,11792.4,,,False
+2026-07-27,B3,Atlas Outdoor,spend,actual,actual,0,10636.7,,,False
+2026-08-03,B3,Atlas Outdoor,spend,actual,actual,0,10568.2,,,False
+2026-08-10,B3,Atlas Outdoor,spend,actual,actual,0,9698.93,,,False
+2026-08-17,B3,Atlas Outdoor,spend,actual,actual,0,10934.9,,,False
+2026-08-24,B3,Atlas Outdoor,spend,actual,actual,0,10262.5,,,False
+2026-08-31,B3,Atlas Outdoor,spend,actual,actual,0,10362.5,,,False
+2026-09-07,B3,Atlas Outdoor,spend,actual,actual,0,10123.2,,,False
+2026-09-14,B3,Atlas Outdoor,spend,actual,actual,0,10998.8,,,False
+2026-09-21,B3,Atlas Outdoor,spend,actual,actual,0,11785.7,,,False
+2026-09-28,B3,Atlas Outdoor,spend,actual,actual,0,9034.4,,,False
+2026-10-05,B3,Atlas Outdoor,spend,actual,actual,0,9737.85,,,False
+2026-10-12,B3,Atlas Outdoor,spend,actual,actual,0,12083.2,,,False
+2026-10-19,B3,Atlas Outdoor,spend,actual,actual,0,9863.7,,,False
+2025-10-27,B1,Hearth Box,customers,actual,actual,0,475,,,False
+2025-11-03,B1,Hearth Box,customers,actual,actual,0,538,,,False
+2025-11-10,B1,Hearth Box,customers,actual,actual,0,417,,,False
+2025-11-17,B1,Hearth Box,customers,actual,actual,0,334,,,False
+2025-11-24,B1,Hearth Box,customers,actual,actual,0,536,,,False
+2025-12-01,B1,Hearth Box,customers,actual,actual,0,311,,,False
+2025-12-08,B1,Hearth Box,customers,actual,actual,0,389,,,False
+2025-12-15,B1,Hearth Box,customers,actual,actual,0,395,,,False
+2025-12-22,B1,Hearth Box,customers,actual,actual,0,463,,,False
+2025-12-29,B1,Hearth Box,customers,actual,actual,0,662,,,False
+2026-01-05,B1,Hearth Box,customers,actual,actual,0,596,,,False
+2026-01-12,B1,Hearth Box,customers,actual,actual,0,633,,,False
+2026-01-19,B1,Hearth Box,customers,actual,actual,0,590,,,False
+2026-01-26,B1,Hearth Box,customers,actual,actual,0,646,,,False
+2026-02-02,B1,Hearth Box,customers,actual,actual,0,762,,,False
+2026-02-09,B1,Hearth Box,customers,actual,actual,0,640,,,False
+2026-02-16,B1,Hearth Box,customers,actual,actual,0,560,,,False
+2026-02-23,B1,Hearth Box,customers,actual,actual,0,549,,,False
+2026-03-02,B1,Hearth Box,customers,actual,actual,0,548,,,False
+2026-03-09,B1,Hearth Box,customers,actual,actual,0,448,,,False
+2026-03-16,B1,Hearth Box,customers,actual,actual,0,514,,,False
+2026-03-23,B1,Hearth Box,customers,actual,actual,0,397,,,False
+2026-03-30,B1,Hearth Box,customers,actual,actual,0,476,,,False
+2026-04-06,B1,Hearth Box,customers,actual,actual,0,535,,,False
+2026-04-13,B1,Hearth Box,customers,actual,actual,0,395,,,False
+2026-04-20,B1,Hearth Box,customers,actual,actual,0,478,,,False
+2026-04-27,B1,Hearth Box,customers,actual,actual,0,372,,,False
+2026-05-04,B1,Hearth Box,customers,actual,actual,0,344,,,False
+2026-05-11,B1,Hearth Box,customers,actual,actual,0,475,,,False
+2026-05-18,B1,Hearth Box,customers,actual,actual,0,319,,,False
+2026-05-25,B1,Hearth Box,customers,actual,actual,0,373,,,False
+2026-06-01,B1,Hearth Box,customers,actual,actual,0,361,,,False
+2026-06-08,B1,Hearth Box,customers,actual,actual,0,273,,,False
+2026-06-15,B1,Hearth Box,customers,actual,actual,0,371,,,False
+2026-06-22,B1,Hearth Box,customers,actual,actual,0,298,,,False
+2026-06-29,B1,Hearth Box,customers,actual,actual,0,239,,,False
+2026-07-06,B1,Hearth Box,customers,actual,actual,0,330,,,False
+2026-07-13,B1,Hearth Box,customers,actual,actual,0,262,,,False
+2026-07-20,B1,Hearth Box,customers,actual,actual,0,434,,,False
+2026-07-27,B1,Hearth Box,customers,actual,actual,0,324,,,False
+2026-08-03,B1,Hearth Box,customers,actual,actual,0,346,,,False
+2026-08-10,B1,Hearth Box,customers,actual,actual,0,334,,,False
+2026-08-17,B1,Hearth Box,customers,actual,actual,0,340,,,False
+2026-08-24,B1,Hearth Box,customers,actual,actual,0,309,,,False
+2026-08-31,B1,Hearth Box,customers,actual,actual,0,472,,,False
+2026-09-07,B1,Hearth Box,customers,actual,actual,0,359,,,False
+2026-09-14,B1,Hearth Box,customers,actual,actual,0,323,,,False
+2026-09-21,B1,Hearth Box,customers,actual,actual,0,384,,,False
+2026-09-28,B1,Hearth Box,customers,actual,actual,0,484,,,False
+2026-10-05,B1,Hearth Box,customers,actual,actual,0,550,,,False
+2026-10-12,B1,Hearth Box,customers,actual,actual,0,387,,,False
+2026-10-19,B1,Hearth Box,customers,actual,actual,0,473,,,False
+2025-10-27,B2,Ledgerline,customers,actual,actual,0,3,,,False
+2025-11-03,B2,Ledgerline,customers,actual,actual,0,6,,,False
+2025-11-10,B2,Ledgerline,customers,actual,actual,0,7,,,False
+2025-11-17,B2,Ledgerline,customers,actual,actual,0,8,,,False
+2025-11-24,B2,Ledgerline,customers,actual,actual,0,6,,,False
+2025-12-01,B2,Ledgerline,customers,actual,actual,0,5,,,False
+2025-12-08,B2,Ledgerline,customers,actual,actual,0,9,,,False
+2025-12-15,B2,Ledgerline,customers,actual,actual,0,3,,,False
+2025-12-22,B2,Ledgerline,customers,actual,actual,0,4,,,False
+2025-12-29,B2,Ledgerline,customers,actual,actual,0,13,,,False
+2026-01-05,B2,Ledgerline,customers,actual,actual,0,20,,,False
+2026-01-12,B2,Ledgerline,customers,actual,actual,0,10,,,False
+2026-01-19,B2,Ledgerline,customers,actual,actual,0,8,,,False
+2026-01-26,B2,Ledgerline,customers,actual,actual,0,6,,,False
+2026-02-02,B2,Ledgerline,customers,actual,actual,0,5,,,False
+2026-02-09,B2,Ledgerline,customers,actual,actual,0,10,,,False
+2026-02-16,B2,Ledgerline,customers,actual,actual,0,11,,,False
+2026-02-23,B2,Ledgerline,customers,actual,actual,0,10,,,False
+2026-03-02,B2,Ledgerline,customers,actual,actual,0,8,,,False
+2026-03-09,B2,Ledgerline,customers,actual,actual,0,16,,,False
+2026-03-16,B2,Ledgerline,customers,actual,actual,0,3,,,False
+2026-03-23,B2,Ledgerline,customers,actual,actual,0,9,,,False
+2026-03-30,B2,Ledgerline,customers,actual,actual,0,5,,,False
+2026-04-06,B2,Ledgerline,customers,actual,actual,0,8,,,False
+2026-04-13,B2,Ledgerline,customers,actual,actual,0,24,,,False
+2026-04-20,B2,Ledgerline,customers,actual,actual,0,10,,,False
+2026-04-27,B2,Ledgerline,customers,actual,actual,0,9,,,False
+2026-05-04,B2,Ledgerline,customers,actual,actual,0,9,,,False
+2026-05-11,B2,Ledgerline,customers,actual,actual,0,11,,,False
+2026-05-18,B2,Ledgerline,customers,actual,actual,0,12,,,False
+2026-05-25,B2,Ledgerline,customers,actual,actual,0,8,,,False
+2026-06-01,B2,Ledgerline,customers,actual,actual,0,14,,,False
+2026-06-08,B2,Ledgerline,customers,actual,actual,0,3,,,False
+2026-06-15,B2,Ledgerline,customers,actual,actual,0,8,,,False
+2026-06-22,B2,Ledgerline,customers,actual,actual,0,7,,,False
+2026-06-29,B2,Ledgerline,customers,actual,actual,0,11,,,False
+2026-07-06,B2,Ledgerline,customers,actual,actual,0,9,,,False
+2026-07-13,B2,Ledgerline,customers,actual,actual,0,4,,,False
+2026-07-20,B2,Ledgerline,customers,actual,actual,0,2,,,False
+2026-07-27,B2,Ledgerline,customers,actual,actual,0,10,,,False
+2026-08-03,B2,Ledgerline,customers,actual,actual,0,9,,,False
+2026-08-10,B2,Ledgerline,customers,actual,actual,0,8,,,False
+2026-08-17,B2,Ledgerline,customers,actual,actual,0,3,,,False
+2026-08-24,B2,Ledgerline,customers,actual,actual,0,7,,,False
+2026-08-31,B2,Ledgerline,customers,actual,actual,0,5,,,False
+2026-09-07,B2,Ledgerline,customers,actual,actual,0,7,,,False
+2026-09-14,B2,Ledgerline,customers,actual,actual,0,10,,,False
+2026-09-21,B2,Ledgerline,customers,actual,actual,0,12,,,False
+2026-09-28,B2,Ledgerline,customers,actual,actual,0,8,,,False
+2026-10-05,B2,Ledgerline,customers,actual,actual,0,17,,,False
+2026-10-12,B2,Ledgerline,customers,actual,actual,0,12,,,False
+2026-10-19,B2,Ledgerline,customers,actual,actual,0,5,,,False
+2025-10-27,B3,Atlas Outdoor,customers,actual,actual,0,485,,,False
+2025-11-03,B3,Atlas Outdoor,customers,actual,actual,0,765,,,False
+2025-11-10,B3,Atlas Outdoor,customers,actual,actual,0,550,,,False
+2025-11-17,B3,Atlas Outdoor,customers,actual,actual,0,626,,,False
+2025-11-24,B3,Atlas Outdoor,customers,actual,actual,0,719,,,False
+2025-12-01,B3,Atlas Outdoor,customers,actual,actual,0,839,,,False
+2025-12-08,B3,Atlas Outdoor,customers,actual,actual,0,585,,,False
+2025-12-15,B3,Atlas Outdoor,customers,actual,actual,0,858,,,False
+2025-12-22,B3,Atlas Outdoor,customers,actual,actual,0,737,,,False
+2025-12-29,B3,Atlas Outdoor,customers,actual,actual,0,323,,,False
+2026-01-05,B3,Atlas Outdoor,customers,actual,actual,0,431,,,False
+2026-01-12,B3,Atlas Outdoor,customers,actual,actual,0,272,,,False
+2026-01-19,B3,Atlas Outdoor,customers,actual,actual,0,354,,,False
+2026-01-26,B3,Atlas Outdoor,customers,actual,actual,0,346,,,False
+2026-02-02,B3,Atlas Outdoor,customers,actual,actual,0,304,,,False
+2026-02-09,B3,Atlas Outdoor,customers,actual,actual,0,388,,,False
+2026-02-16,B3,Atlas Outdoor,customers,actual,actual,0,405,,,False
+2026-02-23,B3,Atlas Outdoor,customers,actual,actual,0,350,,,False
+2026-03-02,B3,Atlas Outdoor,customers,actual,actual,0,444,,,False
+2026-03-09,B3,Atlas Outdoor,customers,actual,actual,0,481,,,False
+2026-03-16,B3,Atlas Outdoor,customers,actual,actual,0,343,,,False
+2026-03-23,B3,Atlas Outdoor,customers,actual,actual,0,323,,,False
+2026-03-30,B3,Atlas Outdoor,customers,actual,actual,0,454,,,False
+2026-04-06,B3,Atlas Outdoor,customers,actual,actual,0,507,,,False
+2026-04-13,B3,Atlas Outdoor,customers,actual,actual,0,547,,,False
+2026-04-20,B3,Atlas Outdoor,customers,actual,actual,0,431,,,False
+2026-04-27,B3,Atlas Outdoor,customers,actual,actual,0,458,,,False
+2026-05-04,B3,Atlas Outdoor,customers,actual,actual,0,623,,,False
+2026-05-11,B3,Atlas Outdoor,customers,actual,actual,0,488,,,False
+2026-05-18,B3,Atlas Outdoor,customers,actual,actual,0,498,,,False
+2026-05-25,B3,Atlas Outdoor,customers,actual,actual,0,561,,,False
+2026-06-01,B3,Atlas Outdoor,customers,actual,actual,0,590,,,False
+2026-06-08,B3,Atlas Outdoor,customers,actual,actual,0,633,,,False
+2026-06-15,B3,Atlas Outdoor,customers,actual,actual,0,589,,,False
+2026-06-22,B3,Atlas Outdoor,customers,actual,actual,0,499,,,False
+2026-06-29,B3,Atlas Outdoor,customers,actual,actual,0,415,,,False
+2026-07-06,B3,Atlas Outdoor,customers,actual,actual,0,545,,,False
+2026-07-13,B3,Atlas Outdoor,customers,actual,actual,0,565,,,False
+2026-07-20,B3,Atlas Outdoor,customers,actual,actual,0,513,,,False
+2026-07-27,B3,Atlas Outdoor,customers,actual,actual,0,503,,,False
+2026-08-03,B3,Atlas Outdoor,customers,actual,actual,0,436,,,False
+2026-08-10,B3,Atlas Outdoor,customers,actual,actual,0,437,,,False
+2026-08-17,B3,Atlas Outdoor,customers,actual,actual,0,442,,,False
+2026-08-24,B3,Atlas Outdoor,customers,actual,actual,0,471,,,False
+2026-08-31,B3,Atlas Outdoor,customers,actual,actual,0,446,,,False
+2026-09-07,B3,Atlas Outdoor,customers,actual,actual,0,462,,,False
+2026-09-14,B3,Atlas Outdoor,customers,actual,actual,0,472,,,False
+2026-09-21,B3,Atlas Outdoor,customers,actual,actual,0,521,,,False
+2026-09-28,B3,Atlas Outdoor,customers,actual,actual,0,467,,,False
+2026-10-05,B3,Atlas Outdoor,customers,actual,actual,0,435,,,False
+2026-10-12,B3,Atlas Outdoor,customers,actual,actual,0,470,,,False
+2026-10-19,B3,Atlas Outdoor,customers,actual,actual,0,493,,,False
+2025-10-27,B1,Hearth Box,revenue,actual,actual,0,180648,,,False
+2025-11-03,B1,Hearth Box,revenue,actual,actual,0,178272,,,False
+2025-11-10,B1,Hearth Box,revenue,actual,actual,0,176904,,,False
+2025-11-17,B1,Hearth Box,revenue,actual,actual,0,172080,,,False
+2025-11-24,B1,Hearth Box,revenue,actual,actual,0,194328,,,False
+2025-12-01,B1,Hearth Box,revenue,actual,actual,0,161208,,,False
+2025-12-08,B1,Hearth Box,revenue,actual,actual,0,170784,,,False
+2025-12-15,B1,Hearth Box,revenue,actual,actual,0,176688,,,False
+2025-12-22,B1,Hearth Box,revenue,actual,actual,0,182736,,,False
+2025-12-29,B1,Hearth Box,revenue,actual,actual,0,191808,,,False
+2026-01-05,B1,Hearth Box,revenue,actual,actual,0,184104,,,False
+2026-01-12,B1,Hearth Box,revenue,actual,actual,0,188928,,,False
+2026-01-19,B1,Hearth Box,revenue,actual,actual,0,190152,,,False
+2026-01-26,B1,Hearth Box,revenue,actual,actual,0,200448,,,False
+2026-02-02,B1,Hearth Box,revenue,actual,actual,0,204624,,,False
+2026-02-09,B1,Hearth Box,revenue,actual,actual,0,195120,,,False
+2026-02-16,B1,Hearth Box,revenue,actual,actual,0,189792,,,False
+2026-02-23,B1,Hearth Box,revenue,actual,actual,0,205488,,,False
+2026-03-02,B1,Hearth Box,revenue,actual,actual,0,197136,,,False
+2026-03-09,B1,Hearth Box,revenue,actual,actual,0,187848,,,False
+2026-03-16,B1,Hearth Box,revenue,actual,actual,0,193608,,,False
+2026-03-23,B1,Hearth Box,revenue,actual,actual,0,185832,,,False
+2026-03-30,B1,Hearth Box,revenue,actual,actual,0,202176,,,False
+2026-04-06,B1,Hearth Box,revenue,actual,actual,0,194832,,,False
+2026-04-13,B1,Hearth Box,revenue,actual,actual,0,183744,,,False
+2026-04-20,B1,Hearth Box,revenue,actual,actual,0,190224,,,False
+2026-04-27,B1,Hearth Box,revenue,actual,actual,0,188064,,,False
+2026-05-04,B1,Hearth Box,revenue,actual,actual,0,186840,,,False
+2026-05-11,B1,Hearth Box,revenue,actual,actual,0,185616,,,False
+2026-05-18,B1,Hearth Box,revenue,actual,actual,0,172944,,,False
+2026-05-25,B1,Hearth Box,revenue,actual,actual,0,188640,,,False
+2026-06-01,B1,Hearth Box,revenue,actual,actual,0,185040,,,False
+2026-06-08,B1,Hearth Box,revenue,actual,actual,0,169416,,,False
+2026-06-15,B1,Hearth Box,revenue,actual,actual,0,178848,,,False
+2026-06-22,B1,Hearth Box,revenue,actual,actual,0,165096,,,False
+2026-06-29,B1,Hearth Box,revenue,actual,actual,0,178920,,,False
+2026-07-06,B1,Hearth Box,revenue,actual,actual,0,170424,,,False
+2026-07-13,B1,Hearth Box,revenue,actual,actual,0,165888,,,False
+2026-07-20,B1,Hearth Box,revenue,actual,actual,0,172368,,,False
+2026-07-27,B1,Hearth Box,revenue,actual,actual,0,172728,,,False
+2026-08-03,B1,Hearth Box,revenue,actual,actual,0,173520,,,False
+2026-08-10,B1,Hearth Box,revenue,actual,actual,0,161208,,,False
+2026-08-17,B1,Hearth Box,revenue,actual,actual,0,163152,,,False
+2026-08-24,B1,Hearth Box,revenue,actual,actual,0,169992,,,False
+2026-08-31,B1,Hearth Box,revenue,actual,actual,0,180360,,,False
+2026-09-07,B1,Hearth Box,revenue,actual,actual,0,160704,,,False
+2026-09-14,B1,Hearth Box,revenue,actual,actual,0,162288,,,False
+2026-09-21,B1,Hearth Box,revenue,actual,actual,0,162504,,,False
+2026-09-28,B1,Hearth Box,revenue,actual,actual,0,183744,,,False
+2026-10-05,B1,Hearth Box,revenue,actual,actual,0,180000,,,False
+2026-10-12,B1,Hearth Box,revenue,actual,actual,0,161928,,,False
+2026-10-19,B1,Hearth Box,revenue,actual,actual,0,145800,,,False
+2025-10-27,B2,Ledgerline,revenue,actual,actual,0,135200,,,False
+2025-11-03,B2,Ledgerline,revenue,actual,actual,0,132400,,,False
+2025-11-10,B2,Ledgerline,revenue,actual,actual,0,131600,,,False
+2025-11-17,B2,Ledgerline,revenue,actual,actual,0,142000,,,False
+2025-11-24,B2,Ledgerline,revenue,actual,actual,0,131200,,,False
+2025-12-01,B2,Ledgerline,revenue,actual,actual,0,143200,,,False
+2025-12-08,B2,Ledgerline,revenue,actual,actual,0,137200,,,False
+2025-12-15,B2,Ledgerline,revenue,actual,actual,0,134800,,,False
+2025-12-22,B2,Ledgerline,revenue,actual,actual,0,134400,,,False
+2025-12-29,B2,Ledgerline,revenue,actual,actual,0,142800,,,False
+2026-01-05,B2,Ledgerline,revenue,actual,actual,0,139600,,,False
+2026-01-12,B2,Ledgerline,revenue,actual,actual,0,137200,,,False
+2026-01-19,B2,Ledgerline,revenue,actual,actual,0,144400,,,False
+2026-01-26,B2,Ledgerline,revenue,actual,actual,0,130400,,,False
+2026-02-02,B2,Ledgerline,revenue,actual,actual,0,147600,,,False
+2026-02-09,B2,Ledgerline,revenue,actual,actual,0,136400,,,False
+2026-02-16,B2,Ledgerline,revenue,actual,actual,0,144800,,,False
+2026-02-23,B2,Ledgerline,revenue,actual,actual,0,138800,,,False
+2026-03-02,B2,Ledgerline,revenue,actual,actual,0,144800,,,False
+2026-03-09,B2,Ledgerline,revenue,actual,actual,0,146000,,,False
+2026-03-16,B2,Ledgerline,revenue,actual,actual,0,136800,,,False
+2026-03-23,B2,Ledgerline,revenue,actual,actual,0,140000,,,False
+2026-03-30,B2,Ledgerline,revenue,actual,actual,0,144800,,,False
+2026-04-06,B2,Ledgerline,revenue,actual,actual,0,144000,,,False
+2026-04-13,B2,Ledgerline,revenue,actual,actual,0,146000,,,False
+2026-04-20,B2,Ledgerline,revenue,actual,actual,0,152000,,,False
+2026-04-27,B2,Ledgerline,revenue,actual,actual,0,130000,,,False
+2026-05-04,B2,Ledgerline,revenue,actual,actual,0,156000,,,False
+2026-05-11,B2,Ledgerline,revenue,actual,actual,0,146000,,,False
+2026-05-18,B2,Ledgerline,revenue,actual,actual,0,146800,,,False
+2026-05-25,B2,Ledgerline,revenue,actual,actual,0,143200,,,False
+2026-06-01,B2,Ledgerline,revenue,actual,actual,0,153200,,,False
+2026-06-08,B2,Ledgerline,revenue,actual,actual,0,149600,,,False
+2026-06-15,B2,Ledgerline,revenue,actual,actual,0,145600,,,False
+2026-06-22,B2,Ledgerline,revenue,actual,actual,0,144400,,,False
+2026-06-29,B2,Ledgerline,revenue,actual,actual,0,148800,,,False
+2026-07-06,B2,Ledgerline,revenue,actual,actual,0,147600,,,False
+2026-07-13,B2,Ledgerline,revenue,actual,actual,0,148000,,,False
+2026-07-20,B2,Ledgerline,revenue,actual,actual,0,157600,,,False
+2026-07-27,B2,Ledgerline,revenue,actual,actual,0,133200,,,False
+2026-08-03,B2,Ledgerline,revenue,actual,actual,0,161600,,,False
+2026-08-10,B2,Ledgerline,revenue,actual,actual,0,148000,,,False
+2026-08-17,B2,Ledgerline,revenue,actual,actual,0,146800,,,False
+2026-08-24,B2,Ledgerline,revenue,actual,actual,0,145600,,,False
+2026-08-31,B2,Ledgerline,revenue,actual,actual,0,155600,,,False
+2026-09-07,B2,Ledgerline,revenue,actual,actual,0,153600,,,False
+2026-09-14,B2,Ledgerline,revenue,actual,actual,0,145200,,,False
+2026-09-21,B2,Ledgerline,revenue,actual,actual,0,148800,,,False
+2026-09-28,B2,Ledgerline,revenue,actual,actual,0,154000,,,False
+2026-10-05,B2,Ledgerline,revenue,actual,actual,0,153200,,,False
+2026-10-12,B2,Ledgerline,revenue,actual,actual,0,153200,,,False
+2026-10-19,B2,Ledgerline,revenue,actual,actual,0,132000,,,False
+2025-10-27,B3,Atlas Outdoor,revenue,actual,actual,0,131641,,,False
+2025-11-03,B3,Atlas Outdoor,revenue,actual,actual,0,168973,,,False
+2025-11-10,B3,Atlas Outdoor,revenue,actual,actual,0,142441,,,False
+2025-11-17,B3,Atlas Outdoor,revenue,actual,actual,0,145297,,,False
+2025-11-24,B3,Atlas Outdoor,revenue,actual,actual,0,163920,,,False
+2025-12-01,B3,Atlas Outdoor,revenue,actual,actual,0,183584,,,False
+2025-12-08,B3,Atlas Outdoor,revenue,actual,actual,0,143993,,,False
+2025-12-15,B3,Atlas Outdoor,revenue,actual,actual,0,183763,,,False
+2025-12-22,B3,Atlas Outdoor,revenue,actual,actual,0,168160,,,False
+2025-12-29,B3,Atlas Outdoor,revenue,actual,actual,0,114026,,,False
+2026-01-05,B3,Atlas Outdoor,revenue,actual,actual,0,131583,,,False
+2026-01-12,B3,Atlas Outdoor,revenue,actual,actual,0,97443.2,,,False
+2026-01-19,B3,Atlas Outdoor,revenue,actual,actual,0,113060,,,False
+2026-01-26,B3,Atlas Outdoor,revenue,actual,actual,0,112471,,,False
+2026-02-02,B3,Atlas Outdoor,revenue,actual,actual,0,110914,,,False
+2026-02-09,B3,Atlas Outdoor,revenue,actual,actual,0,119079,,,False
+2026-02-16,B3,Atlas Outdoor,revenue,actual,actual,0,122743,,,False
+2026-02-23,B3,Atlas Outdoor,revenue,actual,actual,0,113868,,,False
+2026-03-02,B3,Atlas Outdoor,revenue,actual,actual,0,126089,,,False
+2026-03-09,B3,Atlas Outdoor,revenue,actual,actual,0,135210,,,False
+2026-03-16,B3,Atlas Outdoor,revenue,actual,actual,0,110953,,,False
+2026-03-23,B3,Atlas Outdoor,revenue,actual,actual,0,109994,,,False
+2026-03-30,B3,Atlas Outdoor,revenue,actual,actual,0,128071,,,False
+2026-04-06,B3,Atlas Outdoor,revenue,actual,actual,0,138827,,,False
+2026-04-13,B3,Atlas Outdoor,revenue,actual,actual,0,142133,,,False
+2026-04-20,B3,Atlas Outdoor,revenue,actual,actual,0,122427,,,False
+2026-04-27,B3,Atlas Outdoor,revenue,actual,actual,0,131186,,,False
+2026-05-04,B3,Atlas Outdoor,revenue,actual,actual,0,150871,,,False
+2026-05-11,B3,Atlas Outdoor,revenue,actual,actual,0,126602,,,False
+2026-05-18,B3,Atlas Outdoor,revenue,actual,actual,0,131158,,,False
+2026-05-25,B3,Atlas Outdoor,revenue,actual,actual,0,136565,,,False
+2026-06-01,B3,Atlas Outdoor,revenue,actual,actual,0,146826,,,False
+2026-06-08,B3,Atlas Outdoor,revenue,actual,actual,0,151955,,,False
+2026-06-15,B3,Atlas Outdoor,revenue,actual,actual,0,142329,,,False
+2026-06-22,B3,Atlas Outdoor,revenue,actual,actual,0,129317,,,False
+2026-06-29,B3,Atlas Outdoor,revenue,actual,actual,0,125356,,,False
+2026-07-06,B3,Atlas Outdoor,revenue,actual,actual,0,148342,,,False
+2026-07-13,B3,Atlas Outdoor,revenue,actual,actual,0,143290,,,False
+2026-07-20,B3,Atlas Outdoor,revenue,actual,actual,0,134572,,,False
+2026-07-27,B3,Atlas Outdoor,revenue,actual,actual,0,134591,,,False
+2026-08-03,B3,Atlas Outdoor,revenue,actual,actual,0,128986,,,False
+2026-08-10,B3,Atlas Outdoor,revenue,actual,actual,0,126244,,,False
+2026-08-17,B3,Atlas Outdoor,revenue,actual,actual,0,125526,,,False
+2026-08-24,B3,Atlas Outdoor,revenue,actual,actual,0,128195,,,False
+2026-08-31,B3,Atlas Outdoor,revenue,actual,actual,0,130699,,,False
+2026-09-07,B3,Atlas Outdoor,revenue,actual,actual,0,132400,,,False
+2026-09-14,B3,Atlas Outdoor,revenue,actual,actual,0,135496,,,False
+2026-09-21,B3,Atlas Outdoor,revenue,actual,actual,0,139783,,,False
+2026-09-28,B3,Atlas Outdoor,revenue,actual,actual,0,132089,,,False
+2026-10-05,B3,Atlas Outdoor,revenue,actual,actual,0,130122,,,False
+2026-10-12,B3,Atlas Outdoor,revenue,actual,actual,0,134242,,,False
+2026-10-19,B3,Atlas Outdoor,revenue,actual,actual,0,118800,,,False
+2025-10-27,B1,Hearth Box,contribution_profit,actual,actual,0,24604.8,,,False
+2025-11-03,B1,Hearth Box,contribution_profit,actual,actual,0,21360.9,,,False
+2025-11-10,B1,Hearth Box,contribution_profit,actual,actual,0,27886.9,,,False
+2025-11-17,B1,Hearth Box,contribution_profit,actual,actual,0,29580.5,,,False
+2025-11-24,B1,Hearth Box,contribution_profit,actual,actual,0,31327.4,,,False
+2025-12-01,B1,Hearth Box,contribution_profit,actual,actual,0,27139,,,False
+2025-12-08,B1,Hearth Box,contribution_profit,actual,actual,0,27439.6,,,False
+2025-12-15,B1,Hearth Box,contribution_profit,actual,actual,0,27678,,,False
+2025-12-22,B1,Hearth Box,contribution_profit,actual,actual,0,28990.1,,,False
+2025-12-29,B1,Hearth Box,contribution_profit,actual,actual,0,19644.8,,,False
+2026-01-05,B1,Hearth Box,contribution_profit,actual,actual,0,23931.4,,,False
+2026-01-12,B1,Hearth Box,contribution_profit,actual,actual,0,20172.9,,,False
+2026-01-19,B1,Hearth Box,contribution_profit,actual,actual,0,22524.2,,,False
+2026-01-26,B1,Hearth Box,contribution_profit,actual,actual,0,24892.9,,,False
+2026-02-02,B1,Hearth Box,contribution_profit,actual,actual,0,18297.6,,,False
+2026-02-09,B1,Hearth Box,contribution_profit,actual,actual,0,25953.6,,,False
+2026-02-16,B1,Hearth Box,contribution_profit,actual,actual,0,24085.5,,,False
+2026-02-23,B1,Hearth Box,contribution_profit,actual,actual,0,27242.2,,,False
+2026-03-02,B1,Hearth Box,contribution_profit,actual,actual,0,28353.5,,,False
+2026-03-09,B1,Hearth Box,contribution_profit,actual,actual,0,30121.5,,,False
+2026-03-16,B1,Hearth Box,contribution_profit,actual,actual,0,29202.3,,,False
+2026-03-23,B1,Hearth Box,contribution_profit,actual,actual,0,33113.2,,,False
+2026-03-30,B1,Hearth Box,contribution_profit,actual,actual,0,31584.9,,,False
+2026-04-06,B1,Hearth Box,contribution_profit,actual,actual,0,32645.2,,,False
+2026-04-13,B1,Hearth Box,contribution_profit,actual,actual,0,31796.5,,,False
+2026-04-20,B1,Hearth Box,contribution_profit,actual,actual,0,28857.9,,,False
+2026-04-27,B1,Hearth Box,contribution_profit,actual,actual,0,32078.5,,,False
+2026-05-04,B1,Hearth Box,contribution_profit,actual,actual,0,32181.2,,,False
+2026-05-11,B1,Hearth Box,contribution_profit,actual,actual,0,27377.9,,,False
+2026-05-18,B1,Hearth Box,contribution_profit,actual,actual,0,32319.7,,,False
+2026-05-25,B1,Hearth Box,contribution_profit,actual,actual,0,32279.9,,,False
+2026-06-01,B1,Hearth Box,contribution_profit,actual,actual,0,31736.1,,,False
+2026-06-08,B1,Hearth Box,contribution_profit,actual,actual,0,30895.8,,,False
+2026-06-15,B1,Hearth Box,contribution_profit,actual,actual,0,31007,,,False
+2026-06-22,B1,Hearth Box,contribution_profit,actual,actual,0,29813.5,,,False
+2026-06-29,B1,Hearth Box,contribution_profit,actual,actual,0,33915,,,False
+2026-07-06,B1,Hearth Box,contribution_profit,actual,actual,0,27835.2,,,False
+2026-07-13,B1,Hearth Box,contribution_profit,actual,actual,0,30720.1,,,False
+2026-07-20,B1,Hearth Box,contribution_profit,actual,actual,0,23941.2,,,False
+2026-07-27,B1,Hearth Box,contribution_profit,actual,actual,0,29949.4,,,False
+2026-08-03,B1,Hearth Box,contribution_profit,actual,actual,0,30419.3,,,False
+2026-08-10,B1,Hearth Box,contribution_profit,actual,actual,0,24713.5,,,False
+2026-08-17,B1,Hearth Box,contribution_profit,actual,actual,0,25691.2,,,False
+2026-08-24,B1,Hearth Box,contribution_profit,actual,actual,0,30001.6,,,False
+2026-08-31,B1,Hearth Box,contribution_profit,actual,actual,0,27504.7,,,False
+2026-09-07,B1,Hearth Box,contribution_profit,actual,actual,0,23246.8,,,False
+2026-09-14,B1,Hearth Box,contribution_profit,actual,actual,0,24355.1,,,False
+2026-09-21,B1,Hearth Box,contribution_profit,actual,actual,0,24985,,,False
+2026-09-28,B1,Hearth Box,contribution_profit,actual,actual,0,26047.5,,,False
+2026-10-05,B1,Hearth Box,contribution_profit,actual,actual,0,24522.6,,,False
+2026-10-12,B1,Hearth Box,contribution_profit,actual,actual,0,24665.5,,,False
+2026-10-19,B1,Hearth Box,contribution_profit,actual,actual,0,13708.9,,,False
+2025-10-27,B2,Ledgerline,contribution_profit,actual,actual,0,95724.5,,,False
+2025-11-03,B2,Ledgerline,contribution_profit,actual,actual,0,92041.4,,,False
+2025-11-10,B2,Ledgerline,contribution_profit,actual,actual,0,89693.1,,,False
+2025-11-17,B2,Ledgerline,contribution_profit,actual,actual,0,97027.1,,,False
+2025-11-24,B2,Ledgerline,contribution_profit,actual,actual,0,90947.4,,,False
+2025-12-01,B2,Ledgerline,contribution_profit,actual,actual,0,102963,,,False
+2025-12-08,B2,Ledgerline,contribution_profit,actual,actual,0,94738.9,,,False
+2025-12-15,B2,Ledgerline,contribution_profit,actual,actual,0,98286.9,,,False
+2025-12-22,B2,Ledgerline,contribution_profit,actual,actual,0,97284.9,,,False
+2025-12-29,B2,Ledgerline,contribution_profit,actual,actual,0,91899.1,,,False
+2026-01-05,B2,Ledgerline,contribution_profit,actual,actual,0,85319.3,,,False
+2026-01-12,B2,Ledgerline,contribution_profit,actual,actual,0,89876.6,,,False
+2026-01-19,B2,Ledgerline,contribution_profit,actual,actual,0,99041.6,,,False
+2026-01-26,B2,Ledgerline,contribution_profit,actual,actual,0,88695.4,,,False
+2026-02-02,B2,Ledgerline,contribution_profit,actual,actual,0,103765,,,False
+2026-02-09,B2,Ledgerline,contribution_profit,actual,actual,0,91605.3,,,False
+2026-02-16,B2,Ledgerline,contribution_profit,actual,actual,0,95864,,,False
+2026-02-23,B2,Ledgerline,contribution_profit,actual,actual,0,91086.3,,,False
+2026-03-02,B2,Ledgerline,contribution_profit,actual,actual,0,98601.5,,,False
+2026-03-09,B2,Ledgerline,contribution_profit,actual,actual,0,91966.7,,,False
+2026-03-16,B2,Ledgerline,contribution_profit,actual,actual,0,96059.6,,,False
+2026-03-23,B2,Ledgerline,contribution_profit,actual,actual,0,92779.1,,,False
+2026-03-30,B2,Ledgerline,contribution_profit,actual,actual,0,101979,,,False
+2026-04-06,B2,Ledgerline,contribution_profit,actual,actual,0,94753.6,,,False
+2026-04-13,B2,Ledgerline,contribution_profit,actual,actual,0,85373.9,,,False
+2026-04-20,B2,Ledgerline,contribution_profit,actual,actual,0,103697,,,False
+2026-04-27,B2,Ledgerline,contribution_profit,actual,actual,0,85195.6,,,False
+2026-05-04,B2,Ledgerline,contribution_profit,actual,actual,0,106965,,,False
+2026-05-11,B2,Ledgerline,contribution_profit,actual,actual,0,96109.4,,,False
+2026-05-18,B2,Ledgerline,contribution_profit,actual,actual,0,97639.4,,,False
+2026-05-25,B2,Ledgerline,contribution_profit,actual,actual,0,96697.4,,,False
+2026-06-01,B2,Ledgerline,contribution_profit,actual,actual,0,100852,,,False
+2026-06-08,B2,Ledgerline,contribution_profit,actual,actual,0,107139,,,False
+2026-06-15,B2,Ledgerline,contribution_profit,actual,actual,0,99547.7,,,False
+2026-06-22,B2,Ledgerline,contribution_profit,actual,actual,0,101279,,,False
+2026-06-29,B2,Ledgerline,contribution_profit,actual,actual,0,100266,,,False
+2026-07-06,B2,Ledgerline,contribution_profit,actual,actual,0,100993,,,False
+2026-07-13,B2,Ledgerline,contribution_profit,actual,actual,0,106562,,,False
+2026-07-20,B2,Ledgerline,contribution_profit,actual,actual,0,117233,,,False
+2026-07-27,B2,Ledgerline,contribution_profit,actual,actual,0,88812.2,,,False
+2026-08-03,B2,Ledgerline,contribution_profit,actual,actual,0,111665,,,False
+2026-08-10,B2,Ledgerline,contribution_profit,actual,actual,0,102281,,,False
+2026-08-17,B2,Ledgerline,contribution_profit,actual,actual,0,106685,,,False
+2026-08-24,B2,Ledgerline,contribution_profit,actual,actual,0,101482,,,False
+2026-08-31,B2,Ledgerline,contribution_profit,actual,actual,0,109452,,,False
+2026-09-07,B2,Ledgerline,contribution_profit,actual,actual,0,105177,,,False
+2026-09-14,B2,Ledgerline,contribution_profit,actual,actual,0,95643.2,,,False
+2026-09-21,B2,Ledgerline,contribution_profit,actual,actual,0,95171.1,,,False
+2026-09-28,B2,Ledgerline,contribution_profit,actual,actual,0,106089,,,False
+2026-10-05,B2,Ledgerline,contribution_profit,actual,actual,0,98214.3,,,False
+2026-10-12,B2,Ledgerline,contribution_profit,actual,actual,0,101145,,,False
+2026-10-19,B2,Ledgerline,contribution_profit,actual,actual,0,90349,,,False
+2025-10-27,B3,Atlas Outdoor,contribution_profit,actual,actual,0,21799.5,,,False
+2025-11-03,B3,Atlas Outdoor,contribution_profit,actual,actual,0,28176.7,,,False
+2025-11-10,B3,Atlas Outdoor,contribution_profit,actual,actual,0,23687.8,,,False
+2025-11-17,B3,Atlas Outdoor,contribution_profit,actual,actual,0,22800.8,,,False
+2025-11-24,B3,Atlas Outdoor,contribution_profit,actual,actual,0,26888.9,,,False
+2025-12-01,B3,Atlas Outdoor,contribution_profit,actual,actual,0,31845.8,,,False
+2025-12-08,B3,Atlas Outdoor,contribution_profit,actual,actual,0,24760.5,,,False
+2025-12-15,B3,Atlas Outdoor,contribution_profit,actual,actual,0,30450.5,,,False
+2025-12-22,B3,Atlas Outdoor,contribution_profit,actual,actual,0,29919.5,,,False
+2025-12-29,B3,Atlas Outdoor,contribution_profit,actual,actual,0,21349,,,False
+2026-01-05,B3,Atlas Outdoor,contribution_profit,actual,actual,0,25737.3,,,False
+2026-01-12,B3,Atlas Outdoor,contribution_profit,actual,actual,0,17016.7,,,False
+2026-01-19,B3,Atlas Outdoor,contribution_profit,actual,actual,0,20400.6,,,False
+2026-01-26,B3,Atlas Outdoor,contribution_profit,actual,actual,0,19448.9,,,False
+2026-02-02,B3,Atlas Outdoor,contribution_profit,actual,actual,0,20829.7,,,False
+2026-02-09,B3,Atlas Outdoor,contribution_profit,actual,actual,0,21419.9,,,False
+2026-02-16,B3,Atlas Outdoor,contribution_profit,actual,actual,0,24414.7,,,False
+2026-02-23,B3,Atlas Outdoor,contribution_profit,actual,actual,0,22045.9,,,False
+2026-03-02,B3,Atlas Outdoor,contribution_profit,actual,actual,0,21781,,,False
+2026-03-09,B3,Atlas Outdoor,contribution_profit,actual,actual,0,24707.8,,,False
+2026-03-16,B3,Atlas Outdoor,contribution_profit,actual,actual,0,18708.6,,,False
+2026-03-23,B3,Atlas Outdoor,contribution_profit,actual,actual,0,19570.4,,,False
+2026-03-30,B3,Atlas Outdoor,contribution_profit,actual,actual,0,19235,,,False
+2026-04-06,B3,Atlas Outdoor,contribution_profit,actual,actual,0,25130.3,,,False
+2026-04-13,B3,Atlas Outdoor,contribution_profit,actual,actual,0,25750.4,,,False
+2026-04-20,B3,Atlas Outdoor,contribution_profit,actual,actual,0,20357.3,,,False
+2026-04-27,B3,Atlas Outdoor,contribution_profit,actual,actual,0,24691.3,,,False
+2026-05-04,B3,Atlas Outdoor,contribution_profit,actual,actual,0,26061.7,,,False
+2026-05-11,B3,Atlas Outdoor,contribution_profit,actual,actual,0,22147.4,,,False
+2026-05-18,B3,Atlas Outdoor,contribution_profit,actual,actual,0,22534.8,,,False
+2026-05-25,B3,Atlas Outdoor,contribution_profit,actual,actual,0,23405.2,,,False
+2026-06-01,B3,Atlas Outdoor,contribution_profit,actual,actual,0,25475.5,,,False
+2026-06-08,B3,Atlas Outdoor,contribution_profit,actual,actual,0,24094.9,,,False
+2026-06-15,B3,Atlas Outdoor,contribution_profit,actual,actual,0,24500.6,,,False
+2026-06-22,B3,Atlas Outdoor,contribution_profit,actual,actual,0,22896.8,,,False
+2026-06-29,B3,Atlas Outdoor,contribution_profit,actual,actual,0,22376.6,,,False
+2026-07-06,B3,Atlas Outdoor,contribution_profit,actual,actual,0,28115.9,,,False
+2026-07-13,B3,Atlas Outdoor,contribution_profit,actual,actual,0,23453.2,,,False
+2026-07-20,B3,Atlas Outdoor,contribution_profit,actual,actual,0,23449.4,,,False
+2026-07-27,B3,Atlas Outdoor,contribution_profit,actual,actual,0,24710.8,,,False
+2026-08-03,B3,Atlas Outdoor,contribution_profit,actual,actual,0,23767.9,,,False
+2026-08-10,B3,Atlas Outdoor,contribution_profit,actual,actual,0,23804.1,,,False
+2026-08-17,B3,Atlas Outdoor,contribution_profit,actual,actual,0,22302.9,,,False
+2026-08-24,B3,Atlas Outdoor,contribution_profit,actual,actual,0,23486,,,False
+2026-08-31,B3,Atlas Outdoor,contribution_profit,actual,actual,0,24387.2,,,False
+2026-09-07,B3,Atlas Outdoor,contribution_profit,actual,actual,0,24976.8,,,False
+2026-09-14,B3,Atlas Outdoor,contribution_profit,actual,actual,0,24930,,,False
+2026-09-21,B3,Atlas Outdoor,contribution_profit,actual,actual,0,24939.3,,,False
+2026-09-28,B3,Atlas Outdoor,contribution_profit,actual,actual,0,25922.3,,,False
+2026-10-05,B3,Atlas Outdoor,contribution_profit,actual,actual,0,24948.8,,,False
+2026-10-12,B3,Atlas Outdoor,contribution_profit,actual,actual,0,23489.6,,,False
+2026-10-19,B3,Atlas Outdoor,contribution_profit,actual,actual,0,20846.2,,,False
+2026-10-26,B1,Hearth Box,spend,forecast,plan,1,18852.2,18852.2,18852.2,False
+2026-11-02,B1,Hearth Box,spend,forecast,plan,2,19447.1,19447.1,19447.1,False
+2026-11-09,B1,Hearth Box,spend,forecast,plan,3,16114.1,16114.1,16114.1,False
+2026-11-16,B1,Hearth Box,spend,forecast,plan,4,15369.5,15369.5,15369.5,False
+2026-11-23,B1,Hearth Box,spend,forecast,plan,5,14669.6,14669.6,14669.6,False
+2026-11-30,B1,Hearth Box,spend,forecast,plan,6,15028,15028,15028,False
+2026-12-07,B1,Hearth Box,spend,forecast,plan,7,15446.4,15446.4,15446.4,False
+2026-12-14,B1,Hearth Box,spend,forecast,plan,8,16914,16914,16914,False
+2026-12-21,B1,Hearth Box,spend,forecast,plan,9,15493.9,15493.9,15493.9,False
+2026-12-28,B1,Hearth Box,spend,forecast,plan,10,21767.2,21767.2,21767.2,False
+2027-01-04,B1,Hearth Box,spend,forecast,plan,11,16999.6,16999.6,16999.6,False
+2027-01-11,B1,Hearth Box,spend,forecast,plan,12,21189.1,21189.1,21189.1,False
+2027-01-18,B1,Hearth Box,spend,forecast,plan,13,20518.8,20518.8,20518.8,False
+2027-01-25,B1,Hearth Box,spend,forecast,plan,14,19759.1,19759.1,19759.1,True
+2027-02-01,B1,Hearth Box,spend,forecast,plan,15,24208.4,24208.4,24208.4,True
+2027-02-08,B1,Hearth Box,spend,forecast,plan,16,17176.4,17176.4,17176.4,True
+2027-02-15,B1,Hearth Box,spend,forecast,plan,17,19742.5,19742.5,19742.5,True
+2027-02-22,B1,Hearth Box,spend,forecast,plan,18,21929.8,21929.8,21929.8,True
+2027-03-01,B1,Hearth Box,spend,forecast,plan,19,18180.5,18180.5,18180.5,True
+2027-03-08,B1,Hearth Box,spend,forecast,plan,20,16445.5,16445.5,16445.5,True
+2027-03-15,B1,Hearth Box,spend,forecast,plan,21,17224.7,17224.7,17224.7,True
+2027-03-22,B1,Hearth Box,spend,forecast,plan,22,14339.8,14339.8,14339.8,True
+2027-03-29,B1,Hearth Box,spend,forecast,plan,23,18719.1,18719.1,18719.1,True
+2027-04-05,B1,Hearth Box,spend,forecast,plan,24,13542.8,13542.8,13542.8,True
+2027-04-12,B1,Hearth Box,spend,forecast,plan,25,15049.5,15049.5,15049.5,True
+2027-04-19,B1,Hearth Box,spend,forecast,plan,26,17568.1,17568.1,17568.1,True
+2027-04-26,B1,Hearth Box,spend,forecast,plan,27,16837.5,16837.5,16837.5,True
+2027-05-03,B1,Hearth Box,spend,forecast,plan,28,17183.8,17183.8,17183.8,True
+2027-05-10,B1,Hearth Box,spend,forecast,plan,29,17666.1,17666.1,17666.1,True
+2027-05-17,B1,Hearth Box,spend,forecast,plan,30,13356.3,13356.3,13356.3,True
+2027-05-24,B1,Hearth Box,spend,forecast,plan,31,16790.1,16790.1,16790.1,True
+2027-05-31,B1,Hearth Box,spend,forecast,plan,32,16543.9,16543.9,16543.9,True
+2027-06-07,B1,Hearth Box,spend,forecast,plan,33,15033.2,15033.2,15033.2,True
+2027-06-14,B1,Hearth Box,spend,forecast,plan,34,14995,14995,14995,True
+2027-06-21,B1,Hearth Box,spend,forecast,plan,35,13985.5,13985.5,13985.5,True
+2027-06-28,B1,Hearth Box,spend,forecast,plan,36,16070,16070,16070,True
+2027-07-05,B1,Hearth Box,spend,forecast,plan,37,16705.8,16705.8,16705.8,True
+2027-07-12,B1,Hearth Box,spend,forecast,plan,38,14411.9,14411.9,14411.9,True
+2027-07-19,B1,Hearth Box,spend,forecast,plan,39,18100.8,18100.8,18100.8,True
+2027-07-26,B1,Hearth Box,spend,forecast,plan,40,15507.6,15507.6,15507.6,True
+2027-08-02,B1,Hearth Box,spend,forecast,plan,41,14630.7,14630.7,14630.7,True
+2027-08-09,B1,Hearth Box,spend,forecast,plan,42,16763.5,16763.5,16763.5,True
+2027-08-16,B1,Hearth Box,spend,forecast,plan,43,16226.8,16226.8,16226.8,True
+2027-08-23,B1,Hearth Box,spend,forecast,plan,44,15031.4,15031.4,15031.4,True
+2027-08-30,B1,Hearth Box,spend,forecast,plan,45,15950.3,15950.3,15950.3,True
+2027-09-06,B1,Hearth Box,spend,forecast,plan,46,17319.2,17319.2,17319.2,True
+2027-09-13,B1,Hearth Box,spend,forecast,plan,47,17796.9,17796.9,17796.9,True
+2027-09-20,B1,Hearth Box,spend,forecast,plan,48,15406,15406,15406,True
+2027-09-27,B1,Hearth Box,spend,forecast,plan,49,18128.5,18128.5,18128.5,True
+2027-10-04,B1,Hearth Box,spend,forecast,plan,50,16477.4,16477.4,16477.4,True
+2027-10-11,B1,Hearth Box,spend,forecast,plan,51,15451.5,15451.5,15451.5,True
+2027-10-18,B1,Hearth Box,spend,forecast,plan,52,18676.1,18676.1,18676.1,True
+2026-10-26,B1,Hearth Box,customers,forecast,regression,1,450.11,371.604,573.061,False
+2026-11-02,B1,Hearth Box,customers,forecast,regression,2,450.158,371.643,573.122,False
+2026-11-09,B1,Hearth Box,customers,forecast,regression,3,400.342,330.516,509.698,False
+2026-11-16,B1,Hearth Box,customers,forecast,regression,4,383.938,316.973,488.813,False
+2026-11-23,B1,Hearth Box,customers,forecast,regression,5,373.358,307.817,476.716,False
+2026-11-30,B1,Hearth Box,customers,forecast,regression,6,381.029,314.142,486.511,False
+2026-12-07,B1,Hearth Box,customers,forecast,regression,7,394.151,324.961,503.267,False
+2026-12-14,B1,Hearth Box,customers,forecast,regression,8,425.597,350.886,543.417,False
+2026-12-21,B1,Hearth Box,customers,forecast,regression,9,419.62,351.479,526.91,False
+2026-12-28,B1,Hearth Box,customers,forecast,regression,10,522.109,437.326,655.605,False
+2027-01-04,B1,Hearth Box,customers,forecast,regression,11,476.837,399.405,598.758,False
+2027-01-11,B1,Hearth Box,customers,forecast,regression,12,549.534,460.296,690.041,False
+2027-01-18,B1,Hearth Box,customers,forecast,regression,13,557.207,466.724,699.676,False
+2027-01-25,B1,Hearth Box,customers,forecast,regression,14,553.141,463.318,694.571,True
+2027-02-01,B1,Hearth Box,customers,forecast,regression,15,621.516,520.59,780.429,True
+2027-02-08,B1,Hearth Box,customers,forecast,regression,16,515.957,432.172,647.88,True
+2027-02-15,B1,Hearth Box,customers,forecast,regression,17,543.194,454.987,682.081,True
+2027-02-22,B1,Hearth Box,customers,forecast,regression,18,567.886,475.669,713.086,True
+2027-03-01,B1,Hearth Box,customers,forecast,regression,19,501.874,420.377,630.196,True
+2027-03-08,B1,Hearth Box,customers,forecast,regression,20,459.221,384.65,576.637,True
+2027-03-15,B1,Hearth Box,customers,forecast,regression,21,457.322,383.058,574.252,True
+2027-03-22,B1,Hearth Box,customers,forecast,regression,22,404.082,338.464,507.4,True
+2027-03-29,B1,Hearth Box,customers,forecast,regression,23,455.415,381.462,571.858,True
+2027-04-05,B1,Hearth Box,customers,forecast,regression,24,377.929,316.558,474.56,True
+2027-04-12,B1,Hearth Box,customers,forecast,regression,25,389.979,326.651,489.69,True
+2027-04-19,B1,Hearth Box,customers,forecast,regression,26,421.304,352.89,529.025,True
+2027-04-26,B1,Hearth Box,customers,forecast,regression,27,408.956,342.547,513.521,True
+2027-05-03,B1,Hearth Box,customers,forecast,regression,28,407.327,341.182,511.474,True
+2027-05-10,B1,Hearth Box,customers,forecast,regression,29,407.112,341.002,511.205,True
+2027-05-17,B1,Hearth Box,customers,forecast,regression,30,341.84,286.329,429.243,True
+2027-05-24,B1,Hearth Box,customers,forecast,regression,31,374.141,313.385,469.803,True
+2027-05-31,B1,Hearth Box,customers,forecast,regression,32,363.326,304.326,456.223,True
+2027-06-07,B1,Hearth Box,customers,forecast,regression,33,333.087,278.998,418.253,True
+2027-06-14,B1,Hearth Box,customers,forecast,regression,34,320.137,268.151,401.992,True
+2027-06-21,B1,Hearth Box,customers,forecast,regression,35,297.918,249.54,374.091,True
+2027-06-28,B1,Hearth Box,customers,forecast,regression,36,311.696,261.081,391.392,True
+2027-07-05,B1,Hearth Box,customers,forecast,regression,37,313.193,262.334,393.271,True
+2027-07-12,B1,Hearth Box,customers,forecast,regression,38,285.354,239.016,358.314,True
+2027-07-19,B1,Hearth Box,customers,forecast,regression,39,321.336,269.156,403.497,True
+2027-07-26,B1,Hearth Box,customers,forecast,regression,40,300.531,251.728,377.372,True
+2027-08-02,B1,Hearth Box,customers,forecast,regression,41,295.414,247.443,370.947,True
+2027-08-09,B1,Hearth Box,customers,forecast,regression,42,327.751,274.528,411.552,True
+2027-08-16,B1,Hearth Box,customers,forecast,regression,43,336.087,281.511,422.02,True
+2027-08-23,B1,Hearth Box,customers,forecast,regression,44,335.442,280.971,421.21,True
+2027-08-30,B1,Hearth Box,customers,forecast,regression,45,360.455,301.922,452.618,True
+2027-09-06,B1,Hearth Box,customers,forecast,regression,46,393.076,329.245,493.579,True
+2027-09-13,B1,Hearth Box,customers,forecast,regression,47,413.453,346.314,519.167,True
+2027-09-20,B1,Hearth Box,customers,forecast,regression,48,391.173,327.651,491.19,True
+2027-09-27,B1,Hearth Box,customers,forecast,regression,49,431.429,361.371,541.739,True
+2027-10-04,B1,Hearth Box,customers,forecast,regression,50,413.113,346.029,518.74,True
+2027-10-11,B1,Hearth Box,customers,forecast,regression,51,394.846,330.728,495.802,True
+2027-10-18,B1,Hearth Box,customers,forecast,regression,52,431.876,361.745,542.301,True
+2026-10-26,B1,Hearth Box,revenue,forecast,regression,1,171748,164637,180984,False
+2026-11-02,B1,Hearth Box,revenue,forecast,regression,2,171934,164815,181180,False
+2026-11-09,B1,Hearth Box,revenue,forecast,regression,3,169361,162349,178469,False
+2026-11-16,B1,Hearth Box,revenue,forecast,regression,4,168467,161492,177527,False
+2026-11-23,B1,Hearth Box,revenue,forecast,regression,5,168074,157256,178491,False
+2026-11-30,B1,Hearth Box,revenue,forecast,regression,6,168880,158010,179347,False
+2026-12-07,B1,Hearth Box,revenue,forecast,regression,7,170136,159186,180682,False
+2026-12-14,B1,Hearth Box,revenue,forecast,regression,8,172517,161413,183210,False
+2026-12-21,B1,Hearth Box,revenue,forecast,regression,9,172838,161311,181410,False
+2026-12-28,B1,Hearth Box,revenue,forecast,regression,10,178857,166928,187727,False
+2027-01-04,B1,Hearth Box,revenue,forecast,regression,11,177660,165811,186470,False
+2027-01-11,B1,Hearth Box,revenue,forecast,regression,12,181881,169750,190900,False
+2027-01-18,B1,Hearth Box,revenue,forecast,regression,13,183367,171137,192460,False
+2027-01-25,B1,Hearth Box,revenue,forecast,regression,14,184109,171830,193239,True
+2027-02-01,B1,Hearth Box,revenue,forecast,regression,15,188111,175565,197440,True
+2027-02-08,B1,Hearth Box,revenue,forecast,regression,16,184370,172074,193514,True
+2027-02-15,B1,Hearth Box,revenue,forecast,regression,17,186278,173854,195516,True
+2027-02-22,B1,Hearth Box,revenue,forecast,regression,18,188397,175831,197740,True
+2027-03-01,B1,Hearth Box,revenue,forecast,regression,19,185933,173532,195153,True
+2027-03-08,B1,Hearth Box,revenue,forecast,regression,20,183998,171726,193122,True
+2027-03-15,B1,Hearth Box,revenue,forecast,regression,21,184216,171929,193351,True
+2027-03-22,B1,Hearth Box,revenue,forecast,regression,22,181350,169254,190343,True
+2027-03-29,B1,Hearth Box,revenue,forecast,regression,23,184413,172114,193559,True
+2027-04-05,B1,Hearth Box,revenue,forecast,regression,24,179906,167907,188828,True
+2027-04-12,B1,Hearth Box,revenue,forecast,regression,25,180338,168310,189281,True
+2027-04-19,B1,Hearth Box,revenue,forecast,regression,26,182261,170105,191300,True
+2027-04-26,B1,Hearth Box,revenue,forecast,regression,27,181423,169322,190420,True
+2027-05-03,B1,Hearth Box,revenue,forecast,regression,28,181003,168931,189979,True
+2027-05-10,B1,Hearth Box,revenue,forecast,regression,29,180678,168628,189638,True
+2027-05-17,B1,Hearth Box,revenue,forecast,regression,30,175932,164198,184657,True
+2027-05-24,B1,Hearth Box,revenue,forecast,regression,31,177497,165659,186299,True
+2027-05-31,B1,Hearth Box,revenue,forecast,regression,32,176474,164704,185225,True
+2027-06-07,B1,Hearth Box,revenue,forecast,regression,33,173744,162156,182360,True
+2027-06-14,B1,Hearth Box,revenue,forecast,regression,34,172040,160565,180571,True
+2027-06-21,B1,Hearth Box,revenue,forecast,regression,35,169565,158256,177974,True
+2027-06-28,B1,Hearth Box,revenue,forecast,regression,36,169752,158430,178170,True
+2027-07-05,B1,Hearth Box,revenue,forecast,regression,37,169060,157784,177443,True
+2027-07-12,B1,Hearth Box,revenue,forecast,regression,38,165893,154829,174120,True
+2027-07-19,B1,Hearth Box,revenue,forecast,regression,39,167496,156324,175802,True
+2027-07-26,B1,Hearth Box,revenue,forecast,regression,40,165020,154014,173204,True
+2027-08-02,B1,Hearth Box,revenue,forecast,regression,41,163394,152496,171497,True
+2027-08-09,B1,Hearth Box,revenue,forecast,regression,42,164672,153689,172838,True
+2027-08-16,B1,Hearth Box,revenue,forecast,regression,43,164345,153384,172495,True
+2027-08-23,B1,Hearth Box,revenue,forecast,regression,44,163336,152442,171436,True
+2027-08-30,B1,Hearth Box,revenue,forecast,regression,45,164105,153160,172243,True
+2027-09-06,B1,Hearth Box,revenue,forecast,regression,46,165464,154428,173669,True
+2027-09-13,B1,Hearth Box,revenue,forecast,regression,47,166146,155065,174385,True
+2027-09-20,B1,Hearth Box,revenue,forecast,regression,48,164450,153482,172606,True
+2027-09-27,B1,Hearth Box,revenue,forecast,regression,49,166320,155227,174568,True
+2027-10-04,B1,Hearth Box,revenue,forecast,regression,50,165275,154252,173471,True
+2027-10-11,B1,Hearth Box,revenue,forecast,regression,51,164083,153140,172220,True
+2027-10-18,B1,Hearth Box,revenue,forecast,regression,52,166144,155063,174384,True
+2026-10-26,B1,Hearth Box,contribution_profit,forecast,regression,1,22367.7,20088.9,24004.3,False
+2026-11-02,B1,Hearth Box,contribution_profit,forecast,regression,2,21870.5,19642.4,23470.7,False
+2026-11-09,B1,Hearth Box,contribution_profit,forecast,regression,3,25412.2,22823.2,27271.5,False
+2026-11-16,B1,Hearth Box,contribution_profit,forecast,regression,4,26646.4,23931.6,28596,False
+2026-11-23,B1,Hearth Box,contribution_profit,forecast,regression,5,27705.9,24989.6,29460.8,False
+2026-11-30,B1,Hearth Box,contribution_profit,forecast,regression,6,27199.8,24533.2,28922.7,False
+2026-12-07,B1,Hearth Box,contribution_profit,forecast,regression,7,26524.3,23923.9,28204.5,False
+2026-12-14,B1,Hearth Box,contribution_profit,forecast,regression,8,24588.7,22178.1,26146.3,False
+2026-12-21,B1,Hearth Box,contribution_profit,forecast,regression,9,26209.2,23586.1,27894.2,False
+2026-12-28,B1,Hearth Box,contribution_profit,forecast,regression,10,20078.2,18068.7,21369,False
+2027-01-04,B1,Hearth Box,contribution_profit,forecast,regression,11,24100.3,21688.2,25649.7,False
+2027-01-11,B1,Hearth Box,contribution_profit,forecast,regression,12,20561.3,18503.4,21883.2,False
+2027-01-18,B1,Hearth Box,contribution_profit,forecast,regression,13,21040.9,18935,22393.6,False
+2027-01-25,B1,Hearth Box,contribution_profit,forecast,regression,14,21955.9,19758.5,23367.5,True
+2027-02-01,B1,Hearth Box,contribution_profit,forecast,regression,15,18976.7,17077.4,20196.6,True
+2027-02-08,B1,Hearth Box,contribution_profit,forecast,regression,16,25099.1,22587.1,26712.7,True
+2027-02-15,B1,Hearth Box,contribution_profit,forecast,regression,17,23242.6,20916.3,24736.8,True
+2027-02-22,B1,Hearth Box,contribution_profit,forecast,regression,18,21629.4,19464.6,23020,True
+2027-03-01,B1,Hearth Box,contribution_profit,forecast,regression,19,25428.6,22883.5,27063.3,True
+2027-03-08,B1,Hearth Box,contribution_profit,forecast,regression,20,28234.3,25408.4,30049.4,True
+2027-03-15,B1,Hearth Box,contribution_profit,forecast,regression,21,27716.5,24942.5,29498.4,True
+2027-03-22,B1,Hearth Box,contribution_profit,forecast,regression,22,32334.6,29098.4,34413.4,True
+2027-03-29,B1,Hearth Box,contribution_profit,forecast,regression,23,26571.7,23912.2,28279.9,True
+2027-04-05,B1,Hearth Box,contribution_profit,forecast,regression,24,34066.2,30656.7,36256.3,True
+2027-04-12,B1,Hearth Box,contribution_profit,forecast,regression,25,31816.4,28632,33861.9,True
+2027-04-19,B1,Hearth Box,contribution_profit,forecast,regression,26,27924.5,25129.7,29719.8,True
+2027-04-26,B1,Hearth Box,contribution_profit,forecast,regression,27,28545.3,25688.3,30380.4,True
+2027-05-03,B1,Hearth Box,contribution_profit,forecast,regression,28,27978.3,25178.1,29777,True
+2027-05-10,B1,Hearth Box,contribution_profit,forecast,regression,29,27164.8,24446,28911.2,True
+2027-05-17,B1,Hearth Box,contribution_profit,forecast,regression,30,33664.8,30295.4,35829,True
+2027-05-24,B1,Hearth Box,contribution_profit,forecast,regression,31,28257.6,25429.4,30074.3,True
+2027-05-31,B1,Hearth Box,contribution_profit,forecast,regression,32,28121.3,25306.8,29929.2,True
+2027-06-07,B1,Hearth Box,contribution_profit,forecast,regression,33,30205.5,27182.3,32147.4,True
+2027-06-14,B1,Hearth Box,contribution_profit,forecast,regression,34,30245.8,27218.6,32190.3,True
+2027-06-21,B1,Hearth Box,contribution_profit,forecast,regression,35,31799.2,28616.6,33843.6,True
+2027-06-28,B1,Hearth Box,contribution_profit,forecast,regression,36,28388.6,25547.3,30213.7,True
+2027-07-05,B1,Hearth Box,contribution_profit,forecast,regression,37,27142.5,24425.9,28887.5,True
+2027-07-12,B1,Hearth Box,contribution_profit,forecast,regression,38,30194.2,27172.2,32135.4,True
+2027-07-19,B1,Hearth Box,contribution_profit,forecast,regression,39,25088.2,22577.2,26701.1,True
+2027-07-26,B1,Hearth Box,contribution_profit,forecast,regression,40,27712.2,24938.6,29493.8,True
+2027-08-02,B1,Hearth Box,contribution_profit,forecast,regression,41,28821.7,25937.1,30674.6,True
+2027-08-09,B1,Hearth Box,contribution_profit,forecast,regression,42,25539,22982.9,27180.9,True
+2027-08-16,B1,Hearth Box,contribution_profit,forecast,regression,43,25631.6,23066.2,27279.4,True
+2027-08-23,B1,Hearth Box,contribution_profit,forecast,regression,44,26862.4,24173.9,28589.4,True
+2027-08-30,B1,Hearth Box,contribution_profit,forecast,regression,45,25350.1,22812.9,26979.9,True
+2027-09-06,B1,Hearth Box,contribution_profit,forecast,regression,46,23382.9,21042.6,24886.1,True
+2027-09-13,B1,Hearth Box,contribution_profit,forecast,regression,47,22565.4,20306.9,24016.1,True
+2027-09-20,B1,Hearth Box,contribution_profit,forecast,regression,48,25093,22581.5,26706.2,True
+2027-09-27,B1,Hearth Box,contribution_profit,forecast,regression,49,22097.9,19886.2,23518.5,True
+2027-10-04,B1,Hearth Box,contribution_profit,forecast,regression,50,23615.9,21252.3,25134.1,True
+2027-10-11,B1,Hearth Box,contribution_profit,forecast,regression,51,24975.1,22475.4,26580.7,True
+2027-10-18,B1,Hearth Box,contribution_profit,forecast,regression,52,21585.3,19424.9,22973,True
+2026-10-26,B2,Ledgerline,spend,forecast,plan,1,9735.53,9735.53,9735.53,False
+2026-11-02,B2,Ledgerline,spend,forecast,plan,2,8478.62,8478.62,8478.62,False
+2026-11-09,B2,Ledgerline,spend,forecast,plan,3,9286.9,9286.9,9286.9,False
+2026-11-16,B2,Ledgerline,spend,forecast,plan,4,9372.95,9372.95,9372.95,False
+2026-11-23,B2,Ledgerline,spend,forecast,plan,5,8612.65,8612.65,8612.65,False
+2026-11-30,B2,Ledgerline,spend,forecast,plan,6,7097.09,7097.09,7097.09,False
+2026-12-07,B2,Ledgerline,spend,forecast,plan,7,6921.13,6921.13,6921.13,False
+2026-12-14,B2,Ledgerline,spend,forecast,plan,8,6853.08,6853.08,6853.08,False
+2026-12-21,B2,Ledgerline,spend,forecast,plan,9,6635.14,6635.14,6635.14,False
+2026-12-28,B2,Ledgerline,spend,forecast,plan,10,10640.9,10640.9,10640.9,False
+2027-01-04,B2,Ledgerline,spend,forecast,plan,11,8360.72,8360.72,8360.72,False
+2027-01-11,B2,Ledgerline,spend,forecast,plan,12,10883.4,10883.4,10883.4,False
+2027-01-18,B2,Ledgerline,spend,forecast,plan,13,9278.42,9278.42,9278.42,False
+2027-01-25,B2,Ledgerline,spend,forecast,plan,14,10224.6,10224.6,10224.6,True
+2027-02-01,B2,Ledgerline,spend,forecast,plan,15,9814.85,9814.85,9814.85,True
+2027-02-08,B2,Ledgerline,spend,forecast,plan,16,8514.74,8514.74,8514.74,True
+2027-02-15,B2,Ledgerline,spend,forecast,plan,17,10076,10076,10076,True
+2027-02-22,B2,Ledgerline,spend,forecast,plan,18,10953.7,10953.7,10953.7,True
+2027-03-01,B2,Ledgerline,spend,forecast,plan,19,10038.5,10038.5,10038.5,True
+2027-03-08,B2,Ledgerline,spend,forecast,plan,20,10433.3,10433.3,10433.3,True
+2027-03-15,B2,Ledgerline,spend,forecast,plan,21,10680.4,10680.4,10680.4,True
+2027-03-22,B2,Ledgerline,spend,forecast,plan,22,11120.9,11120.9,11120.9,True
+2027-03-29,B2,Ledgerline,spend,forecast,plan,23,9361.05,9361.05,9361.05,True
+2027-04-05,B2,Ledgerline,spend,forecast,plan,24,13246.4,13246.4,13246.4,True
+2027-04-12,B2,Ledgerline,spend,forecast,plan,25,9826.12,9826.12,9826.12,True
+2027-04-19,B2,Ledgerline,spend,forecast,plan,26,8902.89,8902.89,8902.89,True
+2027-04-26,B2,Ledgerline,spend,forecast,plan,27,10704.4,10704.4,10704.4,True
+2027-05-03,B2,Ledgerline,spend,forecast,plan,28,9734.79,9734.79,9734.79,True
+2027-05-10,B2,Ledgerline,spend,forecast,plan,29,10790.6,10790.6,10790.6,True
+2027-05-17,B2,Ledgerline,spend,forecast,plan,30,9000.65,9000.65,9000.65,True
+2027-05-24,B2,Ledgerline,spend,forecast,plan,31,10662.6,10662.6,10662.6,True
+2027-05-31,B2,Ledgerline,spend,forecast,plan,32,9108.5,9108.5,9108.5,True
+2027-06-07,B2,Ledgerline,spend,forecast,plan,33,9841.28,9841.28,9841.28,True
+2027-06-14,B2,Ledgerline,spend,forecast,plan,34,9732.28,9732.28,9732.28,True
+2027-06-21,B2,Ledgerline,spend,forecast,plan,35,7941.09,7941.09,7941.09,True
+2027-06-28,B2,Ledgerline,spend,forecast,plan,36,8873.58,8873.58,8873.58,True
+2027-07-05,B2,Ledgerline,spend,forecast,plan,37,8987.08,8987.08,8987.08,True
+2027-07-12,B2,Ledgerline,spend,forecast,plan,38,8237.91,8237.91,8237.91,True
+2027-07-19,B2,Ledgerline,spend,forecast,plan,39,7046.78,7046.78,7046.78,True
+2027-07-26,B2,Ledgerline,spend,forecast,plan,40,8747.84,8747.84,8747.84,True
+2027-08-02,B2,Ledgerline,spend,forecast,plan,41,9515.35,9515.35,9515.35,True
+2027-08-09,B2,Ledgerline,spend,forecast,plan,42,8918.69,8918.69,8918.69,True
+2027-08-16,B2,Ledgerline,spend,forecast,plan,43,8055.05,8055.05,8055.05,True
+2027-08-23,B2,Ledgerline,spend,forecast,plan,44,8697.58,8697.58,8697.58,True
+2027-08-30,B2,Ledgerline,spend,forecast,plan,45,10528.3,10528.3,10528.3,True
+2027-09-06,B2,Ledgerline,spend,forecast,plan,46,11402.7,11402.7,11402.7,True
+2027-09-13,B2,Ledgerline,spend,forecast,plan,47,11516.8,11516.8,11516.8,True
+2027-09-20,B2,Ledgerline,spend,forecast,plan,48,13068.9,13068.9,13068.9,True
+2027-09-27,B2,Ledgerline,spend,forecast,plan,49,9911.24,9911.24,9911.24,True
+2027-10-04,B2,Ledgerline,spend,forecast,plan,50,9045.74,9045.74,9045.74,True
+2027-10-11,B2,Ledgerline,spend,forecast,plan,51,10614.8,10614.8,10614.8,True
+2027-10-18,B2,Ledgerline,spend,forecast,plan,52,10751,10751,10751,True
+2026-10-26,B2,Ledgerline,customers,forecast,regression,1,8.49845,4.66446,17.0678,False
+2026-11-02,B2,Ledgerline,customers,forecast,regression,2,7.24495,3.97647,14.5504,False
+2026-11-09,B2,Ledgerline,customers,forecast,regression,3,6.98931,3.83616,14.037,False
+2026-11-16,B2,Ledgerline,customers,forecast,regression,4,7.05126,3.87016,14.1614,False
+2026-11-23,B2,Ledgerline,customers,forecast,regression,5,6.76303,4.14583,14.6389,False
+2026-11-30,B2,Ledgerline,customers,forecast,regression,6,6.09748,3.73784,13.1983,False
+2026-12-07,B2,Ledgerline,customers,forecast,regression,7,5.9411,3.64197,12.8598,False
+2026-12-14,B2,Ledgerline,customers,forecast,regression,8,6.22916,3.81856,13.4833,False
+2026-12-21,B2,Ledgerline,customers,forecast,regression,9,6.53417,2.99655,13.301,False
+2026-12-28,B2,Ledgerline,customers,forecast,regression,10,8.88814,4.07608,18.0928,False
+2027-01-04,B2,Ledgerline,customers,forecast,regression,11,9.5434,4.37657,19.4266,False
+2027-01-11,B2,Ledgerline,customers,forecast,regression,12,10.6633,4.89017,21.7063,False
+2027-01-18,B2,Ledgerline,customers,forecast,regression,13,10.8414,4.97183,22.0688,False
+2027-01-25,B2,Ledgerline,customers,forecast,regression,14,10.8919,4.995,22.1716,True
+2027-02-01,B2,Ledgerline,customers,forecast,regression,15,10.7495,4.92969,21.8818,True
+2027-02-08,B2,Ledgerline,customers,forecast,regression,16,9.49011,4.35213,19.3181,True
+2027-02-15,B2,Ledgerline,customers,forecast,regression,17,9.48122,4.34806,19.3,True
+2027-02-22,B2,Ledgerline,customers,forecast,regression,18,9.90243,4.54122,20.1574,True
+2027-03-01,B2,Ledgerline,customers,forecast,regression,19,9.26228,4.24765,18.8543,True
+2027-03-08,B2,Ledgerline,customers,forecast,regression,20,8.91428,4.08806,18.1459,True
+2027-03-15,B2,Ledgerline,customers,forecast,regression,21,8.99725,4.12611,18.3149,True
+2027-03-22,B2,Ledgerline,customers,forecast,regression,22,9.31821,4.2733,18.9682,True
+2027-03-29,B2,Ledgerline,customers,forecast,regression,23,8.85351,4.06019,18.0223,True
+2027-04-05,B2,Ledgerline,customers,forecast,regression,24,10.5881,4.85567,21.5532,True
+2027-04-12,B2,Ledgerline,customers,forecast,regression,25,10.6285,4.87421,21.6355,True
+2027-04-19,B2,Ledgerline,customers,forecast,regression,26,9.83842,4.51187,20.0271,True
+2027-04-26,B2,Ledgerline,customers,forecast,regression,27,11.1812,5.12766,22.7605,True
+2027-05-03,B2,Ledgerline,customers,forecast,regression,28,11.7731,5.39913,23.9655,True
+2027-05-10,B2,Ledgerline,customers,forecast,regression,29,12.4212,5.69635,25.2848,True
+2027-05-17,B2,Ledgerline,customers,forecast,regression,30,11.6619,5.34812,23.7391,True
+2027-05-24,B2,Ledgerline,customers,forecast,regression,31,11.7934,5.40841,24.0067,True
+2027-05-31,B2,Ledgerline,customers,forecast,regression,32,10.8493,4.97543,22.0848,True
+2027-06-07,B2,Ledgerline,customers,forecast,regression,33,10.0412,4.60485,20.4398,True
+2027-06-14,B2,Ledgerline,customers,forecast,regression,34,9.37631,4.29995,19.0865,True
+2027-06-21,B2,Ledgerline,customers,forecast,regression,35,7.66604,3.51562,15.605,True
+2027-06-28,B2,Ledgerline,customers,forecast,regression,36,7.0276,3.22284,14.3054,True
+2027-07-05,B2,Ledgerline,customers,forecast,regression,37,6.81275,3.12431,13.8681,True
+2027-07-12,B2,Ledgerline,customers,forecast,regression,38,6.22338,2.85402,12.6683,True
+2027-07-19,B2,Ledgerline,customers,forecast,regression,39,5.47152,2.50922,11.1379,True
+2027-07-26,B2,Ledgerline,customers,forecast,regression,40,5.91479,2.71251,12.0402,True
+2027-08-02,B2,Ledgerline,customers,forecast,regression,41,6.85311,3.14282,13.9502,True
+2027-08-09,B2,Ledgerline,customers,forecast,regression,42,7.22838,3.31491,14.7141,True
+2027-08-16,B2,Ledgerline,customers,forecast,regression,43,7.27302,3.33539,14.805,True
+2027-08-23,B2,Ledgerline,customers,forecast,regression,44,8.0146,3.67547,16.3146,True
+2027-08-30,B2,Ledgerline,customers,forecast,regression,45,9.86856,4.52569,20.0885,True
+2027-09-06,B2,Ledgerline,customers,forecast,regression,46,11.7117,5.37095,23.8404,True
+2027-09-13,B2,Ledgerline,customers,forecast,regression,47,12.7079,5.82782,25.8684,True
+2027-09-20,B2,Ledgerline,customers,forecast,regression,48,14.014,6.42678,28.527,True
+2027-09-27,B2,Ledgerline,customers,forecast,regression,49,12.585,5.77145,25.6181,True
+2027-10-04,B2,Ledgerline,customers,forecast,regression,50,10.785,4.94596,21.9539,True
+2027-10-11,B2,Ledgerline,customers,forecast,regression,51,10.9265,5.01087,22.2421,True
+2027-10-18,B2,Ledgerline,customers,forecast,regression,52,10.8854,4.99202,22.1584,True
+2026-10-26,B2,Ledgerline,revenue,forecast,regression,1,151859,145626,159364,False
+2026-11-02,B2,Ledgerline,revenue,forecast,regression,2,152079,145838,159595,False
+2026-11-09,B2,Ledgerline,revenue,forecast,regression,3,150476,144300,157913,False
+2026-11-16,B2,Ledgerline,revenue,forecast,regression,4,151684,145458,159180,False
+2026-11-23,B2,Ledgerline,revenue,forecast,regression,5,152768,147183,160651,False
+2026-11-30,B2,Ledgerline,revenue,forecast,regression,6,153699,148079,161630,False
+2026-12-07,B2,Ledgerline,revenue,forecast,regression,7,152474,146900,160342,False
+2026-12-14,B2,Ledgerline,revenue,forecast,regression,8,152811,147224,160696,False
+2026-12-21,B2,Ledgerline,revenue,forecast,regression,9,153436,148295,162419,False
+2026-12-28,B2,Ledgerline,revenue,forecast,regression,10,150504,145461,159315,False
+2027-01-04,B2,Ledgerline,revenue,forecast,regression,11,157205,151938,166409,False
+2027-01-11,B2,Ledgerline,revenue,forecast,regression,12,153432,148291,162414,False
+2027-01-18,B2,Ledgerline,revenue,forecast,regression,13,157470,152194,166689,False
+2027-01-25,B2,Ledgerline,revenue,forecast,regression,14,155506,150295,164610,True
+2027-02-01,B2,Ledgerline,revenue,forecast,regression,15,157007,151746,166198,True
+2027-02-08,B2,Ledgerline,revenue,forecast,regression,16,157788,152501,167025,True
+2027-02-15,B2,Ledgerline,revenue,forecast,regression,17,155447,150238,164547,True
+2027-02-22,B2,Ledgerline,revenue,forecast,regression,18,156809,151554,165989,True
+2027-03-01,B2,Ledgerline,revenue,forecast,regression,19,158521,153209,167801,True
+2027-03-08,B2,Ledgerline,revenue,forecast,regression,20,157697,152413,166929,True
+2027-03-15,B2,Ledgerline,revenue,forecast,regression,21,158309,153005,167577,True
+2027-03-22,B2,Ledgerline,revenue,forecast,regression,22,158712,153394,168004,True
+2027-03-29,B2,Ledgerline,revenue,forecast,regression,23,160812,155423,170226,True
+2027-04-05,B2,Ledgerline,revenue,forecast,regression,24,157211,151943,166414,True
+2027-04-12,B2,Ledgerline,revenue,forecast,regression,25,163408,157933,172975,True
+2027-04-19,B2,Ledgerline,revenue,forecast,regression,26,161560,156147,171018,True
+2027-04-26,B2,Ledgerline,revenue,forecast,regression,27,159812,154457,169167,True
+2027-05-03,B2,Ledgerline,revenue,forecast,regression,28,162884,157426,172420,True
+2027-05-10,B2,Ledgerline,revenue,forecast,regression,29,161625,156209,171087,True
+2027-05-17,B2,Ledgerline,revenue,forecast,regression,30,164357,158849,173978,True
+2027-05-24,B2,Ledgerline,revenue,forecast,regression,31,161577,156163,171036,True
+2027-05-31,B2,Ledgerline,revenue,forecast,regression,32,164695,159176,174336,True
+2027-06-07,B2,Ledgerline,revenue,forecast,regression,33,162673,157222,172196,True
+2027-06-14,B2,Ledgerline,revenue,forecast,regression,34,163696,158211,173279,True
+2027-06-21,B2,Ledgerline,revenue,forecast,regression,35,165132,159598,174799,True
+2027-06-28,B2,Ledgerline,revenue,forecast,regression,36,162319,156880,171821,True
+2027-07-05,B2,Ledgerline,revenue,forecast,regression,37,163511,158032,173083,True
+2027-07-12,B2,Ledgerline,revenue,forecast,regression,38,164411,158902,174036,True
+2027-07-19,B2,Ledgerline,revenue,forecast,regression,39,164792,159270,174439,True
+2027-07-26,B2,Ledgerline,revenue,forecast,regression,40,161865,156441,171341,True
+2027-08-02,B2,Ledgerline,revenue,forecast,regression,41,163802,158313,173392,True
+2027-08-09,B2,Ledgerline,revenue,forecast,regression,42,165454,159910,175140,True
+2027-08-16,B2,Ledgerline,revenue,forecast,regression,43,165819,160262,175526,True
+2027-08-23,B2,Ledgerline,revenue,forecast,regression,44,164522,159009,174153,True
+2027-08-30,B2,Ledgerline,revenue,forecast,regression,45,164295,158789,173913,True
+2027-09-06,B2,Ledgerline,revenue,forecast,regression,46,166049,160485,175770,True
+2027-09-13,B2,Ledgerline,revenue,forecast,regression,47,167104,161505,176887,True
+2027-09-20,B2,Ledgerline,revenue,forecast,regression,48,166547,160966,176297,True
+2027-09-27,B2,Ledgerline,revenue,forecast,regression,49,170143,164442,180104,True
+2027-10-04,B2,Ledgerline,revenue,forecast,regression,50,168020,162390,177857,True
+2027-10-11,B2,Ledgerline,revenue,forecast,regression,51,166095,160530,175819,True
+2027-10-18,B2,Ledgerline,revenue,forecast,regression,52,167939,162312,177770,True
+2026-10-26,B2,Ledgerline,contribution_profit,forecast,regression,1,103652,96323.8,109212,False
+2026-11-02,B2,Ledgerline,contribution_profit,forecast,regression,2,106471,98943.4,112182,False
+2026-11-09,B2,Ledgerline,contribution_profit,forecast,regression,3,104636,97238.2,110249,False
+2026-11-16,B2,Ledgerline,contribution_profit,forecast,regression,4,105248,97807.6,110894,False
+2026-11-23,B2,Ledgerline,contribution_profit,forecast,regression,5,107224,99105.3,115864,False
+2026-11-30,B2,Ledgerline,contribution_profit,forecast,regression,6,110890,102493,119825,False
+2026-12-07,B2,Ledgerline,contribution_profit,forecast,regression,7,110590,102216,119501,False
+2026-12-14,B2,Ledgerline,contribution_profit,forecast,regression,8,110638,102261,119553,False
+2026-12-21,B2,Ledgerline,contribution_profit,forecast,regression,9,111163,102670,120643,False
+2026-12-28,B2,Ledgerline,contribution_profit,forecast,regression,10,101729,93956.7,110405,False
+2027-01-04,B2,Ledgerline,contribution_profit,forecast,regression,11,108320,100044,117558,False
+2027-01-11,B2,Ledgerline,contribution_profit,forecast,regression,12,102262,94448.6,110983,False
+2027-01-18,B2,Ledgerline,contribution_profit,forecast,regression,13,106575,98432.6,115664,False
+2027-01-25,B2,Ledgerline,contribution_profit,forecast,regression,14,104306,96336.6,113201,True
+2027-02-01,B2,Ledgerline,contribution_profit,forecast,regression,15,105900,97809,114931,True
+2027-02-08,B2,Ledgerline,contribution_profit,forecast,regression,16,109028,100698,118326,True
+2027-02-15,B2,Ledgerline,contribution_profit,forecast,regression,17,105671,97597.5,114683,True
+2027-02-22,B2,Ledgerline,contribution_profit,forecast,regression,18,105344,97295.1,114327,True
+2027-03-01,B2,Ledgerline,contribution_profit,forecast,regression,19,107965,99716.4,117173,True
+2027-03-08,B2,Ledgerline,contribution_profit,forecast,regression,20,107326,99125.7,116478,True
+2027-03-15,B2,Ledgerline,contribution_profit,forecast,regression,21,107429,99221.1,116591,True
+2027-03-22,B2,Ledgerline,contribution_profit,forecast,regression,22,107017,98840.7,116144,True
+2027-03-29,B2,Ledgerline,contribution_profit,forecast,regression,23,110802,102336,120251,True
+2027-04-05,B2,Ledgerline,contribution_profit,forecast,regression,24,103317,95423.6,112128,True
+2027-04-12,B2,Ledgerline,contribution_profit,forecast,regression,25,110658,102203,120095,True
+2027-04-19,B2,Ledgerline,contribution_profit,forecast,regression,26,111308,102804,120801,True
+2027-04-26,B2,Ledgerline,contribution_profit,forecast,regression,27,107177,98988.4,116317,True
+2027-05-03,B2,Ledgerline,contribution_profit,forecast,regression,28,109927,101529,119302,True
+2027-05-10,B2,Ledgerline,contribution_profit,forecast,regression,29,107628,99405.3,116807,True
+2027-05-17,B2,Ledgerline,contribution_profit,forecast,regression,30,112040,103480,121595,True
+2027-05-24,B2,Ledgerline,contribution_profit,forecast,regression,31,108272,99999.8,117506,True
+2027-05-31,B2,Ledgerline,contribution_profit,forecast,regression,32,112808,104189,122428,True
+2027-06-07,B2,Ledgerline,contribution_profit,forecast,regression,33,111224,102726,120709,True
+2027-06-14,B2,Ledgerline,contribution_profit,forecast,regression,34,112577,103975,122177,True
+2027-06-21,B2,Ledgerline,contribution_profit,forecast,regression,35,117628,108641,127659,True
+2027-06-28,B2,Ledgerline,contribution_profit,forecast,regression,36,115080,106288,124894,True
+2027-07-05,B2,Ledgerline,contribution_profit,forecast,regression,37,115978,107117,125869,True
+2027-07-12,B2,Ledgerline,contribution_profit,forecast,regression,38,118412,109365,128510,True
+2027-07-19,B2,Ledgerline,contribution_profit,forecast,regression,39,121752,112450,132135,True
+2027-07-26,B2,Ledgerline,contribution_profit,forecast,regression,40,116398,107505,126325,True
+2027-08-02,B2,Ledgerline,contribution_profit,forecast,regression,41,115532,106705,125384,True
+2027-08-09,B2,Ledgerline,contribution_profit,forecast,regression,42,117064,108120,127047,True
+2027-08-16,B2,Ledgerline,contribution_profit,forecast,regression,43,118605,109543,128720,True
+2027-08-23,B2,Ledgerline,contribution_profit,forecast,regression,44,116075,107207,125974,True
+2027-08-30,B2,Ledgerline,contribution_profit,forecast,regression,45,112059,103497,121615,True
+2027-09-06,B2,Ledgerline,contribution_profit,forecast,regression,46,110993,102513,120459,True
+2027-09-13,B2,Ledgerline,contribution_profit,forecast,regression,47,110985,102505,120450,True
+2027-09-20,B2,Ledgerline,contribution_profit,forecast,regression,48,108483,100194,117734,True
+2027-09-27,B2,Ledgerline,contribution_profit,forecast,regression,49,114882,106105,124680,True
+2027-10-04,B2,Ledgerline,contribution_profit,forecast,regression,50,115889,107034,125772,True
+2027-10-11,B2,Ledgerline,contribution_profit,forecast,regression,51,112611,104007,122214,True
+2027-10-18,B2,Ledgerline,contribution_profit,forecast,regression,52,113657,104973,123349,True
+2026-10-26,B3,Atlas Outdoor,spend,forecast,plan,1,12842.8,12842.8,12842.8,False
+2026-11-02,B3,Atlas Outdoor,spend,forecast,plan,2,14865.1,14865.1,14865.1,False
+2026-11-09,B3,Atlas Outdoor,spend,forecast,plan,3,13544.5,13544.5,13544.5,False
+2026-11-16,B3,Atlas Outdoor,spend,forecast,plan,4,14528.2,14528.2,14528.2,False
+2026-11-23,B3,Atlas Outdoor,spend,forecast,plan,5,15097.2,15097.2,15097.2,False
+2026-11-30,B3,Atlas Outdoor,spend,forecast,plan,6,14839.2,14839.2,14839.2,False
+2026-12-07,B3,Atlas Outdoor,spend,forecast,plan,7,12587.4,12587.4,12587.4,False
+2026-12-14,B3,Atlas Outdoor,spend,forecast,plan,8,16098.1,16098.1,16098.1,False
+2026-12-21,B3,Atlas Outdoor,spend,forecast,plan,9,13158.4,13158.4,13158.4,False
+2026-12-28,B3,Atlas Outdoor,spend,forecast,plan,10,9629.02,9629.02,9629.02,False
+2027-01-04,B3,Atlas Outdoor,spend,forecast,plan,11,9427.56,9427.56,9427.56,False
+2027-01-11,B3,Atlas Outdoor,spend,forecast,plan,12,9496.36,9496.36,9496.36,False
+2027-01-18,B3,Atlas Outdoor,spend,forecast,plan,13,9977.46,9977.46,9977.46,False
+2027-01-25,B3,Atlas Outdoor,spend,forecast,plan,14,10832.3,10832.3,10832.3,True
+2027-02-01,B3,Atlas Outdoor,spend,forecast,plan,15,9404.57,9404.57,9404.57,True
+2027-02-08,B3,Atlas Outdoor,spend,forecast,plan,16,10423.6,10423.6,10423.6,True
+2027-02-15,B3,Atlas Outdoor,spend,forecast,plan,17,8358.14,8358.14,8358.14,True
+2027-02-22,B3,Atlas Outdoor,spend,forecast,plan,18,8614.39,8614.39,8614.39,True
+2027-03-01,B3,Atlas Outdoor,spend,forecast,plan,19,11605.6,11605.6,11605.6,True
+2027-03-08,B3,Atlas Outdoor,spend,forecast,plan,20,11045.1,11045.1,11045.1,True
+2027-03-15,B3,Atlas Outdoor,spend,forecast,plan,21,11147.3,11147.3,11147.3,True
+2027-03-22,B3,Atlas Outdoor,spend,forecast,plan,22,10197.9,10197.9,10197.9,True
+2027-03-29,B3,Atlas Outdoor,spend,forecast,plan,23,14646.4,14646.4,14646.4,True
+2027-04-05,B3,Atlas Outdoor,spend,forecast,plan,24,11447.7,11447.7,11447.7,True
+2027-04-12,B3,Atlas Outdoor,spend,forecast,plan,25,11419.8,11419.8,11419.8,True
+2027-04-19,B3,Atlas Outdoor,spend,forecast,plan,26,12060.7,12060.7,12060.7,True
+2027-04-26,B3,Atlas Outdoor,spend,forecast,plan,27,10084.3,10084.3,10084.3,True
+2027-05-03,B3,Atlas Outdoor,spend,forecast,plan,28,12969.4,12969.4,12969.4,True
+2027-05-10,B3,Atlas Outdoor,spend,forecast,plan,29,10953.1,10953.1,10953.1,True
+2027-05-17,B3,Atlas Outdoor,spend,forecast,plan,30,11832.4,11832.4,11832.4,True
+2027-05-24,B3,Atlas Outdoor,spend,forecast,plan,31,11954.3,11954.3,11954.3,True
+2027-05-31,B3,Atlas Outdoor,spend,forecast,plan,32,12672.6,12672.6,12672.6,True
+2027-06-07,B3,Atlas Outdoor,spend,forecast,plan,33,15161.5,15161.5,15161.5,True
+2027-06-14,B3,Atlas Outdoor,spend,forecast,plan,34,12308,12308,12308,True
+2027-06-21,B3,Atlas Outdoor,spend,forecast,plan,35,10908.1,10908.1,10908.1,True
+2027-06-28,B3,Atlas Outdoor,spend,forecast,plan,36,11080.2,11080.2,11080.2,True
+2027-07-05,B3,Atlas Outdoor,spend,forecast,plan,37,10936.8,10936.8,10936.8,True
+2027-07-12,B3,Atlas Outdoor,spend,forecast,plan,38,13883.5,13883.5,13883.5,True
+2027-07-19,B3,Atlas Outdoor,spend,forecast,plan,39,11792.4,11792.4,11792.4,True
+2027-07-26,B3,Atlas Outdoor,spend,forecast,plan,40,10636.7,10636.7,10636.7,True
+2027-08-02,B3,Atlas Outdoor,spend,forecast,plan,41,10568.2,10568.2,10568.2,True
+2027-08-09,B3,Atlas Outdoor,spend,forecast,plan,42,9698.93,9698.93,9698.93,True
+2027-08-16,B3,Atlas Outdoor,spend,forecast,plan,43,10934.9,10934.9,10934.9,True
+2027-08-23,B3,Atlas Outdoor,spend,forecast,plan,44,10262.5,10262.5,10262.5,True
+2027-08-30,B3,Atlas Outdoor,spend,forecast,plan,45,10362.5,10362.5,10362.5,True
+2027-09-06,B3,Atlas Outdoor,spend,forecast,plan,46,10123.2,10123.2,10123.2,True
+2027-09-13,B3,Atlas Outdoor,spend,forecast,plan,47,10998.8,10998.8,10998.8,True
+2027-09-20,B3,Atlas Outdoor,spend,forecast,plan,48,11785.7,11785.7,11785.7,True
+2027-09-27,B3,Atlas Outdoor,spend,forecast,plan,49,9034.4,9034.4,9034.4,True
+2027-10-04,B3,Atlas Outdoor,spend,forecast,plan,50,9737.85,9737.85,9737.85,True
+2027-10-11,B3,Atlas Outdoor,spend,forecast,plan,51,12083.2,12083.2,12083.2,True
+2027-10-18,B3,Atlas Outdoor,spend,forecast,plan,52,9863.7,9863.7,9863.7,True
+2026-10-26,B3,Atlas Outdoor,customers,forecast,regression,1,612.083,466.869,724.676,False
+2026-11-02,B3,Atlas Outdoor,customers,forecast,regression,2,713.241,544.027,844.441,False
+2026-11-09,B3,Atlas Outdoor,customers,forecast,regression,3,716.781,546.727,848.632,False
+2026-11-16,B3,Atlas Outdoor,customers,forecast,regression,4,772.113,588.932,914.143,False
+2026-11-23,B3,Atlas Outdoor,customers,forecast,regression,5,808.271,640.629,947.343,False
+2026-11-30,B3,Atlas Outdoor,customers,forecast,regression,6,801.791,635.493,939.748,False
+2026-12-07,B3,Atlas Outdoor,customers,forecast,regression,7,713.826,565.772,836.648,False
+2026-12-14,B3,Atlas Outdoor,customers,forecast,regression,8,780.433,618.565,914.716,False
+2026-12-21,B3,Atlas Outdoor,customers,forecast,regression,9,661.476,536.015,769.023,False
+2026-12-28,B3,Atlas Outdoor,customers,forecast,regression,10,509.623,412.963,592.481,False
+2027-01-04,B3,Atlas Outdoor,customers,forecast,regression,11,457.697,370.886,532.113,False
+2027-01-11,B3,Atlas Outdoor,customers,forecast,regression,12,422.955,342.733,491.721,False
+2027-01-18,B3,Atlas Outdoor,customers,forecast,regression,13,403.541,327.002,469.152,False
+2027-01-25,B3,Atlas Outdoor,customers,forecast,regression,14,398.126,322.614,462.856,True
+2027-02-01,B3,Atlas Outdoor,customers,forecast,regression,15,352.749,285.843,410.101,True
+2027-02-08,B3,Atlas Outdoor,customers,forecast,regression,16,363.107,294.237,422.144,True
+2027-02-15,B3,Atlas Outdoor,customers,forecast,regression,17,321.309,260.367,373.55,True
+2027-02-22,B3,Atlas Outdoor,customers,forecast,regression,18,330.104,267.494,383.774,True
+2027-03-01,B3,Atlas Outdoor,customers,forecast,regression,19,406.238,329.187,472.287,True
+2027-03-08,B3,Atlas Outdoor,customers,forecast,regression,20,420.694,340.901,489.093,True
+2027-03-15,B3,Atlas Outdoor,customers,forecast,regression,21,447.129,362.323,519.826,True
+2027-03-22,B3,Atlas Outdoor,customers,forecast,regression,22,451.44,365.816,524.837,True
+2027-03-29,B3,Atlas Outdoor,customers,forecast,regression,23,584.194,473.39,679.176,True
+2027-04-05,B3,Atlas Outdoor,customers,forecast,regression,24,541.422,438.731,629.45,True
+2027-04-12,B3,Atlas Outdoor,customers,forecast,regression,25,555.212,449.906,645.482,True
+2027-04-19,B3,Atlas Outdoor,customers,forecast,regression,26,586.909,475.591,682.332,True
+2027-04-26,B3,Atlas Outdoor,customers,forecast,regression,27,538.038,435.989,625.516,True
+2027-05-03,B3,Atlas Outdoor,customers,forecast,regression,28,616.789,499.803,717.07,True
+2027-05-10,B3,Atlas Outdoor,customers,forecast,regression,29,562.801,456.055,654.305,True
+2027-05-17,B3,Atlas Outdoor,customers,forecast,regression,30,577.175,467.703,671.016,True
+2027-05-24,B3,Atlas Outdoor,customers,forecast,regression,31,575.128,466.044,668.636,True
+2027-05-31,B3,Atlas Outdoor,customers,forecast,regression,32,588.179,476.62,683.809,True
+2027-06-07,B3,Atlas Outdoor,customers,forecast,regression,33,648.018,525.109,753.377,True
+2027-06-14,B3,Atlas Outdoor,customers,forecast,regression,34,578.649,468.897,672.729,True
+2027-06-21,B3,Atlas Outdoor,customers,forecast,regression,35,536.576,434.804,623.816,True
+2027-06-28,B3,Atlas Outdoor,customers,forecast,regression,36,541.493,438.789,629.532,True
+2027-07-05,B3,Atlas Outdoor,customers,forecast,regression,37,541.552,438.837,629.601,True
+2027-07-12,B3,Atlas Outdoor,customers,forecast,regression,38,623.308,505.086,724.649,True
+2027-07-19,B3,Atlas Outdoor,customers,forecast,regression,39,575.349,466.223,668.893,True
+2027-07-26,B3,Atlas Outdoor,customers,forecast,regression,40,537.175,435.289,624.512,True
+2027-08-02,B3,Atlas Outdoor,customers,forecast,regression,41,527.806,427.698,613.62,True
+2027-08-09,B3,Atlas Outdoor,customers,forecast,regression,42,494.719,400.886,575.154,True
+2027-08-16,B3,Atlas Outdoor,customers,forecast,regression,43,516.837,418.809,600.868,True
+2027-08-23,B3,Atlas Outdoor,customers,forecast,regression,44,489.744,396.855,569.37,True
+2027-08-30,B3,Atlas Outdoor,customers,forecast,regression,45,480.434,389.311,558.546,True
+2027-09-06,B3,Atlas Outdoor,customers,forecast,regression,46,466.262,377.826,542.069,True
+2027-09-13,B3,Atlas Outdoor,customers,forecast,regression,47,484.111,392.29,562.82,True
+2027-09-20,B3,Atlas Outdoor,customers,forecast,regression,48,506.895,410.753,589.309,True
+2027-09-27,B3,Atlas Outdoor,customers,forecast,regression,49,444.653,360.317,516.948,True
+2027-10-04,B3,Atlas Outdoor,customers,forecast,regression,50,473.151,383.409,550.079,True
+2027-10-11,B3,Atlas Outdoor,customers,forecast,regression,51,560.607,454.278,651.754,True
+2027-10-18,B3,Atlas Outdoor,customers,forecast,regression,52,532.171,431.235,618.695,True
+2026-10-26,B3,Atlas Outdoor,revenue,forecast,regression,1,149822,130331,163689,False
+2026-11-02,B3,Atlas Outdoor,revenue,forecast,regression,2,162515,141372,177555,False
+2026-11-09,B3,Atlas Outdoor,revenue,forecast,regression,3,163653,142362,178799,False
+2026-11-16,B3,Atlas Outdoor,revenue,forecast,regression,4,170169,148031,185919,False
+2026-11-23,B3,Atlas Outdoor,revenue,forecast,regression,5,174881,153990,189287,False
+2026-11-30,B3,Atlas Outdoor,revenue,forecast,regression,6,174992,154087,189407,False
+2026-12-07,B3,Atlas Outdoor,revenue,forecast,regression,7,165887,146071,179552,False
+2026-12-14,B3,Atlas Outdoor,revenue,forecast,regression,8,173836,153070,188156,False
+2026-12-21,B3,Atlas Outdoor,revenue,forecast,regression,9,161325,143866,174288,False
+2026-12-28,B3,Atlas Outdoor,revenue,forecast,regression,10,141969,126605,153377,False
+2027-01-04,B3,Atlas Outdoor,revenue,forecast,regression,11,134548,119987,145359,False
+2027-01-11,B3,Atlas Outdoor,revenue,forecast,regression,12,129673,115640,140093,False
+2027-01-18,B3,Atlas Outdoor,revenue,forecast,regression,13,126881,113150,137077,False
+2027-01-25,B3,Atlas Outdoor,revenue,forecast,regression,14,126140,112489,136276,True
+2027-02-01,B3,Atlas Outdoor,revenue,forecast,regression,15,118786,105931,128331,True
+2027-02-08,B3,Atlas Outdoor,revenue,forecast,regression,16,120027,107038,129672,True
+2027-02-15,B3,Atlas Outdoor,revenue,forecast,regression,17,112717,100518,121774,True
+2027-02-22,B3,Atlas Outdoor,revenue,forecast,regression,18,113438,101162,122553,True
+2027-03-01,B3,Atlas Outdoor,revenue,forecast,regression,19,125154,111609,135210,True
+2027-03-08,B3,Atlas Outdoor,revenue,forecast,regression,20,127110,113354,137323,True
+2027-03-15,B3,Atlas Outdoor,revenue,forecast,regression,21,130217,116125,140681,True
+2027-03-22,B3,Atlas Outdoor,revenue,forecast,regression,22,130173,116086,140633,True
+2027-03-29,B3,Atlas Outdoor,revenue,forecast,regression,23,147091,131173,158910,True
+2027-04-05,B3,Atlas Outdoor,revenue,forecast,regression,24,141720,126383,153108,True
+2027-04-12,B3,Atlas Outdoor,revenue,forecast,regression,25,142667,127227,154131,True
+2027-04-19,B3,Atlas Outdoor,revenue,forecast,regression,26,146385,130543,158148,True
+2027-04-26,B3,Atlas Outdoor,revenue,forecast,regression,27,140197,125025,151462,True
+2027-05-03,B3,Atlas Outdoor,revenue,forecast,regression,28,149746,133540,161779,True
+2027-05-10,B3,Atlas Outdoor,revenue,forecast,regression,29,143689,128138,155234,True
+2027-05-17,B3,Atlas Outdoor,revenue,forecast,regression,30,145460,129718,157148,True
+2027-05-24,B3,Atlas Outdoor,revenue,forecast,regression,31,145660,129897,157365,True
+2027-05-31,B3,Atlas Outdoor,revenue,forecast,regression,32,147665,131685,159530,True
+2027-06-07,B3,Atlas Outdoor,revenue,forecast,regression,33,155419,138600,167908,True
+2027-06-14,B3,Atlas Outdoor,revenue,forecast,regression,34,147575,131604,159433,True
+2027-06-21,B3,Atlas Outdoor,revenue,forecast,regression,35,142064,126690,153480,True
+2027-06-28,B3,Atlas Outdoor,revenue,forecast,regression,36,142716,127272,154184,True
+2027-07-05,B3,Atlas Outdoor,revenue,forecast,regression,37,142906,127441,154389,True
+2027-07-12,B3,Atlas Outdoor,revenue,forecast,regression,38,153310,136719,165629,True
+2027-07-19,B3,Atlas Outdoor,revenue,forecast,regression,39,147810,131814,159688,True
+2027-07-26,B3,Atlas Outdoor,revenue,forecast,regression,40,142585,127154,154042,True
+2027-08-02,B3,Atlas Outdoor,revenue,forecast,regression,41,141148,125873,152490,True
+2027-08-09,B3,Atlas Outdoor,revenue,forecast,regression,42,136640,121853,147620,True
+2027-08-16,B3,Atlas Outdoor,revenue,forecast,regression,43,139453,124361,150659,True
+2027-08-23,B3,Atlas Outdoor,revenue,forecast,regression,44,135939,121228,146862,True
+2027-08-30,B3,Atlas Outdoor,revenue,forecast,regression,45,134525,119967,145335,True
+2027-09-06,B3,Atlas Outdoor,revenue,forecast,regression,46,132550,118206,143201,True
+2027-09-13,B3,Atlas Outdoor,revenue,forecast,regression,47,135019,120407,145868,True
+2027-09-20,B3,Atlas Outdoor,revenue,forecast,regression,48,138309,123341,149423,True
+2027-09-27,B3,Atlas Outdoor,revenue,forecast,regression,49,129772,115728,140200,True
+2027-10-04,B3,Atlas Outdoor,revenue,forecast,regression,50,133497,119050,144224,True
+2027-10-11,B3,Atlas Outdoor,revenue,forecast,regression,51,145489,129744,157179,True
+2027-10-18,B3,Atlas Outdoor,revenue,forecast,regression,52,142334,126930,153771,True
+2026-10-26,B3,Atlas Outdoor,contribution_profit,forecast,regression,1,25899.2,21264,29304.1,False
+2026-11-02,B3,Atlas Outdoor,contribution_profit,forecast,regression,2,26722.6,21940,30235.7,False
+2026-11-09,B3,Atlas Outdoor,contribution_profit,forecast,regression,3,28479.1,23382.2,32223.2,False
+2026-11-16,B3,Atlas Outdoor,contribution_profit,forecast,regression,4,28903.9,23731,32703.9,False
+2026-11-23,B3,Atlas Outdoor,contribution_profit,forecast,regression,5,29428.9,24706.4,32841.7,False
+2026-11-30,B3,Atlas Outdoor,contribution_profit,forecast,regression,6,29811,25027.2,33268.2,False
+2026-12-07,B3,Atlas Outdoor,contribution_profit,forecast,regression,7,30461.9,25573.6,33994.6,False
+2026-12-14,B3,Atlas Outdoor,contribution_profit,forecast,regression,8,28325.5,23780,31610.4,False
+2026-12-21,B3,Atlas Outdoor,contribution_profit,forecast,regression,9,28757,24434.4,31980.2,False
+2026-12-28,B3,Atlas Outdoor,contribution_profit,forecast,regression,10,28802.4,24472.9,32030.6,False
+2027-01-04,B3,Atlas Outdoor,contribution_profit,forecast,regression,11,27082.8,23011.9,30118.4,False
+2027-01-11,B3,Atlas Outdoor,contribution_profit,forecast,regression,12,25682.2,21821.7,28560.7,False
+2027-01-18,B3,Atlas Outdoor,contribution_profit,forecast,regression,13,24273.8,20625.1,26994.5,False
+2027-01-25,B3,Atlas Outdoor,contribution_profit,forecast,regression,14,23013.1,19553.9,25592.5,True
+2027-02-01,B3,Atlas Outdoor,contribution_profit,forecast,regression,15,22960.2,19508.9,25533.6,True
+2027-02-08,B3,Atlas Outdoor,contribution_profit,forecast,regression,16,21948.8,18649.5,24408.9,True
+2027-02-15,B3,Atlas Outdoor,contribution_profit,forecast,regression,17,22791.4,19365.5,25345.9,True
+2027-02-22,B3,Atlas Outdoor,contribution_profit,forecast,regression,18,22540.4,19152.2,25066.8,True
+2027-03-01,B3,Atlas Outdoor,contribution_profit,forecast,regression,19,21777,18503.5,24217.8,True
+2027-03-08,B3,Atlas Outdoor,contribution_profit,forecast,regression,20,22872.5,19434.4,25436.2,True
+2027-03-15,B3,Atlas Outdoor,contribution_profit,forecast,regression,21,23468,19940.4,26098.3,True
+2027-03-22,B3,Atlas Outdoor,contribution_profit,forecast,regression,22,24617.5,20917.1,27376.7,True
+2027-03-29,B3,Atlas Outdoor,contribution_profit,forecast,regression,23,23691.8,20130.6,26347.2,True
+2027-04-05,B3,Atlas Outdoor,contribution_profit,forecast,regression,24,25883.8,21993.1,28784.9,True
+2027-04-12,B3,Atlas Outdoor,contribution_profit,forecast,regression,25,26087.7,22166.3,29011.7,True
+2027-04-19,B3,Atlas Outdoor,contribution_profit,forecast,regression,26,26185.7,22249.6,29120.7,True
+2027-04-26,B3,Atlas Outdoor,contribution_profit,forecast,regression,27,27289.8,23187.7,30348.5,True
+2027-05-03,B3,Atlas Outdoor,contribution_profit,forecast,regression,28,25892.4,22000.4,28794.5,True
+2027-05-10,B3,Atlas Outdoor,contribution_profit,forecast,regression,29,26948.9,22898.1,29969.4,True
+2027-05-17,B3,Atlas Outdoor,contribution_profit,forecast,regression,30,26216.4,22275.7,29154.9,True
+2027-05-24,B3,Atlas Outdoor,contribution_profit,forecast,regression,31,26134.2,22205.8,29063.4,True
+2027-05-31,B3,Atlas Outdoor,contribution_profit,forecast,regression,32,25779,21904.1,28668.4,True
+2027-06-07,B3,Atlas Outdoor,contribution_profit,forecast,regression,33,25018.3,21257.6,27822.4,True
+2027-06-14,B3,Atlas Outdoor,contribution_profit,forecast,regression,34,26243.5,22298.7,29184.9,True
+2027-06-21,B3,Atlas Outdoor,contribution_profit,forecast,regression,35,26636,22632.2,29621.5,True
+2027-06-28,B3,Atlas Outdoor,contribution_profit,forecast,regression,36,26560.1,22567.7,29537,True
+2027-07-05,B3,Atlas Outdoor,contribution_profit,forecast,regression,37,26818.7,22787.4,29824.6,True
+2027-07-12,B3,Atlas Outdoor,contribution_profit,forecast,regression,38,25831.9,21949,28727.3,True
+2027-07-19,B3,Atlas Outdoor,contribution_profit,forecast,regression,39,26985.5,22929.1,30010.1,True
+2027-07-26,B3,Atlas Outdoor,contribution_profit,forecast,regression,40,27204.3,23115.1,30253.5,True
+2027-08-02,B3,Atlas Outdoor,contribution_profit,forecast,regression,41,26919.8,22873.4,29937.1,True
+2027-08-09,B3,Atlas Outdoor,contribution_profit,forecast,regression,42,27029.2,22966.3,30058.7,True
+2027-08-16,B3,Atlas Outdoor,contribution_profit,forecast,regression,43,25972.9,22068.8,28884.1,True
+2027-08-23,B3,Atlas Outdoor,contribution_profit,forecast,regression,44,26012.9,22102.7,28928.5,True
+2027-08-30,B3,Atlas Outdoor,contribution_profit,forecast,regression,45,25490.6,21659,28347.7,True
+2027-09-06,B3,Atlas Outdoor,contribution_profit,forecast,regression,46,25304.3,21500.7,28140.5,True
+2027-09-13,B3,Atlas Outdoor,contribution_profit,forecast,regression,47,24755.3,21034.2,27530,True
+2027-09-20,B3,Atlas Outdoor,contribution_profit,forecast,regression,48,24610.1,20910.8,27368.5,True
+2027-09-27,B3,Atlas Outdoor,contribution_profit,forecast,regression,49,26184.4,22248.5,29119.2,True
+2027-10-04,B3,Atlas Outdoor,contribution_profit,forecast,regression,50,26036.8,22123.1,28955.1,True
+2027-10-11,B3,Atlas Outdoor,contribution_profit,forecast,regression,51,25945.9,22045.8,28854,True
+2027-10-18,B3,Atlas Outdoor,contribution_profit,forecast,regression,52,28251.8,24005.1,31418.3,True

@@ -1,0 +1,145 @@
+business,target,period,scenario,value,business_name
+B1,spend,next quarter,pessimistic,227810,Hearth Box
+B1,spend,next quarter,baseline,227810,Hearth Box
+B1,spend,next quarter,optimistic,227810,Hearth Box
+B1,clicks,next quarter,pessimistic,190476,Hearth Box
+B1,clicks,next quarter,baseline,192648,Hearth Box
+B1,clicks,next quarter,optimistic,194158,Hearth Box
+B1,leads,next quarter,pessimistic,21613.3,Hearth Box
+B1,leads,next quarter,baseline,22141.9,Hearth Box
+B1,leads,next quarter,optimistic,24939.6,Hearth Box
+B1,qualified_leads,next quarter,pessimistic,9420.01,Hearth Box
+B1,qualified_leads,next quarter,baseline,9735.72,Hearth Box
+B1,qualified_leads,next quarter,optimistic,11008.9,Hearth Box
+B1,customers,next quarter,pessimistic,5503.14,Hearth Box
+B1,customers,next quarter,baseline,5736.41,Hearth Box
+B1,customers,next quarter,optimistic,6659.76,Hearth Box
+B1,revenue,next quarter,pessimistic,2.19734e+06,Hearth Box
+B1,revenue,next quarter,baseline,2.25784e+06,Hearth Box
+B1,revenue,next quarter,optimistic,2.31871e+06,Hearth Box
+B1,contribution_profit,next quarter,pessimistic,303391,Hearth Box
+B1,contribution_profit,next quarter,baseline,307488,Hearth Box
+B1,contribution_profit,next quarter,optimistic,314804,Hearth Box
+B1,cac,next quarter,pessimistic,41.3963,Hearth Box
+B1,cac,next quarter,baseline,39.7129,Hearth Box
+B1,cac,next quarter,optimistic,34.2069,Hearth Box
+B1,spend,next 52 weeks,pessimistic,882742,Hearth Box
+B1,spend,next 52 weeks,baseline,882742,Hearth Box
+B1,spend,next 52 weeks,optimistic,882742,Hearth Box
+B1,clicks,next 52 weeks,pessimistic,743101,Hearth Box
+B1,clicks,next 52 weeks,baseline,751574,Hearth Box
+B1,clicks,next 52 weeks,optimistic,757462,Hearth Box
+B1,leads,next 52 weeks,pessimistic,79643.4,Hearth Box
+B1,leads,next 52 weeks,baseline,81591.3,Hearth Box
+B1,leads,next 52 weeks,optimistic,91900.5,Hearth Box
+B1,qualified_leads,next 52 weeks,pessimistic,34764.9,Hearth Box
+B1,qualified_leads,next 52 weeks,baseline,35930,Hearth Box
+B1,qualified_leads,next 52 weeks,optimistic,40628.9,Hearth Box
+B1,customers,next 52 weeks,pessimistic,20325.6,Hearth Box
+B1,customers,next 52 weeks,baseline,21187.1,Hearth Box
+B1,customers,next 52 weeks,optimistic,24597.5,Hearth Box
+B1,revenue,next 52 weeks,pessimistic,8.81842e+06,Hearth Box
+B1,revenue,next 52 weeks,baseline,9.06121e+06,Hearth Box
+B1,revenue,next 52 weeks,optimistic,9.30549e+06,Hearth Box
+B1,contribution_profit,next 52 weeks,pessimistic,1.31213e+06,Hearth Box
+B1,contribution_profit,next 52 weeks,baseline,1.32985e+06,Hearth Box
+B1,contribution_profit,next 52 weeks,optimistic,1.36149e+06,Hearth Box
+B1,cac,next 52 weeks,pessimistic,43.4301,Hearth Box
+B1,cac,next 52 weeks,baseline,41.664,Hearth Box
+B1,cac,next 52 weeks,optimistic,35.8875,Hearth Box
+B2,spend,next quarter,pessimistic,112156,Ledgerline
+B2,spend,next quarter,baseline,112156,Ledgerline
+B2,spend,next quarter,optimistic,112156,Ledgerline
+B2,clicks,next quarter,pessimistic,31431.5,Ledgerline
+B2,clicks,next quarter,baseline,32956,Ledgerline
+B2,clicks,next quarter,optimistic,33742.6,Ledgerline
+B2,leads,next quarter,pessimistic,1526.78,Ledgerline
+B2,leads,next quarter,baseline,1563.66,Ledgerline
+B2,leads,next quarter,optimistic,1646.65,Ledgerline
+B2,qualified_leads,next quarter,pessimistic,461.069,Ledgerline
+B2,qualified_leads,next quarter,baseline,530.468,Ledgerline
+B2,qualified_leads,next quarter,optimistic,666.936,Ledgerline
+B2,customers,next quarter,pessimistic,100.977,Ledgerline
+B2,customers,next quarter,baseline,125.751,Ledgerline
+B2,customers,next quarter,optimistic,144.995,Ledgerline
+B2,revenue,next quarter,pessimistic,1.99291e+06,Ledgerline
+B2,revenue,next quarter,baseline,2.00206e+06,Ledgerline
+B2,revenue,next quarter,optimistic,2.01638e+06,Ledgerline
+B2,contribution_profit,next quarter,pessimistic,1.35228e+06,Ledgerline
+B2,contribution_profit,next quarter,baseline,1.37466e+06,Ledgerline
+B2,contribution_profit,next quarter,optimistic,1.40568e+06,Ledgerline
+B2,cac,next quarter,pessimistic,1110.72,Ledgerline
+B2,cac,next quarter,baseline,891.892,Ledgerline
+B2,cac,next quarter,optimistic,773.52,Ledgerline
+B2,spend,next 52 weeks,pessimistic,496786,Ledgerline
+B2,spend,next 52 weeks,baseline,496786,Ledgerline
+B2,spend,next 52 weeks,optimistic,496786,Ledgerline
+B2,clicks,next 52 weeks,pessimistic,135218,Ledgerline
+B2,clicks,next 52 weeks,baseline,141776,Ledgerline
+B2,clicks,next 52 weeks,optimistic,145160,Ledgerline
+B2,leads,next 52 weeks,pessimistic,6484.41,Ledgerline
+B2,leads,next 52 weeks,baseline,6641.08,Ledgerline
+B2,leads,next 52 weeks,optimistic,6993.53,Ledgerline
+B2,qualified_leads,next 52 weeks,pessimistic,2149.43,Ledgerline
+B2,qualified_leads,next 52 weeks,baseline,2472.96,Ledgerline
+B2,qualified_leads,next 52 weeks,optimistic,3109.15,Ledgerline
+B2,customers,next 52 weeks,pessimistic,477.808,Ledgerline
+B2,customers,next 52 weeks,baseline,595.037,Ledgerline
+B2,customers,next 52 weeks,optimistic,686.096,Ledgerline
+B2,revenue,next 52 weeks,pessimistic,8.34043e+06,Ledgerline
+B2,revenue,next 52 weeks,baseline,8.37873e+06,Ledgerline
+B2,revenue,next 52 weeks,optimistic,8.43866e+06,Ledgerline
+B2,contribution_profit,next 52 weeks,pessimistic,5.5859e+06,Ledgerline
+B2,contribution_profit,next 52 weeks,baseline,5.67831e+06,Ledgerline
+B2,contribution_profit,next 52 weeks,optimistic,5.80644e+06,Ledgerline
+B2,cac,next 52 weeks,pessimistic,1039.72,Ledgerline
+B2,cac,next 52 weeks,baseline,834.881,Ledgerline
+B2,cac,next 52 weeks,optimistic,724.076,Ledgerline
+B3,spend,next quarter,pessimistic,166091,Atlas Outdoor
+B3,spend,next quarter,baseline,166091,Atlas Outdoor
+B3,spend,next quarter,optimistic,166091,Atlas Outdoor
+B3,clicks,next quarter,pessimistic,196806,Atlas Outdoor
+B3,clicks,next quarter,baseline,200949,Atlas Outdoor
+B3,clicks,next quarter,optimistic,205157,Atlas Outdoor
+B3,leads,next quarter,pessimistic,24178.9,Atlas Outdoor
+B3,leads,next quarter,baseline,25784.7,Atlas Outdoor
+B3,leads,next quarter,optimistic,26780.1,Atlas Outdoor
+B3,qualified_leads,next quarter,pessimistic,11053,Atlas Outdoor
+B3,qualified_leads,next quarter,baseline,11663.7,Atlas Outdoor
+B3,qualified_leads,next quarter,optimistic,12071.3,Atlas Outdoor
+B3,customers,next quarter,pessimistic,7729.85,Atlas Outdoor
+B3,customers,next quarter,baseline,8280.7,Atlas Outdoor
+B3,customers,next quarter,optimistic,8483.09,Atlas Outdoor
+B3,revenue,next quarter,pessimistic,1.93414e+06,Atlas Outdoor
+B3,revenue,next quarter,baseline,2.00522e+06,Atlas Outdoor
+B3,revenue,next quarter,optimistic,2.04327e+06,Atlas Outdoor
+B3,contribution_profit,next quarter,pessimistic,338110,Atlas Outdoor
+B3,contribution_profit,next quarter,baseline,354371,Atlas Outdoor
+B3,contribution_profit,next quarter,optimistic,363047,Atlas Outdoor
+B3,cac,next quarter,pessimistic,21.487,Atlas Outdoor
+B3,cac,next quarter,baseline,20.0577,Atlas Outdoor
+B3,cac,next quarter,optimistic,19.5791,Atlas Outdoor
+B3,spend,next 52 weeks,pessimistic,599922,Atlas Outdoor
+B3,spend,next 52 weeks,baseline,599922,Atlas Outdoor
+B3,spend,next 52 weeks,optimistic,599922,Atlas Outdoor
+B3,clicks,next 52 weeks,pessimistic,724088,Atlas Outdoor
+B3,clicks,next 52 weeks,baseline,739330,Atlas Outdoor
+B3,clicks,next 52 weeks,optimistic,754811,Atlas Outdoor
+B3,leads,next 52 weeks,pessimistic,80842.7,Atlas Outdoor
+B3,leads,next 52 weeks,baseline,86211.8,Atlas Outdoor
+B3,leads,next 52 weeks,optimistic,89540,Atlas Outdoor
+B3,qualified_leads,next 52 weeks,pessimistic,37438.3,Atlas Outdoor
+B3,qualified_leads,next 52 weeks,baseline,39506.8,Atlas Outdoor
+B3,qualified_leads,next 52 weeks,optimistic,40887.5,Atlas Outdoor
+B3,customers,next 52 weeks,pessimistic,25985.2,Atlas Outdoor
+B3,customers,next 52 weeks,baseline,27837,Atlas Outdoor
+B3,customers,next 52 weeks,optimistic,28517.4,Atlas Outdoor
+B3,revenue,next 52 weeks,pessimistic,7.05315e+06,Atlas Outdoor
+B3,revenue,next 52 weeks,baseline,7.31234e+06,Atlas Outdoor
+B3,revenue,next 52 weeks,optimistic,7.45108e+06,Atlas Outdoor
+B3,contribution_profit,next 52 weeks,pessimistic,1.26108e+06,Atlas Outdoor
+B3,contribution_profit,next 52 weeks,baseline,1.32174e+06,Atlas Outdoor
+B3,contribution_profit,next 52 weeks,optimistic,1.35409e+06,Atlas Outdoor
+B3,cac,next 52 weeks,pessimistic,23.0871,Atlas Outdoor
+B3,cac,next 52 weeks,baseline,21.5513,Atlas Outdoor
+B3,cac,next 52 weeks,optimistic,21.0371,Atlas Outdoor
