@@ -1,0 +1,13 @@
+line,base_change,lowest_change,highest_change,share_increase,share_cut,verdict,evidence
+B1.affiliates,-0.257706,-0.752569,-0.109248,0,1,no-regret cut,history only
+B1.search_brand,0.122816,-0.505138,0.541971,0.636364,0.181818,depends on assumptions,experiment
+B1.search_generic,0.237156,0.0886972,0.60945,1,0,no-regret increase,history only
+B1.social_prospecting,-0.0763917,-0.479542,0.17329,0.0909091,0.863636,mostly cut,history only
+B2.linkedin,-0.193244,-0.257706,0.237156,0.0454545,0.954545,mostly cut,history only
+B2.programmatic_display,-0.257706,-0.607803,-0.109248,0,1,no-regret cut,history only
+B2.review_sites,-0.257706,-0.292092,0.14336,0.0454545,0.954545,mostly cut,history only
+B2.search_generic,-0.225177,-0.257706,0.0572566,0.0454545,0.954545,mostly cut,history only
+B3.affiliates,-0.257706,-0.752569,0.237156,0.136364,0.863636,mostly cut,history only
+B3.display_retargeting,-0.752569,-0.752569,-0.723156,0,1,no-regret cut,experiment
+B3.shopping,0.237156,0.0886972,0.979449,1,0,no-regret increase,history only
+B3.social_prospecting,0.979449,0.979449,0.979449,1,0,no-regret increase,experiment

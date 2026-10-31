@@ -1,0 +1,23 @@
+scenario,group,description,solved,gain_own_assumptions,downside_gain_own,gain_under_base_assumptions,share_of_budget_moved_vs_base,base_moves_kept,spend_B1,spend_B2,spend_B3
+base,base,The recommended plan (phase 4),True,437362,409335,437362,0,1,939701,387263,673035
+horizon_12m,valuation,Value customers over 12 months instead of 24,True,372061,331950,435344,0.0063777,1,952457,374508,673035
+horizon_36m,valuation,Value customers over 36 months,True,457204,434458,435731,0.00667888,1,926344,400621,673035
+discount_5pct,valuation,Discount rate 5% instead of 10%,True,445870,418112,437359,0.000136877,1,939428,387537,673035
+discount_15pct,valuation,Discount rate 15%,True,429594,401192,437361,4.98993e-05,1,939801,387164,673035
+b2_value_minus_20,valuation,B2 customers worth 20% less,True,444139,405543,436787,0.00434458,1,948391,378574,673035
+all_values_minus_20,valuation,Every customer worth 20% less,True,349890,327468,437362,6.51452e-07,1,939701,387263,673035
+b3_payback_6m,policy,"B3 payback within 6 months (the CFO's original target, D-011)",True,437362,409335,437362,0,1,939701,387263,673035
+no_brand_floor,policy,No 50% floor on B1 brand search,True,437362,409335,437362,0,1,939701,387263,673035
+min_acquisition_100,policy,Keep 100% of each business's customer volume,True,421583,384503,421583,0.0253157,1,889070,437895,673035
+min_acquisition_75,policy,Keep only 75% of customer volume,True,437362,409335,437362,0,1,939701,387263,673035
+guardrail_10,policy,Untested lines move at most 10%,True,305131,272758,305131,0.040991,1,909989,447107,642904
+guardrail_50,policy,Untested lines move up to 50%,True,605665,564885,605665,0.0695214,0.916667,917497,359248,723254
+no_guardrail,policy,No limit on untested lines,True,705814,636553,705814,0.149028,0.916667,816758,350000,833242
+b2_capacity_50,policy,B2 sales capacity 50 qualified leads a week (one more hire),True,421206,384229,352167,0.0706816,0.666667,798338,528627,673035
+tests_optimistic,model,Every experiment at the end of its 95% range where channels are worth more,True,457549,369145,423761,0.0382418,1,946296,375579,678126
+tests_pessimistic,model,Every experiment at the end where channels are worth less,True,411890,436434,400879,0.054058,0.75,922338,385528,692134
+curve_shape_0.7,model,Sharper diminishing returns (curve shape 0.7),True,271335,232214,430480,0.0258917,0.833333,954376,372589,673035
+curve_shape_1.5,model,S-shaped curves (shape 1.5): weak at low spend,True,509037,437052,420167,0.0319493,0.916667,920984,393504,685512
+no_organic_floor,model,No floor on organic demand,True,465380,433117,423055,0.0151218,0.833333,913669,394197,692134
+prior_tight,model,Half-saturation held close to average spend (prior sd 0.5),True,329509,284210,435305,0.0147723,0.833333,941814,385151,673035
+prior_loose,model,Half-saturation left nearly free (prior sd 3),True,491044,426851,427681,0.0340905,1,940784,386181,673035

@@ -95,6 +95,9 @@ by any allocation. Retargeting and affiliates raise B3's average CAC without add
 is achievable only by moving money out of them, so the constraint still bites.
 **Status:** accepted by the project owner on 2026-10-31, acting as the CFO. The 6-month case is kept as a phase 5
 sensitivity run to show what meeting it would take.
+**Phase 5 result:** the recommended plan meets the original 6-month target without any change: cutting
+retargeting lowers B3's cost per incremental customer. Validated against the truth, B3 pays back in about 4
+months under the plan. The relaxation was needed only for last year's mix, so the CFO can restore 6 months.
 
 ## D-012 Three levels of attribution: platform, last click, incremental
 **Choice:** the simulation has three distinct views of a channel's customers.
@@ -269,3 +272,19 @@ each test.
   yet overstates the next dollar.
 - Spend is assumed flat across weeks (no seasonal timing).
 - Channels are independent (no halo).
+
+## D-025 Sensitivity analysis: one assumption at a time, scored three ways
+**Choice:** 21 scenarios in three groups:
+- *valuation*: horizon, discount rate, customer value;
+- *policy*: payback, floors, acquisition, guardrail, capacity;
+- *model*: experiments at their 95% limits, curve shape, the organic floor, prior strength. These refit with
+  40 draws.
+
+Each plan is scored under its own assumptions and under the base assumptions (regret), and in the validation
+against the truth. Lines are classified as no-regret, mostly, or depends, by whether every scenario moves them
+the same way. The verdict also says whether the line has an experiment.
+**Why the evidence label:** for a line with no experiment, agreement across scenarios is weak evidence. Every
+scenario reuses the same history and can share its bias. In the validation, two "mostly" verdicts on untested
+lines (B1 social, B2 LinkedIn) pointed the wrong way.
+**Alternatives:** joint Monte Carlo over all assumptions (harder to explain which assumption drives what);
+Sobol indices (overkill for a decision memo).

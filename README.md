@@ -7,8 +7,9 @@ This project forecasts marketing performance, designs and analyses experiments, 
 budget optimiser that uses diminishing returns and uncertainty. It then turns the results into a decision
 memo for a CEO, CFO and Marketing Director.
 
-**Status:** phases 0–4 of 9 are complete: scope and design, the data generator, the SQL metric layer,
-data-quality checks, customer value, forecasting, experimentation and budget optimisation. See [docs/phase_plan.md](docs/phase_plan.md).
+**Status:** phases 0–5 of 9 are complete: scope and design, the data generator, the SQL metric layer,
+data-quality checks, customer value, forecasting, experimentation, budget optimisation and sensitivity
+analysis. See [docs/phase_plan.md](docs/phase_plan.md).
 
 > **The data are simulated.** A simulation is the only way to know each channel's true effect, and therefore
 > to check that the analysis separates real impact from what ad platforms report (D-001). Results show that
@@ -42,6 +43,7 @@ Return = 24-month contribution per advertising dollar; above 1.0 the spend pays 
 | 3 | For retargeting: 86 customers per $1,000 by correlation, 35 by the platform, 23 by last click, about 2 by randomised test (95% range up to 14). All 8 intervals contain the true effect; the region-test method is unbiased over 40 re-runs | [experiments.md](reports/experiments.md) |
 | 4 | Calibrated marketing-mix model and a risk-aware optimiser. The plan cuts B3 retargeting and B2, and adds B3 social and B1 generic search. The model expects $437k a year more than last year's split; validated against the truth it earns $268k more (58% of what perfect knowledge could achieve). Steering by platform ROAS would lose $804k | [optimisation.md](reports/optimisation.md) |
 | 4 | B2 has outgrown its 40-lead sales team: lifting that limit is worth up to $409k a year by the model. Lines with no experiment move at most ±25%; without that guardrail the plan really earns $211k, not $268k | [optimisation.md](reports/optimisation.md) |
+| 5 | Across 21 alternative assumptions, valuation choices move 0.3% of the budget, policies 4.4% and model choices 3.1%. Six moves hold in every scenario, and all six point the right way in the truth. Two "probably right" moves on untested lines do not. By the model and in truth, the plan earns most at $1.8M, not $2M. The plan meets B3's original 6-month payback (4 months in truth) | [sensitivity.md](reports/sensitivity.md) |
 
 ## Documents
 
@@ -60,7 +62,7 @@ Requires [uv](https://docs.astral.sh/uv/) (Python 3.11 is installed automaticall
 
 ```bash
 uv sync
-uv run mbo all       # every step through the optimiser (about 7 minutes)
+uv run mbo all       # every step through sensitivity analysis (about 15 minutes)
 uv run mbo quality   # or any single step
 uv run pytest        # tests
 uv run ruff check . && uv run mypy src

@@ -153,5 +153,24 @@ def build_plan(con: duckdb.DuckDBPyConnection, cfg: Config) -> Plan:
             "cac_caps": caps,
             "n_draws": n_draws,
             "n_weeks": len(data[cfg.businesses[0]].y),
+            "fits": fits,
         },
     )
+
+
+def save_fits(plan: Plan, cfg: Config) -> None:
+    """Keep the fitted curves so phase 5 can re-optimise without refitting (several minutes)."""
+    import pickle
+
+    path = cfg.path("artifacts_dir") / "response_fits.pkl"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("wb") as f:
+        pickle.dump(plan.extras["fits"], f)
+
+
+def load_fits(cfg: Config) -> dict[str, FittedBusiness]:
+    import pickle
+
+    with (cfg.path("artifacts_dir") / "response_fits.pkl").open("rb") as f:
+        fits: dict[str, FittedBusiness] = pickle.load(f)
+    return fits

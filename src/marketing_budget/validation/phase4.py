@@ -44,7 +44,8 @@ def true_cac_caps(truth: dict[str, Any], cfg: Config) -> dict[str, float]:
     out = {}
     for biz, months in v["payback_target_months"].items():
         b = truth["businesses"][biz]
-        cv = customer_value(b["model"], b["economics"], int(v["horizon_months"]), float(v["annual_discount_rate"]))
+        h = max(int(v["horizon_months"]), int(months) + 1)
+        cv = customer_value(b["model"], b["economics"], h, float(v["annual_discount_rate"]))
         out[biz] = float(np.cumsum(cv.stream * cv.discount)[int(months)] - cv.acquisition_cost)
     return out
 

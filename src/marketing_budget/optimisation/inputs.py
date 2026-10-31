@@ -43,9 +43,10 @@ def values_and_caps(estimates: pd.DataFrame, cfg: Config) -> tuple[dict[str, flo
         econ = {k: float(x) for k, x in ue[biz].items() if k != "model"}
         keys = ("survival_first_month", "survival_monthly", "repeat_rate_first_month", "repeat_decay_monthly")
         econ |= {k: float(r[k]) for k in keys if k in r and pd.notna(r[k])}
-        cv = customer_value(str(ue[biz]["model"]), econ, horizon, rate)
-        values[biz] = cv.value
+        values[biz] = customer_value(str(ue[biz]["model"]), econ, horizon, rate).value
         months = int(v["payback_target_months"][biz])
+        # payback is measured on a stream long enough to reach the target, whatever horizon values the customer
+        cv = customer_value(str(ue[biz]["model"]), econ, max(horizon, months + 1), rate)
         caps[biz] = float(np.cumsum(cv.stream * cv.discount)[months] - cv.acquisition_cost)
     return values, caps
 

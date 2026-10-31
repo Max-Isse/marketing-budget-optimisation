@@ -127,3 +127,9 @@ response_model:
   organic_floor_sd_log: 0.05                     # (assumption) organic demand >= CRM organic-source customers
   calibrate: true                                # use the phase 3 budget tests
   budget_step: 100000                            # for the value of one more budget dollar
+
+# Sensitivity analysis (phase 5)
+sensitivity:
+  refit_draws: 40                  # curve draws for scenarios that refit the model (base uses budget.risk)
+  budgets: [1400000, 1600000, 1800000, 2000000, 2200000, 2400000, 2600000, 2800000]
+  move_threshold: 0.05             # a line "moves" if its spend changes by more than 5% from last year

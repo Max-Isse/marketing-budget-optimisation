@@ -309,7 +309,7 @@ def cmd_experiments(cfg: Config) -> None:
 
 def cmd_optimise(cfg: Config) -> None:
     from marketing_budget.data.db import connect
-    from marketing_budget.optimisation.plan import build_plan
+    from marketing_budget.optimisation.plan import build_plan, save_fits
     from marketing_budget.reporting.optimisation import write_optimisation_report
     from marketing_budget.synthetic.truth import load_ground_truth
     from marketing_budget.validation.phase4 import score_plan
@@ -320,11 +320,50 @@ def cmd_optimise(cfg: Config) -> None:
         plan = build_plan(con, cfg)
     finally:
         con.close()
+    save_fits(plan, cfg)
     score = score_plan(plan, load_ground_truth(), cfg, int(plan.extras["n_weeks"]))  # type: ignore[call-overload]
     log.info("wrote %s", write_optimisation_report(plan, cfg, score))
 
 
-STEPS = ["design", "generate", "build", "quality", "retention", "forecast", "experiments", "optimise"]
+def cmd_sensitivity(cfg: Config) -> None:
+    from marketing_budget.data.db import connect
+    from marketing_budget.optimisation.plan import load_fits
+    from marketing_budget.reporting.sensitivity import write_sensitivity_report
+    from marketing_budget.sensitivity.scenarios import (
+        SCENARIOS,
+        budget_curve,
+        build_context,
+        no_regret,
+        run_scenario,
+        summarise,
+    )
+    from marketing_budget.synthetic.truth import load_ground_truth
+    from marketing_budget.validation.phase5 import score_sensitivity
+
+    sc = cfg.section("sensitivity")
+    con = connect(cfg, read_only=True)
+    try:
+        ctx = build_context(con, cfg, load_fits(cfg))
+    finally:
+        con.close()
+    results = []
+    for s in SCENARIOS:
+        log.info("scenario %s%s", s.name, " (refit)" if s.refit else "")
+        results.append(run_scenario(ctx, s))
+    summary, changes = summarise(ctx, results, float(sc["move_threshold"]))
+    verdicts = no_regret(
+        changes,
+        dict(zip(summary["scenario"], summary["solved"], strict=True)),
+        float(sc["move_threshold"]),
+        ctx.tested,
+    )
+    curve, plans = budget_curve(ctx, [float(b) for b in sc["budgets"]], log.info)
+    n_weeks = len(next(iter(ctx.data.values())).y)
+    score = score_sensitivity(results, curve, plans, verdicts, load_ground_truth(), cfg, n_weeks)
+    log.info("wrote %s", write_sensitivity_report(summary, verdicts, curve, cfg, score))
+
+
+STEPS = ["design", "generate", "build", "quality", "retention", "forecast", "experiments", "optimise", "sensitivity"]
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -343,6 +382,7 @@ def main(argv: list[str] | None = None) -> None:
         "forecast": lambda: cmd_forecast(cfg),
         "experiments": lambda: cmd_experiments(cfg),
         "optimise": lambda: cmd_optimise(cfg),
+        "sensitivity": lambda: cmd_sensitivity(cfg),
     }
     for name in STEPS if args.step == "all" else [args.step]:
         steps[name]()
