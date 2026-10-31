@@ -44,8 +44,9 @@ value depends heavily on the horizon.
 the data and to fit models in phase 4.
 **Why:** it is the standard parsimonious form. It has carry-over, diminishing returns and an optional S-shape,
 each controlled by one parameter that can be explained.
-**Risk:** using the same family in generator and model makes recovery easier than in reality. Phase 4
-therefore also fits a misspecified alternative (log response) and reports how much the recommendation moves.
+**Risk:** using the same family in generator and model makes recovery easier than in reality. In practice
+the fitted model fixes the shape at 1 (concave), while two simulated lines are S-shaped; phase 5 tests
+sensitivity to the curve form.
 **Alternatives:** Weibull adstock; a fully Bayesian MMM (PyMC-Marketing or Meridian). The latter is outside the
 brief's stack, and bootstrap uncertainty gives the optimiser what it needs.
 
@@ -57,6 +58,9 @@ Report expected and pessimistic results.
 curse"). Optimising over draws shrinks moves towards lines whose returns are uncertain.
 **Alternatives:** point estimates plus sensitivity runs (simpler, but no protection against the curse);
 robust worst-case optimisation (too conservative with 12 lines).
+**Implemented (phase 4):** 200 weighted-likelihood bootstrap refits. The constraint is on CVaR (the average of
+the worst 10% of draws), which is smoother than a single quantile. It did not bind in the base case. The
+bootstrap captures sampling noise but not confounding bias, which is why D-023 exists.
 
 ## D-007 SQL layer in DuckDB
 **Choice:** generated data go to Parquet, and numbered SQL views in DuckDB build the validated metric tables.
@@ -216,3 +220,52 @@ decisions are then taken on annual contribution, with a cautious–optimistic ra
 **Why:** "p < 0.05" alone says nothing about whether a change is worth making. A 5% *design* threshold (what
 the test can detect) is not the same as the *decision* threshold (what pays): the first draft used 5% for
 both, which would have wrongly called a +6.6% (CI +2.9% to +10.5%) page change "possibly too small".
+
+## D-022 B2 sales capacity outranks the minimum-acquisition target, and is part of the response
+**Finding:** at last year's spend, next year's B2 demand implies about 47 qualified leads a week against a
+sales capacity of 40. The 90% minimum-acquisition policy then needs more customers than the team can close, so
+the first optimiser run was infeasible for every allocation, including the true optimum.
+**Choice:**
+1. A physical limit outranks a target: B2's acquisition floor is capped at what sales can serve.
+2. Capacity is part of the response, not a hard constraint. Paid customers beyond it earn nothing, for every
+   allocation including last year's. Without this, last year's split was credited with B2 customers nobody
+   could serve.
+
+Removing the limit is worth up to $409k a year by the model: the most extra sales staff could be worth,
+before their cost.
+**Alternatives:** raise the capacity assumption until the problem is feasible (hides the conflict); drop the
+minimum-acquisition policy for B2 (a management call, not the analyst's).
+
+## D-023 Lines without an experiment move at most ±25% a year
+**Choice:** a guardrail on every line with no budget experiment, fixed at 25% before the result was known (a
+common annual reallocation limit). Tested lines move as far as the evidence and other policies allow.
+**Why:** on the three tested lines, calibration moved the model's marginal return by factors of 0.12 to 1.5
+from the uncalibrated estimate. The untested lines carry the same confounding, and the bootstrap cannot see it.
+The model ranked B1 generic search above B1 social. The validation shows the truth is the reverse, and an
+unguarded plan bet on that ranking.
+**Effect (validation):** with the guardrail the plan really earns $268k a year over last year's split;
+without it, $211k. Widening the uncertainty on untested lines instead (lognormal noise sized from the
+calibration corrections) did not help: symmetric noise around a wrong average leaves the average wrong.
+**Consequence:** the plan names the lines to test next (largest spend × uncertainty) and should be re-run after
+each test.
+
+## D-024 Response-model estimation choices
+**Choice:** one model per business (organic demand × (1 + Σ channel lift)), Poisson deviance with:
+- a quasi-Poisson scale (Pearson χ²/df ≈ 8–9 for B1 and B3);
+- weak priors on half-saturation (log-sd 1.1 around average spend) and decay (0.3 ± 0.3);
+- a one-sided floor on organic demand at the CRM's organic-source customers;
+- calibration terms for the three budget tests.
+
+**Why:**
+- *Without the quasi-Poisson scale*, 156 weeks outweighed the experiments: the brand model sat 1.6 standard
+  errors from its test, retargeting 2.4.
+- *Without the organic floor*, the fit handed nearly all customers to paid media (B3 organic 32 a week, against
+  over 100 with no paid last click).
+- *The floor is an assumption.* Some ads drive later "direct" visits, so CRM-organic is not strictly a lower
+  bound. It is a conservative one.
+
+**Limits:**
+- A switch-off test fixes a channel's average effect, not its marginal one. The brand model matches its test
+  yet overstates the next dollar.
+- Spend is assumed flat across weeks (no seasonal timing).
+- Channels are independent (no halo).

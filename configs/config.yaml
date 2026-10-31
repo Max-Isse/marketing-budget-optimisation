@@ -51,9 +51,11 @@ budget:
     B3: 0.90
   sales_capacity:                  # (assumption) B2 sales team can work at most this many qualified leads a week
     B2: {max_qualified_leads_per_week: 40}
+  untested_line_guardrail: 0.25    # (policy) lines with no experiment move at most +/-25% of last year's spend (D-023)
   risk:
-    uncertainty_draws: 500         # draws of the response curves used by the optimiser (D-006)
-    downside_quantile: 0.10        # the "pessimistic" outcome reported next to the expected one
+    uncertainty_draws: 200         # refits of the response curves used by the optimiser (D-006)
+    downside_quantile: 0.10        # the "pessimistic" outcome: mean of the worst 10% of draws
+    downside_floor: status_quo     # (policy) the plan's pessimistic outcome must be no worse than last year's split
 
 data_quality:
   restatement_tolerance: 0.05      # spend changed by more than 5% after first report -> restated
@@ -114,3 +116,14 @@ experiments:
     retargeting_off:   {business: B3, channel: display_retargeting, treatment: spend, spend_multiplier: 0.0}
     brand_search_off:  {business: B1, channel: search_brand, treatment: spend, spend_multiplier: 0.0}
     social_plus_50:    {business: B3, channel: social_prospecting, treatment: spend, spend_multiplier: 1.5}
+
+# Response curves (phase 4): one marketing-mix model per business, calibrated to the phase 3 budget tests.
+response_model:
+  shape: 1.0                       # Hill shape fixed at 1 (concave): S-shapes are not identifiable from 156 weeks
+  decay_bounds: [0.0, 0.8]
+  decay_prior: {mean: 0.3, sd: 0.3}              # (assumption) weak
+  half_sat_bounds: [0.2, 5.0]                    # x the line's average weekly spend
+  half_sat_prior_sd_log: 1.1                     # (assumption) weak: half-saturation within ~3x of average spend
+  organic_floor_sd_log: 0.05                     # (assumption) organic demand >= CRM organic-source customers
+  calibrate: true                                # use the phase 3 budget tests
+  budget_step: 100000                            # for the value of one more budget dollar

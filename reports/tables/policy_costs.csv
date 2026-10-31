@@ -1,0 +1,10 @@
+policy_removed,solved,expected_profit_gain,downside_profit_change
+untested_guardrail,True,268452,227218
+brand_search_floor,True,0,0
+channel_limits,True,54485.3,8342.69
+business_limits,True,0,0
+concentration,True,0,0
+min_acquisition,True,0,9.01055e-08
+payback,True,0,9.01055e-08
+sales_capacity,True,408947,229456
+downside,True,0,3.40398e-07

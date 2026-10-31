@@ -7,6 +7,7 @@ constant weekly spend x has steady-state adstock x, which keeps the half-saturat
 from __future__ import annotations
 
 import numpy as np
+from scipy.signal import lfilter
 
 
 def adstock(spend: np.ndarray, decay: float) -> np.ndarray:
@@ -14,12 +15,7 @@ def adstock(spend: np.ndarray, decay: float) -> np.ndarray:
     if not 0 <= decay < 1:
         raise ValueError("decay must be in [0, 1)")
     x = np.asarray(spend, float)
-    out = np.empty_like(x)
-    carry = 0.0
-    for t, v in enumerate(x):
-        carry = v + decay * carry
-        out[t] = carry
-    return out * (1 - decay)
+    return np.asarray(lfilter([1.0], [1.0, -decay], x)) * (1 - decay)  # a_t = x_t + decay * a_(t-1)
 
 
 def hill(x: np.ndarray | float, vmax: float, half_sat: float, shape: float) -> np.ndarray:

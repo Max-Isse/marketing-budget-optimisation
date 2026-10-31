@@ -1,0 +1,8 @@
+allocation,model_expected_profit,true_profit,true_gain_vs_status_quo,share_of_achievable_gain
+status_quo,1.9935e+06,1.05581e+06,0,0
+platform_roas,1.19953e+06,251948,-803862,-1.73634
+uncalibrated_model,2.34219e+06,1.18239e+06,126583,0.273419
+calibrated_point,2.42776e+06,1.33464e+06,278835,0.602284
+recommended,2.43086e+06,1.3241e+06,268294,0.579516
+true_optimum,,1.51877e+06,462963,1
+recommended_without_guardrail,2.69932e+06,1.26701e+06,211198,0.456189

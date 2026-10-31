@@ -237,6 +237,32 @@ def run_experiments(cfg: Config) -> dict[str, object]:
     art = cfg.path("artifacts_dir")
     art.mkdir(parents=True, exist_ok=True)
     (art / "experiment_plan.json").write_text(json.dumps(plan, indent=2, default=float), encoding="utf-8")
+    # Calibration targets for phase 4: what each budget test measured, as a share of the business's customers
+    # in the treated regions, with its standard error (from the t interval, df = regions - 3).
+    from scipy import stats
+
+    eff = results.effects.set_index("experiment")
+    geo_all = pd.concat(geo_frames, ignore_index=True)
+    calibration = []
+    for name, spec in e["geo_tests"].items():
+        if spec["treatment"] != "spend":
+            continue
+        g = geo_all[(geo_all["experiment"] == name) & (geo_all["period"] == "test")]
+        t = float(stats.t.ppf(0.975, df=g["region"].nunique() - 3))
+        r = eff.loc[name]
+        calibration.append(
+            {
+                "experiment": name,
+                "business": spec["business"],
+                "channel": spec["channel"],
+                "spend_multiplier": float(spec["spend_multiplier"]),
+                "test_start": str(pd.Timestamp(g["week_start"].min()).date()),
+                "test_weeks": int(geo_weeks[name]),
+                "relative_effect": float(r["relative_effect"]),
+                "se": float((r["ci_high"] - r["ci_low"]) / (2 * t)),
+            }
+        )
+    (art / "experiment_calibration.json").write_text(json.dumps(calibration, indent=2), encoding="utf-8")
     lp_plan = plan["landing_page"]
     peek = peeking_false_positive_rate(
         int(float(e["landing_page"]["weekly_visitors"]) / 7 / 2),
@@ -281,7 +307,24 @@ def cmd_experiments(cfg: Config) -> None:
     log.info("wrote %s", write_experiments_report(out, score, cfg, mc))
 
 
-STEPS = ["design", "generate", "build", "quality", "retention", "forecast", "experiments"]
+def cmd_optimise(cfg: Config) -> None:
+    from marketing_budget.data.db import connect
+    from marketing_budget.optimisation.plan import build_plan
+    from marketing_budget.reporting.optimisation import write_optimisation_report
+    from marketing_budget.synthetic.truth import load_ground_truth
+    from marketing_budget.validation.phase4 import score_plan
+
+    con = connect(cfg, read_only=True)
+    try:
+        log.info("fitting calibrated response curves and optimising (several minutes)")
+        plan = build_plan(con, cfg)
+    finally:
+        con.close()
+    score = score_plan(plan, load_ground_truth(), cfg, int(plan.extras["n_weeks"]))  # type: ignore[call-overload]
+    log.info("wrote %s", write_optimisation_report(plan, cfg, score))
+
+
+STEPS = ["design", "generate", "build", "quality", "retention", "forecast", "experiments", "optimise"]
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -299,6 +342,7 @@ def main(argv: list[str] | None = None) -> None:
         "retention": lambda: cmd_retention(cfg),
         "forecast": lambda: cmd_forecast(cfg),
         "experiments": lambda: cmd_experiments(cfg),
+        "optimise": lambda: cmd_optimise(cfg),
     }
     for name in STEPS if args.step == "all" else [args.step]:
         steps[name]()

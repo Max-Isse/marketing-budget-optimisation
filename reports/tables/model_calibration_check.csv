@@ -1,0 +1,4 @@
+experiment,measured,measured_se,model,model_p10,model_p90,business
+brand_search_off,-0.0925036,0.0449135,-0.10739,-0.153477,-0.0453468,B1
+retargeting_off,-0.0120324,0.0429371,-0.0181293,-0.0650218,-9.83779e-07,B3
+social_plus_50,0.1063,0.0561527,0.0825618,0.0523731,0.108611,B3
