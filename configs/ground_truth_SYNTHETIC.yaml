@@ -22,51 +22,63 @@ businesses:
     trend_per_year: -0.03
     organic_customers_per_week: 140
     qualified_to_customer: 0.60
+    organic_lead_to_qualified: 0.50
     seasonality: [1.30, 1.15, 1.05, 1.00, 0.95, 0.85, 0.80, 0.85, 1.00, 1.05, 1.00, 0.90]   # Jan..Dec
     economics:
+      monthly_revenue: 72.0
       monthly_contribution: 23.0   # per active subscriber after food, packaging, delivery
       acquisition_cost: 30.0       # first-box discount, one-off
       survival_first_month: 0.55   # share that keeps the subscription after the first box
       survival_monthly: 0.88
     channels:
-      search_brand:       {hist_spend: 3000, decay: 0.10, half_sat: 1200,  shape: 1.0, vmax_leads: 182,  lead_to_qualified: 0.55, attribution_capture: 0.210, value_multiplier: 1.00, cpc: 0.85}
-      search_generic:     {hist_spend: 6000, decay: 0.20, half_sat: 14000, shape: 1.0, vmax_leads: 1481, lead_to_qualified: 0.45, attribution_capture: 0.030, value_multiplier: 1.00, cpc: 2.10}
-      social_prospecting: {hist_spend: 6500, decay: 0.45, half_sat: 14000, shape: 1.2, vmax_leads: 2476, lead_to_qualified: 0.35, attribution_capture: 0.015, value_multiplier: 1.00, cpc: 1.20}
-      affiliates:         {hist_spend: 1400, decay: 0.05, half_sat: 1500,  shape: 1.0, vmax_leads: 100,  lead_to_qualified: 0.50, attribution_capture: 0.070, value_multiplier: 0.80, cpc: 0.60}
+      search_brand:       {hist_spend: 3000, decay: 0.10, half_sat: 1200,  shape: 1.0, vmax_leads: 182,  lead_to_qualified: 0.55, attribution_capture: 0.210, value_multiplier: 1.00, cpc: 0.85, ctr: 0.08, platform_overclaim: 1.00}
+      search_generic:     {hist_spend: 6000, decay: 0.20, half_sat: 14000, shape: 1.0, vmax_leads: 1481, lead_to_qualified: 0.45, attribution_capture: 0.030, value_multiplier: 1.00, cpc: 2.10, ctr: 0.04, platform_overclaim: 1.05}
+      social_prospecting: {hist_spend: 6500, decay: 0.45, half_sat: 14000, shape: 1.2, vmax_leads: 2476, lead_to_qualified: 0.35, attribution_capture: 0.015, value_multiplier: 1.00, cpc: 1.20, ctr: 0.012, platform_overclaim: 1.35}
+      affiliates:         {hist_spend: 1400, decay: 0.05, half_sat: 1500,  shape: 1.0, vmax_leads: 100,  lead_to_qualified: 0.50, attribution_capture: 0.070, value_multiplier: 0.80, cpc: 0.60, ctr: 0.02, platform_overclaim: 1.10}
   B2:
     name: Ledgerline
     model: subscription            # B2B accounting software for small firms, sold by an inside-sales team
     trend_per_year: 0.12
     organic_customers_per_week: 3.0
     qualified_to_customer: 0.20
+    organic_lead_to_qualified: 0.50
     seasonality: [1.20, 1.10, 1.10, 1.00, 1.00, 0.90, 0.80, 0.80, 1.15, 1.05, 1.00, 0.70]
     economics:
+      monthly_revenue: 400.0
       monthly_contribution: 320.0  # $400 subscription at 80% gross margin
       acquisition_cost: 900.0      # sales commission and onboarding, one-off
       survival_first_month: 0.9865
       survival_monthly: 0.9865     # about 85% annual logo retention
     channels:
-      search_generic:       {hist_spend: 3500, decay: 0.25, half_sat: 6000, shape: 1.0, vmax_leads: 48, lead_to_qualified: 0.30, attribution_capture: 0.07, value_multiplier: 1.00, cpc: 6.50}
-      linkedin:             {hist_spend: 3000, decay: 0.40, half_sat: 7000, shape: 1.1, vmax_leads: 48, lead_to_qualified: 0.42, attribution_capture: 0.05, value_multiplier: 1.00, cpc: 9.00}
-      review_sites:         {hist_spend: 1500, decay: 0.15, half_sat: 2500, shape: 1.0, vmax_leads: 22, lead_to_qualified: 0.35, attribution_capture: 0.25, value_multiplier: 1.00, cpc: 4.00}
-      programmatic_display: {hist_spend: 2000, decay: 0.30, half_sat: 2500, shape: 1.0, vmax_leads: 42, lead_to_qualified: 0.09, attribution_capture: 0.03, value_multiplier: 0.90, cpc: 1.40}
+      search_generic:       {hist_spend: 3500, decay: 0.25, half_sat: 6000, shape: 1.0, vmax_leads: 48, lead_to_qualified: 0.30, attribution_capture: 0.07, value_multiplier: 1.00, cpc: 6.50, ctr: 0.03, platform_overclaim: 1.05}
+      linkedin:             {hist_spend: 3000, decay: 0.40, half_sat: 7000, shape: 1.1, vmax_leads: 48, lead_to_qualified: 0.42, attribution_capture: 0.05, value_multiplier: 1.00, cpc: 9.00, ctr: 0.006, platform_overclaim: 1.30}
+      review_sites:         {hist_spend: 1500, decay: 0.15, half_sat: 2500, shape: 1.0, vmax_leads: 22, lead_to_qualified: 0.35, attribution_capture: 0.25, value_multiplier: 1.00, cpc: 4.00, ctr: 0.025, platform_overclaim: 1.15}
+      programmatic_display: {hist_spend: 2000, decay: 0.30, half_sat: 2500, shape: 1.0, vmax_leads: 42, lead_to_qualified: 0.09, attribution_capture: 0.03, value_multiplier: 0.90, cpc: 1.40, ctr: 0.003, platform_overclaim: 1.50}
   B3:
     name: Atlas Outdoor
     model: ecommerce               # outdoor equipment online store
     trend_per_year: 0.04
     organic_customers_per_week: 220
     qualified_to_customer: 0.70
+    organic_lead_to_qualified: 0.50
     seasonality: [0.75, 0.75, 0.90, 1.05, 1.10, 1.10, 1.05, 0.95, 0.90, 0.95, 1.35, 1.40]
     economics:
+      order_revenue: 140.0
       order_contribution: 42.0     # $140 average order at 30% contribution margin
+      order_value_sd: 0.35         # log-scale spread of order values
       acquisition_cost: 10.0       # first-order promotion
       repeat_rate_first_month: 0.05
       repeat_decay_monthly: 0.95
     channels:
-      shopping:            {hist_spend: 4500, decay: 0.10, half_sat: 8000,  shape: 1.0, vmax_leads: 943,  lead_to_qualified: 0.50, attribution_capture: 0.045, value_multiplier: 1.00, cpc: 0.90}
-      social_prospecting:  {hist_spend: 3000, decay: 0.40, half_sat: 10000, shape: 1.3, vmax_leads: 1905, lead_to_qualified: 0.30, attribution_capture: 0.015, value_multiplier: 1.00, cpc: 0.95}
-      display_retargeting: {hist_spend: 3300, decay: 0.15, half_sat: 1500,  shape: 1.0, vmax_leads: 95,   lead_to_qualified: 0.60, attribution_capture: 0.200, value_multiplier: 1.00, cpc: 0.70}
-      affiliates:          {hist_spend: 750,  decay: 0.05, half_sat: 900,   shape: 1.0, vmax_leads: 57,   lead_to_qualified: 0.55, attribution_capture: 0.055, value_multiplier: 0.85, cpc: 0.50}
+      shopping:            {hist_spend: 4500, decay: 0.10, half_sat: 8000,  shape: 1.0, vmax_leads: 943,  lead_to_qualified: 0.50, attribution_capture: 0.045, value_multiplier: 1.00, cpc: 0.90, ctr: 0.015, platform_overclaim: 1.05}
+      social_prospecting:  {hist_spend: 3000, decay: 0.40, half_sat: 10000, shape: 1.3, vmax_leads: 1905, lead_to_qualified: 0.30, attribution_capture: 0.015, value_multiplier: 1.00, cpc: 0.95, ctr: 0.011, platform_overclaim: 1.35}
+      display_retargeting: {hist_spend: 3300, decay: 0.15, half_sat: 1500,  shape: 1.0, vmax_leads: 95,   lead_to_qualified: 0.60, attribution_capture: 0.200, value_multiplier: 1.00, cpc: 0.70, ctr: 0.006, platform_overclaim: 1.60}
+      affiliates:          {hist_spend: 750,  decay: 0.05, half_sat: 900,   shape: 1.0, vmax_leads: 57,   lead_to_qualified: 0.55, attribution_capture: 0.055, value_multiplier: 0.85, cpc: 0.50, ctr: 0.02, platform_overclaim: 1.10}
+
+# platform_overclaim: ad platforms report more conversions than the CRM credits by last click (view-through and
+# multi-touch credit); platform conversions = last-click conversions x this factor, on average.
+# ctr (click-through rate) converts clicks into impressions; cpc is the cost per click at planned spend.
+# organic_lead_to_qualified: qualification rate of leads that arrive without paid media.
 
 # How spend was actually set in the past. Managers raised budgets in high-demand months, so spend and demand
 # move together and a naive spend-vs-sales regression over-credits paid media (confounding by seasonality).
@@ -79,6 +91,8 @@ historical_spend_policy:
     - {business: B3, channel: shopping, from_week: 30, to_week: 50, multiplier: 1.4}
 
 noise:
+  cpc_spend_elasticity: 0.20       # auction prices rise as a line spends more: cpc ~ (spend / planned)^0.2
+  cpc_week_sd: 0.05
   demand_week_sd: 0.06             # log-scale shock shared by all lines of a business in a week
   count_dispersion: 30             # negative-binomial size for leads and customers (lower = noisier)
 

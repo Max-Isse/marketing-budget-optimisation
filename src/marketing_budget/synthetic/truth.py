@@ -42,7 +42,8 @@ def planned_annual_spend(truth: dict[str, Any]) -> dict[str, float]:
 def world_summary(truth: dict[str, Any], cfg: Config) -> pd.DataFrame:
     """One row per line at planned weekly spend, average demand (seasonality 1), no trend or noise.
 
-    Returns are contribution per ad dollar over the valuation horizon: above 1 the spend pays back, below 1
+    Returns are contribution per ad dollar (platform = what the ad platform reports; last click = what the CRM
+    credits) over the valuation horizon: above 1 the spend pays back, below 1
     it destroys value.
     """
     v = cfg.section("valuation")
@@ -58,7 +59,8 @@ def world_summary(truth: dict[str, Any], cfg: Config) -> pd.DataFrame:
             marg_leads = float(hill_marginal(x, p["vmax_leads"], p["half_sat"], p["shape"]))
             customers = leads * per_lead
             value = cv.value * float(p["value_multiplier"])
-            attributed = customers + float(p["attribution_capture"]) * organic
+            attributed = customers + float(p["attribution_capture"]) * organic  # CRM last click
+            platform = attributed * float(p["platform_overclaim"])
             rows.append(
                 {
                     "business": biz,
@@ -68,12 +70,15 @@ def world_summary(truth: dict[str, Any], cfg: Config) -> pd.DataFrame:
                     "cost_per_lead": x / leads,
                     "lead_to_customer": per_lead,
                     "incremental_customers": customers,
-                    "attributed_customers": attributed,
+                    "last_click_customers": attributed,
+                    "platform_customers": platform,
                     "customer_value": value,
-                    "attributed_cac": x / attributed,
+                    "platform_cac": x / platform,
+                    "last_click_cac": x / attributed,
                     "incremental_cac": x / customers,
                     "marginal_cac": 1 / (marg_leads * per_lead),
-                    "attributed_return": attributed * value / x,
+                    "platform_return": platform * value / x,
+                    "last_click_return": attributed * value / x,
                     "incremental_return": customers * value / x,
                     "marginal_return": marg_leads * per_lead * value,
                     "annual_net_contribution": (customers * value - x) * WEEKS_PER_YEAR,

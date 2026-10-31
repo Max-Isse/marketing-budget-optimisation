@@ -27,9 +27,9 @@ valuation:
 # Finance-provided unit economics (assumption). Retention and repeat rates are NOT given here: phase 1
 # estimates them from the customer cohort tables.
 unit_economics:
-  B1: {monthly_contribution: 23.0, acquisition_cost: 30.0}
-  B2: {monthly_contribution: 320.0, acquisition_cost: 900.0}
-  B3: {order_contribution: 42.0, acquisition_cost: 10.0}
+  B1: {model: subscription, monthly_revenue: 72.0, monthly_contribution: 23.0, acquisition_cost: 30.0}
+  B2: {model: subscription, monthly_revenue: 400.0, monthly_contribution: 320.0, acquisition_cost: 900.0}
+  B3: {model: ecommerce, order_revenue: 140.0, order_contribution: 42.0, acquisition_cost: 10.0}
 
 budget:
   annual_total: 2000000            # (policy) fixed paid-acquisition budget
@@ -54,3 +54,14 @@ budget:
   risk:
     uncertainty_draws: 500         # draws of the response curves used by the optimiser (D-006)
     downside_quantile: 0.10        # the "pessimistic" outcome reported next to the expected one
+
+data_quality:
+  restatement_tolerance: 0.05      # spend changed by more than 5% after first report -> restated
+  duplicate_window_days: 30        # B2: same e-mail domain within 30 days is a duplicate lead
+  outage_min_crm_customers: 3      # platform reports 0 while the CRM credits the line with >= 3 customers
+  shift_min_segment_weeks: 8       # attribution-ratio change point: each side at least 8 weeks
+  shift_alpha: 0.01                # significance level, Bonferroni-adjusted across lines
+  shift_min_change: 0.15           # and at least a 15% change in the platform / CRM ratio
+
+retention:
+  value_draws: 2000                # Monte Carlo draws for the customer-value confidence interval

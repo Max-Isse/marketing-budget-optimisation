@@ -27,8 +27,13 @@ def test_paid_media_is_profitable_overall(truth, lines, cfg):
 
 
 def test_some_channels_are_dashboard_traps(lines):
-    trap = lines[(lines["attributed_return"] > 1.2) & (lines["marginal_return"] < 0.6)]
+    trap = lines[(lines["last_click_return"] > 1.2) & (lines["marginal_return"] < 0.6)]
     assert len(trap) >= 2
+
+
+def test_platform_overstates_last_click_which_overstates_incremental(lines):
+    assert (lines["platform_return"] >= lines["last_click_return"]).all()
+    assert (lines["last_click_return"] > lines["incremental_return"]).all()
 
 
 def test_some_channels_are_underfunded(lines):

@@ -19,14 +19,15 @@ the view that will hold the metric.
 | Revenue | Customer payments in the valuation horizon (24 months) | Box revenue | Licence revenue | Order revenue net of returns | `v_cohort_value` |
 | Contribution | Revenue minus the variable cost of serving the customer | Food, packaging, delivery | Hosting, support (80% gross margin) | Goods, shipping, payment, returns | `v_cohort_value` |
 
-## Cost and return: three different questions
+## Cost and return: four different questions
 
 The same word ("return", "CAC") answers different questions depending on what is counted. Every dashboard
 tile and report states which one it shows.
 
 | Metric | Question it answers | Formula | Evidence type |
 |---|---|---|---|
-| **Attributed CAC / ROAS** | What does the ad platform claim? | spend ÷ platform-attributed customers; attributed contribution ÷ spend | Neither causal nor model-based: an accounting rule. Includes customers who would have bought anyway |
+| **Platform CAC / ROAS** | What does the ad platform claim? | spend ÷ platform-reported conversions (`line_week.platform_cac`) | An accounting rule set by the platform. Adds view-through and multi-touch credit, so it is the most generous figure |
+| **Last-click CAC / return** | What does our own CRM credit to the channel? | spend ÷ customers whose last click was the channel (`line_week.last_click_cac`) | An accounting rule we control. Still includes customers who would have bought anyway |
 | **Blended CAC** | What does a customer cost overall? | total spend ÷ all new customers, paid and organic | Descriptive |
 | **Incremental CAC / return** | What did the advertising actually cause, on average? | spend ÷ customers caused by ads; incremental contribution ÷ spend | Causal if from an experiment; model-based if from historical data |
 | **Marginal CAC / return** | What would the next dollar buy? | Δspend ÷ Δcustomers at the current spend level; the slope of the response curve | Model-based, calibrated to experiments where they exist |

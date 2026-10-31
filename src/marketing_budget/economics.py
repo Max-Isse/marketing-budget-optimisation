@@ -15,6 +15,8 @@ from dataclasses import dataclass
 
 import numpy as np
 
+DAYS_PER_MONTH = 30.4375  # average calendar month; month k of a customer starts k x 30.44 days after acquisition
+
 
 def monthly_discount_factors(horizon_months: int, annual_rate: float) -> np.ndarray:
     """Discount factor for months 0..horizon-1, with month 0 (the acquisition month) undiscounted."""

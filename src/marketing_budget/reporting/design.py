@@ -24,7 +24,7 @@ def write_design_report(lines: pd.DataFrame, biz: pd.DataFrame, bounds: Bounds, 
 
     total_spend = float(biz["annual_spend"].sum())
     total_net = float(biz["annual_net_contribution"].sum())
-    trap = lines[(lines["attributed_return"] > 1.2) & (lines["marginal_return"] < 0.6)]
+    trap = lines[(lines["last_click_return"] > 1.2) & (lines["marginal_return"] < 0.6)]
     headroom = lines[lines["marginal_return"] > 1.2]
     cheap_poor = lines.loc[lines.groupby("business")["cost_per_lead"].idxmin()]
     cheap_poor = cheap_poor[cheap_poor["marginal_return"] < 1]
@@ -37,7 +37,8 @@ def write_design_report(lines: pd.DataFrame, biz: pd.DataFrame, bounds: Bounds, 
             "cost_per_lead",
             "incremental_cac",
             "marginal_cac",
-            "attributed_return",
+            "platform_return",
+            "last_click_return",
             "incremental_return",
             "marginal_return",
         ]
@@ -75,7 +76,7 @@ def write_design_report(lines: pd.DataFrame, biz: pd.DataFrame, bounds: Bounds, 
    prove nothing. The test only works if some channels look better on the dashboard than they really are.
 3. **What this establishes.** Last year's planned spend of ${total_spend:,.0f} generates about
    ${total_net:,.0f} a year of contribution after paying for the advertising. That total hides large
-   differences between channels: {len(trap)} channels look strong on platform-reported return but earn
+   differences between channels: {len(trap)} channels look strong even on the CRM's last-click return but earn
    less than 60 cents per extra dollar, and {len(headroom)} channels earn more than $1.20 per extra dollar
    and are under-funded.
 4. **In business terms.** Moving money by dashboard ROAS would move it the wrong way. The analysis has to
@@ -89,8 +90,10 @@ def write_design_report(lines: pd.DataFrame, biz: pd.DataFrame, bounds: Bounds, 
 All returns are 24-month discounted contribution per advertising dollar. Above 1.0 the spend pays for itself;
 below 1.0 it loses money.
 
-- **Attributed return** is what an ad platform or last-click dashboard reports. It includes customers who
-  would have bought anyway.
+- **Platform return** is what the ad platform reports. It adds view-through and multi-touch credit, so it is
+  the most generous figure.
+- **Last-click return** is what the company's own CRM credits to the channel that brought the customer's last
+  click. It still includes customers who would have bought anyway.
 - **Incremental return** counts only the customers the advertising caused, averaged over all spend on the line.
 - **Marginal return** is what the *next* dollar earns. This is the number a budget decision needs. Because
   returns diminish as spend grows, it is usually lower than the average.
@@ -103,9 +106,9 @@ below 1.0 it loses money.
 
 {_md(show_lines)}
 
-### Dashboard traps (attributed return above 1.2, marginal return below 0.6)
+### Dashboard traps (last-click return above 1.2, marginal return below 0.6)
 
-{_md(trap[["business", "channel", "attributed_return", "marginal_return"]])}
+{_md(trap[["business", "channel", "platform_return", "last_click_return", "marginal_return"]])}
 
 ### Under-funded lines (marginal return above 1.2)
 

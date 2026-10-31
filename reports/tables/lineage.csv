@@ -1,0 +1,13 @@
+table,layer,rows
+synthetic_weekly_media,raw,1872
+synthetic_weekly_crm,raw,2340
+synthetic_b2_leads,raw,16940
+synthetic_customers,raw,145791
+synthetic_customer_activity,raw,457154
+media_clean,clean,1872
+b2_leads_clean,clean,16940
+crm_clean,clean,2340
+line_week,metric,1872
+business_week,metric,468
+customer_lifetimes,metric,145791
+repeat_orders_by_month,metric,540

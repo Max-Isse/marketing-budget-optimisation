@@ -85,5 +85,47 @@ should show that cost, not quietly remove a policy management chose.
 **Why:** at last year's channel mix B3 pays back in about 13 months, so a 6-month ceiling could not be met
 by any allocation. Retargeting and affiliates raise B3's average CAC without adding many customers. 9 months
 is achievable only by moving money out of them, so the constraint still bites.
-**Needs confirmation:** this changes a CFO policy. The 6-month case is kept as a phase 5 sensitivity run, to
-show what it would take to meet it.
+**Status:** accepted by the project owner on 2026-10-31, acting as the CFO. The 6-month case is kept as a phase 5
+sensitivity run to show what meeting it would take.
+
+## D-012 Three levels of attribution: platform, last click, incremental
+**Choice:** the simulation has three distinct views of a channel's customers.
+1. **Platform-reported:** last click × an over-claim factor for view-through and multi-touch credit.
+2. **CRM last click:** includes organic customers whose last click was the channel.
+3. **Incremental:** only customers the advertising caused.
+
+The analysis judges channels on CRM numbers, never on platform numbers, and treats even CRM numbers as
+non-causal.
+**Why:** a real multi-channel advertiser faces exactly this, and the brief asks for attribution and
+causation to be told apart. With only two levels, the platform-vs-CRM reconciliation, which is the Data
+Engineer's main concern, would not exist.
+**Alternatives:** platform = CRM (unrealistic; this was the first generator version and was changed during
+phase 1); a multi-touch attribution model (adds a fourth number without adding causal evidence).
+
+## D-013 Retention estimated with censoring, not from finished lifetimes
+**Choice:** first-month survival as a share of customers observable in month 1, and a constant later
+monthly hazard as churn events ÷ observed month-to-month transitions (censored-geometric MLE). B3 repeat
+orders come from a Poisson GLM with an offset for observable customers and quasi-likelihood standard errors.
+**Why:** a third of customers were acquired in the last year and are still active. Dropping them, or
+counting only finished lifetimes, understates retention. Treating them as churned understates it further.
+**Checked by:** cohorts observed for the full 24 months (no model needed). Their realised value is within 1%
+of the model value for all three businesses (`reports/customer_value.md`).
+**Limit:** a constant hazard after month 1. A Kaplan–Meier curve by month would relax this. The
+full-horizon check does not suggest it is needed.
+
+## D-014 Attribution-change detector: one change point on the platform/CRM ratio
+**Choice:** for each line, find the single split of log(platform ÷ CRM conversions) that minimises squared
+error. The search runs on 4-week sums, then refines to the week. A line is flagged only if the difference is
+significant after a Bonferroni correction across the 12 lines *and* the ratio moves by more than 15%.
+**Why:** a tracking change shifts the ratio between two systems that measure the same customers, while a
+genuine performance change moves both. Searching for the best split inflates significance, so the
+minimum-size rule guards against flagging noise on the small-count B2 lines.
+**Alternatives:** CUSUM or Bayesian change-point methods (handle several changes, but are harder to explain
+to the Data Engineer); comparing platform conversions with spend (cannot tell a tracking change from a real
+one).
+
+## D-015 Flagged rows are kept, not deleted
+**Choice:** data-quality flags are columns in `line_week` (`tracking_outage`, `cost_restated`,
+`attribution_changed`, `any_dq_flag`). Each later step decides what to exclude and says so.
+**Why:** the right treatment depends on the use. A forecast of spend needs outage weeks (spend was real); a
+model of platform conversions does not.

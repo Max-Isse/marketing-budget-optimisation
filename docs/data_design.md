@@ -8,12 +8,16 @@ and `uv run mbo design` writes the resulting world to `reports/ground_truth_summ
 
 - **156 weeks** (3 years) of weekly history, starting Monday 30 October 2023.
 - **3 businesses × 4 channels = 12 lines.** Planned spend sums to about $2.0M a year.
-- **Tables to be generated in phase 1**, all with `synthetic` in the name:
-  - `synthetic_weekly_media`: spend, impressions, clicks, platform-attributed conversions
-  - `synthetic_weekly_funnel`: leads, qualified leads, customers by source line, including organic
-  - `synthetic_customers` and `synthetic_customer_months`: customer-level cohorts, with activity and
-    contribution by month
-  - `synthetic_experiment_*`: one table per experiment, at the level the experiment randomises
+- **Observable tables** (`data/raw/`), all with `synthetic` in the name:
+  - `synthetic_weekly_media`: spend (final and first-reported), impressions, clicks, platform-reported
+    conversions. One row per line and week
+  - `synthetic_weekly_crm`: leads, qualified leads, customers by last-click source, including `organic`
+  - `synthetic_b2_leads`: one row per B2 demo request, duplicates included
+  - `synthetic_customers` and `synthetic_customer_activity`: one row per new customer, and one per active
+    customer-month (orders, revenue, contribution) up to the end of the data
+  - `synthetic_experiment_*` (phase 3): one table per experiment, at the level it randomises
+- **Truth tables** (`data/raw/truth/`, readable only by `validation/`): incremental leads and customers per
+  line-week, each customer's true source, and each source's true retention parameters
 
 ## How outcomes are generated
 
@@ -27,10 +31,15 @@ For each line and week:
    (saturation). Social prospecting in B1 and B3 is S-shaped (shape > 1), so it is weak at low spend.
 4. **Qualified leads and customers** come from binomial draws using per-line qualification rates and a
    per-business close rate.
-5. **Organic customers** arrive regardless of advertising. Platforms claim a share of them
-   (`attribution_capture`). This is the gap between attributed and incremental results.
-6. **Customer value** comes from simulated customer lifetimes: subscription survival, or e-commerce repeat
-   orders. Affiliate customers are worth 15–20% less.
+5. **Organic customers** arrive regardless of advertising. The CRM credits a share of them to the paid
+   line that had their last click (`attribution_capture`). This is the gap between last-click and
+   incremental results.
+6. **Platform-reported conversions** = last-click conversions × an over-claim factor (1.0 for brand search,
+   up to 1.6 for retargeting) for view-through and multi-touch credit. This is the gap between platform and
+   last-click results.
+7. **Customer value** comes from simulated customer lifetimes: subscription survival, or e-commerce repeat
+   orders. Affiliate customers are worth 15–20% less; B2 programmatic customers 10% less. Their retention
+   is lower; they don't pay less.
 
 ## Features the simulation must contain (asserted by `tests/test_ground_truth_world.py`)
 
