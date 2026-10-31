@@ -68,10 +68,19 @@ The forecasts, the optimiser, the Tableau extracts and the AI commentary all rea
 **Why:** the brief requires that the AI workflow uses validated SQL outputs. One SQL layer means every
 consumer uses the same definitions (`docs/metric_definitions.md`).
 
-## D-008 (OPEN, phase 7) LLM provider and model
-**Plan:** a provider-agnostic interface with a deterministic template fallback, so the pipeline and CI run
-without an API key. Provider and model are chosen in phase 7, with current model IDs and costs checked at
-that time.
+## D-008 LLM provider and model: Claude, off by default, with a template fallback
+**Choice:** Claude Opus 5.5 (`claude-opus-5-5`) through the official `anthropic` SDK:
+- adaptive thinking, effort `medium`;
+- JSON-schema structured output, so the draft arrives in a fixed shape;
+- the server-side refusal fallback (`fallbacks: "default"`).
+
+The client sits behind a one-method interface. The LLM is **off by default** (`ai_reporting.use_llm: false`,
+or `mbo commentary --llm` to enable it), so `mbo all`, CI and anyone without credentials get the deterministic
+template draft.
+**Why:** the template keeps the pipeline reproducible and free; the model is an optional first-draft writer,
+not a dependency. Calling it sends the fact sheet to Anthropic, which is a decision for whoever runs it.
+**Alternatives:** an open-weights model run locally (no data leaves the machine, but weaker drafting and
+heavier setup); no LLM (the template alone covers the numbers but not the narrative).
 
 ## D-009 Tableau deliverable
 **Choice:** the repo produces the dashboard data extracts (CSV/Hyper-ready) and a written dashboard spec:
@@ -292,3 +301,25 @@ scenario reuses the same history and can share its bias. In the validation, two 
 lines (B1 social, B2 LinkedIn) pointed the wrong way.
 **Alternatives:** joint Monte Carlo over all assumptions (harder to explain which assumption drives what);
 Sobol indices (overkill for a decision memo).
+
+## D-026 The model only writes; code owns the numbers, the flags and the rules
+**Choice:**
+- The model sees only a fact sheet built from the SQL layer (74 facts, each with an ID, its quantities, an
+  evidence type and data-quality notes) and must cite fact IDs in every sentence.
+- Code then checks every sentence:
+  - each number equals a cited fact's quantity at the written precision;
+  - no metric outside the cited facts;
+  - no causal wording unless a cited fact is a randomised test;
+  - citations exist.
+- One retry with the findings; then the template.
+- "Unusual" movements are flagged by a robust z-score on each series' own history, never by the model.
+- Data-quality notes attach only to the metrics a flag can distort (a tracking change touches platform
+  figures, not customer counts).
+- A named reviewer signs off a specific draft (SHA-256 of its body). Regenerating the draft voids the
+  approval.
+
+**Why:** the brief forbids the model from inventing metrics or making unsupported causal claims. Instructions
+alone cannot guarantee that; checks can. A red-team table in `reports/ai_reporting.md` shows each kind of bad
+sentence being caught.
+**Limits:** the checker verifies numbers and wording, not judgement or emphasis; that is the reviewer's job.
+Questions may ask about causes, so they are exempt from the causal-wording check (not from the others).

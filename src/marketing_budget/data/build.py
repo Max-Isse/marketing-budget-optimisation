@@ -35,6 +35,6 @@ def build_database(cfg: Config, con: duckdb.DuckDBPyConnection | None = None) ->
     con.execute("CREATE OR REPLACE TABLE dq_attribution_shift AS SELECT * FROM shifts_df")
     con.unregister("shifts_df")
 
-    for name in ("04_line_week.sql", "05_cohorts.sql", "06_pnl.sql"):
+    for name in ("04_line_week.sql", "05_cohorts.sql", "06_pnl.sql", "08_kpi_windows.sql"):
         run_sql_file(con, name)
     return con

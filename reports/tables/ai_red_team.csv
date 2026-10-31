@@ -1,0 +1,7 @@
+case,sentence,cited,checker
+invented number,"B1 Hearth Box won 9,999 new customers.",B1.customers,number: 9999 (count) is not a quantity of the cited facts
+invented metric,B1 Hearth Box ROAS improved to 4.2x.,B1.customers,number: 4.2 (ratio) is not a quantity of the cited facts; metric: names a metric (\bROAS\b|return on ad spend) that no cited fact is about
+causal claim from attribution,B1 affiliates drove the change in customers.,B1.affiliates.last_click_customers,causal language: 'drove' needs a causal (randomised-test) fact
+no citation,Performance was strong across the board.,(none),citation: no fact cited
+unknown fact ID,B1 Hearth Box grew.,B9.customers,citation: unknown fact IDs: B9.customers
+causal claim from a randomised test (allowed),The new landing page caused the conversion change.,EXP.landing_page,passes

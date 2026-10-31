@@ -382,6 +382,32 @@ def cmd_dashboard(cfg: Config) -> None:
     log.info("wrote %d extracts to %s", len(extracts), out)
 
 
+def cmd_commentary(cfg: Config, use_llm: bool) -> None:
+    from marketing_budget.data.db import connect
+    from marketing_budget.reporting_ai.draft import make_draft
+    from marketing_budget.reporting_ai.facts import evidence_facts, period_facts
+    from marketing_budget.reporting_ai.report import write_draft, write_phase_report
+
+    con = connect(cfg, read_only=True)
+    try:
+        facts, periods = period_facts(con, cfg)
+    finally:
+        con.close()
+    facts += evidence_facts(cfg)
+    res = make_draft(facts, periods, cfg, use_llm=use_llm or bool(cfg.section("ai_reporting")["use_llm"]))
+    log.info("draft source: %s; findings on final draft: %d", res.source, len(res.findings))
+    log.info("wrote %s", write_draft(res, facts, periods, cfg))
+    log.info("wrote %s", write_phase_report(res, facts, periods, cfg))
+
+
+def cmd_review(cfg: Config, reviewer: str, decision: str, notes: str) -> None:
+    from marketing_budget.reporting_ai.review import record_review
+
+    rec = record_review(cfg, reviewer, decision, notes)
+    log.info("recorded review: %s by %s (draft %s)", rec["decision"], rec["reviewer"], rec["draft_sha256"][:12])
+    log.info("re-run `mbo commentary` to show the status on the draft")
+
+
 STEPS = [
     "design",
     "generate",
@@ -393,12 +419,19 @@ STEPS = [
     "optimise",
     "sensitivity",
     "dashboard",
+    "commentary",
 ]
 
 
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(prog="mbo", description=__doc__)
-    parser.add_argument("step", choices=[*STEPS, "all"])
+    parser.add_argument("step", choices=[*STEPS, "all", "review"])
+    parser.add_argument(
+        "--llm", action="store_true", help="commentary: draft with the Claude API (sends the fact sheet)"
+    )
+    parser.add_argument("--reviewer", default="", help="review: reviewer's name")
+    parser.add_argument("--decision", default="approved", help="review: approved | approved with edits | rejected")
+    parser.add_argument("--notes", default="", help="review: notes")
     parser.add_argument("--config", default=None, help="path to config.yaml")
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(levelname)s %(message)s")
@@ -414,6 +447,8 @@ def main(argv: list[str] | None = None) -> None:
         "optimise": lambda: cmd_optimise(cfg),
         "sensitivity": lambda: cmd_sensitivity(cfg),
         "dashboard": lambda: cmd_dashboard(cfg),
+        "commentary": lambda: cmd_commentary(cfg, args.llm),
+        "review": lambda: cmd_review(cfg, args.reviewer, args.decision, args.notes),
     }
     for name in STEPS if args.step == "all" else [args.step]:
         steps[name]()

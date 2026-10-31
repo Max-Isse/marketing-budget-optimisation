@@ -23,6 +23,8 @@ data/processed/marketing_SYNTHETIC.duckdb
                          costs, spend, contribution profit
   07_experiments.sql     synthetic_exp_* (loaded by `mbo experiments` after the designs are fixed),
                          exp_geo_region_period
+  08_kpi_windows.sql     kpi_windows: rolling 4-week totals per business and line, data-quality flags by type
+                         (input to the AI-assisted commentary)
         │  mbo quality, mbo retention, later phases
         ▼
 reports/*.md, reports/tables/*.csv

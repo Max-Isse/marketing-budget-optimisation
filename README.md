@@ -10,7 +10,7 @@ memo for a CEO, CFO and Marketing Director.
 **Status:** phases 0–5 of 9 are complete: scope and design, the data generator, the SQL metric layer,
 data-quality checks, customer value, forecasting, experimentation, budget optimisation and sensitivity
 analysis. Phase 6: the Tableau extracts and build spec are done ([dashboard/](dashboard/README.md)); the
-workbook is still to be built. See [docs/phase_plan.md](docs/phase_plan.md).
+workbook is still to be built. Phase 7: AI-assisted commentary with code-enforced checks and sign-off. See [docs/phase_plan.md](docs/phase_plan.md).
 
 > **The data are simulated.** A simulation is the only way to know each channel's true effect, and therefore
 > to check that the analysis separates real impact from what ad platforms report (D-001). Results show that
@@ -45,6 +45,7 @@ Return = 24-month contribution per advertising dollar; above 1.0 the spend pays 
 | 4 | Calibrated marketing-mix model and a risk-aware optimiser. The plan cuts B3 retargeting and B2, and adds B3 social and B1 generic search. The model expects $437k a year more than last year's split; validated against the truth it earns $268k more (58% of what perfect knowledge could achieve). Steering by platform ROAS would lose $804k | [optimisation.md](reports/optimisation.md) |
 | 4 | B2 has outgrown its 40-lead sales team: lifting that limit is worth up to $409k a year by the model. Lines with no experiment move at most ±25%; without that guardrail the plan really earns $211k, not $268k | [optimisation.md](reports/optimisation.md) |
 | 5 | Across 21 alternative assumptions, valuation choices move 0.3% of the budget, policies 4.4% and model choices 3.1%. Six moves hold in every scenario, and all six point the right way in the truth. Two "probably right" moves on untested lines do not. By the model and in truth, the plan earns most at $1.8M, not $2M. The plan meets B3's original 6-month payback (4 months in truth) | [sensitivity.md](reports/sensitivity.md) |
+| 7 | Monthly commentary drafted from a 74-fact sheet built from the SQL layer. Code checks every sentence (numbers match cited facts, no invented metrics, no causal claims without a randomised test, every sentence cited); one retry, then a template; a named reviewer signs off the exact draft. Claude is optional (`--llm`); the default is the template | [ai_reporting.md](reports/ai_reporting.md) |
 
 ## Documents
 
@@ -64,7 +65,9 @@ Requires [uv](https://docs.astral.sh/uv/) (Python 3.11 is installed automaticall
 
 ```bash
 uv sync
-uv run mbo all       # every step, ending with the dashboard extracts (about 15 minutes)
+uv run mbo all       # every step, ending with the dashboard extracts and commentary (about 15 minutes)
+uv run mbo commentary --llm   # optional: draft with Claude (sends the fact sheet to Anthropic)
+uv run mbo review --reviewer "Name" --decision approved   # sign off the current draft
 uv run mbo quality   # or any single step
 uv run pytest        # tests
 uv run ruff check . && uv run mypy src

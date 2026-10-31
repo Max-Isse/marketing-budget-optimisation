@@ -134,3 +134,12 @@ sensitivity:
   refit_draws: 40                  # curve draws for scenarios that refit the model (base uses budget.risk)
   budgets: [1400000, 1600000, 1800000, 2000000, 2200000, 2400000, 2600000, 2800000]
   move_threshold: 0.05             # a line "moves" if its spend changes by more than 5% from last year
+
+# AI-assisted commentary (phase 7). The LLM only drafts; code checks every sentence and a person signs off.
+ai_reporting:
+  use_llm: false                   # true (or `mbo commentary --llm`) calls the Claude API; false = template only
+  model: claude-opus-5-5
+  effort: medium
+  max_tokens: 16000
+  max_attempts: 2                  # one retry with the validator's findings, then fall back to the template
+  unusual_z: 3.0                   # flag a 4-week change >= 3 robust standard deviations from its usual change
