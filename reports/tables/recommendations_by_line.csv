@@ -1,0 +1,13 @@
+line,last year,plan,change,across scenarios,evidence,action,what would change it
+B1 affiliates,$77k,$57k,-$20k,no-regret cut,history only,cut now (within guardrail),a test of a part-way cut showing the dollars cut returned more than $1
+B1 brand search,$163k,$183k,+$20k,depends on assumptions,experiment,reserve until tested,a test at the new spend showing the next dollar returns less than $1
+B1 generic search,$311k,$384k,+$74k,no-regret increase,history only,reserve until tested,a test at the new spend showing the next dollar returns less than $1
+B1 social prospecting,$341k,$315k,-$26k,mostly cut,history only,cut now (within guardrail),a test of a part-way cut showing the dollars cut returned more than $1
+B2 LinkedIn,$138k,$111k,-$27k,mostly cut,history only,cut now (within guardrail),a test of a part-way cut showing the dollars cut returned more than $1
+B2 programmatic display,$107k,$79k,-$28k,no-regret cut,history only,cut now (within guardrail),a test of a part-way cut showing the dollars cut returned more than $1
+B2 review sites,$79k,$59k,-$20k,mostly cut,history only,cut now (within guardrail),a test of a part-way cut showing the dollars cut returned more than $1
+B2 generic search,$178k,$138k,-$40k,mostly cut,history only,cut now (within guardrail),a test of a part-way cut showing the dollars cut returned more than $1
+B3 affiliates,$39k,$29k,-$10k,mostly cut,history only,cut now (within guardrail),a test of a part-way cut showing the dollars cut returned more than $1
+B3 retargeting,$173k,$43k,-$130k,no-regret cut,experiment,move now,a test of a part-way cut showing the dollars cut returned more than $1
+B3 shopping ads,$242k,$299k,+$57k,no-regret increase,history only,reserve until tested,a test at the new spend showing the next dollar returns less than $1
+B3 social prospecting,$153k,$303k,+$150k,no-regret increase,experiment,move now,a test at the new spend showing the next dollar returns less than $1

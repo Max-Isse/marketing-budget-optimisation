@@ -116,6 +116,9 @@ def write_forecasting_report(
     qa = quarter_accuracy(totals)
     sel = selected.merge(qa, left_on=["business", "target", "selected"], right_on=["business", "target", "model"])
     sel = sel.drop(columns="model")
+    sel[["business", "target", "selected", "quarter_wape"]].to_csv(
+        tables / "forecast_quarter_accuracy.csv", index=False, float_format="%.6g"
+    )
     floor = noise_floor(bt)
     sel_floor = sel[sel["target"].isin(COUNT_TARGETS)].merge(floor, on=["business", "target"])
     cov = intervals.coverage.merge(

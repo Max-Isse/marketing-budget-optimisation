@@ -79,6 +79,7 @@ def write_quality_report(
 
     validation = ""
     if score is not None:
+        score.to_csv(tables / "dq_validation_SYNTHETIC.csv", index=False)
         found = int(score["detected"].sum())
         validation = f"""
 ## Validation against the SYNTHETIC ground truth
@@ -185,6 +186,7 @@ def write_customer_value_report(res: RetentionResults, cfg: Config, score: pd.Da
     ]
     validation = ""
     if score is not None:
+        score.to_csv(cfg.path("tables_dir") / "customer_value_validation_SYNTHETIC.csv", index=False)
         miss = score[~score["true_in_ci"]]
         miss_text = (
             "Intervals that miss: "

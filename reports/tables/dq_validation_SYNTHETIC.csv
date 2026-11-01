@@ -1,0 +1,6 @@
+issue,business,channel,injected_from,injected_to,detected,detected_from,detected_to,start_error_weeks
+tracking_outage,B3,display_retargeting,2025-03-03,2025-03-10,True,2025-03-03,2025-03-10,0
+tracking_outage,B1,search_generic,2025-12-22,2025-12-22,True,2025-12-22,2025-12-22,0
+attribution_change,B1,social_prospecting,2025-07-21,2026-10-19,True,2025-07-21,2026-10-19,0
+duplicate_leads,B2,all,2023-10-30,2026-10-19,True,2023-11-06,2026-10-19,1
+cost_restated,B2,programmatic_display,2026-04-27,2026-04-27,True,2026-04-27,2026-04-27,0

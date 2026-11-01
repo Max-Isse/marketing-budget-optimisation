@@ -7,11 +7,12 @@ This project forecasts marketing performance, designs and analyses experiments, 
 budget optimiser that uses diminishing returns and uncertainty. It then turns the results into a decision
 memo for a CEO, CFO and Marketing Director.
 
-**Status:** phases 0–5 of 9 are complete: scope and design, the data generator, the SQL metric layer,
-data-quality checks, customer value, forecasting, experimentation, budget optimisation and sensitivity
-analysis. Phase 6: the Tableau extracts and build spec are done ([dashboard/](dashboard/README.md)); the
-workbook is still to be built. Phase 7: AI-assisted commentary with code-enforced checks and sign-off. Phase 8:
-stakeholder simulation. See [docs/phase_plan.md](docs/phase_plan.md).
+**Status:** complete (phases 0–9), except the Tableau workbook itself: its extracts and build spec are done
+([dashboard/](dashboard/README.md)) and it is built by hand in Tableau Public. See
+[docs/phase_plan.md](docs/phase_plan.md).
+
+**Start here:** the [executive decision memo](reports/executive_memo.md) (two pages, for the CEO, CFO and
+Marketing Director), then the [technical report](reports/technical_report.md).
 
 > **The data are simulated.** A simulation is the only way to know each channel's true effect, and therefore
 > to check that the analysis separates real impact from what ad platforms report (D-001). Results show that
@@ -32,7 +33,7 @@ starting point the analysis has to diagnose from the data alone; models never se
 
 Return = 24-month contribution per advertising dollar; above 1.0 the spend pays for itself.
 
-## Results so far
+## Results
 
 | Phase | Finding | Report |
 |---|---|---|
@@ -41,19 +42,26 @@ Return = 24-month contribution per advertising dollar; above 1.0 the spend pays 
 | 1 | 24-month value per new customer: B1 $87, B2 $5,117, B3 $59. Fully observed cohorts confirm these within 1%. Estimates by CRM source overstate affiliate customers, because that source includes organic buyers | [customer_value.md](reports/customer_value.md) |
 | 2 | A seasonal regression that knows the spend plan is the most accurate forecaster for every funnel metric; gradient boosting does not beat it. Quarterly new-customer totals are accurate to 3–19%, contribution profit to 1–3% | [forecasting.md](reports/forecasting.md) |
 | 2 | The forecasting regression's spend coefficient overstates the true effect of spend 2.6–3.6× without controls and 1.2–2.0× with them. It predicts well but is not causal, so it is not used to set budgets | [forecasting.md](reports/forecasting.md) |
-| 3 | Eight randomised tests, each sized before launch. New landing page +6.6% conversion (+$192k a year). Switching off B3 retargeting is worth +$150k a year: the platform implies 25% of customers depend on it, and the test rules that out. LinkedIn lookalikes bring 12% more leads but 35% fewer qualified ones | [experiments.md](reports/experiments.md) |
+| 3 | Seven randomised tests, each sized before launch. New landing page +6.6% conversion (+$192k a year). Switching off B3 retargeting is worth +$150k a year: the platform implies 25% of customers depend on it, and the test rules that out. LinkedIn lookalikes bring 12% more leads but 35% fewer qualified ones | [experiments.md](reports/experiments.md) |
 | 3 | For retargeting: 86 customers per $1,000 by correlation, 35 by the platform, 23 by last click, about 2 by randomised test (95% range up to 14). All 8 intervals contain the true effect; the region-test method is unbiased over 40 re-runs | [experiments.md](reports/experiments.md) |
 | 4 | Calibrated marketing-mix model and a risk-aware optimiser. The plan cuts B3 retargeting and B2, and adds B3 social and B1 generic search. The model expects $437k a year more than last year's split; validated against the truth it earns $268k more (58% of what perfect knowledge could achieve). Steering by platform ROAS would lose $804k | [optimisation.md](reports/optimisation.md) |
 | 4 | B2 has outgrown its 40-lead sales team: lifting that limit is worth up to $409k a year by the model. Lines with no experiment move at most ±25%; without that guardrail the plan really earns $211k, not $268k | [optimisation.md](reports/optimisation.md) |
 | 5 | Across 21 alternative assumptions, valuation choices move 0.3% of the budget, policies 4.4% and model choices 3.1%. Six moves hold in every scenario, and all six point the right way in the truth. Two "probably right" moves on untested lines do not. By the model and in truth, the plan earns most at $1.8M, not $2M. The plan meets B3's original 6-month payback (4 months in truth) | [sensitivity.md](reports/sensitivity.md) |
 | 7 | Monthly commentary drafted from a 74-fact sheet built from the SQL layer. Code checks every sentence (numbers match cited facts, no invented metrics, no causal claims without a randomised test, every sentence cited); one retry, then a template; a named reviewer signs off the exact draft. Claude is optional (`--llm`); the default is the template | [ai_reporting.md](reports/ai_reporting.md) |
 | 8 | A simulated budget review with a Marketing Director, CFO, B2 BU Director and Data Engineer: requirements matrix, shared metric framework, agenda, dialogue, objections and responses. The reconciled plan makes the experiment-backed moves now, holds $151k of unproven increases as a reserve released by tests, caps the total at $2M, and turns B2's growth into a sales-capacity decision | [stakeholder_simulation.md](reports/stakeholder_simulation.md) |
+| 9 | The executive memo answers the brief's seven questions, labelling each claim *actual*, *causal*, *model* or *assumption*. A technical report, line-by-line recommendations, a model card and a monitoring plan are all generated from pipeline outputs. Scored against the simulation's truth, the model overstates the plan's gain (it expects $437k; the plan really earns $268k), which is why unproven increases are held in reserve | [executive_memo.md](reports/executive_memo.md), [technical_report.md](reports/technical_report.md) |
 
 ## Documents
 
 | Document | Purpose |
 |---|---|
+| [reports/executive_memo.md](reports/executive_memo.md) | The decision memo: seven questions, quantified actions, risks, success measures |
+| [reports/recommendations.md](reports/recommendations.md) | Line by line: action, evidence, what would change it |
+| [reports/technical_report.md](reports/technical_report.md) | Method, results, validation against the truth, limitations, reproducibility |
 | [docs/business_case.md](docs/business_case.md) | The decision, who makes it, the baseline, cost of errors, assumptions challenged |
+| [docs/methodology.md](docs/methodology.md) | Why each method, its assumptions, how they were checked, where it fails |
+| [docs/model_card.md](docs/model_card.md) | Intended use and limits of the mix model and optimiser |
+| [docs/monitoring_plan.md](docs/monitoring_plan.md) | What is watched after adoption, thresholds, owners |
 | [docs/metric_definitions.md](docs/metric_definitions.md) | One definition per metric; attributed vs incremental vs marginal |
 | [docs/data_design.md](docs/data_design.md) | How the simulation works and what it deliberately makes hard |
 | [docs/data_lineage.md](docs/data_lineage.md) | Raw → clean → metric tables, keys, reconciliations |
@@ -67,7 +75,9 @@ Requires [uv](https://docs.astral.sh/uv/) (Python 3.11 is installed automaticall
 
 ```bash
 uv sync
-uv run mbo all       # every step, ending with the dashboard extracts and commentary (about 15 minutes)
+uv run mbo all       # every step, from simulation to the write-up and output manifest (about 15 minutes)
+uv run mbo verify    # do the committed outputs match reports/manifest.csv? (seconds)
+uv run mbo reproduce # rebuild everything, then fail if any output differs from the committed manifest
 uv run mbo commentary --llm   # optional: draft with Claude (sends the fact sheet to Anthropic)
 uv run mbo review --reviewer "Name" --decision approved   # sign off the current draft
 uv run mbo quality   # or any single step
@@ -77,5 +87,6 @@ uv run ruff check . && uv run mypy src
 
 ## Stack
 
-Python 3.11, pandas, NumPy, SciPy, statsmodels, scikit-learn, matplotlib, DuckDB SQL, Tableau Public.
-LLM-assisted reporting arrives in phase 7, with a template fallback.
+Python 3.11 (dependencies pinned in `uv.lock`), pandas, NumPy, SciPy, statsmodels, scikit-learn, matplotlib,
+DuckDB SQL, Tableau Public, and optionally the Claude API for commentary drafts (a template is the default).
+CI runs ruff, mypy, the tests and `mbo verify`.

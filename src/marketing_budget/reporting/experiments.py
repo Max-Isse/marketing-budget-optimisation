@@ -142,8 +142,10 @@ def write_experiments_report(
     ]
     validation = ""
     if score is not None:
+        score.to_csv(cfg.path("tables_dir") / "experiment_validation_SYNTHETIC.csv", index=False)
         mc_text = ""
         if mc is not None:
+            mc.to_csv(cfg.path("tables_dir") / "experiment_method_check_SYNTHETIC.csv", index=False)
             mc_text = f"""
 ### Is the region-test method sound? (each test re-run {int(mc["repetitions"].iloc[0])} times with fresh random draws)
 

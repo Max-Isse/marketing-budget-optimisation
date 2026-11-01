@@ -13,6 +13,7 @@ paths:
   figures_dir: reports/figures
   artifacts_dir: artifacts
   dashboard_dir: dashboard
+  docs_dir: docs
 
 businesses: [B1, B2, B3]
 
@@ -143,3 +144,9 @@ ai_reporting:
   max_tokens: 16000
   max_attempts: 2                  # one retry with the validator's findings, then fall back to the template
   unusual_z: 3.0                   # flag a 4-week change >= 3 robust standard deviations from its usual change
+
+# Phase 9: how the adopted plan is measured (management proposals, not estimates)
+monitoring:
+  holdout_share: 0.10              # (policy) share of regions held out on each line the plan moves materially
+  holdout_min_move: 0.10           # (policy) lines whose spend changes by more than this get a holdout
+  holdout_weeks: 12                # (policy) read-out after this many weeks

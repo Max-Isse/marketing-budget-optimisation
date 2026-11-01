@@ -4,9 +4,14 @@ from __future__ import annotations
 
 import argparse
 import logging
+import sys
 from collections.abc import Callable
+from typing import TYPE_CHECKING
 
 from marketing_budget.config import Config, load_config
+
+if TYPE_CHECKING:
+    import pandas as pd
 
 log = logging.getLogger("mbo")
 
@@ -412,6 +417,49 @@ def cmd_stakeholders(cfg: Config) -> None:
     log.info("wrote %s", write_stakeholder_report(numbers, cfg))
 
 
+def cmd_final(cfg: Config) -> None:
+    from marketing_budget.data.db import connect
+    from marketing_budget.reporting.final import truth_check, write_final
+
+    con = connect(cfg, read_only=True)
+    try:
+        paths = write_final(con, cfg, truth_check(cfg))
+    finally:
+        con.close()
+    for p in paths:
+        log.info("wrote %s", p)
+
+
+def cmd_manifest(cfg: Config) -> None:
+    from marketing_budget.manifest import write_manifest
+
+    log.info("wrote %s", write_manifest(cfg))
+
+
+def _report_diff(diff: pd.DataFrame) -> None:
+    if diff.empty:
+        log.info("all outputs match the manifest")
+        return
+    for r in diff.itertuples():
+        log.error("%s: %s", r.status, r.path)
+    sys.exit(1)
+
+
+def cmd_verify(cfg: Config) -> None:
+    from marketing_budget.manifest import verify
+
+    _report_diff(verify(cfg))
+
+
+def cmd_reproduce(cfg: Config, steps: dict[str, Callable[[], None]]) -> None:
+    from marketing_budget.manifest import compare, hash_outputs, read_manifest
+
+    expected = read_manifest(cfg)
+    for name in STEPS:
+        steps[name]()
+    _report_diff(compare(expected, hash_outputs(cfg)))
+
+
 def cmd_review(cfg: Config, reviewer: str, decision: str, notes: str) -> None:
     from marketing_budget.reporting_ai.review import record_review
 
@@ -433,12 +481,14 @@ STEPS = [
     "dashboard",
     "commentary",
     "stakeholders",
+    "final",
+    "manifest",
 ]
 
 
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(prog="mbo", description=__doc__)
-    parser.add_argument("step", choices=[*STEPS, "all", "review"])
+    parser.add_argument("step", choices=[*STEPS, "all", "review", "verify", "reproduce"])
     parser.add_argument(
         "--llm", action="store_true", help="commentary: draft with the Claude API (sends the fact sheet)"
     )
@@ -462,8 +512,14 @@ def main(argv: list[str] | None = None) -> None:
         "dashboard": lambda: cmd_dashboard(cfg),
         "commentary": lambda: cmd_commentary(cfg, args.llm),
         "stakeholders": lambda: cmd_stakeholders(cfg),
+        "final": lambda: cmd_final(cfg),
+        "manifest": lambda: cmd_manifest(cfg),
+        "verify": lambda: cmd_verify(cfg),
         "review": lambda: cmd_review(cfg, args.reviewer, args.decision, args.notes),
     }
+    if args.step == "reproduce":
+        cmd_reproduce(cfg, steps)
+        return
     for name in STEPS if args.step == "all" else [args.step]:
         steps[name]()
 

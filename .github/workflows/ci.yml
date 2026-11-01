@@ -22,3 +22,5 @@ jobs:
           uv run mypy src
       - name: Test
         run: uv run pytest
+      - name: Committed outputs match the manifest
+        run: uv run mbo verify

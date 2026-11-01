@@ -338,3 +338,23 @@ leads. The Data Engineer's sources decide budgets, not platform pixels.
 **How the pack is built:** every figure in `reports/stakeholder_simulation.md` is computed by
 `reporting/stakeholders.py` from the SQL layer and the phase 1–5 tables; none comes from the ground truth.
 The dialogue is illustrative; the numbers in it are not.
+
+## D-028 The memo uses only what management could know; the truth is a labelled annex
+**Choice:** the executive memo and recommendations are generated from actuals, randomised tests and the model,
+never from the simulation's truth (a test inspects the code that builds them). The truth appears only in a
+separate, labelled annex and in section 9 of the technical report, both read from tables that the validation
+package wrote.
+**Why:** a real CEO would never have the truth. A memo that leaned on it would show the method in a better light
+than it deserves. The annex is still needed, because it is the only way to show the method works. It shows the
+model overstates the plan's gain, which is why the plan holds a reserve.
+**Alternative considered:** no truth anywhere in the write-up. Rejected, because the portfolio's claim is that
+the method works, and only the truth can test that.
+
+## D-029 Reproducibility: a hash manifest of every generated output
+**Choice:** `mbo all` ends by writing `reports/manifest.csv`, a SHA-256 hash of every generated, committed file.
+`mbo verify` re-hashes them in seconds (and runs in CI). `mbo reproduce` keeps the committed manifest, rebuilds
+everything, and fails if any output differs.
+**Why:** "it runs" is not "it reproduces". A manifest turns a 15-minute rebuild into a yes/no answer that names
+every file that differs. Line endings are normalised before hashing, so Windows and Linux checkouts agree
+(`.gitattributes` stores text as LF). Hand-written documents (`docs/decisions.md` and the rest) are not
+listed; generated ones (`docs/model_card.md`, `docs/monitoring_plan.md`) are.

@@ -1,0 +1,11 @@
+area,monitor,fires when,checked,response,owner
+Data,Tracking outage,Platform reports 0 conversions while the CRM has 3+ customers on the line,Weekly build,Exclude the week from platform metrics; raise with the ad platform,Data Engineer
+Data,Attribution change,"Platform/CRM ratio shifts by more than 15% (p < 0.01, at least 8 weeks each side)",Weekly build,Freeze platform-based reporting for the line; investigate the tag,Data Engineer
+Data,Duplicate leads,Share of leads repeating a contact within 30 days rises above today's 2.9%,Weekly build,Fix at entry; B2 lead counts use de-duplicated data,Data Engineer
+Data,Cost restatement,Spend changes by more than 5% after first report,Weekly build,Use the restated cost; close weeks only after restatements,Data Engineer
+Forecast,Forecast miss,Actual quarterly customers or contribution outside the 80% range,Quarterly,Investigate; refit the forecast; check for an unlogged change,Analytics
+Model,Calibration break,A new test's measured effect falls outside the model's 10-90% range for that change,Each test read-out,Refit with the new test; re-run the optimiser and sensitivity,Analytics
+Model,Plan tracking,Contribution after ad spend below the plan's pessimistic case for two months running,Monthly,Review the lines that moved; check holdout results,"CFO, Analytics"
+Business,B2 capacity,Qualified leads above 40 a week for four weeks,Weekly,Cap B2 spend or hire; leads above capacity are wasted,B2 BU Director
+Business,Payback,Any business's incremental-CAC payback above its target,Quarterly,Shift budget out of the business's lowest-return line,CFO
+Reporting,Commentary checks,"Any sentence fails the code checks after the retry, or a draft ships without sign-off",Monthly,Template fallback; reviewer must approve the exact draft,Analytics

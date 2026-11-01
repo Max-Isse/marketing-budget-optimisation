@@ -153,6 +153,11 @@ def write_sensitivity_report(
 
     validation = ""
     if score:
+        tables = cfg.path("tables_dir")
+        score["verdicts"].to_csv(tables / "sensitivity_verdicts_validation_SYNTHETIC.csv", index=False)
+        score["budget_curve"].to_csv(tables / "sensitivity_budget_curve_truth_SYNTHETIC.csv", index=False)
+        score["scenarios"].to_csv(tables / "sensitivity_scenarios_truth_SYNTHETIC.csv", index=False)
+        score["payback"].to_csv(tables / "sensitivity_payback_truth_SYNTHETIC.csv", index=False)
         sv: dict[Any, dict[Any, Any]] = score["scenarios"].set_index("scenario").to_dict("index")
         v = score["verdicts"]
         nr = v[v["verdict"].str.startswith("no-regret")]

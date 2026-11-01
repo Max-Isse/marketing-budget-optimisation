@@ -15,7 +15,7 @@ end of each phase.
 | 6 | Tableau: dashboard extracts from the SQL layer, dashboard spec (screens, calculated fields, filters), built and published in Tableau Public | `dashboard/`, `docs/dashboard_spec.md` | Deliverable 5 | extracts and spec done; workbook to be built in Tableau Public |
 | 7 | AI-assisted reporting: validated KPI deltas → anomaly flags → a first-draft commentary limited to source-cited metrics → automatic checks (every number traced, no causal wording on non-causal metrics) → questions for investigation → human sign-off record | `reporting_ai/`, `reports/ai_reporting.md`, `reports/ai_commentary_draft.md` | WS6 | done |
 | 8 | Stakeholder simulation: requirements matrix, common metric framework, agenda, briefing per stakeholder, objections and responses, reconciled recommendation, how to communicate uncertainty | `reporting/stakeholders.py`, `reports/stakeholder_simulation.md` | WS5 | done |
-| 9 | Technical report, executive decision memo, model card, monitoring plan, limitations, final README, one-command reproducibility check | `reports/technical_report.md`, `reports/executive_memo.md`, `docs/model_card.md` | WS4 | |
+| 9 | Technical report, executive decision memo, model card, monitoring plan, limitations, final README, one-command reproducibility check | `reports/technical_report.md`, `reports/executive_memo.md`, `reports/recommendations.md`, `docs/model_card.md`, `docs/monitoring_plan.md`, `docs/methodology.md`, `reports/manifest.csv` (`mbo verify`, `mbo reproduce`) | WS4 | done |
 
 ## Repository layout
 
@@ -28,10 +28,13 @@ sql/                                   numbered SQL views: the validated metric 
 src/marketing_budget/
   curves.py economics.py constraints.py   shared maths: response curves, customer value, budget bounds
   synthetic/                           generator and ground truth
-  validation/                          scores models against the truth (phase 4)
-  forecasting/ experiments/ optimisation/ reporting_ai/   (phases 2-7)
-  reporting/                           generated Markdown reports
+  validation/                          scores models against the truth (phases 1-5)
+  forecasting/ experiments/ optimisation/ sensitivity/ dashboard/ reporting_ai/   (phases 2-7)
+  reporting/                           generated Markdown reports, incl. the phase 9 write-up (final.py)
+  manifest.py                          output hashes for `mbo verify` / `mbo reproduce`
 tests/                                 pytest; includes the ground-truth isolation test
-docs/                                  business case, metrics, data design, decisions, lineage, model card
-reports/                               generated reports, tables and figures
+docs/                                  business case, metrics, methodology, data design, decisions, lineage;
+                                       model card and monitoring plan (generated)
+reports/                               generated reports, tables, figures and manifest.csv
+dashboard/                             Tableau extracts, data dictionary, tie-out
 ```
