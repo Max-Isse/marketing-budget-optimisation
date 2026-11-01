@@ -7,9 +7,9 @@ This project forecasts marketing performance, designs and analyses experiments, 
 budget optimiser that uses diminishing returns and uncertainty. It then turns the results into a decision
 memo for a CEO, CFO and Marketing Director.
 
-**Status:** complete (phases 0–9), except the Tableau workbook itself: its extracts and build spec are done
-([dashboard/](dashboard/README.md)) and it is built by hand in Tableau Public. See
-[docs/phase_plan.md](docs/phase_plan.md).
+**Status:** complete (phases 0–9). See [docs/phase_plan.md](docs/phase_plan.md).
+
+**Live dashboard:** [executive dashboard on Tableau Public](https://public.tableau.com/app/profile/mohamed.isse7985/viz/marketing_budget/1Executivesummary) (six pages, synthetic data).
 
 **Start here:** the [executive decision memo](reports/executive_memo.md) (two pages, for the CEO, CFO and
 Marketing Director), then the [technical report](reports/technical_report.md).
@@ -66,7 +66,7 @@ Return = 24-month contribution per advertising dollar; above 1.0 the spend pays 
 | [docs/data_design.md](docs/data_design.md) | How the simulation works and what it deliberately makes hard |
 | [docs/data_lineage.md](docs/data_lineage.md) | Raw → clean → metric tables, keys, reconciliations |
 | [docs/decisions.md](docs/decisions.md) | Judgement calls and alternatives |
-| [docs/dashboard_spec.md](docs/dashboard_spec.md) | Tableau dashboard: six pages, fields, formulas, colours, QA |
+| [docs/dashboard_spec.md](docs/dashboard_spec.md) | Tableau dashboard: six pages, fields, formulas, colours, QA ([published](https://public.tableau.com/app/profile/mohamed.isse7985/viz/marketing_budget/1Executivesummary)) |
 | [docs/phase_plan.md](docs/phase_plan.md) | Phases, deliverables, status |
 
 ## How to run

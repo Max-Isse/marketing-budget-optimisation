@@ -11,3 +11,4 @@ data/processed/
 .ipynb_checkpoints/
 artifacts/
 .env
+~*.twbr
