@@ -14,7 +14,7 @@ end of each phase.
 | 5 | Sensitivity and scenarios: horizon, discount rate, curve misspecification, experiment results at their confidence limits, payback and volume floors, brand-search floor, ±budget. How the recommendation changes and which assumptions matter | `sensitivity/`, `reports/sensitivity.md` | WS3 | done |
 | 6 | Tableau: dashboard extracts from the SQL layer, dashboard spec (screens, calculated fields, filters), built and published in Tableau Public | `dashboard/`, `docs/dashboard_spec.md` | Deliverable 5 | extracts and spec done; workbook to be built in Tableau Public |
 | 7 | AI-assisted reporting: validated KPI deltas → anomaly flags → a first-draft commentary limited to source-cited metrics → automatic checks (every number traced, no causal wording on non-causal metrics) → questions for investigation → human sign-off record | `reporting_ai/`, `reports/ai_reporting.md`, `reports/ai_commentary_draft.md` | WS6 | done |
-| 8 | Stakeholder simulation: requirements matrix, common metric framework, agenda, briefing per stakeholder, objections and responses, reconciled recommendation, how to communicate uncertainty | `reports/stakeholder_simulation.md` | WS5 | |
+| 8 | Stakeholder simulation: requirements matrix, common metric framework, agenda, briefing per stakeholder, objections and responses, reconciled recommendation, how to communicate uncertainty | `reporting/stakeholders.py`, `reports/stakeholder_simulation.md` | WS5 | done |
 | 9 | Technical report, executive decision memo, model card, monitoring plan, limitations, final README, one-command reproducibility check | `reports/technical_report.md`, `reports/executive_memo.md`, `docs/model_card.md` | WS4 | |
 
 ## Repository layout

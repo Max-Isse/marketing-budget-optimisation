@@ -323,3 +323,18 @@ alone cannot guarantee that; checks can. A red-team table in `reports/ai_reporti
 sentence being caught.
 **Limits:** the checker verifies numbers and wording, not judgement or emphasis; that is the reviewer's job.
 Questions may ask about causes, so they are exempt from the causal-wording check (not from the others).
+
+## D-027 Reconciling the stakeholders: proven moves now, unproven increases in reserve
+**Choice:** the plan is split by evidence.
+- **Now:** moves on lines that are experiment-backed *and* move the same way in every sensitivity scenario.
+- **Reserve:** every other increase, including brand search, whose direction depends on assumptions. It is
+  held back and released line by line when a test shows the next dollar earns more than it costs.
+- **Total:** $2M is a ceiling, not a target.
+- **B2:** growth is a sales-capacity decision, not an advertising one.
+
+**Why:** it gives each stakeholder what their concern needs. The Marketing Director's budget is not cut, but
+moves to where it is proven. The CFO commits cash only on evidence. The BU Director gets fewer, better
+leads. The Data Engineer's sources decide budgets, not platform pixels.
+**How the pack is built:** every figure in `reports/stakeholder_simulation.md` is computed by
+`reporting/stakeholders.py` from the SQL layer and the phase 1–5 tables; none comes from the ground truth.
+The dialogue is illustrative; the numbers in it are not.

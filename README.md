@@ -10,7 +10,8 @@ memo for a CEO, CFO and Marketing Director.
 **Status:** phases 0–5 of 9 are complete: scope and design, the data generator, the SQL metric layer,
 data-quality checks, customer value, forecasting, experimentation, budget optimisation and sensitivity
 analysis. Phase 6: the Tableau extracts and build spec are done ([dashboard/](dashboard/README.md)); the
-workbook is still to be built. Phase 7: AI-assisted commentary with code-enforced checks and sign-off. See [docs/phase_plan.md](docs/phase_plan.md).
+workbook is still to be built. Phase 7: AI-assisted commentary with code-enforced checks and sign-off. Phase 8:
+stakeholder simulation. See [docs/phase_plan.md](docs/phase_plan.md).
 
 > **The data are simulated.** A simulation is the only way to know each channel's true effect, and therefore
 > to check that the analysis separates real impact from what ad platforms report (D-001). Results show that
@@ -46,6 +47,7 @@ Return = 24-month contribution per advertising dollar; above 1.0 the spend pays 
 | 4 | B2 has outgrown its 40-lead sales team: lifting that limit is worth up to $409k a year by the model. Lines with no experiment move at most ±25%; without that guardrail the plan really earns $211k, not $268k | [optimisation.md](reports/optimisation.md) |
 | 5 | Across 21 alternative assumptions, valuation choices move 0.3% of the budget, policies 4.4% and model choices 3.1%. Six moves hold in every scenario, and all six point the right way in the truth. Two "probably right" moves on untested lines do not. By the model and in truth, the plan earns most at $1.8M, not $2M. The plan meets B3's original 6-month payback (4 months in truth) | [sensitivity.md](reports/sensitivity.md) |
 | 7 | Monthly commentary drafted from a 74-fact sheet built from the SQL layer. Code checks every sentence (numbers match cited facts, no invented metrics, no causal claims without a randomised test, every sentence cited); one retry, then a template; a named reviewer signs off the exact draft. Claude is optional (`--llm`); the default is the template | [ai_reporting.md](reports/ai_reporting.md) |
+| 8 | A simulated budget review with a Marketing Director, CFO, B2 BU Director and Data Engineer: requirements matrix, shared metric framework, agenda, dialogue, objections and responses. The reconciled plan makes the experiment-backed moves now, holds $151k of unproven increases as a reserve released by tests, caps the total at $2M, and turns B2's growth into a sales-capacity decision | [stakeholder_simulation.md](reports/stakeholder_simulation.md) |
 
 ## Documents
 

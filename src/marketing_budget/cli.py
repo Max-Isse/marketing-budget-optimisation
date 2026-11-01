@@ -400,6 +400,18 @@ def cmd_commentary(cfg: Config, use_llm: bool) -> None:
     log.info("wrote %s", write_phase_report(res, facts, periods, cfg))
 
 
+def cmd_stakeholders(cfg: Config) -> None:
+    from marketing_budget.data.db import connect
+    from marketing_budget.reporting.stakeholders import compute_numbers, write_stakeholder_report
+
+    con = connect(cfg, read_only=True)
+    try:
+        numbers = compute_numbers(con, cfg)
+    finally:
+        con.close()
+    log.info("wrote %s", write_stakeholder_report(numbers, cfg))
+
+
 def cmd_review(cfg: Config, reviewer: str, decision: str, notes: str) -> None:
     from marketing_budget.reporting_ai.review import record_review
 
@@ -420,6 +432,7 @@ STEPS = [
     "sensitivity",
     "dashboard",
     "commentary",
+    "stakeholders",
 ]
 
 
@@ -448,6 +461,7 @@ def main(argv: list[str] | None = None) -> None:
         "sensitivity": lambda: cmd_sensitivity(cfg),
         "dashboard": lambda: cmd_dashboard(cfg),
         "commentary": lambda: cmd_commentary(cfg, args.llm),
+        "stakeholders": lambda: cmd_stakeholders(cfg),
         "review": lambda: cmd_review(cfg, args.reviewer, args.decision, args.notes),
     }
     for name in STEPS if args.step == "all" else [args.step]:

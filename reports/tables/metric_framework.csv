@@ -1,0 +1,11 @@
+metric,agreed definition,source,owner,evidence type,used for
+Lead,"First identifiable action, de-duplicated (B2: same e-mail domain within 30 days)",CRM,BU Director,Actual,Never to judge a channel on its own
+Qualified lead,B1 checkout-ready; B2 sales-accepted; B3 checkout started,CRM,BU Director,Actual,Channel quality; sales workload
+New customer,First paid transaction,CRM / billing,Data Engineer,Actual,"Volume targets, payback"
+Platform CAC / ROAS,Spend per conversion as the ad platform reports it,Ad platforms,Marketing,Attribution,"Tracking health only, never budgets"
+Last-click CAC,Spend per customer whose last click was the channel,CRM,Marketing,Attribution,"Day-to-day trends, with care"
+Incremental CAC / return,Spend per customer the advertising caused,Randomised tests,Analytics,Causal,"Keep, cut or scale a channel"
+Next-dollar (marginal) return,Contribution from the next dollar on a channel,Calibrated model,Analytics,Model,Splitting the budget
+Customer value,Discounted contribution per new customer over 24 months,Phase 1 cohorts,Finance,Model,The most a customer is worth paying for
+Payback months,Months until a customer's contribution covers its CAC,Finance + analytics,CFO,Model,"Cash planning, targets"
+Contribution profit,Contribution from all customers minus acquisition costs and ad spend,Finance,CFO,Actual,The P&L line marketing answers to
